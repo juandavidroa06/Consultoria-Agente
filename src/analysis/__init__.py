@@ -1,0 +1,71 @@
+"""
+Módulo de análisis exploratorio de datos (EDA), pruebas de hipótesis y analizador inteligente de datasets.
+"""
+
+from .eda import (
+    describe_numerical,
+    describe_categorical,
+    detect_outliers_iqr,
+    calculate_correlation_matrix,
+)
+from .hypothesis import (
+    shapiro_wilk_test,
+    levene_test,
+    t_test_1samp,
+    t_test_ind,
+    t_test_rel,
+    wilcoxon_signed_rank,
+    mann_whitney_test,
+    anova_one_way,
+    welch_anova,
+    kruskal_wallis_test,
+    kolmogorov_smirnov_1samp_test,
+    kolmogorov_smirnov_2samp_test,
+    lilliefors_test,
+    bartlett_test,
+    breusch_pagan_test,
+    white_test,
+    durbin_watson_test,
+    breusch_godfrey_test,
+    reset_test,
+    chi_square_test,
+    tukey_hsd_test,
+    permutation_test,
+)
+from .dataset_analyzer import DatasetStatisticalAnalyzer
+from .profile import DATETIME_TYPE, CATEGORICAL_TYPES, NUMERIC_TYPES, DatasetProfile, build_dataset_profile
+
+__all__ = [
+    "describe_numerical",
+    "describe_categorical",
+    "detect_outliers_iqr",
+    "calculate_correlation_matrix",
+    "shapiro_wilk_test",
+    "levene_test",
+    "t_test_1samp",
+    "t_test_ind",
+    "t_test_rel",
+    "wilcoxon_signed_rank",
+    "mann_whitney_test",
+    "anova_one_way",
+    "welch_anova",
+    "kruskal_wallis_test",
+    "kolmogorov_smirnov_1samp_test",
+    "kolmogorov_smirnov_2samp_test",
+    "lilliefors_test",
+    "bartlett_test",
+    "breusch_pagan_test",
+    "white_test",
+    "durbin_watson_test",
+    "breusch_godfrey_test",
+    "reset_test",
+    "chi_square_test",
+    "tukey_hsd_test",
+    "permutation_test",
+    "DatasetStatisticalAnalyzer",
+    "DatasetProfile",
+    "build_dataset_profile",
+    "NUMERIC_TYPES",
+    "CATEGORICAL_TYPES",
+    "DATETIME_TYPE",
+]

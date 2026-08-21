@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rúbrica de evaluación, versión para estudiantes: cómo se califica el agente de IA que construyen para su contraparte.">
+    <title>Rúbrica — Cómo se califica su trabajo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Montserrat', 'Helvetica Neue', 'Arial', 'sans-serif'] },
+                    colors: {
+                        primary: '#3D008D', secondary: '#ED1E79', navy: '#001A4D',
+                        gold: '#FDB913', teal: '#0E7490', bg: '#F8FAFC', surface: '#FFFFFF',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #F8FAFC;
+            color: #1E293B;
+            scroll-behavior: smooth;
+        }
+
+        code, pre, .mono { font-family: 'Fira Code', monospace; }
+
+        .lp-gradient { background: linear-gradient(140deg, #3D008D 0%, #ED1E79 100%); }
+        .lp-header { background: linear-gradient(180deg, #001A4D 0%, #002868 100%); }
+
+        .lp-card { background: white; border-radius: 16px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); }
+
+        ::-webkit-scrollbar { width: 8px; height: 10px; }
+        ::-webkit-scrollbar-track { background: #f1f5f9; }
+        ::-webkit-scrollbar-thumb { background: linear-gradient(180deg, #3D008D, #ED1E79); border-radius: 4px; }
+
+        button:focus-visible, a:focus-visible, select:focus-visible { outline: 2px solid #ED1E79; outline-offset: 2px; }
+
+        .inline-code {
+            background: #F1F5F9; color: #0F172A; padding: 0.1rem 0.4rem;
+            border-radius: 4px; font-size: 0.88em; font-family: 'Fira Code', monospace;
+        }
+
+        .matriz-scroll {
+            overflow-x: auto;
+            border-radius: 16px;
+            border: 1px solid #E2E8F0;
+            background: #fff;
+        }
+
+        table.matriz {
+            min-width: 1360px;
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.78rem;
+        }
+
+        table.matriz th,
+        table.matriz td {
+            border: 1px solid #E2E8F0;
+            vertical-align: top;
+            padding: 0.7rem 0.8rem;
+            line-height: 1.5;
+        }
+
+        table.matriz thead th {
+            position: sticky;
+            top: 0;
+            z-index: 5;
+            color: #fff;
+            text-align: left;
+            font-size: 0.72rem;
+            letter-spacing: 0.03em;
+        }
+
+        table.matriz tbody th {
+            position: sticky;
+            left: 0;
+            z-index: 4;
+            background: #F5F0FA;
+            text-align: left;
+            width: 210px;
+            min-width: 210px;
+        }
+
+        table.matriz td {
+            width: 230px;
+            min-width: 230px;
+            color: #334155;
+        }
+
+        table.matriz tbody tr:nth-child(even) td {
+            background: #FCFCFE;
+        }
+
+        .n-100 {
+            background: linear-gradient(135deg, #15803D 0%, #22A05A 100%);
+        }
+
+        .n-80 {
+            background: linear-gradient(135deg, #0E7490 0%, #22A5C0 100%);
+        }
+
+        .n-60 {
+            background: linear-gradient(135deg, #B45309 0%, #F59E0B 100%);
+        }
+
+        .n-40 {
+            background: linear-gradient(135deg, #B91C1C 0%, #EF4444 100%);
+        }
+
+        .n-00 {
+            background: linear-gradient(135deg, #334155 0%, #64748B 100%);
+        }
+
+        .prosa p { margin-bottom: 0.9rem; line-height: 1.75; }
+        .prosa ul { list-style: disc; padding-left: 1.4rem; margin-bottom: 0.9rem; }
+        .prosa ol { list-style: decimal; padding-left: 1.4rem; margin-bottom: 0.9rem; }
+        .prosa li { margin-bottom: 0.35rem; line-height: 1.65; }
+        .prosa strong { color: #0F172A; }
+
+        .ancla { scroll-margin-top: 5.5rem; }
+
+        @media print {
+            .no-print { display: none !important; }
+            body { background: #fff; }
+            .lp-card { box-shadow: none; border: 1px solid #E2E8F0; }
+            table.matriz { min-width: 0; font-size: 0.6rem; }
+            table.matriz thead th, table.matriz tbody th { position: static; }
+            .matriz-scroll { overflow: visible; }
+            .salto { break-before: page; }
+            @page { size: A4 landscape; margin: 12mm; }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="no-print sticky top-0 z-50 lp-header shadow-lg">
+        <div class="max-w-7xl mx-auto px-5 py-3 flex items-center justify-between gap-4 flex-wrap">
+            <div class="flex items-center gap-3">
+                <span class="lp-gradient w-9 h-9 rounded-xl flex items-center justify-center text-white shadow-md">
+                    <i class="fas fa-clipboard-check"></i>
+                </span>
+                <div>
+                    <p class="text-[0.6rem] uppercase tracking-widest text-gold font-bold">Universidad Santo Tomás</p>
+                    <p class="text-white text-sm font-bold leading-tight">Rúbrica · versión para estudiantes</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-1 text-xs flex-wrap">
+                <a href="#leer" class="px-3 py-1.5 rounded-lg text-white/70 hover:text-white hover:bg-white/10 transition-colors">Cómo leerla</a>
+                <a href="#pesos" class="px-3 py-1.5 rounded-lg text-white/70 hover:text-white hover:bg-white/10 transition-colors">Pesos</a>
+                <a href="#matriz" class="px-3 py-1.5 rounded-lg text-white/70 hover:text-white hover:bg-white/10 transition-colors">Matriz</a>
+                <a href="#detalle" class="px-3 py-1.5 rounded-lg text-white/70 hover:text-white hover:bg-white/10 transition-colors">Detalle</a>
+                <a href="#sustentacion" class="px-3 py-1.5 rounded-lg text-white/70 hover:text-white hover:bg-white/10 transition-colors">Sustentación</a>
+                <a href="#autoevaluacion" class="px-3 py-1.5 rounded-lg text-white/70 hover:text-white hover:bg-white/10 transition-colors">Autoevaluación</a>
+                <a href="#preguntas" class="px-3 py-1.5 rounded-lg text-white/70 hover:text-white hover:bg-white/10 transition-colors">Preguntas</a>
+                <button onclick="window.print()" class="ml-2 px-3 py-1.5 rounded-lg lp-gradient text-white font-semibold hover:opacity-90 transition-opacity">
+                    <i class="fas fa-print mr-1"></i>Imprimir
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-5 py-10">
+
+        <header class="lp-card p-8 mb-10 text-center border border-gray-100">
+            <p class="text-xs uppercase tracking-widest text-secondary font-bold mb-2">
+                Consultoría · 3 semanas · 20 % del corte
+            </p>
+            <h1 class="text-3xl font-bold text-primary mb-3">Cómo se califica su trabajo</h1>
+            <p class="text-gray-600 font-light max-w-3xl mx-auto">
+                Esta es la rúbrica completa con la que voy a evaluar su agente. No hay nada oculto: lo que ven aquí
+                es exactamente lo que voy a mirar. <strong class="text-navy">Léanla al empezar, no la noche anterior
+                a la entrega</strong> — está escrita para que les sirva mientras construyen.
+            </p>
+            <div class="flex justify-center flex-wrap gap-2 mt-5 text-xs">
+                <span class="px-3 py-1 rounded-full bg-primary/10 text-primary">5 criterios</span>
+                <span class="px-3 py-1 rounded-full bg-primary/10 text-primary">5 niveles</span>
+                <span class="px-3 py-1 rounded-full bg-primary/10 text-primary">Escala 0.0 – 5.0</span>
+                <span class="px-3 py-1 rounded-full bg-secondary/10 text-secondary font-semibold">La sustentación es individual</span>
+            </div>
+        </header>
+
+        <section id="leer" class="ancla mb-12">
+            <div class="flex items-center gap-3 mb-5 border-b border-gray-200 pb-3">
+                <div class="lp-gradient p-2.5 rounded-xl shadow-md text-white w-11 h-11 flex items-center justify-center">
+                    <i class="fas fa-book-open text-lg"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-900">Cómo leer esta rúbrica</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-5 mb-6">
+                <div class="lp-card p-5 border-t-4" style="border-color:#ED1E79">
+                    <p class="text-xs uppercase tracking-wider font-bold text-secondary mb-2"><i class="fas fa-1 mr-1"></i> Al empezar</p>
+                    <p class="text-sm text-gray-700 leading-relaxed">
+                        Lean la matriz completa antes de elegir el caso. Varias decisiones de la semana 1 —qué problema,
+                        qué contraparte, qué alcance— se califican en el criterio 1, y ya no se pueden rehacer después.
+                    </p>
+                </div>
+                <div class="lp-card p-5 border-t-4" style="border-color:#3D008D">
+                    <p class="text-xs uppercase tracking-wider font-bold text-primary mb-2"><i class="fas fa-2 mr-1"></i> Mientras construyen</p>
+                    <p class="text-sm text-gray-700 leading-relaxed">
+                        Úsenla como lista de decisiones pendientes. Cada vez que la columna «Ejemplar» pida algo que
+                        no tienen —una alternativa descartada, un caso de fallo, una ruta de error— eso es trabajo por
+                        hacer, no un reproche futuro.
+                    </p>
+                </div>
+                <div class="lp-card p-5 border-t-4" style="border-color:#0E7490">
+                    <p class="text-xs uppercase tracking-wider font-bold text-teal mb-2"><i class="fas fa-3 mr-1"></i> Antes de entregar</p>
+                    <p class="text-sm text-gray-700 leading-relaxed">
+                        Califíquense ustedes mismos con la matriz y con la calculadora de más abajo. Si no logran
+                        ubicarse en un nivel, es que falta evidencia — y la evidencia que ustedes no encuentran,
+                        yo tampoco.
+                    </p>
+                </div>
+            </div>
+
+            <div class="lp-card p-6">
+                <h3 class="text-secondary font-semibold text-lg mb-3"><i class="fas fa-layer-group mr-2"></i>Los cinco niveles</h3>
+                <table class="w-full text-sm border-collapse">
+                    <thead>
+                        <tr>
+                            <th class="text-left p-2 border border-gray-200 bg-[#F5F0FA] text-navy">Nivel</th>
+                            <th class="text-center p-2 border border-gray-200 bg-[#F5F0FA] text-navy">Logro</th>
+                            <th class="text-center p-2 border border-gray-200 bg-[#F5F0FA] text-navy">Nota</th>
+                            <th class="text-left p-2 border border-gray-200 bg-[#F5F0FA] text-navy">Qué significa</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="p-2 border border-gray-200"><span class="n-100 text-white text-xs font-bold px-2 py-0.5 rounded">Ejemplar</span></td>
+                            <td class="p-2 border border-gray-200 text-center font-bold">100 %</td>
+                            <td class="p-2 border border-gray-200 text-center mono">5.0</td>
+                            <td class="p-2 border border-gray-200 text-gray-600 text-xs">Nivel profesional. Su trabajo serviría de ejemplo para el curso.</td>
+                        </tr>
+                        <tr class="bg-[#FCFCFE]">
+                            <td class="p-2 border border-gray-200"><span class="n-80 text-white text-xs font-bold px-2 py-0.5 rounded">Competente</span></td>
+                            <td class="p-2 border border-gray-200 text-center font-bold">80 %</td>
+                            <td class="p-2 border border-gray-200 text-center mono">4.0</td>
+                            <td class="p-2 border border-gray-200 text-gray-600 text-xs">Cumplieron lo esperado. Vacíos menores y acotados.</td>
+                        </tr>
+                        <tr>
+                            <td class="p-2 border border-gray-200"><span class="n-60 text-white text-xs font-bold px-2 py-0.5 rounded">En desarrollo</span></td>
+                            <td class="p-2 border border-gray-200 text-center font-bold">60 %</td>
+                            <td class="p-2 border border-gray-200 text-center mono">3.0</td>
+                            <td class="p-2 border border-gray-200 text-gray-600 text-xs"><strong>Aprueba al límite.</strong> Hay producto, pero no se ve el criterio detrás.</td>
+                        </tr>
+                        <tr class="bg-[#FCFCFE]">
+                            <td class="p-2 border border-gray-200"><span class="n-40 text-white text-xs font-bold px-2 py-0.5 rounded">Insuficiente</span></td>
+                            <td class="p-2 border border-gray-200 text-center font-bold">40 %</td>
+                            <td class="p-2 border border-gray-200 text-center mono">2.0</td>
+                            <td class="p-2 border border-gray-200 text-gray-600 text-xs">Hay intento, sin logro verificable.</td>
+                        </tr>
+                        <tr>
+                            <td class="p-2 border border-gray-200"><span class="n-00 text-white text-xs font-bold px-2 py-0.5 rounded">No pertinente</span></td>
+                            <td class="p-2 border border-gray-200 text-center font-bold">&lt; 40 %</td>
+                            <td class="p-2 border border-gray-200 text-center mono">0.0 – 1.0</td>
+                            <td class="p-2 border border-gray-200 text-gray-600 text-xs">Fuera del objeto: no corresponde a lo pedido o no se puede verificar.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="text-sm text-gray-600 mt-4 leading-relaxed">
+                    <i class="fas fa-circle-info text-primary mr-1"></i>
+                    Fíjense dónde queda el <strong class="text-navy">3.0</strong>: en «En desarrollo», que es el nivel de
+                    quien entregó algo que funciona pero no puede explicar por qué lo hizo así. Aprobar no es la meta;
+                    es el piso.
+                </p>
+            </div>
+        </section>
+
+        <section id="pesos" class="ancla mb-12">
+            <div class="flex items-center gap-3 mb-5 border-b border-gray-200 pb-3">
+                <div class="lp-gradient p-2.5 rounded-xl shadow-md text-white w-11 h-11 flex items-center justify-center">
+                    <i class="fas fa-scale-balanced text-lg"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-900">Cuánto pesa cada cosa</h2>
+            </div>
+
+            <div class="grid lg:grid-cols-5 gap-4 mb-6">
+                <div class="lp-card p-5 border-t-4" style="border-color:#3D008D">
+                    <div class="flex items-baseline justify-between mb-1">
+                        <span class="text-xs font-bold text-primary uppercase tracking-wider">Criterio 1</span>
+                        <span class="text-2xl font-extrabold text-primary">20<span class="text-sm">%</span></span>
+                    </div>
+                    <p class="font-semibold text-navy text-sm leading-tight">Justificación y necesidad</p>
+                    <p class="text-xs text-gray-500 mt-1">¿El problema existe y merece un agente?</p>
+                </div>
+                <div class="lp-card p-5 border-t-4" style="border-color:#3D008D">
+                    <div class="flex items-baseline justify-between mb-1">
+                        <span class="text-xs font-bold text-primary uppercase tracking-wider">Criterio 2</span>
+                        <span class="text-2xl font-extrabold text-primary">20<span class="text-sm">%</span></span>
+                    </div>
+                    <p class="font-semibold text-navy text-sm leading-tight">Diseño y configuración</p>
+                    <p class="text-xs text-gray-500 mt-1">¿Las piezas son las adecuadas y saben por qué?</p>
+                </div>
+                <div class="lp-card p-5 border-t-4" style="border-color:#0E7490">
+                    <div class="flex items-baseline justify-between mb-1">
+                        <span class="text-xs font-bold text-teal uppercase tracking-wider">Criterio 3</span>
+                        <span class="text-2xl font-extrabold text-teal">20<span class="text-sm">%</span></span>
+                    </div>
+                    <p class="font-semibold text-navy text-sm leading-tight">Implementación técnica</p>
+                    <p class="text-xs text-gray-500 mt-1">¿Está bien construido y corre en otra máquina?</p>
+                </div>
+                <div class="lp-card p-5 border-t-4" style="border-color:#0E7490">
+                    <div class="flex items-baseline justify-between mb-1">
+                        <span class="text-xs font-bold text-teal uppercase tracking-wider">Criterio 4</span>
+                        <span class="text-2xl font-extrabold text-teal">15<span class="text-sm">%</span></span>
+                    </div>
+                    <p class="font-semibold text-navy text-sm leading-tight">Pertinencia y valor agregado</p>
+                    <p class="text-xs text-gray-500 mt-1">¿Le sirve de verdad a la contraparte?</p>
+                </div>
+                <div class="lp-card p-5 border-t-4 ring-2 ring-secondary/30" style="border-color:#ED1E79">
+                    <div class="flex items-baseline justify-between mb-1">
+                        <span class="text-xs font-bold text-secondary uppercase tracking-wider">Criterio 5</span>
+                        <span class="text-2xl font-extrabold text-secondary">25<span class="text-sm">%</span></span>
+                    </div>
+                    <p class="font-semibold text-navy text-sm leading-tight">Sustentación y comunicación</p>
+                    <p class="text-xs text-gray-500 mt-1">¿Pueden defender cada decisión?</p>
+                    <p class="text-[0.65rem] text-secondary font-bold mt-1 uppercase tracking-wide">Nota individual</p>
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-6">
+                <div class="lp-card p-6">
+                    <h3 class="text-secondary font-semibold text-lg mb-3"><i class="fas fa-calculator mr-2"></i>Cómo se arma la nota</h3>
+                    <div class="rounded-xl p-4 mb-4 text-center" style="background:#FAF8FF;border:1px solid rgba(61,0,141,.12)">
+                        <p class="mono text-sm text-navy">
+                            Nota = ( 0.20&middot;C<sub>1</sub> + 0.20&middot;C<sub>2</sub> + 0.20&middot;C<sub>3</sub> + 0.15&middot;C<sub>4</sub> + 0.25&middot;C<sub>5</sub> ) &times; 5
+                        </p>
+                        <p class="text-[0.7rem] text-gray-500 mt-2">C<sub>i</sub> es el logro del criterio (1.0 · 0.8 · 0.6 · 0.4 · 0.2)</p>
+                    </div>
+                    <div class="prosa text-sm text-gray-700">
+                        <p><strong>Los criterios 1 a 4 son nota de equipo.</strong> El 5 se califica por separado a
+                            cada integrante, así que <strong>dos personas de la misma pareja pueden terminar con notas
+                            distintas</strong>.</p>
+                        <p class="mb-0"><strong>Por qué la sustentación pesa más que las demás.</strong> Es la única
+                            parte que no le pueden delegar a ninguna herramienta. Hoy cualquiera genera código que
+                            funciona; lo que demuestra que entendieron es poder decir qué alternativa descartaron y
+                            por qué.</p>
+                    </div>
+                </div>
+
+                <div class="lp-card p-6 border-l-4" style="border-color:#B45309">
+                    <h3 class="font-semibold text-lg mb-3" style="color:#B45309"><i class="fas fa-shield-halved mr-2"></i>Techo por sustentación</h3>
+                    <p class="text-sm text-gray-700 leading-relaxed mb-3">
+                        <strong class="text-navy">Nadie obtiene más de un punto por encima de lo que puede
+                        defender.</strong>
+                    </p>
+                    <div class="rounded-xl p-3 text-center bg-[#FFFBEB] border border-[#B45309]/25 mb-3">
+                        <p class="mono text-sm text-navy">Nota = <strong>mín</strong> ( ponderada , criterio 5 + 1.0 )</p>
+                    </div>
+                    <div class="flex flex-wrap gap-1.5 text-[0.7rem] mb-3">
+                        <span class="px-2 py-1 rounded bg-gray-50 border border-gray-200 mono">C5 5.0 &rarr; techo 6.0</span>
+                        <span class="px-2 py-1 rounded bg-gray-50 border border-gray-200 mono">4.0 &rarr; 5.0</span>
+                        <span class="px-2 py-1 rounded bg-gray-50 border border-gray-200 mono">3.0 &rarr; 4.0</span>
+                        <span class="px-2 py-1 rounded bg-[#FEF2F2] border border-red-200 mono">2.0 &rarr; <strong>3.0</strong></span>
+                        <span class="px-2 py-1 rounded bg-[#FEF2F2] border border-red-200 mono">1.0 &rarr; <strong>2.0</strong></span>
+                    </div>
+                    <p class="text-sm text-gray-600 leading-relaxed mb-0">
+                        No es una sospecha por defecto: <strong class="text-navy">si sustentan bien, el techo nunca
+                        los toca</strong>. Existe porque en un curso donde construimos agentes de IA, el producto
+                        solo ya no prueba comprensión.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="matriz" class="ancla mb-12 salto">
+            <div class="flex items-center gap-3 mb-2 border-b border-gray-200 pb-3">
+                <div class="lp-gradient p-2.5 rounded-xl shadow-md text-white w-11 h-11 flex items-center justify-center">
+                    <i class="fas fa-table-cells-large text-lg"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-900">La matriz completa</h2>
+            </div>
+            <p class="text-sm text-gray-500 mb-4 no-print">
+                <i class="fas fa-arrows-left-right mr-1"></i>
+                La tabla se desplaza horizontalmente. Para imprimirla completa, usen orientación horizontal.
+            </p>
+
+            <div class="matriz-scroll shadow-lg">
+<table class="matriz">
+                    <thead>
+                        <tr>
+                            <th class="lp-header" style="width:210px;min-width:210px">Criterio</th>
+                            <th class="n-100">Ejemplar · 100 %</th>
+                            <th class="n-80">Competente · 80 %</th>
+                            <th class="n-60">En desarrollo · 60 %</th>
+                            <th class="n-40">Insuficiente · 40 %</th>
+                            <th class="n-00">No pertinente · &lt; 40 %</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <!-- CRITERIO 1 -->
+                        <tr>
+                            <th>
+                                <span class="block text-[0.65rem] uppercase tracking-wider text-secondary font-bold">Criterio 1 · 20 %</span>
+                                <span class="block text-navy font-bold text-[0.9rem] leading-tight mt-1">Justificación y necesidad</span>
+                                <span class="block text-[0.68rem] text-gray-500 mt-2 font-normal leading-snug">
+                                    Contraparte, calibración del encargo elegido, línea base y razón de ser del agente.
+                                </span>
+                            </th>
+                            <td>
+                                Identifica una <strong>contraparte concreta</strong> —persona, área u organización—
+                                y distingue lo que pidió de lo que necesita. Delimita el problema con actor, alcance,
+                                frecuencia y consecuencia explícitos. Cuantifica la línea base con evidencia recogida
+                                de la contraparte (minutos por tarea, tasa de error, volumen, veces al mes).
+                                Argumenta por qué la tarea exige un <strong>agente</strong> —decisión sobre casos no
+                                previstos, orquestación de varias herramientas, entrada no estructurada— y no una
+                                función, una macro o una consulta. El problema se ancla en un contenido verificable
+                                del dominio estadístico o de riesgo. Como el encargo lo eligió el equipo,
+                                <strong>justifica la elección</strong>: qué otros casos consideró, por qué descartó
+                                esos, y por qué el alcance cabe <strong>en tres semanas</strong> sin quedar trivial.
+                            </td>
+                            <td>
+                                Contraparte identificada y problema acotado, con actor y contexto claros. Describe la
+                                línea base de forma cualitativa, sin cifras. Sostiene por qué un agente, aunque la
+                                frontera frente a un script queda parcialmente difusa. Explica por qué eligió este
+                                caso, sin contrastarlo con otros que hubiera podido tomar. El anclaje disciplinar es
+                                correcto pero se enuncia más que se desarrolla.
+                            </td>
+                            <td>
+                                Enuncia el problema en términos generales («automatizar el análisis de datos»,
+                                «apoyar el cálculo de riesgo»). Hay contraparte, pero el contacto fue superficial:
+                                el problema lo definió el equipo por su cuenta y lo validó después. No distingue
+                                cómo se resuelve hoy. La necesidad se afirma pero no se evidencia. El vínculo con la
+                                estadística es temático, no metodológico.
+                            </td>
+                            <td>
+                                El problema hay que inferirlo del producto porque no se declara. La justificación es
+                                circular («construimos un agente porque la actividad lo pedía») o se apoya solo en la
+                                novedad de la herramienta. El caso elegido es el que el equipo <strong>ya sabía
+                                    resolver</strong>: no hubo nada que aprender para hacerlo. Sin contexto y sin
+                                alternativa considerada.
+                            </td>
+                            <td>
+                                No hay problema identificable; o la contraparte no existe o no fue consultada, de modo
+                                que el caso es ficticio —que es justo lo que esta consultoría no admite—; o es una
+                                reproducción literal del enunciado o de un caso de ejemplo de la documentación.
+                            </td>
+                        </tr>
+
+                        <!-- CRITERIO 2 -->
+                        <tr>
+                            <th>
+                                <span class="block text-[0.65rem] uppercase tracking-wider text-secondary font-bold">Criterio 2 · 20 %</span>
+                                <span class="block text-navy font-bold text-[0.9rem] leading-tight mt-1">Diseño y configuración</span>
+                                <span class="block text-[0.68rem] text-gray-500 mt-2 font-normal leading-snug">
+                                    Arquitectura, habilidades (skills), herramientas, flujo de trabajo y elección de modelo.
+                                </span>
+                            </th>
+                            <td>
+                                Presenta el <strong>flujo completo</strong> (entrada → herramientas → verificación →
+                                salida) incluyendo las rutas de error y el criterio de parada. Cada skill o herramienta
+                                tiene función declarada y se invoca en alguna ruta real: no hay piezas decorativas.
+                                La elección de modelo (local, cuantizado o API) se justifica <strong>contra al menos dos
+                                    alternativas</strong> con criterios explícitos —confidencialidad del dato, costo,
+                                latencia, ventana de contexto, memoria disponible—. Declara qué <strong>no</strong>
+                                debe hacer el agente y cómo se verifica su salida antes de usarla.
+                            </td>
+                            <td>
+                                Flujo documentado y coherente con lo implementado. Las herramientas elegidas son
+                                pertinentes al problema. La elección de modelo se justifica con uno o dos criterios
+                                sólidos. Existen límites y validaciones, aunque la verificación de la salida cubre
+                                solo el caso principal.
+                            </td>
+                            <td>
+                                Lista herramientas y modelo, pero describe el flujo como una secuencia lineal sin
+                                casos alternos ni condición de parada. Alguna skill declarada no se usa. La elección
+                                del modelo se explica por disponibilidad o por costumbre («es el que ya tenía
+                                instalado»), no por adecuación a la tarea.
+                            </td>
+                            <td>
+                                Configuración esencialmente por defecto, sin ajuste al problema. Herramientas
+                                declaradas que ninguna ruta invoca. No hay flujo de trabajo: hay un único prompt
+                                extenso que intenta hacerlo todo. La arquitectura no se documenta.
+                            </td>
+                            <td>
+                                No hay agente configurado —lo entregado es una conversación manual con un modelo—;
+                                o la arquitectura descrita en la memoria no corresponde a lo implementado en el
+                                repositorio.
+                            </td>
+                        </tr>
+
+                        <!-- CRITERIO 3 -->
+                        <tr>
+                            <th>
+                                <span class="block text-[0.65rem] uppercase tracking-wider text-teal font-bold">Criterio 3 · 20 %</span>
+                                <span class="block text-navy font-bold text-[0.9rem] leading-tight mt-1">Implementación técnica</span>
+                                <span class="block text-[0.68rem] text-gray-500 mt-2 font-normal leading-snug">
+                                    Código, ingeniería de prompts, manejo de errores y uso de recursos.
+                                </span>
+                            </th>
+                            <td>
+                                El proyecto se ejecuta <strong>desde cero en otra máquina</strong> siguiendo el
+                                <span class="inline-code">README</span>, con dependencias fijadas. Código legible y
+                                organizado en piezas con responsabilidad única. Los prompts están versionados y
+                                declaran rol, contrato de salida y restricciones; se documenta al menos una
+                                iteración (<span class="mono">v1 → v2</span>) con la razón del cambio. El error se
+                                gestiona por tipo —tiempo de espera, salida no parseable, herramienta caída, límite
+                                de tasa— con degradación controlada. Las decisiones de recursos están
+                                <strong>medidas</strong> (p. ej. cuantización <span class="mono">Q4_K_M</span> frente
+                                a <span class="mono">FP16</span>: memoria y latencia observadas). Credenciales fuera
+                                del código.
+                            </td>
+                            <td>
+                                El proyecto se ejecuta con ajustes menores documentables. Código ordenado. Prompts
+                                estructurados con rol y formato de salida. Hay manejo de errores en las rutas
+                                principales, no en las periféricas. Menciona consideraciones de recursos con criterio
+                                correcto, pero sin medición propia. Credenciales gestionadas fuera del código.
+                            </td>
+                            <td>
+                                El código corre solo en la máquina del autor y las instrucciones son incompletas.
+                                Prompts extensos, sin estructura ni contrato de salida. Los errores se atrapan con un
+                                bloque genérico que oculta la causa. No hay consideración de recursos. Alguna
+                                credencial o ruta local queda escrita en el código.
+                            </td>
+                            <td>
+                                Se entregan fragmentos que no se ejecutan o que fallan en el primer intento. Sin
+                                manejo de errores. Un único prompt improvisado, sin versión ni iteración.
+                                Credenciales expuestas en el repositorio.
+                            </td>
+                            <td>
+                                No hay implementación verificable; o el código entregado no puede ser explicado por
+                                quien lo entrega, de modo que su autoría no es comprobable.
+                            </td>
+                        </tr>
+
+                        <!-- CRITERIO 4 -->
+                        <tr>
+                            <th>
+                                <span class="block text-[0.65rem] uppercase tracking-wider text-teal font-bold">Criterio 4 · 15 %</span>
+                                <span class="block text-navy font-bold text-[0.9rem] leading-tight mt-1">Pertinencia y valor agregado</span>
+                                <span class="block text-[0.68rem] text-gray-500 mt-2 font-normal leading-snug">
+                                    Eficacia frente a la necesidad, evidencia de desempeño, límites y adopción por la contraparte.
+                                </span>
+                            </th>
+                            <td>
+                                Muestra desempeño sobre un <strong>conjunto de casos de prueba propio</strong> que
+                                incluye aciertos, fallos y casos límite. Compara el resultado con la línea base del
+                                criterio 1 mediante una métrica pertinente (tiempo, tasa de error, cobertura,
+                                reproducibilidad). Discute con honestidad dónde el agente falla y qué no debe
+                                delegársele. Identifica los riesgos propios del dominio —datos personales, decisiones
+                                de crédito o de riesgo, sesgo de la fuente— y describe su mitigación. Sobre todo,
+                                <strong>la contraparte podría seguir usándolo sin el equipo</strong>: hay instrucciones
+                                de uso en su lenguaje y una vía para saber si el agente se equivocó.
+                            </td>
+                            <td>
+                                Demuestra funcionamiento sobre varios casos reales y compara cualitativamente con la
+                                práctica actual. Reconoce límites del agente de manera general y coherente con el
+                                diseño. Los riesgos del dominio se mencionan, sin desarrollarse en medidas concretas.
+                                La contraparte podría adoptarlo con acompañamiento inicial del equipo.
+                            </td>
+                            <td>
+                                Una sola demostración, sobre un caso favorable escogido. El valor agregado se afirma
+                                sin comparación con la situación previa. Los límites aparecen como fórmula
+                                («el modelo puede alucinar») sin consecuencia visible en el diseño ni en el uso.
+                                Solo el equipo sabe operarlo: la entrega es un prototipo, no una solución entregable.
+                            </td>
+                            <td>
+                                La demostración no corresponde al problema declarado. El agente reproduce lo que una
+                                función, una macro o una fórmula de hoja de cálculo hace de forma más simple y
+                                confiable, sin que el estudiante lo advierta ni lo discuta.
+                            </td>
+                            <td>
+                                No hay evidencia de ejecución; o el resultado exhibido es incorrecto en el dominio
+                                —una lectura estadística o un cálculo de riesgo erróneo se presenta como válido— y
+                                el error no se detecta.
+                            </td>
+                        </tr>
+
+                        <!-- CRITERIO 5 -->
+                        <tr>
+                            <th style="background:#FDF2F8">
+                                <span class="block text-[0.65rem] uppercase tracking-wider text-secondary font-bold">Criterio 5 · 25 %</span>
+                                <span class="block text-navy font-bold text-[0.9rem] leading-tight mt-1">Sustentación y comunicación</span>
+                                <span class="block text-[0.68rem] text-gray-500 mt-2 font-normal leading-snug">
+                                    Defensa argumentada del «porqué» de cada decisión.
+                                </span>
+                                <span class="block text-[0.62rem] text-secondary mt-2 font-semibold leading-snug">
+                                    <i class="fas fa-user-check mr-1"></i> Se califica por separado a cada integrante.
+                                </span>
+                            </th>
+                            <td>
+                                Justifica cada decisión con un <strong>criterio explícito y una alternativa
+                                    descartada</strong>, incluidas las decisiones que implementó su compañero. Ante
+                                contrafácticos —«¿y si el dato fuera confidencial?», «¿y si el modelo tuviera 8k de
+                                contexto?», «¿y si el volumen se multiplicara por cien?»— <strong>reconfigura su
+                                    razonamiento en vivo</strong> en lugar de repetir lo preparado. Distingue con
+                                precisión qué hizo el equipo, qué generó una herramienta de IA y qué no lograron.
+                                Terminología estadística y de IA usada con propiedad, y <strong>capacidad de traducirla</strong>:
+                                explica la misma decisión a un interlocutor técnico y a la contraparte que no lo es,
+                                sin perder precisión ni refugiarse en la jerga. La exposición cabe en los 10 minutos
+                                <strong>sin sacrificar el cierre</strong>, y el reparto entre los dos integrantes
+                                sigue la lógica del proyecto, no la división del trabajo. En la modificación en vivo
+                                <strong>localiza sin buscar</strong> el punto que hay que tocar, anticipa el efecto
+                                antes de ejecutar y lee correctamente el resultado, incluso cuando no es el que
+                                esperaba.
+                            </td>
+                            <td>
+                                Justifica las decisiones principales con criterios claros. Responde con solvencia las
+                                repreguntas sobre su parte y, sobre la de su compañero, explica <em>qué</em> se hizo y
+                                <em>por qué</em>, aunque no el detalle de implementación. Vacila ante los
+                                contrafácticos. Comunicación ordenada, terminología en general correcta, tiempo
+                                cumplido con ajustes menores. Traduce a lenguaje no técnico cuando se lo piden.
+                                Ejecuta la modificación en vivo con alguna vacilación sobre dónde tocar, pero
+                                interpreta bien el resultado. Reconoce sus vacíos cuando se le señalan.
+                            </td>
+                            <td>
+                                Describe <em>lo que hizo</em> —relato secuencial de pasos— más que <em>por qué lo
+                                    hizo</em>. Ante la repregunta repite lo ya dicho o apela a la autoridad de la
+                                fuente («es lo que recomienda la documentación», «es lo que hacía el tutorial»).
+                                Responde solo por su parte y remite al compañero cuando la pregunta cruza esa
+                                frontera. En la modificación en vivo encuentra el archivo tras rastrearlo un rato y
+                                necesita ayuda para interpretar lo que salió. Se excede del tiempo o deja el cierre
+                                sin exponer. Imprecisiones terminológicas que no invalidan el conjunto.
+                            </td>
+                            <td>
+                                No consigue explicar partes de su propia entrega. Atribuye decisiones al azar, al
+                                tutorial o a la herramienta. Confunde conceptos centrales —prompt frente a ajuste
+                                fino, parámetros frente a ventana de contexto, cuantización frente a compresión de
+                                datos, agente frente a modelo—. No distingue su aporte del generado. No sabe dónde
+                                tocar su propio proyecto con el entorno funcionando delante. En la exposición
+                                interviene solo cuando se le pregunta directamente y no logra ampliar.
+                            </td>
+                            <td>
+                                No se presenta a la sustentación; o su explicación contradice de forma sistemática lo
+                                entregado, lo que impide verificar su autoría. Véase la <strong>condición de
+                                    autoría</strong>: el techo se aplica <strong>al integrante</strong> que no pudo
+                                sustentar, no automáticamente a los dos.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>            </div>
+        </section>
+
+        <section id="detalle" class="ancla mb-12 salto">
+            <div class="flex items-center gap-3 mb-5 border-b border-gray-200 pb-3">
+                <div class="lp-gradient p-2.5 rounded-xl shadow-md text-white w-11 h-11 flex items-center justify-center">
+                    <i class="fas fa-magnifying-glass-chart text-lg"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-900">Qué se mira en cada criterio</h2>
+            </div>
+            <p class="text-sm text-gray-600 mb-6 max-w-3xl">
+                El desglose de cada criterio, con el error que más lo hunde. Si su trabajo queda entre dos columnas
+                de la matriz, cuenten cuántos de estos puntos alcanzan: el nivel es donde caiga la mayoría.
+            </p>
+
+            <div class="grid lg:grid-cols-2 gap-5">
+
+                <div class="lp-card overflow-hidden">
+                    <div class="px-5 py-3 flex items-center gap-3" style="background:linear-gradient(135deg,#3D008D 0%,#0E7490 100%)">
+                        <span class="bg-white/20 rounded-lg w-9 h-9 flex items-center justify-center flex-shrink-0"><i class="fas fa-bullseye text-white"></i></span>
+                        <div>
+                            <div class="text-white font-bold text-base leading-tight">1 · Justificación y necesidad</div>
+                            <div class="text-white/80 text-xs">20 % · lo evalúo con la memoria y la constancia del encargo</div>
+                        </div>
+                    </div>
+                    <div class="px-5 py-4 text-sm text-gray-700 prosa" style="background:rgba(61,0,141,0.04)">
+                        <ul>
+                            <li><strong>1.0 Contraparte</strong> — hay alguien concreto con el problema, y distinguen lo que pidió de lo que necesita.</li>
+                            <li><strong>1.1 Delimitación</strong> — quién lo padece, con qué frecuencia y qué cuesta hoy.</li>
+                            <li><strong>1.2 Línea base</strong> — cómo se resuelve <em>sin</em> el agente; idealmente con una cifra.</li>
+                            <li><strong>1.3 Anclaje disciplinar</strong> — el problema toca un contenido real de estadística, riesgo o análisis de datos.</li>
+                            <li><strong>1.4 Umbral de agente</strong> — por qué no basta un script determinista.</li>
+                            <li><strong>1.5 Calibración del encargo</strong> — ustedes eligieron el caso: qué otros consideraron, por qué este, y por qué cabe en tres semanas sin quedar trivial.</li>
+                        </ul>
+                        <p class="text-xs text-gray-600 mt-3 mb-0 bg-white rounded-lg px-3 py-2 border-l-2" style="border-color:#B91C1C">
+                            <strong style="color:#B91C1C">Dónde se pierde:</strong> enunciar el problema en futuro y en
+                            abstracto («permitiría optimizar procesos») en vez de en presente y con un caso concreto. Y
+                            el error silencioso: elegir lo que ya sabían hacer. Si no hubo nada que aprender, el caso
+                            estaba mal calibrado.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="lp-card overflow-hidden">
+                    <div class="px-5 py-3 flex items-center gap-3" style="background:linear-gradient(135deg,#3D008D 0%,#0E7490 100%)">
+                        <span class="bg-white/20 rounded-lg w-9 h-9 flex items-center justify-center flex-shrink-0"><i class="fas fa-diagram-project text-white"></i></span>
+                        <div>
+                            <div class="text-white font-bold text-base leading-tight">2 · Diseño y configuración</div>
+                            <div class="text-white/80 text-xs">20 % · lo evalúo con el diagrama de flujo y la configuración</div>
+                        </div>
+                    </div>
+                    <div class="px-5 py-4 text-sm text-gray-700 prosa" style="background:rgba(61,0,141,0.04)">
+                        <ul>
+                            <li><strong>2.1 Arquitectura</strong> — agente único, ciclo con herramientas, recuperación sobre documentos (RAG) o varios agentes; y por qué esa.</li>
+                            <li><strong>2.2 Skills y herramientas</strong> — cada una con propósito y ruta de invocación real.</li>
+                            <li><strong>2.3 Flujo</strong> — entrada, verificación, condición de parada, ruta de error.</li>
+                            <li><strong>2.4 Elección de modelo</strong> — local, cuantizado o API, con criterios de privacidad, costo, latencia y contexto.</li>
+                            <li><strong>2.5 Guardarraíles</strong> — qué no debe hacer el agente y cómo se comprueba su salida.</li>
+                        </ul>
+                        <p class="text-xs text-gray-600 mt-3 mb-0 bg-white rounded-lg px-3 py-2 border-l-2" style="border-color:#B91C1C">
+                            <strong style="color:#B91C1C">Dónde se pierde:</strong> declarar herramientas que ninguna
+                            ejecución llega a invocar. Se nota de inmediato, y delata que el diseño se hizo para la
+                            rúbrica y no para el problema.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="lp-card overflow-hidden">
+                    <div class="px-5 py-3 flex items-center gap-3" style="background:linear-gradient(135deg,#0E7490 0%,#22A5C0 100%)">
+                        <span class="bg-white/20 rounded-lg w-9 h-9 flex items-center justify-center flex-shrink-0"><i class="fas fa-code text-white"></i></span>
+                        <div>
+                            <div class="text-white font-bold text-base leading-tight">3 · Implementación técnica</div>
+                            <div class="text-white/80 text-xs">20 % · lo evalúo con el repositorio</div>
+                        </div>
+                    </div>
+                    <div class="px-5 py-4 text-sm text-gray-700 prosa" style="background:rgba(14,116,144,0.05)">
+                        <ul>
+                            <li><strong>3.1 Reproducibilidad</strong> — corre en otra máquina siguiendo el <span class="inline-code">README</span>.</li>
+                            <li><strong>3.2 Prompts</strong> — rol, contrato de salida, restricciones, ejemplos; versionados y con una iteración justificada.</li>
+                            <li><strong>3.3 Errores</strong> — tiempo de espera, salida no parseable, herramienta caída, límite de tasa.</li>
+                            <li><strong>3.4 Recursos</strong> — cuantización, tamaño de contexto, caché, lotes.</li>
+                            <li><strong>3.5 Credenciales</strong> — variables de entorno, nunca en el repositorio.</li>
+                        </ul>
+                        <p class="text-xs text-gray-600 mt-3 mb-2 bg-white rounded-lg px-3 py-2 border-l-2" style="border-color:#15803D">
+                            <strong style="color:#15803D">Sobre 3.4:</strong> como cada equipo usa el cómputo que tiene,
+                            aquí califico <strong>el criterio de decisión</strong>, no la medición: «con 8 GB de VRAM
+                            elegiría este modelo en <span class="mono">Q4</span> porque…». Si además pueden medir,
+                            eso suma en el criterio 4.
+                        </p>
+                        <p class="text-xs text-gray-600 mb-0 bg-white rounded-lg px-3 py-2 border-l-2" style="border-color:#B91C1C">
+                            <strong style="color:#B91C1C">Dónde se pierde:</strong> que el proyecto solo corra en el
+                            portátil de quien lo escribió. Pruébenlo en la máquina del compañero antes de entregar.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="lp-card overflow-hidden">
+                    <div class="px-5 py-3 flex items-center gap-3" style="background:linear-gradient(135deg,#0E7490 0%,#22A5C0 100%)">
+                        <span class="bg-white/20 rounded-lg w-9 h-9 flex items-center justify-center flex-shrink-0"><i class="fas fa-chart-line text-white"></i></span>
+                        <div>
+                            <div class="text-white font-bold text-base leading-tight">4 · Pertinencia y valor agregado</div>
+                            <div class="text-white/80 text-xs">15 % · lo evalúo con la demostración y los casos de prueba</div>
+                        </div>
+                    </div>
+                    <div class="px-5 py-4 text-sm text-gray-700 prosa" style="background:rgba(14,116,144,0.05)">
+                        <ul>
+                            <li><strong>4.1 Evidencia de desempeño</strong> — casos propios, con fallos incluidos.</li>
+                            <li><strong>4.2 Comparación con la línea base</strong> — la misma métrica que declararon en 1.2.</li>
+                            <li><strong>4.3 Corrección de dominio</strong> — lo que el agente afirma es estadísticamente correcto.</li>
+                            <li><strong>4.4 Riesgos y límites</strong> — datos sensibles, sesgo, decisiones que no deben automatizarse.</li>
+                            <li><strong>4.5 Adopción</strong> — la contraparte puede seguir usándolo sin ustedes: instrucciones en su lenguaje y forma de detectar un error.</li>
+                        </ul>
+                        <p class="text-xs text-gray-600 mt-3 mb-0 bg-white rounded-lg px-3 py-2 border-l-2" style="border-color:#B91C1C">
+                            <strong style="color:#B91C1C">Dónde se pierde:</strong> mostrar solo casos exitosos. El caso
+                            de fallo es obligatorio y suma: un equipo que sabe dónde falla su agente sabe más que uno
+                            que cree que no falla nunca.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="lp-card overflow-hidden lg:col-span-2 ring-2 ring-secondary/20">
+                    <div class="px-5 py-3 flex items-center gap-3" style="background:linear-gradient(135deg,#ED1E79 0%,#FF2D8A 100%)">
+                        <span class="bg-white/20 rounded-lg w-9 h-9 flex items-center justify-center flex-shrink-0"><i class="fas fa-comments text-white"></i></span>
+                        <div>
+                            <div class="text-white font-bold text-base leading-tight">5 · Sustentación y comunicación</div>
+                            <div class="text-white/80 text-xs">25 % · nota individual · lo evalúo en los 10 minutos de repreguntas</div>
+                        </div>
+                    </div>
+                    <div class="px-5 py-4 text-sm text-gray-700 prosa" style="background:rgba(240,165,0,0.05)">
+                        <div class="grid md:grid-cols-2 gap-x-8">
+                            <ul>
+                                <li><strong>5.1 Criterio explícito</strong> — cada decisión viene con su razón y su alternativa descartada.</li>
+                                <li><strong>5.2 Dominio conceptual</strong> — la estadística del problema y los fundamentos de agentes y modelos.</li>
+                                <li><strong>5.3 Respuesta al contrafáctico</strong> — razonan sobre un escenario que no prepararon.</li>
+                                <li><strong>5.4 Honestidad intelectual</strong> — separan lo propio de lo generado y admiten lo que no lograron.</li>
+                            </ul>
+                            <ul>
+                                <li><strong>5.5 Comunicación</strong> — orden, tiempo, terminología precisa, apoyo visual que aclara.</li>
+                                <li><strong>5.6 Dominio del trabajo del compañero</strong> — responden por decisiones que no implementaron ustedes mismos.</li>
+                                <li><strong>5.7 Registro de consultor</strong> — explican lo mismo a un par técnico y a la contraparte que no lo es.</li>
+                                <li><strong>5.8 Maniobra en vivo</strong> — saben dónde tocar su propio proyecto y anticipan el efecto antes de ejecutar.</li>
+                            </ul>
+                        </div>
+                        <p class="text-xs text-gray-600 mt-2 mb-0 bg-white rounded-lg px-3 py-2 border-l-2" style="border-color:#B91C1C">
+                            <strong style="color:#B91C1C">Dónde se pierde:</strong> contar <em>lo que hicieron</em> —el
+                            relato de pasos— en vez de <em>por qué lo hicieron</em>. Y, ante la repregunta, repetir lo
+                            ya dicho o apelar a la autoridad de la fuente: «es lo que recomienda la documentación».
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sustentacion" class="ancla mb-12 salto">
+            <div class="flex items-center gap-3 mb-5 border-b border-gray-200 pb-3">
+                <div class="lp-gradient p-2.5 rounded-xl shadow-md text-white w-11 h-11 flex items-center justify-center">
+                    <i class="fas fa-stopwatch text-lg"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-900">Cómo será la sustentación</h2>
+            </div>
+            <p class="text-sm text-gray-600 mb-5 max-w-3xl">
+                20 minutos, solo ante el docente. Los criterios 1 a 4 ya estarán calificados con lo que entregaron;
+                estos 20 minutos deciden el criterio 5, que es <strong>individual</strong>.
+            </p>
+
+            <div class="grid lg:grid-cols-2 gap-5 mb-5">
+                <div class="lp-card overflow-hidden">
+                    <div class="px-5 py-3" style="background:linear-gradient(135deg,#3D008D 0%,#0E7490 100%)">
+                        <div class="text-white font-bold text-base leading-tight">Minutos 0 – 10 · ustedes exponen</div>
+                        <div class="text-white/80 text-xs">Sin interrupciones. Corte estricto a los 10 minutos.</div>
+                    </div>
+                    <div class="p-5">
+                        <table class="w-full text-sm border-collapse">
+                            <tbody>
+                                <tr><td class="p-2 border-b border-gray-100 mono text-xs text-secondary font-bold align-top w-16">0 – 2′</td>
+                                    <td class="p-2 border-b border-gray-100"><strong class="text-navy">El problema y la línea base.</strong> <span class="text-gray-600">Quién lo padece y cuánto cuesta hoy.</span></td></tr>
+                                <tr><td class="p-2 border-b border-gray-100 mono text-xs text-secondary font-bold align-top">2 – 5′</td>
+                                    <td class="p-2 border-b border-gray-100"><strong class="text-navy">Decisiones de diseño.</strong> <span class="text-gray-600">Cada una con la alternativa descartada.</span></td></tr>
+                                <tr><td class="p-2 border-b border-gray-100 mono text-xs text-secondary font-bold align-top">5 – 8′</td>
+                                    <td class="p-2 border-b border-gray-100"><strong class="text-navy">Demostración.</strong> <span class="text-gray-600">Un caso que funciona y <strong>uno que falla</strong>.</span></td></tr>
+                                <tr><td class="p-2 mono text-xs text-secondary font-bold align-top">8 – 10′</td>
+                                    <td class="p-2"><strong class="text-navy">Límites y riesgos.</strong> <span class="text-gray-600">Qué no le delegarían al agente.</span></td></tr>
+                            </tbody>
+                        </table>
+                        <div class="mt-4 rounded-lg px-3 py-2 text-xs leading-relaxed" style="background:#FFFBEB;border-left:3px solid #B45309">
+                            <strong class="text-[#B45309]">Ensayen con cronómetro.</strong>
+                            <span class="text-gray-700">Administrar el tiempo es el sub-indicador 5.5. Si se les va la
+                                demostración y no alcanzan a exponer los límites, eso ya dice algo sobre sus
+                                prioridades.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lp-card overflow-hidden ring-2 ring-secondary/20">
+                    <div class="px-5 py-3" style="background:linear-gradient(135deg,#ED1E79 0%,#FF2D8A 100%)">
+                        <div class="text-white font-bold text-base leading-tight">Minutos 10 – 20 · el docente pregunta</div>
+                        <div class="text-white/80 text-xs">Aquí se decide su nota individual.</div>
+                    </div>
+                    <div class="p-5">
+                        <table class="w-full text-sm border-collapse">
+                            <tbody>
+                                <tr><td class="p-2 border-b border-gray-100 mono text-xs text-secondary font-bold align-top w-16">10 – 13′</td>
+                                    <td class="p-2 border-b border-gray-100"><strong class="text-navy">Decisión cruzada.</strong> <span class="text-gray-600">A cada uno, por su nombre, sobre algo que <em>no</em> expuso. Mide 5.6.</span></td></tr>
+                                <tr class="bg-[#FDF2F8]"><td class="p-2 border-b border-gray-100 mono text-xs text-secondary font-bold align-top">13 – 17′</td>
+                                    <td class="p-2 border-b border-gray-100"><strong class="text-navy">Modificación en vivo.</strong> <span class="text-gray-600">Al que menos intervino; el compañero no habla ni toca el teclado. Mide 5.8.</span></td></tr>
+                                <tr><td class="p-2 border-b border-gray-100 mono text-xs text-secondary font-bold align-top">17 – 19′</td>
+                                    <td class="p-2 border-b border-gray-100"><strong class="text-navy">Contrafáctico.</strong> <span class="text-gray-600">«¿Y si además…?», sobre lo que acaba de pasar en pantalla. Mide 5.3.</span></td></tr>
+                                <tr><td class="p-2 mono text-xs text-secondary font-bold align-top">19 – 20′</td>
+                                    <td class="p-2"><strong class="text-navy">Honestidad.</strong> <span class="text-gray-600">Qué no entienden todavía y qué generó una IA. Mide 5.4.</span></td></tr>
+                            </tbody>
+                        </table>
+                        <div class="mt-4 rounded-lg px-3 py-2 text-xs leading-relaxed" style="background:#F5F0FA;border-left:3px solid #3D008D">
+                            <strong class="text-primary">Si trabajan solos:</strong>
+                            <span class="text-gray-700">se mantiene 10 + 10. La modificación en vivo se alarga a
+                                6 minutos con una segunda modificación encadenada. El 5.6 no aplica y su peso se
+                                reparte entre 5.1 y 5.3.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rounded-xl px-5 py-4 border-l-4 bg-[#FEF2F2] mb-5" style="border-color:#B91C1C">
+                <span class="inline-flex items-center gap-2 text-[0.7rem] uppercase tracking-wider font-bold rounded mb-2 px-2 py-0.5 text-white" style="background:#B91C1C">
+                    <i class="fas fa-ban"></i> No se acepta repartirse el proyecto
+                </span>
+                <p class="text-gray-700 leading-relaxed text-[0.95rem] mb-0">
+                    Nada de «yo hago el código y tú la memoria». La ronda 1 pregunta deliberadamente por lo que expuso
+                    el otro, y la ronda 2 le pide modificar el proyecto al que menos haya intervenido. Repártanse el
+                    trabajo como quieran, pero <strong>los dos tienen que entender el proyecto completo</strong>.
+                    Organicen las tres semanas sabiéndolo: reuniones cortas de sincronización sirven más que dividirse
+                    en módulos.
+                </p>
+            </div>
+
+            <div class="lp-card overflow-hidden">
+                <div class="px-5 py-3 flex items-center gap-3" style="background:linear-gradient(135deg,#ED1E79 0%,#FF2D8A 100%)">
+                    <span class="bg-white/20 rounded-lg w-9 h-9 flex items-center justify-center flex-shrink-0"><i class="fas fa-keyboard text-white"></i></span>
+                    <div>
+                        <div class="text-white font-bold text-base leading-tight">La modificación en vivo · qué les pueden pedir</div>
+                        <div class="text-white/80 text-xs">Una sola, de estas seis. Ninguna requiere escribir código nuevo.</div>
+                    </div>
+                </div>
+                <div class="px-5 py-4" style="background:rgba(240,165,0,0.05)">
+                    <div class="grid md:grid-cols-2 gap-x-8 gap-y-1 text-sm text-gray-700 prosa">
+                        <ul class="mb-0">
+                            <li>Cambiar el registro de la salida para que la entienda alguien que no es del área.</li>
+                            <li>Añadir una restricción al prompt y mostrar el efecto sobre un caso.</li>
+                            <li>Romper una herramienta a propósito y mostrar qué hace el agente.</li>
+                        </ul>
+                        <ul class="mb-0">
+                            <li>Cambiar un parámetro y explicar el cambio observado.</li>
+                            <li>Agregar un caso nuevo al conjunto de prueba y ejecutarlo.</li>
+                            <li>Quitar la herramienta que declararon imprescindible y mostrar qué se rompe.</li>
+                        </ul>
+                    </div>
+                    <div class="mt-4 rounded-lg px-3 py-2 text-xs leading-relaxed bg-white border border-[#B45309]/25">
+                        <strong class="text-[#B45309]">Lleguen con el entorno funcionando y el proyecto abierto.</strong>
+                        <span class="text-gray-700">Si no arranca en 60 segundos, la ronda se cancela y eso descuenta
+                            en el criterio 3 (reproducibilidad), no en el 5 — un proyecto que no levanta es un problema
+                            de código, no de defensa. Lo que sí pesa en el 5 es no saber <em>dónde tocar</em> cuando el
+                            entorno sí funciona.</span>
+                    </div>
+                    <p class="text-sm text-gray-600 mt-3 mb-0">
+                        <i class="fas fa-circle-info text-primary mr-1"></i>
+                        Justo antes de ejecutar les voy a preguntar <strong>«¿qué esperan que salga?»</strong>. Vale
+                        más anticiparlo y equivocarse que ejecutar sin idea de qué va a pasar.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="autoevaluacion" class="ancla mb-12 no-print">
+            <div class="flex items-center gap-3 mb-5 border-b border-gray-200 pb-3">
+                <div class="lp-gradient p-2.5 rounded-xl shadow-md text-white w-11 h-11 flex items-center justify-center">
+                    <i class="fas fa-square-root-variable text-lg"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-900">Autoevaluación</h2>
+            </div>
+            <p class="text-sm text-gray-600 mb-5 max-w-3xl">
+                Antes de entregar, ubíquense en la matriz criterio por criterio y vean qué nota les daría eso. Sean
+                duros: si dudan entre dos niveles, están en el de abajo.
+            </p>
+
+            <div class="lp-card p-6">
+                <div class="grid lg:grid-cols-3 gap-6">
+                    <div class="lg:col-span-2 space-y-3" id="filas-calc"></div>
+                    <div class="lg:col-span-1 space-y-4">
+                        <div class="lp-header rounded-2xl p-5 text-center">
+                            <p class="text-[0.65rem] uppercase tracking-widest text-gold font-bold mb-1">Nota estimada</p>
+                            <p class="text-5xl font-extrabold text-white mono" id="nota">—</p>
+                            <p class="text-xs text-white/60 mt-1">sobre 5.0 · <span class="mono" id="porcentaje">—</span></p>
+                            <p class="mt-3 inline-block px-3 py-1 rounded-full text-xs font-bold" id="veredicto"
+                                style="background:rgba(255,255,255,.15);color:#fff">Seleccionen los niveles</p>
+                        </div>
+                        <button id="btn-reset" class="w-full px-3 py-2 rounded-xl border border-gray-300 bg-white hover:bg-gray-50 text-navy text-xs font-semibold transition-colors">
+                            <i class="fas fa-rotate-left mr-1"></i>Reiniciar
+                        </button>
+                    </div>
+                </div>
+                <p class="text-xs text-gray-500 mt-5 leading-relaxed border-t border-gray-200 pt-4">
+                    <i class="fas fa-circle-info text-primary mr-1"></i>
+                    Es una estimación, no la nota: la real la pongo yo con la evidencia a la vista. El cálculo aplica
+                    el <strong>techo por sustentación</strong>, así que si bajan el criterio 5 verán el efecto de
+                    inmediato.
+                </p>
+            </div>
+        </section>
+
+        <section id="preguntas" class="ancla mb-10 salto">
+            <div class="flex items-center gap-3 mb-5 border-b border-gray-200 pb-3">
+                <div class="lp-gradient p-2.5 rounded-xl shadow-md text-white w-11 h-11 flex items-center justify-center">
+                    <i class="fas fa-circle-question text-lg"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-900">Prepárense para estas preguntas</h2>
+            </div>
+            <p class="text-sm text-gray-600 mb-6 max-w-3xl">
+                Son las mismas del enunciado. Ninguna se responde memorizando: si las van contestando mientras
+                construyen, la sustentación se prepara sola — y van a construir mejor.
+            </p>
+
+            <div class="grid lg:grid-cols-2 gap-5">
+                <div class="lp-card p-5 border-l-4" style="border-color:#3D008D">
+                    <p class="text-xs uppercase tracking-wider font-bold text-primary mb-3">Criterio 1 · el problema</p>
+                    <ul class="text-sm text-gray-700 prosa mb-0">
+                        <li>¿Con quién hablaron, y qué les dijo que no esperaban?</li>
+                        <li>¿Quién hace hoy esta tarea sin el agente, y cuánto le toma?</li>
+                        <li>¿Qué otros casos consideraron y por qué los descartaron?</li>
+                        <li>¿Qué parte de esto no sabían hacer cuando lo eligieron?</li>
+                        <li>¿Qué recortaron del alcance al ver que eran tres semanas?</li>
+                    </ul>
+                </div>
+                <div class="lp-card p-5 border-l-4" style="border-color:#3D008D">
+                    <p class="text-xs uppercase tracking-wider font-bold text-primary mb-3">Criterio 2 · el diseño</p>
+                    <ul class="text-sm text-gray-700 prosa mb-0">
+                        <li>¿Qué arquitectura descartaron y cuándo supieron que no servía?</li>
+                        <li>Elijan una herramienta y expliquen qué se rompe si la quito.</li>
+                        <li>¿Por qué ese modelo y no uno más pequeño? ¿Y no uno más grande?</li>
+                        <li>Si los datos fueran confidenciales, ¿qué cambiaría en su diseño?</li>
+                        <li>¿Cómo sabe el agente que terminó? ¿Y si una herramienta no responde?</li>
+                    </ul>
+                </div>
+                <div class="lp-card p-5 border-l-4" style="border-color:#0E7490">
+                    <p class="text-xs uppercase tracking-wider font-bold text-teal mb-3">Criterio 3 · la implementación</p>
+                    <ul class="text-sm text-gray-700 prosa mb-0">
+                        <li>Muéstrenme la primera versión de este prompt. ¿Qué falló y qué cambiaron?</li>
+                        <li>¿Qué pasa si el modelo devuelve algo que su código no puede leer?</li>
+                        <li>Explíquenme esta función, línea por línea.</li>
+                        <li>¿Qué pierden al cuantizar y por qué en su caso ese costo es aceptable?</li>
+                        <li>¿Dónde está su clave de API y por qué está ahí?</li>
+                    </ul>
+                </div>
+                <div class="lp-card p-5 border-l-4" style="border-color:#0E7490">
+                    <p class="text-xs uppercase tracking-wider font-bold text-teal mb-3">Criterio 4 · el valor</p>
+                    <ul class="text-sm text-gray-700 prosa mb-0">
+                        <li>Denme un caso donde falla. ¿Por qué falla ahí?</li>
+                        <li>¿Cómo sabría la contraparte que la salida es incorrecta, sin ser experta?</li>
+                        <li>Si el volumen se multiplicara por cien, ¿sigue sirviendo?</li>
+                        <li>¿Qué decisión de este proceso <strong>no</strong> le delegarían nunca al agente?</li>
+                        <li>Si mañana ustedes desaparecen, ¿puede seguir usándolo? Muéstrenme con qué.</li>
+                    </ul>
+                </div>
+                <div class="lp-card p-5 border-l-4 lg:col-span-2" style="border-color:#ED1E79">
+                    <p class="text-xs uppercase tracking-wider font-bold text-secondary mb-3">Criterio 5 · las que deciden su nota individual</p>
+                    <div class="grid md:grid-cols-2 gap-x-8">
+                        <ul class="text-sm text-gray-700 prosa mb-0">
+                            <li>¿Qué parte generó una herramienta de IA y qué parte escribieron ustedes?</li>
+                            <li>¿Cuál fue la decisión más difícil, y entre qué opciones dudaron?</li>
+                            <li>¿Hubo alguna decisión en la que no estuvieran de acuerdo? ¿Cómo la resolvieron?</li>
+                            <li>Si su compañero no pudiera continuar, ¿podría usted modificar este agente?</li>
+                        </ul>
+                        <ul class="text-sm text-gray-700 prosa mb-0">
+                            <li><strong>¿Qué de este proyecto todavía no entienden del todo?</strong></li>
+                            <li>¿En qué se equivocaron al principio y cómo se dieron cuenta?</li>
+                            <li>Expliquen su agente a un colega estadístico que nunca ha usado un modelo de lenguaje, en un minuto.</li>
+                            <li>Antes de ejecutar: ¿qué esperan que salga?</li>
+                        </ul>
+                    </div>
+                    <p class="text-xs text-gray-500 mt-3 pt-3 border-t border-gray-100 leading-relaxed mb-0">
+                        Sobre la quinta: responder «no, todo claro» es la peor respuesta posible. Reconocer con
+                        precisión dónde termina lo que entienden es señal de que entendieron el resto.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="mt-16 pt-8 border-t border-gray-200">
+            <div class="lp-header rounded-xl p-6 text-center">
+                <p class="text-white font-medium text-sm"><strong>Rúbrica · Un agente de IA para un problema real</strong></p>
+                <p class="text-xs mt-1 text-white/80 italic">
+                    El agente lo construye cualquiera con tiempo; el criterio para decidir cómo construirlo, no.
+                </p>
+                <p class="text-xs mt-2 text-white/70">Universidad Santo Tomás · Consultoría · Pregrado en Estadística</p>
+                <p class="text-xs text-white/70">Docente: Javier Mauricio Sierra</p>
+                <p class="text-[10px] mt-2 text-white/50">
+                    Versión para estudiantes. Los criterios y descriptores de la matriz son idénticos a los del
+                    instrumento con que se califica.
+                </p>
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        /* ============================================================
+           AUTOEVALUACIÓN
+           Misma aritmética que usa el docente, incluido el techo por
+           sustentación, para que la estimación no sorprenda después.
+        ============================================================ */
+        const CRITERIOS = [
+            { id: 'c1', nombre: 'Justificación y necesidad', peso: 0.20, color: '#3D008D' },
+            { id: 'c2', nombre: 'Diseño y configuración', peso: 0.20, color: '#3D008D' },
+            { id: 'c3', nombre: 'Implementación técnica', peso: 0.20, color: '#0E7490' },
+            { id: 'c4', nombre: 'Pertinencia y valor agregado', peso: 0.15, color: '#0E7490' },
+            { id: 'c5', nombre: 'Sustentación y comunicación', peso: 0.25, color: '#ED1E79', individual: true },
+        ];
+
+        const NIVELES = [
+            { v: '', etiqueta: '— sin calificar —' },
+            { v: '1.0', etiqueta: 'Ejemplar · 100 %' },
+            { v: '0.8', etiqueta: 'Competente · 80 %' },
+            { v: '0.6', etiqueta: 'En desarrollo · 60 %' },
+            { v: '0.4', etiqueta: 'Insuficiente · 40 %' },
+            { v: '0.2', etiqueta: 'No pertinente · < 40 %' },
+        ];
+
+        const sumaPesos = CRITERIOS.reduce((a, c) => a + c.peso, 0);
+        if (Math.abs(sumaPesos - 1) > 1e-9) console.error('Los pesos no suman 100 %:', sumaPesos);
+
+        const contenedor = document.getElementById('filas-calc');
+        const opciones = NIVELES.map(n => '<option value="' + n.v + '">' + n.etiqueta + '</option>').join('');
+
+        CRITERIOS.forEach(c => {
+            const fila = document.createElement('div');
+            fila.className = 'flex items-center gap-3 p-3 rounded-xl border border-gray-200 bg-white';
+            fila.innerHTML =
+                '<span class="w-1.5 h-10 rounded-full flex-shrink-0" style="background:' + c.color + '"></span>' +
+                '<div class="flex-1 min-w-0">' +
+                '<p class="font-semibold text-navy text-sm leading-tight">' + c.nombre + '</p>' +
+                '<p class="text-xs text-gray-500">peso ' + (c.peso * 100).toFixed(0) + ' %' +
+                (c.individual ? ' · <span class="text-secondary font-semibold">individual</span>' : ' · de equipo') + '</p></div>' +
+                '<select id="sel-' + c.id + '" aria-label="Nivel de ' + c.nombre + '" ' +
+                'class="text-sm border border-gray-300 rounded-lg px-3 py-2 bg-white text-navy font-medium min-w-[190px]">' + opciones + '</select>';
+            contenedor.appendChild(fila);
+        });
+
+        const elNota = document.getElementById('nota');
+        const elPct = document.getElementById('porcentaje');
+        const elVer = document.getElementById('veredicto');
+
+        function nivelDe(pct) {
+            if (pct >= 95) return ['Ejemplar', '#22A05A'];
+            if (pct >= 75) return ['Competente', '#22A5C0'];
+            if (pct >= 58) return ['En desarrollo', '#F59E0B'];
+            if (pct >= 38) return ['Insuficiente', '#EF4444'];
+            return ['No pertinente', '#64748B'];
+        }
+
+        function recalcular() {
+            let acumulado = 0, pesoUsado = 0;
+            CRITERIOS.forEach(c => {
+                const val = document.getElementById('sel-' + c.id).value;
+                if (val) { acumulado += parseFloat(val) * c.peso; pesoUsado += c.peso; }
+            });
+
+            if (pesoUsado === 0) {
+                elNota.textContent = '—';
+                elPct.textContent = '—';
+                elVer.textContent = 'Seleccionen los niveles';
+                elVer.style.background = 'rgba(255,255,255,.15)';
+                return;
+            }
+
+            /* Con criterios sin calificar el logro se normaliza sobre el peso
+               usado: si no, una autoevaluación a medias se leería como una
+               nota baja en vez de como un resultado parcial. */
+            const logro = acumulado / pesoUsado;
+            const pct = logro * 100;
+            const ponderada = logro * 5;
+
+            const valC5 = document.getElementById('sel-c5').value;
+            const techo = valC5 ? parseFloat(valC5) * 5 + 1 : Infinity;
+            const aplicaTecho = techo < ponderada;
+            const nota = aplicaTecho ? techo : ponderada;
+
+            elNota.textContent = nota.toFixed(1);
+            elPct.textContent = pct.toFixed(1) + ' %';
+
+            const par = nivelDe(pct);
+            const parcial = pesoUsado < 1 ? ' · parcial (' + (pesoUsado * 100).toFixed(0) + ' %)' : '';
+            elVer.textContent = aplicaTecho
+                ? 'Techo por sustentación · ponderada ' + ponderada.toFixed(1)
+                : par[0] + parcial;
+            elVer.style.background = aplicaTecho ? '#B45309' : par[1];
+        }
+
+        contenedor.querySelectorAll('select').forEach(s => s.addEventListener('change', recalcular));
+        document.getElementById('btn-reset').addEventListener('click', () => {
+            contenedor.querySelectorAll('select').forEach(s => { s.value = ''; });
+            recalcular();
+        });
+
+        recalcular();
+    </script>
+</body>
+
+</html>

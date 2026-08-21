@@ -1,0 +1,30 @@
+# Entorno virtual
+.venv/
+venv/
+ENV/
+
+# Caches de Python y Pytest
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Salidas de análisis y datos locales
+outputs/figures/*
+outputs/tables/*
+outputs/reports/*
+!outputs/**/.gitkeep
+data/raw/*
+!data/raw/Drug Price.xlsx
+data/processed/*
+!data/**/.gitkeep
+articles/*
+!articles/**/.gitkeep
+
+# IDE y editores
+.vscode/
+.idea/
+*.swp
+*.swo

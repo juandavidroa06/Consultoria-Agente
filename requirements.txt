@@ -1,0 +1,14 @@
+# Dependencias fijadas para instalación reproducible
+# Probado con Python 3.14.4 (ver README.md). Instalar con: pip install -r requirements.txt
+# Versiones exactas obtenidas con `pip freeze` el 2026-08-20. No usar rangos >= para reproducibilidad.
+pypdf==6.15.0
+pandas==3.0.5
+numpy==2.5.1
+scipy==1.18.0
+statsmodels==0.14.6
+scikit-learn==1.9.0
+openpyxl==3.1.5
+matplotlib==3.11.1
+seaborn==0.13.2
+reportlab==5.0.0
+pytest==9.1.1
