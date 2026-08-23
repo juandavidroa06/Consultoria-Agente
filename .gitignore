@@ -28,3 +28,4 @@ articles/*
 .idea/
 *.swp
 *.swo
+.env

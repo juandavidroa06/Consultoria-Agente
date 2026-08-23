@@ -1,7 +1,7 @@
----
+	---
 description: PaperStats - Consultoría estadística, análisis de datos, imputación y generación de informes PDF.
 mode: subagent
-model: Muse Spark 1.2 Free
+model: google/gemini-1.5-pro 
 temperature: 0.2
 tools:
   write: true
