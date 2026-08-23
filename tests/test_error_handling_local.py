@@ -4,14 +4,28 @@ Tests de manejo de errores locales por tipo (no de red).
 Verifica que los `except (ValueError, TypeError, KeyError, LinAlgError)` específicos
 en pipeline.py / evaluation.py / dataset_analyzer.py capturan errores reales de
 operaciones locales y mantienen degradación controlada, sin inventar handlers de red.
+
+Incluye también la taxonomía de errores de E/S local: PDF corrupto, CSV malformado,
+Excel inválido, hoja inexistente y fallos de generación de informes (parser.py,
+loader.py, flow.ReportGenerationError).
 """
 
+import zipfile
+from pathlib import Path
+
 import numpy as np
+import openpyxl
 import pandas as pd
 import pytest
 
+from src.article.parser import ArticleParser
+from src.data.loader import load_data
 from src.missing_data.pipeline import MissingDataPipeline
 from src.missing_data.evaluation import ArtificialMissingnessEvaluator
+from src.orchestration import ReportGenerationError
+from src.orchestration.flow import PaperStatsFlow
+
+import pypdf
 
 
 def test_pipeline_per_variable_valueerror_se_registra_y_continua():
@@ -129,3 +143,88 @@ def test_dataset_analyzer_correlacion_valueerror_no_propaga():
     assert "executed_test_results" in result
     # Al menos una correlación registrada (aunque sea NaN por degradación)
     assert isinstance(result["executed_test_results"], dict)
+
+
+# ---------------------------------------------------------------------------
+# Taxonomía de errores de E/S local: parser / loader / informe
+# ---------------------------------------------------------------------------
+
+def _flujo_sintetico() -> PaperStatsFlow:
+    df = pd.DataFrame(
+        {
+            "edad": [25, 30, 35, 40, 45],
+            "ingreso": [1000.0, 1500.0, 2000.0, 2500.0, 3000.0],
+            "grupo": ["A", "A", "B", "B", "B"],
+        }
+    )
+    return PaperStatsFlow(df)
+
+
+def test_parser_pdf_corrupto_lanza_runtimeerror_con_causa_pypdf(tmp_path):
+    """Un archivo .pdf con contenido inválido produce RuntimeError tipificado
+    con __cause__ PdfReadError (parser._parse_pdf, except pypdf.errors.PdfReadError)."""
+    p = tmp_path / "corrupto.pdf"
+    p.write_bytes(b"%PDF-1.4 esto no es un pdf valido \x00\x01 truncado")
+    parser = ArticleParser(p)
+    with pytest.raises(RuntimeError) as excinfo:
+        parser.parse()
+    assert "corrupto" in str(excinfo.value).lower() or "no puede leerse" in str(excinfo.value).lower()
+    assert isinstance(excinfo.value.__cause__, (pypdf.errors.PdfReadError, ValueError))
+
+
+def test_loader_csv_malformado_envuelto_en_runtimeerror(tmp_path):
+    """CSV con una línea que excede los campos del header -> ParserError envuelto
+    en RuntimeError (pandas 3.x tolera filas cortas pero no filas largas)."""
+    p = tmp_path / "malformado.csv"
+    p.write_text("a,b\n1,2\n3,4,5\n", encoding="utf-8")
+    with pytest.raises(RuntimeError) as excinfo:
+        load_data(p)
+    assert isinstance(excinfo.value.__cause__, pd.errors.ParserError)
+    assert "mal formado" in str(excinfo.value)
+
+
+def test_loader_xlsx_invalido_envuelto_en_runtimeerror(tmp_path):
+    """Archivo .xlsx con bytes arbitrarios -> error de openpyxl/pandas tipificado
+    (ValueError 'format cannot be determined') envuelto en RuntimeError."""
+    p = tmp_path / "invalido.xlsx"
+    p.write_bytes(b"esto definitivamente no es un zip ni un xlsx")
+    with pytest.raises(RuntimeError) as excinfo:
+        load_data(p)
+    assert isinstance(excinfo.value.__cause__, (ValueError, zipfile.BadZipFile))
+    assert "Contenido inválido" in str(excinfo.value)
+
+
+def test_loader_hoja_inexistente_envuelta_en_runtimeerror(tmp_path):
+    """sheet_name inexistente en un xlsx válido -> error tipificado envuelto
+    en RuntimeError (openpyxl 3.1.x lo reporta como ValueError)."""
+    df = pd.DataFrame({"a": [1.0, 2.0], "b": [3.0, 4.0]})
+    p = tmp_path / "valido.xlsx"
+    df.to_excel(p, index=False)
+    with pytest.raises(RuntimeError) as excinfo:
+        load_data(p, sheet_name="HojaQueNoExiste")
+    assert isinstance(excinfo.value.__cause__, (ValueError, KeyError))
+    assert "HojaQueNoExiste" in str(excinfo.value)
+
+
+def test_loader_file_not_found_se_propaga_sin_envolver(tmp_path):
+    """FileNotFoundError se propaga tal cual (passthrough explícito), no RuntimeError."""
+    with pytest.raises(FileNotFoundError):
+        load_data(tmp_path / "no_existe.csv")
+
+
+def test_informe_fallo_escritura_reportgenerationerror(tmp_path):
+    """informe() a una ruta no escribible (directorio existente como destino)
+    levanta ReportGenerationError con __cause__ OSError, sin corromper el estado."""
+    flujo = _flujo_sintetico()
+    flujo.entregable_analisis(
+        "¿Existe relación entre edad e ingreso?",
+        {"metodo": "Pearson", "resultado": {"r": 1.0}},
+    )
+    destino = tmp_path / "carpeta_como_destino"
+    destino.mkdir()
+    with pytest.raises(ReportGenerationError) as excinfo:
+        flujo.informe(output_path=destino)
+    assert isinstance(excinfo.value.__cause__, OSError)
+    # El entregable sigue disponible: se puede reintentar a una ruta válida
+    ruta_ok = flujo.informe(output_path=tmp_path / "informe_ok.pdf")
+    assert Path(ruta_ok).is_file()

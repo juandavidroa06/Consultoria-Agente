@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-21T09:25:31-0500",
-  "python_version": "3.14.4",
-  "platform": "Linux-7.0.0-29-generic-x86_64-with-glibc2.43",
+  "timestamp": "2026-08-23T13:47:31-0500",
+  "python_version": "3.14.7",
+  "platform": "Windows-11-10.0.26200-SP0",
   "dataset": {
-    "path": "data/raw/Drug Price.xlsx",
+    "path": "data\\raw\\Drug Price.xlsx",
     "rows": 73,
     "columns": 8,
     "n_missing_cells": 159,
@@ -11,7 +11,7 @@
     "size_human": "73x8"
   },
   "config": {
-    "n_runs": 5,
+    "n_runs": 2,
     "random_state": null,
     "random_state_note": "media y knn no usan random_state (uses_random_state=False); semilla fija 42 documentada como no aplicable",
     "methods": [
@@ -32,7 +32,7 @@
     "measurement": {
       "time": "time.perf_counter() por corrida, sobre copia fresca del DataFrame",
       "memory_tracemalloc": "tracemalloc.get_traced_memory() peak KB (stdlib, sin dependencias externas)",
-      "memory_rss": "resource.getrusage(RUSAGE_SELF).ru_maxrss delta KB (RSS máximo del proceso)"
+      "memory_rss": "no disponible en esta plataforma (módulo resource ausente en Windows); usar tracemalloc peak como métrica de memoria"
     },
     "reproducibility": "mismo dataset, misma copia por corrida, misma instancia fresca, mismo orden secuencial, sin paralelismo"
   },
@@ -42,64 +42,37 @@
       "class": "MeanImputation",
       "uses_random_state": false,
       "seed": null,
-      "n_runs": 5,
-      "elapsed_mean_sec": 0.006925312394741923,
-      "elapsed_median_sec": 0.0065303799929097295,
-      "elapsed_min_sec": 0.0062903849757276475,
-      "elapsed_max_sec": 0.008265962998848408,
-      "elapsed_stdev_sec": 0.0007940102340565716,
-      "peak_mean_kb": 22.77578125,
-      "peak_median_kb": 22.34765625,
-      "peak_min_kb": 22.18359375,
+      "n_runs": 2,
+      "elapsed_mean_sec": 0.007928700011689216,
+      "elapsed_median_sec": 0.007928700011689216,
+      "elapsed_min_sec": 0.007328900042921305,
+      "elapsed_max_sec": 0.008528499980457127,
+      "elapsed_stdev_sec": 0.0008482452505425388,
+      "peak_mean_kb": 23.50390625,
+      "peak_median_kb": 23.50390625,
+      "peak_min_kb": 23.01171875,
       "peak_max_kb": 23.99609375,
-      "peak_stdev_kb": 0.7531347250409451,
-      "rss_delta_mean_kb": 25.6,
-      "rss_delta_max_kb": 128.0,
+      "peak_stdev_kb": 0.6960582377305077,
+      "rss_delta_mean_kb": null,
+      "rss_delta_max_kb": null,
       "runs": [
         {
           "run": 1,
-          "elapsed_sec": 0.008265962998848408,
+          "elapsed_sec": 0.007328900042921305,
           "tracemalloc_current_kb": 17.1015625,
           "tracemalloc_peak_kb": 23.99609375,
-          "rss_before_kb": 200056.0,
-          "rss_after_kb": 200184.0,
-          "rss_delta_kb": 128.0
+          "rss_before_kb": null,
+          "rss_after_kb": null,
+          "rss_delta_kb": null
         },
         {
           "run": 2,
-          "elapsed_sec": 0.00701185199432075,
+          "elapsed_sec": 0.008528499980457127,
           "tracemalloc_current_kb": 16.1171875,
           "tracemalloc_peak_kb": 23.01171875,
-          "rss_before_kb": 200184.0,
-          "rss_after_kb": 200184.0,
-          "rss_delta_kb": 0.0
-        },
-        {
-          "run": 3,
-          "elapsed_sec": 0.006527982011903077,
-          "tracemalloc_current_kb": 15.453125,
-          "tracemalloc_peak_kb": 22.34765625,
-          "rss_before_kb": 200184.0,
-          "rss_after_kb": 200184.0,
-          "rss_delta_kb": 0.0
-        },
-        {
-          "run": 4,
-          "elapsed_sec": 0.0065303799929097295,
-          "tracemalloc_current_kb": 15.2890625,
-          "tracemalloc_peak_kb": 22.18359375,
-          "rss_before_kb": 200184.0,
-          "rss_after_kb": 200184.0,
-          "rss_delta_kb": 0.0
-        },
-        {
-          "run": 5,
-          "elapsed_sec": 0.0062903849757276475,
-          "tracemalloc_current_kb": 15.4453125,
-          "tracemalloc_peak_kb": 22.33984375,
-          "rss_before_kb": 200184.0,
-          "rss_after_kb": 200184.0,
-          "rss_delta_kb": 0.0
+          "rss_before_kb": null,
+          "rss_after_kb": null,
+          "rss_delta_kb": null
         }
       ]
     },
@@ -108,64 +81,37 @@
       "class": "KNNImputation",
       "uses_random_state": false,
       "seed": null,
-      "n_runs": 5,
-      "elapsed_mean_sec": 0.017925195395946503,
-      "elapsed_median_sec": 0.01622450305148959,
-      "elapsed_min_sec": 0.015914841962512583,
-      "elapsed_max_sec": 0.02492289198562503,
-      "elapsed_stdev_sec": 0.003920469114357721,
-      "peak_mean_kb": 160.948828125,
-      "peak_median_kb": 151.494140625,
-      "peak_min_kb": 151.029296875,
-      "peak_max_kb": 199.546875,
-      "peak_stdev_kb": 21.577938375694934,
-      "rss_delta_mean_kb": 141.6,
-      "rss_delta_max_kb": 708.0,
+      "n_runs": 2,
+      "elapsed_mean_sec": 0.0229354000184685,
+      "elapsed_median_sec": 0.0229354000184685,
+      "elapsed_min_sec": 0.014537599985487759,
+      "elapsed_max_sec": 0.03133320005144924,
+      "elapsed_stdev_sec": 0.011876282700738587,
+      "peak_mean_kb": 175.40966796875,
+      "peak_median_kb": 175.40966796875,
+      "peak_min_kb": 151.712890625,
+      "peak_max_kb": 199.1064453125,
+      "peak_stdev_kb": 33.512303904066734,
+      "rss_delta_mean_kb": null,
+      "rss_delta_max_kb": null,
       "runs": [
         {
           "run": 1,
-          "elapsed_sec": 0.02492289198562503,
-          "tracemalloc_current_kb": 67.6669921875,
-          "tracemalloc_peak_kb": 199.546875,
-          "rss_before_kb": 200184.0,
-          "rss_after_kb": 200892.0,
-          "rss_delta_kb": 708.0
+          "elapsed_sec": 0.03133320005144924,
+          "tracemalloc_current_kb": 66.615234375,
+          "tracemalloc_peak_kb": 199.1064453125,
+          "rss_before_kb": null,
+          "rss_after_kb": null,
+          "rss_delta_kb": null
         },
         {
           "run": 2,
-          "elapsed_sec": 0.01622450305148959,
-          "tracemalloc_current_kb": 18.41796875,
-          "tracemalloc_peak_kb": 151.501953125,
-          "rss_before_kb": 200892.0,
-          "rss_after_kb": 200892.0,
-          "rss_delta_kb": 0.0
-        },
-        {
-          "run": 3,
-          "elapsed_sec": 0.01598384097451344,
-          "tracemalloc_current_kb": 19.298828125,
-          "tracemalloc_peak_kb": 151.494140625,
-          "rss_before_kb": 200892.0,
-          "rss_after_kb": 200892.0,
-          "rss_delta_kb": 0.0
-        },
-        {
-          "run": 4,
-          "elapsed_sec": 0.015914841962512583,
-          "tracemalloc_current_kb": 18.2802734375,
-          "tracemalloc_peak_kb": 151.171875,
-          "rss_before_kb": 200892.0,
-          "rss_after_kb": 200892.0,
-          "rss_delta_kb": 0.0
-        },
-        {
-          "run": 5,
-          "elapsed_sec": 0.01657989900559187,
-          "tracemalloc_current_kb": 17.220703125,
-          "tracemalloc_peak_kb": 151.029296875,
-          "rss_before_kb": 200892.0,
-          "rss_after_kb": 200892.0,
-          "rss_delta_kb": 0.0
+          "elapsed_sec": 0.014537599985487759,
+          "tracemalloc_current_kb": 19.2890625,
+          "tracemalloc_peak_kb": 151.712890625,
+          "rss_before_kb": null,
+          "rss_after_kb": null,
+          "rss_delta_kb": null
         }
       ]
     }
@@ -173,7 +119,7 @@
   "comparison": {
     "faster": "media",
     "lower_peak_memory": "media",
-    "elapsed_ratio_knn_over_media": 2.5883591055843627,
-    "peak_ratio_knn_over_media": 7.0666655232737625
+    "elapsed_ratio_knn_over_media": 2.892706242467874,
+    "peak_ratio_knn_over_media": 7.463000664783115
   }
 }

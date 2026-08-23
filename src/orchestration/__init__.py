@@ -8,6 +8,6 @@ El orquestador de alto nivel (`PaperStatsFlow`) controla las etapas del flujo:
 sin duplicar la lógica estadística de los módulos de análisis y datos faltantes.
 """
 
-from src.orchestration.flow import PaperStatsFlow
+from src.orchestration.flow import PaperStatsFlow, ReportGenerationError
 
-__all__ = ["PaperStatsFlow"]
+__all__ = ["PaperStatsFlow", "ReportGenerationError"]

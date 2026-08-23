@@ -1,6 +1,8 @@
-# Dependencias fijadas para instalación reproducible
-# Probado con Python 3.14.4 (ver README.md). Instalar con: pip install -r requirements.txt
-# Versiones exactas obtenidas con `pip freeze` el 2026-08-20. No usar rangos >= para reproducibilidad.
+# Dependencias DIRECTAS fijadas para instalación reproducible.
+# Probado con Python 3.14.7 (Windows x64). Instalar con: pip install -r requirements.txt
+# Las versiones exactas de las dependencias transitivas se fijan en
+# requirements-lock.txt (generado con `pip freeze` del entorno verificado);
+# úsalo para reproducibilidad bit a bit: pip install -r requirements-lock.txt
 pypdf==6.15.0
 pandas==3.0.5
 numpy==2.5.1

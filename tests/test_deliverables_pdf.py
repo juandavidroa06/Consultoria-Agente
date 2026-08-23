@@ -12,6 +12,8 @@ Verifican:
 
 import pytest
 
+from pathlib import Path
+
 import pandas as pd
 
 from src.deliverables.generator import (
@@ -29,6 +31,7 @@ from src.deliverables.renderers.pdf import (
     _ANCHO_UTIL,
     _ESTILOS,
     _FUENTES,
+    _RUTAS_TNR,
     _build_story,
     _tabla,
     render_pdf,
@@ -36,10 +39,14 @@ from src.deliverables.renderers.pdf import (
 from src.orchestration.flow import PaperStatsFlow
 
 
+def _ttf_disponibles() -> bool:
+    return all(Path(p).is_file() for p in _RUTAS_TNR.values())
+
+
 def _entregable_ejemplo() -> Deliverable:
     return Deliverable(
         titulo="Resultado del análisis solicitado",
-        dataset="Trabajadores.xlsx",
+        dataset="datos_sinteticos.csv",
         secciones=[
             Section(
                 "Pregunta u objetivo",
@@ -105,10 +112,20 @@ def test_render_pdf_escribe_archivo(tmp_path):
     assert destino.read_bytes().startswith(b"%PDF")
 
 
-def test_pdf_usa_times_new_roman():
+def test_pdf_usa_familia_times_resuelta():
     datos = render_pdf(_entregable_ejemplo())
-    assert b"TimesNewRoman" in datos
-    assert _FUENTES["normal"] == "TimesNewRoman"
+    assert datos.startswith(b"%PDF")
+    if _ttf_disponibles():
+        assert b"TimesNewRoman" in datos
+        assert _FUENTES["normal"] == "TimesNewRoman"
+        assert _FUENTES["bold"] == "TimesNewRoman-Bold"
+    else:
+        assert set(_FUENTES.values()) == {
+            "Times-Roman",
+            "Times-Bold",
+            "Times-Italic",
+            "Times-BoldItalic",
+        }
 
 
 # ---------------------------------------------------------------------------
@@ -145,11 +162,12 @@ def test_tabla_no_excede_ancho_util():
 
 
 def test_estilos_usan_familia_times():
+    familia = set(_FUENTES.values())
     for est in _ESTILOS.values():
-        assert est.fontName.startswith("TimesNewRoman"), est.name
-    assert _ESTILOS["celda_cab"].fontName == "TimesNewRoman-Bold"
-    assert _ESTILOS["titulo"].fontName == "TimesNewRoman-Bold"
-    assert _ESTILOS["archivo"].fontName == "TimesNewRoman-Italic"
+        assert est.fontName in familia, est.name
+    assert _ESTILOS["celda_cab"].fontName == _FUENTES["bold"]
+    assert _ESTILOS["titulo"].fontName == _FUENTES["bold"]
+    assert _ESTILOS["archivo"].fontName == _FUENTES["italic"]
 
 
 # ---------------------------------------------------------------------------
@@ -186,6 +204,17 @@ def test_render_markdown_modulo_renderers():
 # Orden "Informe" en PaperStatsFlow
 # ---------------------------------------------------------------------------
 
+def _flujo_sintetico() -> PaperStatsFlow:
+    df = pd.DataFrame(
+        {
+            "edad": [25, 30, 35, 40, 45],
+            "ingreso": [1000.0, 1500.0, 2000.0, 2500.0, 3000.0],
+            "grupo": ["A", "A", "B", "B", "B"],
+        }
+    )
+    return PaperStatsFlow(df)
+
+
 def test_informe_sin_deliverable_error():
     flujo = PaperStatsFlow(pd.DataFrame({"A": [1.0, 2.0], "B": [3.0, 4.0]}))
     with pytest.raises(ValueError):
@@ -193,7 +222,7 @@ def test_informe_sin_deliverable_error():
 
 
 def test_informe_genera_pdf_del_ultimo_entregable(tmp_path):
-    flujo = PaperStatsFlow("data/raw/Trabajadores.xlsx")
+    flujo = _flujo_sintetico()
     flujo.entregable_analisis(
         "Primera pregunta",
         {"metodo": "X", "resultado": {"estadistico": "v1"}},
@@ -225,7 +254,7 @@ def test_informe_no_recalcula_ni_ejecuta_analisis(monkeypatch, tmp_path):
     ):
         monkeypatch.setattr(eda_engine, fn, _boom)
 
-    flujo = PaperStatsFlow("data/raw/Trabajadores.xlsx")
+    flujo = _flujo_sintetico()
     flujo.entregable_analisis(
         "¿Existe relación entre escolaridad e ingresos?",
         {"metodo": "Kruskal-Wallis", "resultado": {"estadistico": "H = 29.30"}},
@@ -236,7 +265,7 @@ def test_informe_no_recalcula_ni_ejecuta_analisis(monkeypatch, tmp_path):
 
 
 def test_informe_formato_invalido():
-    flujo = PaperStatsFlow("data/raw/Trabajadores.xlsx")
+    flujo = _flujo_sintetico()
     flujo.entregable_analisis("P", {"metodo": "X"})
     with pytest.raises(ValueError):
         flujo.informe(formato="html")

@@ -6,7 +6,7 @@ Documento on-demand con el plan futuro, el historial de decisiones y las instruc
 
 ## 1. ESTADO ACTUAL (AGOSTO 2026)
 
-El núcleo del proyecto está implementado y probado (**394 tests**):
+El núcleo del proyecto está implementado y probado (**405 tests**):
 
 - **Fase 1 — Núcleo de análisis de artículos científicos**: completada.
   - Extracción de texto de PDF/TXT/MD (`src/article/parser.py`).

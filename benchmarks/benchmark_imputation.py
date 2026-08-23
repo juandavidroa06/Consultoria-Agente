@@ -7,13 +7,16 @@ Compara:
 
 Mide por método, sobre el MISMO dataset y MISMA configuración:
   1. tiempo de ejecución con time.perf_counter()
-  2. memoria máxima con tracemalloc (peak) y resource.getrusage(RUSAGE_SELF).ru_maxrss
+  2. memoria máxima con tracemalloc (peak) y, si la plataforma lo permite
+     (Linux/macOS), resource.getrusage(RUSAGE_SELF).ru_maxrss; en Windows esos
+     campos se reportan como null (degradación controlada)
 
 No modifica src/, tests/, README.md ni requirements.txt. Es un script aislado
 que importa únicamente la API pública de src/missing_data.
 
 Uso:
-  .venv/bin/python benchmarks/benchmark_imputation.py
+  .venv/bin/python benchmarks/benchmark_imputation.py            # Linux/macOS
+  .venv\\Scripts\\python benchmarks/benchmark_imputation.py       # Windows
   # o con parámetros:
   .venv/bin/python benchmarks/benchmark_imputation.py --runs 7 --dataset "data/raw/Drug Price.xlsx"
 
@@ -27,7 +30,6 @@ mismo DataFrame copiado por ejecución, mismo orden, n_runs repetidas.
 import argparse
 import json
 import platform
-import resource
 import statistics
 import sys
 import time
@@ -35,6 +37,11 @@ import tracemalloc
 from pathlib import Path
 
 import pandas as pd
+
+try:
+    import resource
+except ImportError:
+    resource = None  # Windows no incluye el módulo resource (solo Unix)
 
 # Permitir ejecución desde raíz y desde benchmarks/
 ROOT = Path(__file__).resolve().parents[1]
@@ -47,6 +54,12 @@ DATASET_DEFAULT = ROOT / "data" / "raw" / "Drug Price.xlsx"
 OUTPUT_DIR = ROOT / "outputs" / "benchmarks"
 RANDOM_STATE = 42
 N_RUNS_DEFAULT = 5
+
+
+def _rss_maxrss_kb():
+    if resource is None:
+        return None
+    return float(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss)
 
 
 def load_dataset(path: Path) -> pd.DataFrame:
@@ -70,8 +83,8 @@ def benchmark_method(method_cls, df: pd.DataFrame, n_runs: int, **kwargs):
         method = method_cls(**kwargs) if kwargs else method_cls()
         df_copy = df.copy(deep=True)
 
-        # Memoria inicial de proceso (RSS)
-        rss_before = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+        # Memoria inicial de proceso (RSS); None si la plataforma no soporta resource
+        rss_before = _rss_maxrss_kb()
 
         tracemalloc.start()
         t0 = time.perf_counter()
@@ -80,7 +93,7 @@ def benchmark_method(method_cls, df: pd.DataFrame, n_runs: int, **kwargs):
         current, peak = tracemalloc.get_traced_memory()
         tracemalloc.stop()
 
-        rss_after = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+        rss_after = _rss_maxrss_kb()
         elapsed = t1 - t0
 
         # Validación: no mutó original, imputó algo
@@ -93,9 +106,11 @@ def benchmark_method(method_cls, df: pd.DataFrame, n_runs: int, **kwargs):
                 "elapsed_sec": elapsed,
                 "tracemalloc_current_kb": current / 1024,
                 "tracemalloc_peak_kb": peak / 1024,
-                "rss_before_kb": float(rss_before),
-                "rss_after_kb": float(rss_after),
-                "rss_delta_kb": float(rss_after - rss_before),
+                "rss_before_kb": rss_before,
+                "rss_after_kb": rss_after,
+                "rss_delta_kb": (rss_after - rss_before)
+                if rss_before is not None and rss_after is not None
+                else None,
             }
         )
         # Pequeña pausa para no saturar GC entre corridas (mismas condiciones de todas formas)
@@ -106,7 +121,7 @@ def benchmark_method(method_cls, df: pd.DataFrame, n_runs: int, **kwargs):
 def summarize(runs):
     elapsed = [r["elapsed_sec"] for r in runs]
     peak = [r["tracemalloc_peak_kb"] for r in runs]
-    rss_delta = [r["rss_delta_kb"] for r in runs]
+    rss_delta = [r["rss_delta_kb"] for r in runs if r["rss_delta_kb"] is not None]
     return {
         "n_runs": len(runs),
         "elapsed_mean_sec": statistics.mean(elapsed),
@@ -119,8 +134,8 @@ def summarize(runs):
         "peak_min_kb": min(peak),
         "peak_max_kb": max(peak),
         "peak_stdev_kb": statistics.stdev(peak) if len(peak) > 1 else 0.0,
-        "rss_delta_mean_kb": statistics.mean(rss_delta),
-        "rss_delta_max_kb": max(rss_delta),
+        "rss_delta_mean_kb": statistics.mean(rss_delta) if rss_delta else None,
+        "rss_delta_max_kb": max(rss_delta) if rss_delta else None,
         "runs": runs,
     }
 
@@ -147,7 +162,7 @@ def main():
     for cls, name in [(MeanImputation, "media"), (KNNImputation, "knn")]:
         try:
             cls().validate_input(df)
-        except Exception as e:
+        except (ValueError, TypeError) as e:
             raise RuntimeError(f"Método {name} no aplicable al dataset: {e}") from e
 
     # Benchmark aislado por método, mismas condiciones
@@ -187,7 +202,13 @@ def main():
             "measurement": {
                 "time": "time.perf_counter() por corrida, sobre copia fresca del DataFrame",
                 "memory_tracemalloc": "tracemalloc.get_traced_memory() peak KB (stdlib, sin dependencias externas)",
-                "memory_rss": "resource.getrusage(RUSAGE_SELF).ru_maxrss delta KB (RSS máximo del proceso)",
+                "memory_rss": (
+                    "resource.getrusage(RUSAGE_SELF).ru_maxrss delta KB (RSS máximo del proceso); "
+                    "null en plataformas sin módulo resource (Windows)"
+                    if resource is not None
+                    else "no disponible en esta plataforma (módulo resource ausente en Windows); "
+                    "usar tracemalloc peak como métrica de memoria"
+                ),
             },
             "reproducibility": "mismo dataset, misma copia por corrida, misma instancia fresca, mismo orden secuencial, sin paralelismo",
         },
@@ -231,6 +252,15 @@ def main():
     media = payload["results"]["media"]
     knn = payload["results"]["knn"]
     comp = payload["comparison"]
+    rss_disponible = resource is not None
+    celda_rss = (
+        lambda s: f"{s['rss_delta_mean_kb']:.1f}" if s["rss_delta_mean_kb"] is not None else "N/A"
+    )
+    linea_memoria = (
+        "- **Medición memoria:** `tracemalloc` peak KB (stdlib) + `resource.getrusage` RSS delta KB"
+        if rss_disponible
+        else "- **Medición memoria:** `tracemalloc` peak KB (stdlib); RSS delta no disponible en esta plataforma (módulo `resource` ausente en Windows)"
+    )
     md = f"""# Benchmark de recursos — Imputación (media vs knn)
 
 Generado: {payload["timestamp"]} — Python {payload["python_version"]}
@@ -241,15 +271,15 @@ Generado: {payload["timestamp"]} — Python {payload["python_version"]}
 - **Repeticiones por método:** {args.runs}
 - **Semilla:** no aplica (`uses_random_state=False` para ambos; documentada como `null`; si se comparasen `iterativo`/`mice` se fijaría `random_state=42`)
 - **Medición tiempo:** `time.perf_counter()` por corrida sobre copia fresca del DataFrame
-- **Medición memoria:** `tracemalloc` peak KB (stdlib) + `resource.getrusage` RSS delta KB
+{linea_memoria}
 - **Condiciones:** mismo dataset, misma máquina, ejecución secuencial, instancia fresca por corrida
 
 ## Resultados
 
 | método | clase | tiempo medio (s) | tiempo mediana (s) | tiempo min–max (s) | peak memoria medio (KB) | peak memoria max (KB) | RSS delta medio (KB) | n_runs | seed |
 |---|---|---|---|---|---|---|---|---|---|
-| media | MeanImputation | {media["elapsed_mean_sec"]:.4f} | {media["elapsed_median_sec"]:.4f} | {media["elapsed_min_sec"]:.4f}–{media["elapsed_max_sec"]:.4f} | {media["peak_mean_kb"]:.1f} | {media["peak_max_kb"]:.1f} | {media["rss_delta_mean_kb"]:.1f} | {media["n_runs"]} | — |
-| knn | KNNImputation (k=5) | {knn["elapsed_mean_sec"]:.4f} | {knn["elapsed_median_sec"]:.4f} | {knn["elapsed_min_sec"]:.4f}–{knn["elapsed_max_sec"]:.4f} | {knn["peak_mean_kb"]:.1f} | {knn["peak_max_kb"]:.1f} | {knn["rss_delta_mean_kb"]:.1f} | {knn["n_runs"]} | — |
+| media | MeanImputation | {media["elapsed_mean_sec"]:.4f} | {media["elapsed_median_sec"]:.4f} | {media["elapsed_min_sec"]:.4f}–{media["elapsed_max_sec"]:.4f} | {media["peak_mean_kb"]:.1f} | {media["peak_max_kb"]:.1f} | {celda_rss(media)} | {media["n_runs"]} | — |
+| knn | KNNImputation (k=5) | {knn["elapsed_mean_sec"]:.4f} | {knn["elapsed_median_sec"]:.4f} | {knn["elapsed_min_sec"]:.4f}–{knn["elapsed_max_sec"]:.4f} | {knn["peak_mean_kb"]:.1f} | {knn["peak_max_kb"]:.1f} | {celda_rss(knn)} | {knn["n_runs"]} | — |
 
 ## Comparación
 
@@ -259,7 +289,10 @@ Generado: {payload["timestamp"]} — Python {payload["python_version"]}
 ## Reproducibilidad
 
 ```bash
-.venv/bin/python benchmarks/benchmark_imputation.py --runs {args.runs} --dataset {payload["dataset"]["path"]}
+# Linux/macOS:
+.venv/bin/python benchmarks/benchmark_imputation.py --runs {args.runs} --dataset "{payload["dataset"]["path"]}"
+# Windows (PowerShell):
+.venv\\Scripts\\python benchmarks/benchmark_imputation.py --runs {args.runs} --dataset "{payload["dataset"]["path"]}"
 ```
 
 Payload JSON completo: `outputs/benchmarks/results.json`

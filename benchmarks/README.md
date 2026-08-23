@@ -31,7 +31,7 @@ Mismo `DataFrame` copiado con `df.copy(deep=True)` por cada corrida.
 ## Métricas
 
 - **Tiempo:** `time.perf_counter()` — wall-clock por corrida, instancia fresca del método.
-- **Memoria pico:** `tracemalloc.get_traced_memory()` peak KB (stdlib, sin `psutil` — verificado no instalado en `.venv`). Complementado con `resource.getrusage(RUSAGE_SELF).ru_maxrss` delta KB (RSS máximo del proceso, disponible en Linux).
+- **Memoria pico:** `tracemalloc.get_traced_memory()` peak KB (stdlib, sin `psutil`). Complementado con `resource.getrusage(RUSAGE_SELF).ru_maxrss` delta KB (RSS máximo del proceso), disponible en Linux/macOS; en Windows el módulo `resource` no existe, esos campos se reportan como `null`/`N/A` (degradación controlada) y la métrica de memoria es el peak de `tracemalloc`.
 - **Repeticiones:** `n_runs = 5` por defecto (configurable con `--runs`), estadísticas mean/median/min/max/stdev.
 
 Mismas condiciones: mismo dataset, misma máquina, ejecución secuencial sin paralelismo, misma semilla cuando aplique (aquí `null` para ambos; si aplicase, `random_state=42`).
@@ -53,7 +53,8 @@ Desde la raíz del proyecto, con el entorno activado:
 source .venv/bin/activate
 python benchmarks/benchmark_imputation.py
 # o sin activar:
-.venv/bin/python benchmarks/benchmark_imputation.py
+.venv/bin/python benchmarks/benchmark_imputation.py            # Linux/macOS
+.venv/Scripts/python benchmarks/benchmark_imputation.py        # Windows
 
 # con parámetros:
 .venv/bin/python benchmarks/benchmark_imputation.py --runs 7 --dataset data/raw/Drug\ Price.xlsx

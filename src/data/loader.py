@@ -2,9 +2,12 @@
 Módulo para la carga de datos desde archivos CSV y Excel.
 """
 
+import zipfile
 from pathlib import Path
 from typing import Union, Optional
+
 import pandas as pd
+
 from src.utils.logger import setup_logger
 
 logger = setup_logger("DataLoader")
@@ -30,7 +33,8 @@ def load_data(
     Raises:
         FileNotFoundError: Si el archivo especificado no existe.
         ValueError: Si el formato del archivo no es soportado.
-        RuntimeError: Si ocurre un error durante la lectura del archivo.
+        RuntimeError: Si ocurre un error durante la lectura del archivo
+            (CSV malformado, Excel corrupto, hoja inexistente, fallo de E/S).
     """
     path = Path(file_path)
 
@@ -63,7 +67,27 @@ def load_data(
 
     except FileNotFoundError:
         raise
-    except Exception as e:
-        msg = f"Error al leer el archivo '{path.name}': {e}"
+    except zipfile.BadZipFile as e:
+        msg = f"El archivo '{path.name}' no es un Excel válido (contenedor dañado): {e}"
+        logger.error(msg)
+        raise RuntimeError(msg) from e
+    except pd.errors.ParserError as e:
+        msg = f"El CSV '{path.name}' está mal formado (filas con número inconsistente de campos): {e}"
+        logger.error(msg)
+        raise RuntimeError(msg) from e
+    except KeyError as e:
+        msg = f"Hoja inexistente en '{path.name}': {e}. Verifique sheet_name."
+        logger.error(msg)
+        raise RuntimeError(msg) from e
+    except UnicodeDecodeError as e:
+        msg = f"No se pudo decodificar '{path.name}' como texto: {e}"
+        logger.error(msg)
+        raise RuntimeError(msg) from e
+    except OSError as e:
+        msg = f"Fallo de E/S al leer '{path.name}': {e}"
+        logger.error(msg)
+        raise RuntimeError(msg) from e
+    except ValueError as e:
+        msg = f"Contenido inválido al leer '{path.name}': {e}"
         logger.error(msg)
         raise RuntimeError(msg) from e

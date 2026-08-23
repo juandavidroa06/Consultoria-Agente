@@ -50,6 +50,16 @@ ESTADO_ESPERANDO_DECISION = "esperando_decision"
 ESTADO_DATOS_PREPARADOS = "datos_preparados"
 ESTADO_REVISAR = "revisar"
 
+
+class ReportGenerationError(RuntimeError):
+    """Error al generar o escribir la representación (PDF) de un entregable.
+
+    Se levanta cuando el renderizado o la escritura del informe falla por
+    causas de E/S o de contenido del entregable; conserva la causa original
+    (`__cause__`) y no altera la máquina de estados.
+    """
+
+
 # --- Decisiones de recomendación de imputación -------------------------------
 DECISION_METODO_UNICO = "metodo_unico"
 DECISION_COMPARAR_ALTERNATIVAS = "comparar_alternativas"
@@ -377,7 +387,16 @@ class PaperStatsFlow:
         if formato == "pdf":
             if output_path is None:
                 output_path = self._ruta_informe_default()
-            _render(self._last_deliverable, formato="pdf", output_path=output_path)
+            try:
+                _render(self._last_deliverable, formato="pdf", output_path=output_path)
+            except (OSError, ValueError, TypeError, KeyError) as exc:
+                logger.error(
+                    f"informe(): fallo al generar el PDF en '{output_path}': {exc}"
+                )
+                raise ReportGenerationError(
+                    f"No se pudo generar el informe PDF en '{output_path}': "
+                    f"verifique que la ruta existe y es escribible. Causa: {exc}"
+                ) from exc
             ruta = str(Path(output_path))
             logger.info(f"informe(): PDF generado en '{ruta}'.")
             return ruta

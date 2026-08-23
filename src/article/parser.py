@@ -60,9 +60,22 @@ class ArticleParser:
                 "text": full_text,
                 "pages": pages_text,
             }
-        except Exception as e:
-            logger.error(f"Error al leer el archivo PDF {self.file_path}: {e}")
-            raise RuntimeError(f"Fallo en la lectura del PDF: {e}") from e
+        except pypdf.errors.PdfReadError as e:
+            logger.error(f"PDF corrupto o ilegible {self.file_path}: {e}")
+            raise RuntimeError(
+                f"El PDF '{self.file_path.name}' está corrupto, truncado o no puede "
+                f"leerse: {e}"
+            ) from e
+        except OSError as e:
+            logger.error(f"Fallo de E/S al leer el PDF {self.file_path}: {e}")
+            raise RuntimeError(
+                f"Fallo de E/S al leer el PDF '{self.file_path.name}': {e}"
+            ) from e
+        except ValueError as e:
+            logger.error(f"Contenido no extraíble del PDF {self.file_path}: {e}")
+            raise RuntimeError(
+                f"No se pudo extraer texto del PDF '{self.file_path.name}': {e}"
+            ) from e
 
     def _parse_text(self) -> Dict[str, Any]:
         try:
@@ -76,6 +89,8 @@ class ArticleParser:
                 "text": content.strip(),
                 "pages": [content.strip()],
             }
-        except Exception as e:
-            logger.error(f"Error al leer el archivo de texto {self.file_path}: {e}")
-            raise RuntimeError(f"Fallo en la lectura del archivo de texto: {e}") from e
+        except OSError as e:
+            logger.error(f"Fallo de E/S al leer el archivo de texto {self.file_path}: {e}")
+            raise RuntimeError(
+                f"Fallo de E/S al leer el archivo de texto '{self.file_path.name}': {e}"
+            ) from e

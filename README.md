@@ -6,7 +6,7 @@ PaperStats es un agente especializado en consultoría estadística, investigaci�
 
 ## Requisitos
 
-- **Python 3.11+** (probado con **Python 3.14.4** — ver `.venv/pyvenv.cfg`). Recomendado: Python 3.14.
+- **Python 3.11+** (probado con **Python 3.14.7** en Windows x64 — ver `.venv/pyvenv.cfg`). Recomendado: Python 3.14.
 - `pip` >= 23 y `venv` (incluido en la distribución estándar de Python).
 - Sistema operativo: Linux / macOS / Windows (comandos abajo para bash; en Windows ver sección de activación: PowerShell `.\.venv\Scripts\Activate.ps1` o CMD ` .venv\Scripts\activate.bat`).
 
@@ -19,7 +19,7 @@ PaperStats es un agente especializado en consultoría estadística, investigaci�
 **Opción A — Clonar (si dispone de la URL del repositorio remoto):**
 
 ```bash
-git clone <URL-del-repositorio> consultoria
+git clone https://github.com/juandavidroa06/Consultoria-Agente.git consultoria
 cd consultoria
 ```
 
@@ -35,8 +35,18 @@ cd consultoria
 
 ### 2. Crear el entorno virtual
 
+En Linux / macOS:
+
 ```bash
 python3 -m venv .venv
+```
+
+En Windows (PowerShell o CMD):
+
+```powershell
+py -m venv .venv
+# alternativa si `py` no está disponible:
+python -m venv .venv
 ```
 
 Esto crea la carpeta `.venv/` (ignorada por `.gitignore`). No instales paquetes globalmente.
@@ -71,12 +81,17 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-`requirements.txt` contiene versiones **fijadas con `==`** (ej. `pandas==3.0.5`, `numpy==2.5.1`) obtenidas con `pip freeze` el 2026-08-20 para instalación reproducible. No uses rangos `>=` si buscas reproducibilidad exacta.
+`requirements.txt` fija las **dependencias directas con `==`** (ej. `pandas==3.0.5`, `numpy==2.5.1`). Para reproducibilidad bit a bit (incluidas las dependencias transitivas), use `requirements-lock.txt`, generado con `pip freeze` del entorno verificado (Python 3.14.7, 2026-08-23):
+
+```bash
+pip install -r requirements.txt        # instalación normal
+pip install -r requirements-lock.txt   # instalación bit a bit
+```
 
 ### 5. Verificar la instalación
 
 ```bash
-python --version   # debe mostrar 3.11+ (probado: 3.14.4)
+python --version   # debe mostrar 3.11+ (probado: 3.14.7)
 pip list | grep -E "pandas|numpy|scipy|scikit-learn|reportlab"
 ```
 
@@ -95,16 +110,23 @@ pip show pandas numpy scipy scikit-learn reportlab
 Con el entorno activado, desde la raíz del proyecto:
 
 ```bash
-./.venv/bin/pytest -v
+# Linux / macOS:
+.venv/bin/pytest -v
 # o, con el entorno activado:
 pytest -v
 # ejecución resumida:
 pytest -q
 ```
 
-**Resultado esperado:** `394 passed` (sin fallos). Warnings esperados: 2 (deprecation de `seaborn`/`matplotlib` si aparecen, no afectan el resultado). Ver `docs/project_map.md` para el mapeo módulo → tests.
+En Windows (PowerShell, sin activar):
 
-Comando de referencia según `AGENTS.md §7`: `./.venv/bin/pytest -v`.
+```powershell
+.venv\Scripts\pytest.exe -v
+```
+
+**Resultado esperado:** `405 passed` (sin fallos). Warnings esperados: ~9 (deprecation de `seaborn`/`matplotlib`/`statsmodels` si aparecen, no afectan el resultado). Ver `docs/project_map.md` para el mapeo módulo → tests.
+
+Comando de referencia según `AGENTS.md §7`: `./.venv/bin/pytest -v` (Linux/macOS) o `.venv\Scripts\pytest.exe -v` (Windows).
 
 ---
 
@@ -181,7 +203,7 @@ if flow.state == "datos_preparados":
 ```python
 from src.orchestration.flow import PaperStatsFlow
 
-flow = PaperStatsFlow("data/raw/Drug Price.xlsx")  # o "data/raw/Trabajadores.xlsx"
+flow = PaperStatsFlow("data/raw/Drug Price.xlsx")  # dataset de ejemplo versionado
 diag = flow.diagnose()
 print(diag["estado"], diag["dataset"])
 ```
@@ -197,8 +219,10 @@ consultoria/
 │
 ├── AGENTS.md                   # Reglas permanentes del agente (condensado)
 ├── README.md                   # Esta guía — instrucciones reproducibles
-├── requirements.txt            # Dependencias fijadas con == (reproducibilidad)
-├── .gitignore                  # Excluye .venv/, outputs/, data/raw/, articles/
+├── requirements.txt            # Dependencias directas fijadas con ==
+├── requirements-lock.txt       # Freeze completo (directas + transitivas, bit a bit)
+├── .env.example                # Documenta que NO se requieren variables de entorno
+├── .gitignore                  # Excluye .venv/, outputs/ (con excepciones), data/raw/ (con excepción)
 │
 ├── articles/                   # Artículos PDF de entrada (no versionados)
 ├── data/
@@ -208,10 +232,11 @@ consultoria/
 │   ├── project_map.md          # Mapa módulos → API pública → tests (fuente estructural)
 │   ├── metodologia.md          # Inventario metodológico completo
 │   ├── arquitectura_agente.md  # Flujo P-FLOW, estados y guardarraíles
-│   └── roadmap.md              # Estado fases 1-12 (394 tests) y plan futuro
+│   ├── prompts_evolucion.md    # Historial v1 → v2 del prompt del subagente
+│   └── roadmap.md              # Estado fases 1-12 (405 tests) y plan futuro
 │
 ├── benchmarks/                 # Benchmarks reproducibles (Criterio 3)
-│   ├── benchmark_imputation.py # Benchmark media vs knn (time.perf_counter + tracemalloc)
+│   ├── benchmark_imputation.py # Benchmark media vs knn (perf_counter + tracemalloc + RSS si disponible)
 │   └── README.md               # Documentación del benchmark
 │
 ├── src/                        # Código fuente modular
@@ -264,7 +289,7 @@ consultoria/
 │   ├── tables/                 # Tablas generadas
 │   └── reports/                # Informes PDF/Markdown generados (ej. <dataset>_informe_<marca>.pdf)
 │
-└── tests/                      # Suite de pruebas unitarias (394 tests)
+└── tests/                      # Suite de pruebas unitarias (405 tests)
     ├── test_parser.py / test_extractor.py / test_analyzer.py / test_generator.py
     ├── test_data_loader.py / test_data_validator.py
     ├── test_eda.py / test_hypothesis.py / test_hypothesis_additional.py
@@ -273,6 +298,7 @@ consultoria/
     ├── test_imputation_methods.py / test_imputation_registry.py / test_imputation_evaluation.py
     ├── test_imputation_selector.py / test_imputation_validation.py / test_pipeline.py
     ├── test_orchestration_flow.py / test_deliverables.py / test_deliverables_pdf.py
+    ├── test_error_handling_local.py
     └── test_audit_e9.py / test_import_regression.py
 ```
 
@@ -313,7 +339,7 @@ Ver `docs/roadmap.md` y `docs/metodologia.md §10`: detección (E1), diagnóstic
 
 ## Resultado esperado de la ejecución
 
-1. **Tests:** `pytest -q` → `394 passed` en ~25–30 s. Código de salida 0. Los tests son la especificación del comportamiento (ver `docs/project_map.md §2`).
+1. **Tests:** `pytest -q` → `405 passed` en ~45–60 s. Código de salida 0. Los tests son la especificación del comportamiento (ver `docs/project_map.md §2`).
 2. **Ejemplo P-FLOW sin faltantes:** `diagnose()` retorna `estado="sin_faltantes"`, `entregable_inicial()` produce un `Deliverable` con secciones de calidad y EDA (sin pruebas inferenciales), `analizar()` retorna dict con `executed_test_results` y `missing_data` (E1-E3).
 3. **Ejemplo con faltantes:** `diagnose()` retorna `esperando_decision`; `imputar()` sin decisión lanza `ValueError`; con `accept_recommendation=True` o `method_override` imputa y valida (E6); si `"Aceptable"` → `datos_preparados`, si `"Revisar"` con `strict=True` → `ValidationRevisionError`.
 4. **Informe PDF:** `flow.informe()` genera `outputs/reports/<dataset>_informe_<YYYYMMDD_HHMMSS>.pdf` en Times New Roman (TTF con fallback Type1), sin recalcular estadísticas. Sin `Deliverable` previo → `ValueError`.
@@ -333,6 +359,6 @@ Toda ejecución es local y determinista salvo E4 (evaluación artificial con `fr
 
 ## Notas de reproducibilidad
 
-- Datos: `data/raw/Drug Price.xlsx` está versionado como dataset de ejemplo (excepción en `.gitignore`); el resto de `data/raw/`, `data/processed/` y `outputs/` no se versiona (ver `.gitignore`); usa `.gitkeep` para preservar carpetas vacías.
-- No hay claves API ni envío a servicios externos por defecto (`AGENTS.md §2`).
-- Para citar versiones exactas, guarda la salida de `pip freeze` junto al informe: `pip freeze > outputs/reports/versiones_$(date +%Y%m%d).txt`.
+- Datos: `data/raw/Drug Price.xlsx` está versionado como dataset de ejemplo (excepción explícita en `.gitignore`); el resto de `data/raw/`, `articles/` y `data/processed/` no se versiona. De `outputs/` se versionan selectivamente artefactos reproducibles: los benchmarks (`outputs/benchmarks/results.json|.md`) y ejemplos de entregables (p. ej. `outputs/grafico_regresion_car_sales.png`, `outputs/informe_DrugPrice_*.md`); el resto de salidas queda fuera del control de versiones (ver `.gitignore`).
+- No hay claves API ni variables de entorno requeridas (ver `.env.example`); todo el procesamiento es local y determinista (`AGENTS.md §2`).
+- Para citar versiones exactas, use `requirements-lock.txt`; si necesita el detalle del entorno actual: `pip freeze > outputs/reports/versiones_20260823.txt`.

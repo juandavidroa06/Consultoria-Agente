@@ -36,7 +36,7 @@ consultoría/
 │   ├── tables/               # Tablas generadas
 │   └── reports/              # Informes Markdown generados
 │
-├── tests/                    # Suite de pruebas unitarias (394 tests)
+├── tests/                    # Suite de pruebas unitarias (405 tests)
 └── notebooks/                # (futuro) Notebooks de análisis reproducible
 ```
 
@@ -77,7 +77,7 @@ Nota: `PaperStat/` es un directorio vacío heredado de un nombre anterior del pr
 | `src/deliverables/renderers/markdown.py` | `render_markdown(deliverable)` — representación Markdown (lógica extraída de `generator.render_markdown`) | `tests/test_deliverables_pdf.py` |
 | `src/deliverables/renderers/pdf.py` | `render_pdf(deliverable, output_path=None)` — PDF reportlab en Times New Roman (TTF con fallback Type1 Times); jerarquía, tablas con `Paragraph`/`colWidths` proporcionales, pie de página; `_build_story`, `_tabla`, `_col_widths`, `_ESTILOS`, `_FUENTES` | `tests/test_deliverables_pdf.py` (16) |
 
-Total de tests: 394.
+Total de tests: 405.
 
 ## 3. API EXPORTADA (src/*/__init__.py)
 
@@ -105,7 +105,7 @@ reject_h0, interpretation
 
 ## 5. IMPLEMENTADO vs PENDIENTE
 
-**Implementado y probado (394 tests):** ingestión de artículos (PDF/TXT/MD), extracción heurística de 17+ puntos, análisis metodológico, carga CSV/Excel, validación de calidad, EDA, 22 pruebas de hipótesis (10 originales + 12 adicionales del §2.2), analizador autónomo de datasets (con sección `missing_data`), perfil estructural (`DatasetProfile`), 5 visualizaciones, informes Markdown (artículo, dataset y datos faltantes), capa de abstracción LLM (solo heurística), el **módulo de datos faltantes E1–E7** (detección, diagnóstico, 10 métodos de imputación, evaluación artificial, selección, validación y pipeline integrado), el **orquestador P-FLOW** (`PaperStatsFlow`: diagnóstico → decisión de imputación → análisis bajo demanda), la **capa de entregables de usuario** (`src/deliverables/`: presentación pura con modelo neutral y representación Markdown desacoplada) y la **orden "Informe"** (`src/deliverables/renderers/`: PDF en Times New Roman generado directamente del modelo neutral, sin recalcular).
+**Implementado y probado (405 tests):** ingestión de artículos (PDF/TXT/MD), extracción heurística de 17+ puntos, análisis metodológico, carga CSV/Excel, validación de calidad, EDA, 22 pruebas de hipótesis (10 originales + 12 adicionales del §2.2), analizador autónomo de datasets (con sección `missing_data`), perfil estructural (`DatasetProfile`), 5 visualizaciones, informes Markdown (artículo, dataset y datos faltantes), capa de abstracción LLM (solo heurística), el **módulo de datos faltantes E1–E7** (detección, diagnóstico, 10 métodos de imputación, evaluación artificial, selección, validación y pipeline integrado), el **orquestador P-FLOW** (`PaperStatsFlow`: diagnóstico → decisión de imputación → análisis bajo demanda), la **capa de entregables de usuario** (`src/deliverables/`: presentación pura con modelo neutral y representación Markdown desacoplada) y la **orden "Informe"** (`src/deliverables/renderers/`: PDF en Times New Roman generado directamente del modelo neutral, sin recalcular).
 
 **Pendiente (ver `docs/roadmap.md`):** `src/models/`, bayesiano, riesgo/actuaría, series de tiempo, ML, PCA/clustering, Ollama real, Streamlit, notebooks.
 

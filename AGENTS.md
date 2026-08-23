@@ -30,7 +30,7 @@ El usuario es estudiante de Estadística y utiliza este agente para estudiar, in
 
 ### 3.1 Estado actual del proyecto
 
-- Fases 1–12 completadas; **394 tests**. Detalles en `docs/roadmap.md`.
+- Fases 1–12 completadas; **405 tests**. Detalles en `docs/roadmap.md`.
 
 ### 3.2 P-FLOW
 
@@ -167,7 +167,9 @@ Módulos implementados (API y tests en `docs/project_map.md`; metodología compl
 - `src/reports/`: informes técnicos Markdown (artículo, dataset y datos faltantes) — ver §3.9.
 - `src/utils/`: logger.
 
-Estado actual: fases 1–12 completadas; **394 tests**. Detalles en `docs/roadmap.md`.
+Estado actual: fases 1–12 completadas; **405 tests**. Detalles en `docs/roadmap.md`.
+
+Versión del prompt del subagente: `.opencode/agents/paperstats.md` v2 — historial y justificación de iteraciones en `docs/prompts_evolucion.md`.
 
 Pendiente (no implementar aún): modelos avanzados (`src/models/`), bayesiano, riesgo/actuaría, Ollama, Streamlit, notebooks. Detalles en `docs/roadmap.md`.
 
