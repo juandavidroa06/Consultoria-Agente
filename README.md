@@ -362,3 +362,13 @@ Toda ejecución es local y determinista salvo E4 (evaluación artificial con `fr
 - Datos: `data/raw/Drug Price.xlsx` está versionado como dataset de ejemplo (excepción explícita en `.gitignore`); el resto de `data/raw/`, `articles/` y `data/processed/` no se versiona. De `outputs/` se versionan selectivamente artefactos reproducibles: los benchmarks (`outputs/benchmarks/results.json|.md`) y ejemplos de entregables (p. ej. `outputs/grafico_regresion_car_sales.png`, `outputs/informe_DrugPrice_*.md`); el resto de salidas queda fuera del control de versiones (ver `.gitignore`).
 - No hay claves API ni variables de entorno requeridas (ver `.env.example`); todo el procesamiento es local y determinista (`AGENTS.md §2`).
 - Para citar versiones exactas, use `requirements-lock.txt`; si necesita el detalle del entorno actual: `pip freeze > outputs/reports/versiones_20260823.txt`.
+## Ejecutar Dashboard Interactivo
+
+Para visualizar los datos de forma interactiva:
+
+```bash
+# Instalar dependencias adicionales (si no están)
+pip install streamlit plotly
+
+# Ejecutar el dashboard
+python run_dashboard.py

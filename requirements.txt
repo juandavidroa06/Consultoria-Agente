@@ -1,8 +1,8 @@
-# Dependencias DIRECTAS fijadas para instalación reproducible.
+﻿# Dependencias DIRECTAS fijadas para instalaciÃ³n reproducible.
 # Probado con Python 3.14.7 (Windows x64). Instalar con: pip install -r requirements.txt
 # Las versiones exactas de las dependencias transitivas se fijan en
 # requirements-lock.txt (generado con `pip freeze` del entorno verificado);
-# úsalo para reproducibilidad bit a bit: pip install -r requirements-lock.txt
+# Ãºsalo para reproducibilidad bit a bit: pip install -r requirements-lock.txt
 pypdf==6.15.0
 pandas==3.0.5
 numpy==2.5.1
@@ -14,3 +14,5 @@ matplotlib==3.11.1
 seaborn==0.13.2
 reportlab==5.0.0
 pytest==9.1.1
+streamlit==1.45.1
+plotly==6.3.0
