@@ -17,7 +17,20 @@ outputs/tables/*
 outputs/reports/*
 !outputs/**/.gitkeep
 data/raw/*
+# Bases de datos versionadas como ejemplos de trabajo (visibles para colaboradores)
+!data/raw/Agricultura.xlsx
+!data/raw/CLASS.xlsx
+!data/raw/CoreHouseholdIndicators.xlsx
 !data/raw/Drug Price.xlsx
+!data/raw/Economic Freedom 2025.xlsx
+!data/raw/FertilizantesAfrica.xlsx
+!data/raw/HCI_2018.xlsx
+!data/raw/ICA.xlsx
+!data/raw/IQ.miss.xlsx
+!data/raw/monthly-car-sales.csv
+!data/raw/nasogastrica.xlsx
+!data/raw/Reg*Andina.csv
+!data/raw/risk_factors_cervical_cancer.xlsx
 data/processed/*
 !data/**/.gitkeep
 articles/*

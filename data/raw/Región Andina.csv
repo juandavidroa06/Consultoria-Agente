@@ -1,0 +1,2939 @@
+Departamento;Municipio;División;Personas en hogares particulares;Sin servicio de energía eléctrica;No tiene;Estrato 1;Estrato 2;Estrato 3;Estrato 4;Estrato 5;Estrato 6;No sabe o no responde
+05_Antioquia;05001_Medellín;Total;2.359.801;10.399;5.456;342.441;871.165;685.602;207.743;148.912;86.241;1.842
+05_Antioquia;;Cabecera;2.320.248;9.717;5.031;336.331;842.479;682.898;207.260;148.698;86.054;1.780
+05_Antioquia;;Centro poblado;19.989;122;220;1.747;16.401;1.284;168;20;6;21
+05_Antioquia;;Rural disperso;19.564;560;205;4.363;12.285;1.420;315;194;181;41
+05_Antioquia;05002_Abejorral;Total;17.573;130;487;8.091;8.405;433;4;3;0;20
+05_Antioquia;;Cabecera;6.931;22;30;2.221;4.300;337;1;0;0;20
+05_Antioquia;;Centro poblado;437;1;2;208;223;0;0;3;0;0
+05_Antioquia;;Rural disperso;10.205;107;455;5.662;3.882;96;3;0;0;0
+05_Antioquia;05004_Abriaquí;Total;2.141;108;12;681;1.197;132;1;6;4;0
+05_Antioquia;;Cabecera;708;6;2;76;562;55;0;6;1;0
+05_Antioquia;;Centro poblado;90;4;0;56;29;1;0;0;0;0
+05_Antioquia;;Rural disperso;1.343;98;10;549;606;76;1;0;3;0
+05_Antioquia;05021_Alejandría;Total;3.826;37;98;1.065;2.331;283;8;2;1;1
+05_Antioquia;;Cabecera;2.202;10;13;261;1.651;264;3;0;0;0
+05_Antioquia;;Rural disperso;1.624;27;85;804;680;19;5;2;1;1
+05_Antioquia;05030_Amagá;Total;26.687;267;68;10.043;15.030;1.116;90;46;5;22
+05_Antioquia;;Cabecera;12.938;35;16;1.625;10.546;689;15;6;0;6
+05_Antioquia;;Centro poblado;8.089;138;27;4.176;3.660;70;8;0;0;10
+05_Antioquia;;Rural disperso;5.660;94;25;4.242;824;357;67;40;5;6
+05_Antioquia;05031_Amalfi;Total;20.141;1.533;189;8.077;6.432;3.828;48;12;13;9
+05_Antioquia;;Cabecera;11.591;50;19;3.081;4.928;3.477;15;8;4;9
+05_Antioquia;;Centro poblado;212;6;0;122;73;11;0;0;0;0
+05_Antioquia;;Rural disperso;8.338;1.477;170;4.874;1.431;340;33;4;9;0
+05_Antioquia;05034_Andes;Total;37.027;447;291;10.015;23.857;2.252;105;11;11;38
+05_Antioquia;;Cabecera;18.099;32;168;6.167;9.930;1.698;64;10;7;23
+05_Antioquia;;Centro poblado;3.428;12;85;841;2.422;58;0;0;0;10
+05_Antioquia;;Rural disperso;15.500;403;38;3.007;11.505;496;41;1;4;5
+05_Antioquia;05036_Angelópolis;Total;5.013;46;18;2.103;2.541;298;3;0;0;4
+05_Antioquia;;Cabecera;1.962;11;0;352;1.342;256;1;0;0;0
+05_Antioquia;;Centro poblado;976;11;0;408;540;17;0;0;0;0
+05_Antioquia;;Rural disperso;2.075;24;18;1.343;659;25;2;0;0;4
+05_Antioquia;05038_Angostura;Total;10.500;170;79;6.250;3.328;552;5;2;4;110
+05_Antioquia;;Cabecera;2.369;8;5;641;1.243;434;1;2;0;35
+05_Antioquia;;Centro poblado;393;0;15;29;292;57;0;0;0;0
+05_Antioquia;;Rural disperso;7.738;162;59;5.580;1.793;61;4;0;4;75
+05_Antioquia;05040_Anorí;Total;14.477;1.391;45;7.063;4.963;969;3;3;0;40
+05_Antioquia;;Cabecera;7.031;247;17;1.853;3.964;911;2;3;0;34
+05_Antioquia;;Centro poblado;596;8;4;577;7;0;0;0;0;0
+05_Antioquia;;Rural disperso;6.850;1.136;24;4.633;992;58;1;0;0;6
+05_Antioquia;05042_Santa Fé De Antioquia;Total;22.966;375;37;10.876;8.803;2.207;288;280;87;13
+05_Antioquia;;Cabecera;15.278;153;25;4.892;7.839;2.038;218;100;5;8
+05_Antioquia;;Centro poblado;698;22;1;572;100;3;0;0;0;0
+05_Antioquia;;Rural disperso;6.990;200;11;5.412;864;166;70;180;82;5
+05_Antioquia;05044_Anzá;Total;6.386;210;31;3.665;2.092;374;0;0;0;14
+05_Antioquia;;Cabecera;1.180;5;1;341;522;306;0;0;0;5
+05_Antioquia;;Centro poblado;802;12;1;306;459;24;0;0;0;0
+05_Antioquia;;Rural disperso;4.404;193;29;3.018;1.111;44;0;0;0;9
+05_Antioquia;05045_Apartadó;Total;112.396;595;404;63.891;32.690;12.564;1.923;161;8;160
+05_Antioquia;;Cabecera;91.731;262;118;45.041;31.691;12.451;1.896;158;8;106
+05_Antioquia;;Centro poblado;13.399;72;27;12.770;449;33;10;0;0;38
+05_Antioquia;;Rural disperso;7.266;261;259;6.080;550;80;17;3;0;16
+05_Antioquia;05051_Arboletes;Total;26.279;286;145;21.705;3.665;436;13;4;2;23
+05_Antioquia;;Cabecera;9.613;87;64;5.612;3.455;370;0;2;2;21
+05_Antioquia;;Centro poblado;2.516;29;16;2.429;40;1;0;0;0;1
+05_Antioquia;;Rural disperso;14.150;170;65;13.664;170;65;13;2;0;1
+05_Antioquia;05055_Argelia;Total;6.733;131;201;5.191;1.096;64;1;3;2;44
+05_Antioquia;;Cabecera;2.973;32;89;2.128;682;34;1;3;2;2
+05_Antioquia;;Rural disperso;3.760;99;112;3.063;414;30;0;0;0;42
+05_Antioquia;05059_Armenia;Total;3.817;48;0;735;2.493;526;7;8;0;0
+05_Antioquia;;Cabecera;1.359;5;0;125;773;446;2;8;0;0
+05_Antioquia;;Centro poblado;264;4;0;85;170;5;0;0;0;0
+05_Antioquia;;Rural disperso;2.194;39;0;525;1.550;75;5;0;0;0
+05_Antioquia;05079_Barbosa;Total;44.621;210;199;8.153;32.738;2.939;177;107;58;40
+05_Antioquia;;Cabecera;21.469;97;29;2.796;16.336;2.160;21;9;0;21
+05_Antioquia;;Centro poblado;5.507;31;51;1.343;3.921;150;4;7;0;0
+05_Antioquia;;Rural disperso;17.645;82;119;4.014;12.481;629;152;91;58;19
+05_Antioquia;05086_Belmira;Total;5.349;56;6;1.096;3.629;546;13;1;0;2
+05_Antioquia;;Cabecera;1.602;15;3;209;1.261;112;0;0;0;2
+05_Antioquia;;Centro poblado;266;0;0;52;185;29;0;0;0;0
+05_Antioquia;;Rural disperso;3.481;41;3;835;2.183;405;13;1;0;0
+05_Antioquia;05088_Bello;Total;477.660;3.948;7.427;126.414;156.105;158.252;24.826;230;108;350
+05_Antioquia;;Cabecera;456.897;3.697;4.229;115.015;151.340;157.371;24.663;174;70;338
+05_Antioquia;;Centro poblado;12.300;86;2.798;7.563;1.411;412;27;0;0;3
+05_Antioquia;;Rural disperso;8.463;165;400;3.836;3.354;469;136;56;38;9
+05_Antioquia;05091_Betania;Total;8.589;158;57;1.296;6.383;676;0;5;1;13
+05_Antioquia;;Cabecera;3.400;49;2;537;2.503;308;0;0;1;0
+05_Antioquia;;Centro poblado;94;0;0;69;25;0;0;0;0;0
+05_Antioquia;;Rural disperso;5.095;109;55;690;3.855;368;0;5;0;13
+05_Antioquia;05093_Betulia;Total;15.069;358;111;8.743;3.812;837;154;21;15;1.018
+05_Antioquia;;Cabecera;4.163;61;25;1.646;1.843;484;12;1;4;87
+05_Antioquia;;Centro poblado;997;9;9;408;412;103;1;0;0;55
+05_Antioquia;;Rural disperso;9.909;288;77;6.689;1.557;250;141;20;11;876
+05_Antioquia;05101_Ciudad Bolívar;Total;23.086;165;237;5.485;10.949;5.194;113;10;0;933
+05_Antioquia;;Cabecera;14.487;48;166;3.643;5.882;4.551;59;4;0;134
+05_Antioquia;;Centro poblado;1.470;8;5;368;1.048;30;0;0;0;11
+05_Antioquia;;Rural disperso;7.129;109;66;1.474;4.019;613;54;6;0;788
+05_Antioquia;05107_Briceño;Total;5.946;249;20;3.369;1.974;327;3;0;0;4
+05_Antioquia;;Cabecera;2.456;13;0;490;1.628;319;3;0;0;3
+05_Antioquia;;Centro poblado;329;8;1;285;35;0;0;0;0;0
+05_Antioquia;;Rural disperso;3.161;228;19;2.594;311;8;0;0;0;1
+05_Antioquia;05113_Buriticá;Total;7.368;89;42;5.193;1.949;69;3;0;0;23
+05_Antioquia;;Cabecera;2.033;14;0;591;1.355;59;3;0;0;11
+05_Antioquia;;Centro poblado;544;1;4;392;135;4;0;0;0;8
+05_Antioquia;;Rural disperso;4.791;74;38;4.210;459;6;0;0;0;4
+05_Antioquia;05120_Cáceres;Total;26.120;2.821;1.223;20.606;1.410;41;4;0;0;15
+05_Antioquia;;Cabecera;5.247;214;229;3.869;913;15;4;0;0;3
+05_Antioquia;;Centro poblado;12.100;455;646;10.574;403;10;0;0;0;12
+05_Antioquia;;Rural disperso;8.773;2.152;348;6.163;94;16;0;0;0;0
+05_Antioquia;05125_Caicedo;Total;7.015;239;21;4.172;2.418;161;0;0;0;4
+05_Antioquia;;Cabecera;1.507;2;5;295;1.097;104;0;0;0;4
+05_Antioquia;;Rural disperso;5.508;237;16;3.877;1.321;57;0;0;0;0
+05_Antioquia;05129_Caldas;Total;75.971;174;373;7.884;49.938;17.145;259;149;20;29
+05_Antioquia;;Cabecera;61.442;95;47;3.325;41.116;16.601;156;61;18;23
+05_Antioquia;;Centro poblado;10.049;49;184;3.145;6.447;197;9;18;0;0
+05_Antioquia;;Rural disperso;4.480;30;142;1.414;2.375;347;94;70;2;6
+05_Antioquia;05134_Campamento;Total;7.402;379;173;2.817;3.749;261;13;0;0;10
+05_Antioquia;;Cabecera;2.334;17;22;613;1.476;193;7;0;0;6
+05_Antioquia;;Centro poblado;490;45;22;131;292;0;0;0;0;0
+05_Antioquia;;Rural disperso;4.578;317;129;2.073;1.981;68;6;0;0;4
+05_Antioquia;05138_Cañasgordas;Total;13.562;314;12;9.085;4.020;113;1;4;0;13
+05_Antioquia;;Cabecera;4.734;41;1;1.431;3.173;80;1;4;0;3
+05_Antioquia;;Centro poblado;968;19;5;761;161;22;0;0;0;0
+05_Antioquia;;Rural disperso;7.860;254;6;6.893;686;11;0;0;0;10
+05_Antioquia;05142_Caracolí;Total;3.955;65;6;1.951;1.853;75;2;0;0;3
+05_Antioquia;;Cabecera;2.431;5;4;992;1.378;49;0;0;0;3
+05_Antioquia;;Rural disperso;1.524;60;2;959;475;26;2;0;0;0
+05_Antioquia;05145_Caramanta;Total;4.269;52;47;1.296;2.057;813;0;3;0;1
+05_Antioquia;;Cabecera;1.946;1;0;456;725;761;0;3;0;0
+05_Antioquia;;Centro poblado;279;0;0;115;164;0;0;0;0;0
+05_Antioquia;;Rural disperso;2.044;51;47;725;1.168;52;0;0;0;1
+05_Antioquia;05147_Carepa;Total;45.300;1.022;337;25.835;16.545;1.358;75;2;6;120
+05_Antioquia;;Cabecera;31.631;613;170;13.470;16.129;1.120;35;2;1;91
+05_Antioquia;;Centro poblado;6.625;63;10;6.324;203;18;6;0;0;1
+05_Antioquia;;Rural disperso;7.044;346;157;6.041;213;220;34;0;5;28
+05_Antioquia;05148_El Carmen De Viboral;Total;53.606;203;48;3.221;27.202;22.076;582;194;47;33
+05_Antioquia;;Cabecera;32.881;9;38;381;12.818;19.557;55;6;5;12
+05_Antioquia;;Centro poblado;1.419;8;0;49;1.195;150;15;2;0;0
+05_Antioquia;;Rural disperso;19.306;186;10;2.791;13.189;2.369;512;186;42;21
+05_Antioquia;05150_Carolina;Total;3.320;38;2;1.121;2.051;72;5;2;25;4
+05_Antioquia;;Cabecera;2.619;19;0;666;1.880;41;2;2;5;4
+05_Antioquia;;Rural disperso;701;19;2;455;171;31;3;0;20;0
+05_Antioquia;05154_Caucasia;Total;84.459;670;593;49.186;25.327;7.876;660;62;15;70
+05_Antioquia;;Cabecera;74.074;266;218;39.808;25.162;7.833;656;59;15;57
+05_Antioquia;;Centro poblado;5.458;155;276;4.918;86;20;0;0;0;3
+05_Antioquia;;Rural disperso;4.927;249;99;4.460;79;23;4;3;0;10
+05_Antioquia;05172_Chigorodó;Total;55.558;1.192;484;33.547;19.705;569;30;4;4;23
+05_Antioquia;;Cabecera;46.539;333;82;25.891;19.623;562;20;4;4;20
+05_Antioquia;;Centro poblado;1.251;19;1;1.230;1;0;0;0;0;0
+05_Antioquia;;Rural disperso;7.768;840;401;6.426;81;7;10;0;0;3
+05_Antioquia;05190_Cisneros;Total;8.891;22;71;3.131;4.800;836;27;0;0;4
+05_Antioquia;;Cabecera;7.688;17;60;2.734;4.074;784;15;0;0;4
+05_Antioquia;;Rural disperso;1.203;5;11;397;726;52;12;0;0;0
+05_Antioquia;05197_Cocorná;Total;14.703;314;65;4.414;7.586;1.684;8;2;0;630
+05_Antioquia;;Cabecera;5.926;36;11;637;3.706;1.518;8;0;0;10
+05_Antioquia;;Centro poblado;502;10;0;306;174;3;0;0;0;9
+05_Antioquia;;Rural disperso;8.275;268;54;3.471;3.706;163;0;2;0;611
+05_Antioquia;05206_Concepción;Total;3.901;26;54;962;2.317;532;4;3;0;3
+05_Antioquia;;Cabecera;1.752;5;0;154;1.118;475;0;0;0;0
+05_Antioquia;;Rural disperso;2.149;21;54;808;1.199;57;4;3;0;3
+05_Antioquia;05209_Concordia;Total;16.063;95;47;4.044;9.631;2.090;125;15;9;7
+05_Antioquia;;Cabecera;6.804;49;8;1.547;3.516;1.622;47;5;4;6
+05_Antioquia;;Centro poblado;688;11;4;470;197;6;0;0;0;0
+05_Antioquia;;Rural disperso;8.571;35;35;2.027;5.918;462;78;10;5;1
+05_Antioquia;05212_Copacabana;Total;76.078;202;186;3.830;47.593;22.654;850;395;301;67
+05_Antioquia;;Cabecera;62.102;69;101;2.034;37.845;21.435;253;155;162;48
+05_Antioquia;;Centro poblado;968;17;0;98;829;20;0;0;0;4
+05_Antioquia;;Rural disperso;13.008;116;85;1.698;8.919;1.199;597;240;139;15
+05_Antioquia;05234_Dabeiba;Total;22.678;4.030;103;13.008;3.487;2.019;21;0;0;10
+05_Antioquia;;Cabecera;8.839;415;20;3.151;3.231;2.008;8;0;0;6
+05_Antioquia;;Centro poblado;697;13;4;566;105;5;4;0;0;0
+05_Antioquia;;Rural disperso;13.142;3.602;79;9.291;151;6;9;0;0;4
+05_Antioquia;05237_Donmatías;Total;14.163;8;11;632;10.410;2.929;147;12;0;14
+05_Antioquia;;Cabecera;11.025;1;10;62;7.986;2.810;137;5;0;14
+05_Antioquia;;Centro poblado;268;1;0;82;177;8;0;0;0;0
+05_Antioquia;;Rural disperso;2.870;6;1;488;2.247;111;10;7;0;0
+05_Antioquia;05240_Ebéjico;Total;10.323;166;10;6.352;3.001;659;40;55;25;15
+05_Antioquia;;Cabecera;1.819;18;2;270;1.116;407;3;0;0;3
+05_Antioquia;;Centro poblado;1.241;8;0;375;792;64;0;0;0;2
+05_Antioquia;;Rural disperso;7.263;140;8;5.707;1.093;188;37;55;25;10
+05_Antioquia;05250_El Bagre;Total;47.549;1.942;264;35.644;8.030;679;19;4;2;965
+05_Antioquia;;Cabecera;29.495;777;158;19.173;7.742;675;9;1;1;959
+05_Antioquia;;Centro poblado;9.511;84;36;9.134;241;3;4;3;1;5
+05_Antioquia;;Rural disperso;8.543;1.081;70;7.337;47;1;6;0;0;1
+05_Antioquia;05264_Entrerríos;Total;8.779;9;13;342;2.689;4.853;798;35;37;3
+05_Antioquia;;Cabecera;5.088;0;8;21;597;3.808;638;7;6;3
+05_Antioquia;;Rural disperso;3.691;9;5;321;2.092;1.045;160;28;31;0
+05_Antioquia;05266_Envigado;Total;211.558;285;142;1.305;48.041;74.147;37.595;45.165;4.484;394
+05_Antioquia;;Cabecera;201.876;225;97;1.001;43.942;73.300;36.496;43.203;3.338;274
+05_Antioquia;;Centro poblado;1.732;0;10;1;426;90;210;524;441;30
+05_Antioquia;;Rural disperso;7.950;60;35;303;3.673;757;889;1.438;705;90
+05_Antioquia;05282_Fredonia;Total;18.744;162;8;6.742;7.550;3.891;143;188;46;14
+05_Antioquia;;Cabecera;7.689;54;1;1.493;3.629;2.473;14;8;8;9
+05_Antioquia;;Centro poblado;1.106;1;0;573;438;93;0;0;1;0
+05_Antioquia;;Rural disperso;9.949;107;7;4.676;3.483;1.325;129;180;37;5
+05_Antioquia;05284_Frontino;Total;20.111;3.738;74;6.531;7.050;2.560;142;2;6;8
+05_Antioquia;;Cabecera;8.042;75;19;1.467;3.941;2.392;142;2;0;4
+05_Antioquia;;Centro poblado;1.451;38;0;918;492;3;0;0;0;0
+05_Antioquia;;Rural disperso;10.618;3.625;55;4.146;2.617;165;0;0;6;4
+05_Antioquia;05306_Giraldo;Total;5.057;42;10;3.965;1.010;29;0;0;0;1
+05_Antioquia;;Cabecera;1.852;18;2;1.071;742;18;0;0;0;1
+05_Antioquia;;Centro poblado;273;0;8;133;127;5;0;0;0;0
+05_Antioquia;;Rural disperso;2.932;24;0;2.761;141;6;0;0;0;0
+05_Antioquia;05308_Girardota;Total;48.310;77;113;3.230;38.904;5.149;467;196;108;66
+05_Antioquia;;Cabecera;27.896;15;22;142;23.543;4.046;82;14;4;28
+05_Antioquia;;Centro poblado;6.551;29;24;955;5.308;190;20;18;0;7
+05_Antioquia;;Rural disperso;13.863;33;67;2.133;10.053;913;365;164;104;31
+05_Antioquia;05310_Gómez Plata;Total;8.212;92;6;3.609;4.398;94;8;0;4;1
+05_Antioquia;;Cabecera;4.239;22;3;1.199;2.967;44;3;0;0;1
+05_Antioquia;;Centro poblado;540;9;0;256;267;8;0;0;0;0
+05_Antioquia;;Rural disperso;3.433;61;3;2.154;1.164;42;5;0;4;0
+05_Antioquia;05313_Granada;Total;9.203;185;17;3.355;2.449;2.927;7;0;1;262
+05_Antioquia;;Cabecera;5.341;154;1;824;1.447;2.894;7;0;1;13
+05_Antioquia;;Centro poblado;180;4;0;80;92;0;0;0;0;4
+05_Antioquia;;Rural disperso;3.682;27;16;2.451;910;33;0;0;0;245
+05_Antioquia;05315_Guadalupe;Total;5.452;97;1;2.675;2.541;129;3;0;0;6
+05_Antioquia;;Cabecera;2.124;7;0;641;1.357;110;3;0;0;6
+05_Antioquia;;Centro poblado;379;1;0;146;220;12;0;0;0;0
+05_Antioquia;;Rural disperso;2.949;89;1;1.888;964;7;0;0;0;0
+05_Antioquia;05318_Guarne;Total;42.034;281;76;4.696;20.239;15.651;851;175;29;36
+05_Antioquia;;Cabecera;17.346;39;25;285;6.081;10.760;131;8;2;15
+05_Antioquia;;Centro poblado;973;16;0;78;656;216;7;0;0;0
+05_Antioquia;;Rural disperso;23.715;226;51;4.333;13.502;4.675;713;167;27;21
+05_Antioquia;05321_Guatapé;Total;6.998;34;2;203;5.611;1.062;51;15;9;11
+05_Antioquia;;Cabecera;5.208;1;0;33;4.422;746;3;0;0;3
+05_Antioquia;;Centro poblado;452;7;0;10;367;55;9;4;0;0
+05_Antioquia;;Rural disperso;1.338;26;2;160;822;261;39;11;9;8
+05_Antioquia;05347_Heliconia;Total;4.709;52;27;1.962;2.552;105;4;0;2;5
+05_Antioquia;;Cabecera;2.080;15;7;805;1.175;74;0;0;0;4
+05_Antioquia;;Centro poblado;671;1;0;275;393;2;0;0;0;0
+05_Antioquia;;Rural disperso;1.958;36;20;882;984;29;4;0;2;1
+05_Antioquia;05353_Hispania;Total;4.950;28;0;757;3.391;767;0;0;4;3
+05_Antioquia;;Cabecera;3.303;16;0;516;2.040;725;0;0;4;2
+05_Antioquia;;Rural disperso;1.647;12;0;241;1.351;42;0;0;0;1
+05_Antioquia;05360_Itagüí;Total;261.576;1.189;310;20.559;102.363;126.127;10.642;96;84;206
+05_Antioquia;;Cabecera;234.939;799;137;12.492;88.540;121.978;10.626;96;78;193
+05_Antioquia;;Centro poblado;22.504;256;106;6.425;13.024;2.673;8;0;4;8
+05_Antioquia;;Rural disperso;4.133;134;67;1.642;799;1.476;8;0;2;5
+05_Antioquia;05361_Ituango;Total;18.443;1.427;1.370;11.106;3.903;608;5;4;0;20
+05_Antioquia;;Cabecera;6.526;67;44;2.248;3.561;589;5;4;0;8
+05_Antioquia;;Centro poblado;1.945;67;191;1.527;145;6;0;0;0;9
+05_Antioquia;;Rural disperso;9.972;1.293;1.135;7.331;197;13;0;0;0;3
+05_Antioquia;05364_Jardín;Total;13.453;173;58;3.477;7.529;2.150;53;6;1;6
+05_Antioquia;;Cabecera;7.069;28;8;1.320;3.815;1.839;48;6;1;4
+05_Antioquia;;Centro poblado;346;13;0;237;93;3;0;0;0;0
+05_Antioquia;;Rural disperso;6.038;132;50;1.920;3.621;308;5;0;0;2
+05_Antioquia;05368_Jericó;Total;11.046;32;25;1.698;6.615;2.503;136;7;14;16
+05_Antioquia;;Cabecera;6.814;23;12;393;4.086;2.286;1;4;3;6
+05_Antioquia;;Centro poblado;247;0;0;42;197;8;0;0;0;0
+05_Antioquia;;Rural disperso;3.985;9;13;1.263;2.332;209;135;3;11;10
+05_Antioquia;05376_La Ceja;Total;58.787;80;71;796;12.739;39.525;4.181;1.327;31;37
+05_Antioquia;;Cabecera;51.356;35;9;105;9.474;37.342;3.658;700;10;23
+05_Antioquia;;Centro poblado;1.179;14;13;169;603;239;41;94;0;6
+05_Antioquia;;Rural disperso;6.252;31;49;522;2.662;1.944;482;533;21;8
+05_Antioquia;05380_La Estrella;Total;67.002;165;96;5.668;34.215;18.558;7.514;618;94;74
+05_Antioquia;;Cabecera;57.451;123;64;3.537;28.927;17.168;7.127;427;20;58
+05_Antioquia;;Centro poblado;3.296;3;0;811;2.331;74;69;7;0;1
+05_Antioquia;;Rural disperso;6.255;39;32;1.320;2.957;1.316;318;184;74;15
+05_Antioquia;05390_La Pintada;Total;7.974;109;2;3.391;3.646;557;145;97;11;16
+05_Antioquia;;Cabecera;7.056;82;2;3.208;3.214;438;93;3;0;16
+05_Antioquia;;Centro poblado;421;7;0;108;306;0;0;0;0;0
+05_Antioquia;;Rural disperso;497;20;0;75;126;119;52;94;11;0
+05_Antioquia;05400_La Unión;Total;20.738;44;54;1.817;14.918;3.769;24;11;0;101
+05_Antioquia;;Cabecera;12.557;3;6;992;9.142;2.371;16;5;0;22
+05_Antioquia;;Centro poblado;716;3;0;13;383;317;0;0;0;0
+05_Antioquia;;Rural disperso;7.465;38;48;812;5.393;1.081;8;6;0;79
+05_Antioquia;05411_Liborina;Total;7.902;61;104;3.905;3.032;613;6;0;3;178
+05_Antioquia;;Cabecera;2.207;4;8;930;712;543;6;0;0;4
+05_Antioquia;;Centro poblado;1.814;15;29;591;1.055;61;0;0;3;60
+05_Antioquia;;Rural disperso;3.881;42;67;2.384;1.265;9;0;0;0;114
+05_Antioquia;05425_Maceo;Total;7.292;141;20;3.291;3.618;210;5;6;0;1
+05_Antioquia;;Cabecera;2.968;11;0;502;2.300;152;0;2;0;1
+05_Antioquia;;Centro poblado;988;17;3;547;387;29;5;0;0;0
+05_Antioquia;;Rural disperso;3.336;113;17;2.242;931;29;0;4;0;0
+05_Antioquia;05440_Marinilla;Total;55.225;152;69;2.929;18.131;32.861;968;71;28;16
+05_Antioquia;;Cabecera;40.822;44;13;184;9.571;30.339;627;12;22;10
+05_Antioquia;;Rural disperso;14.403;108;56;2.745;8.560;2.522;341;59;6;6
+05_Antioquia;05467_Montebello;Total;5.881;150;26;3.260;1.743;694;1;0;2;5
+05_Antioquia;;Cabecera;1.649;13;10;291;672;657;1;0;0;5
+05_Antioquia;;Centro poblado;171;0;0;76;95;0;0;0;0;0
+05_Antioquia;;Rural disperso;4.061;137;16;2.893;976;37;0;0;2;0
+05_Antioquia;05475_Murindó;Total;4.642;1.116;1.146;635;52;2;1;4;1;1.685
+05_Antioquia;;Cabecera;1.565;14;81;169;50;2;1;4;1;1.243
+05_Antioquia;;Centro poblado;647;0;0;377;0;0;0;0;0;270
+05_Antioquia;;Rural disperso;2.430;1.102;1.065;89;2;0;0;0;0;172
+05_Antioquia;05480_Mutatá;Total;12.602;1.949;242;8.263;2.058;64;2;7;0;17
+05_Antioquia;;Cabecera;4.953;229;45;2.642;1.960;64;2;7;0;4
+05_Antioquia;;Centro poblado;2.568;176;20;2.343;22;0;0;0;0;7
+05_Antioquia;;Rural disperso;5.081;1.544;177;3.278;76;0;0;0;0;6
+05_Antioquia;05483_Nariño;Total;8.599;145;193;2.572;5.441;236;0;0;6;6
+05_Antioquia;;Cabecera;2.741;3;93;642;1.854;144;0;0;0;5
+05_Antioquia;;Centro poblado;591;8;12;277;290;4;0;0;0;0
+05_Antioquia;;Rural disperso;5.267;134;88;1.653;3.297;88;0;0;6;1
+05_Antioquia;05490_Necoclí;Total;38.420;1.593;491;31.947;3.953;216;31;1;0;188
+05_Antioquia;;Cabecera;9.946;52;28;5.779;3.680;207;24;1;0;175
+05_Antioquia;;Centro poblado;10.757;237;46;10.237;226;2;7;0;0;2
+05_Antioquia;;Rural disperso;17.717;1.304;417;15.931;47;7;0;0;0;11
+05_Antioquia;05495_Nechí;Total;24.030;1.009;470;21.895;603;38;0;0;0;15
+05_Antioquia;;Cabecera;12.969;80;251;12.041;556;32;0;0;0;9
+05_Antioquia;;Centro poblado;4.164;61;130;3.928;35;4;0;0;0;6
+05_Antioquia;;Rural disperso;6.897;868;89;5.926;12;2;0;0;0;0
+05_Antioquia;05501_Olaya;Total;2.719;38;98;1.296;1.201;63;18;4;0;1
+05_Antioquia;;Cabecera;185;3;0;98;80;4;0;0;0;0
+05_Antioquia;;Centro poblado;929;4;17;379;490;39;0;0;0;0
+05_Antioquia;;Rural disperso;1.605;31;81;819;631;20;18;4;0;1
+05_Antioquia;05541_Peñol;Total;17.996;93;81;1.155;15.366;1.024;129;24;9;115
+05_Antioquia;;Cabecera;11.000;12;3;549;9.757;650;9;7;3;10
+05_Antioquia;;Rural disperso;6.996;81;78;606;5.609;374;120;17;6;105
+05_Antioquia;05543_Peque;Total;7.141;181;36;5.632;1.209;69;0;0;0;14
+05_Antioquia;;Cabecera;2.080;4;11;856;1.133;69;0;0;0;7
+05_Antioquia;;Centro poblado;415;1;1;412;1;0;0;0;0;0
+05_Antioquia;;Rural disperso;4.646;176;24;4.364;75;0;0;0;0;7
+05_Antioquia;05576_Pueblorrico;Total;7.202;111;4;3.300;3.287;495;5;0;0;0
+05_Antioquia;;Cabecera;3.807;36;4;1.116;2.191;455;5;0;0;0
+05_Antioquia;;Rural disperso;3.395;75;0;2.184;1.096;40;0;0;0;0
+05_Antioquia;05579_Puerto Berrío;Total;35.791;330;23;26.085;7.852;1.391;46;18;5;41
+05_Antioquia;;Cabecera;31.000;145;19;22.083;7.537;1.129;39;12;4;32
+05_Antioquia;;Centro poblado;2.090;45;0;1.986;54;5;0;0;0;0
+05_Antioquia;;Rural disperso;2.701;140;4;2.016;261;257;7;6;1;9
+05_Antioquia;05585_Puerto Nare;Total;12.127;133;27;5.855;5.725;383;0;0;1;3
+05_Antioquia;;Cabecera;3.860;14;0;1.026;2.574;244;0;0;0;2
+05_Antioquia;;Centro poblado;6.000;47;5;3.103;2.730;115;0;0;0;0
+05_Antioquia;;Rural disperso;2.267;72;22;1.726;421;24;0;0;1;1
+05_Antioquia;05591_Puerto Triunfo;Total;15.490;185;37;6.775;8.043;312;77;35;3;23
+05_Antioquia;;Cabecera;2.852;3;9;562;2.255;14;1;3;0;5
+05_Antioquia;;Centro poblado;10.385;72;22;4.849;5.350;62;4;10;0;16
+05_Antioquia;;Rural disperso;2.253;110;6;1.364;438;236;72;22;3;2
+05_Antioquia;05604_Remedios;Total;22.519;524;136;14.078;6.545;1.207;11;3;2;13
+05_Antioquia;;Cabecera;11.122;91;19;5.353;4.484;1.152;11;1;0;11
+05_Antioquia;;Centro poblado;4.141;27;4;2.276;1.796;34;0;2;2;0
+05_Antioquia;;Rural disperso;7.256;406;113;6.449;265;21;0;0;0;2
+05_Antioquia;05607_Retiro;Total;20.568;136;22;1.186;5.601;9.297;1.741;2.355;185;45
+05_Antioquia;;Cabecera;12.171;93;3;344;2.419;7.512;856;858;67;19
+05_Antioquia;;Centro poblado;984;0;1;128;684;133;19;14;5;0
+05_Antioquia;;Rural disperso;7.413;43;18;714;2.498;1.652;866;1.483;113;26
+05_Antioquia;05615_Rionegro;Total;114.851;229;236;4.419;32.579;57.980;15.562;2.960;664;222
+05_Antioquia;;Cabecera;77.188;60;79;1.437;14.503;45.418;13.846;1.504;247;94
+05_Antioquia;;Centro poblado;6.135;17;14;586;2.800;1.727;220;582;178;11
+05_Antioquia;;Rural disperso;31.528;152;143;2.396;15.276;10.835;1.496;874;239;117
+05_Antioquia;05628_Sabanalarga;Total;7.813;199;21;5.655;1.749;181;1;0;0;7
+05_Antioquia;;Cabecera;2.855;13;8;1.013;1.641;177;1;0;0;2
+05_Antioquia;;Centro poblado;784;25;0;704;49;1;0;0;0;5
+05_Antioquia;;Rural disperso;4.174;161;13;3.938;59;3;0;0;0;0
+05_Antioquia;05631_Sabaneta;Total;81.630;66;74;338;20.138;36.563;23.843;429;43;136
+05_Antioquia;;Cabecera;69.966;56;66;129;10.572;35.908;22.729;360;33;113
+05_Antioquia;;Centro poblado;7.934;2;2;95;7.460;191;161;14;0;9
+05_Antioquia;;Rural disperso;3.730;8;6;114;2.106;464;953;55;10;14
+05_Antioquia;05642_Salgar;Total;15.729;279;88;9.325;4.457;1.525;13;0;0;42
+05_Antioquia;;Cabecera;5.809;26;12;1.895;2.680;1.183;4;0;0;9
+05_Antioquia;;Centro poblado;1.600;73;8;1.245;246;28;0;0;0;0
+05_Antioquia;;Rural disperso;8.320;180;68;6.185;1.531;314;9;0;0;33
+05_Antioquia;05647_San Andrés De Cuerquía;Total;6.295;104;35;4.639;1.415;84;9;0;2;7
+05_Antioquia;;Cabecera;2.681;13;24;1.534;1.020;77;7;0;2;4
+05_Antioquia;;Rural disperso;3.614;91;11;3.105;395;7;2;0;0;3
+05_Antioquia;05649_San Carlos;Total;14.373;298;111;7.348;4.568;2.020;15;3;1;9
+05_Antioquia;;Cabecera;7.024;23;27;798;4.155;2.000;13;3;1;4
+05_Antioquia;;Centro poblado;1.483;4;0;1.200;262;15;2;0;0;0
+05_Antioquia;;Rural disperso;5.866;271;84;5.350;151;5;0;0;0;5
+05_Antioquia;05652_San Francisco;Total;5.223;262;21;2.807;2.002;124;1;0;0;6
+05_Antioquia;;Cabecera;2.424;6;2;798;1.491;121;0;0;0;6
+05_Antioquia;;Centro poblado;550;43;5;345;156;0;1;0;0;0
+05_Antioquia;;Rural disperso;2.249;213;14;1.664;355;3;0;0;0;0
+05_Antioquia;05656_San Jerónimo;Total;13.133;141;66;3.462;7.588;1.155;382;246;84;9
+05_Antioquia;;Cabecera;6.506;34;29;911;4.453;808;157;79;32;3
+05_Antioquia;;Rural disperso;6.627;107;37;2.551;3.135;347;225;167;52;6
+05_Antioquia;05658_San José De La Montaña;Total;2.952;5;21;708;2.071;122;15;5;0;5
+05_Antioquia;;Cabecera;2.114;1;1;703;1.372;25;3;4;0;5
+05_Antioquia;;Rural disperso;838;4;20;5;699;97;12;1;0;0
+05_Antioquia;05659_San Juan De Urabá;Total;19.992;179;212;18.665;905;11;17;1;0;2
+05_Antioquia;;Cabecera;6.624;28;7;5.769;800;11;8;1;0;0
+05_Antioquia;;Centro poblado;2.712;20;0;2.627;65;0;0;0;0;0
+05_Antioquia;;Rural disperso;10.656;131;205;10.269;40;0;9;0;0;2
+05_Antioquia;05660_San Luis;Total;11.099;170;125;5.196;5.485;103;6;2;0;12
+05_Antioquia;;Cabecera;6.614;34;22;1.122;5.345;74;3;2;0;12
+05_Antioquia;;Centro poblado;680;12;0;638;30;0;0;0;0;0
+05_Antioquia;;Rural disperso;3.805;124;103;3.436;110;29;3;0;0;0
+05_Antioquia;05664_San Pedro De Los Milagros;Total;17.020;138;79;1.303;9.885;5.322;196;35;31;31
+05_Antioquia;;Cabecera;10.480;17;61;90;6.062;4.166;71;5;0;8
+05_Antioquia;;Centro poblado;216;3;0;17;167;26;3;0;0;0
+05_Antioquia;;Rural disperso;6.324;118;18;1.196;3.656;1.130;122;30;31;23
+05_Antioquia;05665_San Pedro De Urabá;Total;30.064;510;48;28.141;1.252;58;28;2;0;25
+05_Antioquia;;Cabecera;12.011;85;34;10.573;1.224;56;20;2;0;17
+05_Antioquia;;Centro poblado;979;6;7;966;0;0;0;0;0;0
+05_Antioquia;;Rural disperso;17.074;419;7;16.602;28;2;8;0;0;8
+05_Antioquia;05667_San Rafael;Total;12.557;306;354;3.770;7.635;470;0;8;0;14
+05_Antioquia;;Cabecera;7.208;50;12;510;6.219;400;0;8;0;9
+05_Antioquia;;Centro poblado;5;0;0;3;2;0;0;0;0;0
+05_Antioquia;;Rural disperso;5.344;256;342;3.257;1.414;70;0;0;0;5
+05_Antioquia;05670_San Roque;Total;17.750;339;129;9.008;7.549;693;26;5;0;1
+05_Antioquia;;Cabecera;6.132;13;28;1.638;4.011;436;2;4;0;0
+05_Antioquia;;Centro poblado;3.578;57;24;1.447;2.009;41;0;0;0;0
+05_Antioquia;;Rural disperso;8.040;269;77;5.923;1.529;216;24;1;0;1
+05_Antioquia;05674_San Vicente Ferrer;Total;17.987;125;183;2.436;11.711;3.489;27;10;0;6
+05_Antioquia;;Cabecera;5.298;16;9;324;2.882;2.059;4;3;0;1
+05_Antioquia;;Centro poblado;55;0;0;9;42;4;0;0;0;0
+05_Antioquia;;Rural disperso;12.634;109;174;2.103;8.787;1.426;23;7;0;5
+05_Antioquia;05679_Santa Bárbara;Total;21.836;176;35;3.814;12.289;5.426;58;16;7;15
+05_Antioquia;;Cabecera;10.174;10;7;885;4.609;4.615;17;9;7;15
+05_Antioquia;;Centro poblado;2.275;22;5;542;1.499;205;2;0;0;0
+05_Antioquia;;Rural disperso;9.387;144;23;2.387;6.181;606;39;7;0;0
+05_Antioquia;05686_Santa Rosa De Osos;Total;30.350;205;39;4.911;22.351;2.628;162;13;7;34
+05_Antioquia;;Cabecera;16.430;30;27;721;13.474;2.022;120;9;1;26
+05_Antioquia;;Centro poblado;1.152;18;6;179;914;31;4;0;0;0
+05_Antioquia;;Rural disperso;12.768;157;6;4.011;7.963;575;38;4;6;8
+05_Antioquia;05690_Santo Domingo;Total;9.520;172;49;3.285;5.193;769;34;12;0;6
+05_Antioquia;;Cabecera;2.400;14;2;357;1.596;424;4;0;0;3
+05_Antioquia;;Centro poblado;2.056;26;3;677;1.271;73;2;4;0;0
+05_Antioquia;;Rural disperso;5.064;132;44;2.251;2.326;272;28;8;0;3
+05_Antioquia;05697_El Santuario;Total;30.255;84;46;4.323;20.893;4.814;61;20;3;11
+05_Antioquia;;Cabecera;23.211;44;1;3.098;16.251;3.793;3;11;0;10
+05_Antioquia;;Rural disperso;7.044;40;45;1.225;4.642;1.021;58;9;3;1
+05_Antioquia;05736_Segovia;Total;33.310;1.774;1.367;15.629;12.211;2.291;23;7;0;8
+05_Antioquia;;Cabecera;27.210;616;613;11.863;11.841;2.244;20;7;0;6
+05_Antioquia;;Centro poblado;2.155;59;8;2.027;58;3;0;0;0;0
+05_Antioquia;;Rural disperso;3.945;1.099;746;1.739;312;44;3;0;0;2
+05_Antioquia;05756_Sonsón;Total;31.598;388;262;7.650;16.415;6.643;142;61;1;36
+05_Antioquia;;Cabecera;15.733;65;14;1.063;9.217;5.300;56;4;1;13
+05_Antioquia;;Centro poblado;4.040;23;9;1.763;2.225;13;0;0;0;7
+05_Antioquia;;Rural disperso;11.825;300;239;4.824;4.973;1.330;86;57;0;16
+05_Antioquia;05761_Sopetrán;Total;13.709;154;32;5.076;6.931;1.221;161;112;14;8
+05_Antioquia;;Cabecera;6.427;15;13;1.622;3.901;841;22;9;0;4
+05_Antioquia;;Centro poblado;656;2;0;196;436;18;4;0;0;0
+05_Antioquia;;Rural disperso;6.626;137;19;3.258;2.594;362;135;103;14;4
+05_Antioquia;05789_Támesis;Total;14.814;133;37;4.890;5.467;4.012;160;49;53;13
+05_Antioquia;;Cabecera;6.705;25;3;746;2.632;3.262;26;0;4;7
+05_Antioquia;;Centro poblado;1.580;14;3;299;1.074;188;2;0;0;0
+05_Antioquia;;Rural disperso;6.529;94;31;3.845;1.761;562;132;49;49;6
+05_Antioquia;05790_Tarazá;Total;22.729;922;836;17.503;3.322;79;1;1;0;65
+05_Antioquia;;Cabecera;12.508;81;32;9.516;2.809;67;1;1;0;1
+05_Antioquia;;Centro poblado;6.897;134;120;6.222;405;11;0;0;0;5
+05_Antioquia;;Rural disperso;3.324;707;684;1.765;108;1;0;0;0;59
+05_Antioquia;05792_Tarso;Total;5.646;57;2;2.386;2.398;733;54;7;8;1
+05_Antioquia;;Cabecera;3.228;29;0;1.553;1.324;315;3;0;3;1
+05_Antioquia;;Centro poblado;253;3;0;76;153;21;0;0;0;0
+05_Antioquia;;Rural disperso;2.165;25;2;757;921;397;51;7;5;0
+05_Antioquia;05809_Titiribí;Total;8.179;70;6;2.365;5.096;502;38;27;70;5
+05_Antioquia;;Cabecera;3.916;6;2;834;2.762;305;4;0;2;1
+05_Antioquia;;Centro poblado;974;17;0;319;589;40;5;0;0;4
+05_Antioquia;;Rural disperso;3.289;47;4;1.212;1.745;157;29;27;68;0
+05_Antioquia;05819_Toledo;Total;4.922;96;62;3.225;1.370;165;4;0;0;0
+05_Antioquia;;Cabecera;1.692;26;19;752;770;125;0;0;0;0
+05_Antioquia;;Centro poblado;313;5;0;168;115;21;4;0;0;0
+05_Antioquia;;Rural disperso;2.917;65;43;2.305;485;19;0;0;0;0
+05_Antioquia;05837_Turbo;Total;114.212;3.268;1.796;91.622;14.158;3.096;95;6;12;159
+05_Antioquia;;Cabecera;45.463;758;211;31.299;10.037;3.059;37;6;12;44
+05_Antioquia;;Centro poblado;46.215;884;781;40.554;3.926;17;39;0;0;14
+05_Antioquia;;Rural disperso;22.534;1.626;804;19.769;195;20;19;0;0;101
+05_Antioquia;05842_Uramita;Total;6.523;221;48;4.818;1.363;56;8;2;0;7
+05_Antioquia;;Cabecera;1.982;21;6;1.166;727;48;5;2;0;7
+05_Antioquia;;Centro poblado;277;4;0;250;23;0;0;0;0;0
+05_Antioquia;;Rural disperso;4.264;196;42;3.402;613;8;3;0;0;0
+05_Antioquia;05847_Urrao;Total;28.860;2.002;84;9.043;13.200;4.429;71;22;0;9
+05_Antioquia;;Cabecera;15.459;229;29;2.352;8.860;3.906;55;19;0;9
+05_Antioquia;;Centro poblado;185;8;14;95;43;24;0;1;0;0
+05_Antioquia;;Rural disperso;13.216;1.765;41;6.596;4.297;499;16;2;0;0
+05_Antioquia;05854_Valdivia;Total;11.511;673;365;7.828;2.429;194;4;0;3;15
+05_Antioquia;;Cabecera;3.198;35;66;1.571;1.362;146;4;0;3;11
+05_Antioquia;;Centro poblado;1.748;60;55;1.265;359;9;0;0;0;0
+05_Antioquia;;Rural disperso;6.565;578;244;4.992;708;39;0;0;0;4
+05_Antioquia;05856_Valparaíso;Total;5.414;37;15;1.835;2.811;471;65;135;37;8
+05_Antioquia;;Cabecera;3.194;19;15;473;2.340;339;0;0;0;8
+05_Antioquia;;Rural disperso;2.220;18;0;1.362;471;132;65;135;37;0
+05_Antioquia;05858_Vegachí;Total;11.134;261;28;4.806;5.971;56;5;0;1;6
+05_Antioquia;;Cabecera;7.571;52;16;1.943;5.524;25;4;0;1;6
+05_Antioquia;;Centro poblado;665;20;3;416;226;0;0;0;0;0
+05_Antioquia;;Rural disperso;2.898;189;9;2.447;221;31;1;0;0;0
+05_Antioquia;05861_Venecia;Total;10.221;51;9;2.674;4.727;2.057;237;311;148;7
+05_Antioquia;;Cabecera;4.717;12;0;589;2.402;1.645;57;7;0;5
+05_Antioquia;;Centro poblado;3.087;19;1;1.365;1.575;112;13;2;0;0
+05_Antioquia;;Rural disperso;2.417;20;8;720;750;300;167;302;148;2
+05_Antioquia;05873_Vigía Del Fuerte;Total;8.126;951;540;6.594;22;14;1;0;0;4
+05_Antioquia;;Cabecera;3.080;50;241;2.765;12;11;1;0;0;0
+05_Antioquia;;Centro poblado;2.237;468;148;1.615;3;3;0;0;0;0
+05_Antioquia;;Rural disperso;2.809;433;151;2.214;7;0;0;0;0;4
+05_Antioquia;05885_Yalí;Total;6.234;276;29;3.760;1.919;231;9;3;0;7
+05_Antioquia;;Cabecera;3.048;12;1;1.353;1.480;195;0;0;0;7
+05_Antioquia;;Centro poblado;86;5;0;54;27;0;0;0;0;0
+05_Antioquia;;Rural disperso;3.100;259;28;2.353;412;36;9;3;0;0
+05_Antioquia;05887_Yarumal;Total;35.842;304;77;9.353;15.989;9.959;122;4;8;26
+05_Antioquia;;Cabecera;26.305;113;32;6.380;10.950;8.711;90;4;3;22
+05_Antioquia;;Centro poblado;2.709;28;13;815;1.672;176;4;0;0;1
+05_Antioquia;;Rural disperso;6.828;163;32;2.158;3.367;1.072;28;0;5;3
+05_Antioquia;05890_Yolombó;Total;18.915;489;66;7.467;9.389;1.476;15;8;0;5
+05_Antioquia;;Cabecera;6.083;16;6;583;4.399;1.065;5;4;0;5
+05_Antioquia;;Centro poblado;1.758;21;16;1.045;645;31;0;0;0;0
+05_Antioquia;;Rural disperso;11.074;452;44;5.839;4.345;380;10;4;0;0
+05_Antioquia;05893_Yondó;Total;17.493;501;1.257;13.185;2.201;265;18;3;1;62
+05_Antioquia;;Cabecera;9.483;82;872;6.542;1.771;190;6;2;0;18
+05_Antioquia;;Centro poblado;2.601;85;159;2.263;94;0;0;0;0;0
+05_Antioquia;;Rural disperso;5.409;334;226;4.380;336;75;12;1;1;44
+05_Antioquia;05895_Zaragoza;Total;24.052;1.983;570;18.465;2.932;68;3;8;0;23
+05_Antioquia;;Cabecera;11.080;98;69;8.044;2.808;45;3;8;0;5
+05_Antioquia;;Centro poblado;2.775;76;97;2.528;65;7;0;0;0;2
+05_Antioquia;;Rural disperso;10.197;1.809;404;7.893;59;16;0;0;0;16
+11_Bogotá, D.C.;11001_Bogotá, D.C.;Total;7.149.540;16.706;4.277;671.690;3.002.092;2.411.701;672.543;211.459;149.073;9.999
+11_Bogotá, D.C.;;Cabecera;7.134.442;16.100;4.080;664.716;2.996.597;2.411.006;672.319;211.199;148.510;9.915
+11_Bogotá, D.C.;;Centro poblado;2.525;45;4;711;1.592;132;23;1;7;10
+11_Bogotá, D.C.;;Rural disperso;12.573;561;193;6.263;3.903;563;201;259;556;74
+15_Boyacá;15001_Tunja;Total;166.850;595;102;23.478;53.452;60.856;19.205;8.755;92;315
+15_Boyacá;;Cabecera;159.542;382;51;19.813;50.271;60.689;19.182;8.750;92;312
+15_Boyacá;;Rural disperso;7.308;213;51;3.665;3.181;167;23;5;0;3
+15_Boyacá;15022_Almeida;Total;1.582;60;1;390;1.118;11;0;0;0;2
+15_Boyacá;;Cabecera;314;0;0;43;261;9;0;0;0;1
+15_Boyacá;;Rural disperso;1.268;60;1;347;857;2;0;0;0;1
+15_Boyacá;15047_Aquitania;Total;13.860;226;61;4.925;8.514;83;27;4;0;20
+15_Boyacá;;Cabecera;5.764;28;22;957;4.649;60;27;4;0;17
+15_Boyacá;;Centro poblado;687;8;0;441;238;0;0;0;0;0
+15_Boyacá;;Rural disperso;7.409;190;39;3.527;3.627;23;0;0;0;3
+15_Boyacá;15051_Arcabuco;Total;5.447;51;9;520;4.799;58;3;1;0;6
+15_Boyacá;;Cabecera;2.378;11;5;338;1.964;52;3;1;0;4
+15_Boyacá;;Rural disperso;3.069;40;4;182;2.835;6;0;0;0;2
+15_Boyacá;15087_Belén;Total;7.322;146;8;511;6.596;49;0;3;0;9
+15_Boyacá;;Cabecera;4.482;55;3;137;4.243;32;0;3;0;9
+15_Boyacá;;Rural disperso;2.840;91;5;374;2.353;17;0;0;0;0
+15_Boyacá;15090_Berbeo;Total;1.442;59;1;417;956;3;0;0;6;0
+15_Boyacá;;Cabecera;393;3;0;101;283;0;0;0;6;0
+15_Boyacá;;Rural disperso;1.049;56;1;316;673;3;0;0;0;0
+15_Boyacá;15092_Betéitiva;Total;1.895;44;0;1.621;220;9;0;0;0;1
+15_Boyacá;;Cabecera;299;1;0;122;166;9;0;0;0;1
+15_Boyacá;;Centro poblado;84;0;0;84;0;0;0;0;0;0
+15_Boyacá;;Rural disperso;1.512;43;0;1.415;54;0;0;0;0;0
+15_Boyacá;15097_Boavita;Total;4.932;85;9;1.611;3.212;9;0;5;0;1
+15_Boyacá;;Cabecera;2.260;2;1;411;1.842;3;0;0;0;1
+15_Boyacá;;Rural disperso;2.672;83;8;1.200;1.370;6;0;5;0;0
+15_Boyacá;15104_Boyacá;Total;4.472;115;27;1.387;2.886;37;7;0;0;13
+15_Boyacá;;Cabecera;672;3;6;172;455;23;7;0;0;6
+15_Boyacá;;Rural disperso;3.800;112;21;1.215;2.431;14;0;0;0;7
+15_Boyacá;15106_Briceño;Total;2.043;80;7;976;971;6;2;0;0;1
+15_Boyacá;;Cabecera;466;4;0;70;384;6;2;0;0;0
+15_Boyacá;;Rural disperso;1.577;76;7;906;587;0;0;0;0;1
+15_Boyacá;15109_Buenavista;Total;4.240;143;4;1.363;2.688;16;8;0;4;14
+15_Boyacá;;Cabecera;703;0;2;30;659;9;2;0;0;1
+15_Boyacá;;Rural disperso;3.537;143;2;1.333;2.029;7;6;0;4;13
+15_Boyacá;15114_Busbanzá;Total;896;35;2;641;207;11;0;0;0;0
+15_Boyacá;;Cabecera;410;22;0;175;202;11;0;0;0;0
+15_Boyacá;;Rural disperso;486;13;2;466;5;0;0;0;0;0
+15_Boyacá;15131_Caldas;Total;3.085;39;0;538;2.484;23;0;0;0;1
+15_Boyacá;;Cabecera;235;0;0;25;205;4;0;0;0;1
+15_Boyacá;;Centro poblado;238;0;0;93;145;0;0;0;0;0
+15_Boyacá;;Rural disperso;2.612;39;0;420;2.134;19;0;0;0;0
+15_Boyacá;15135_Campohermoso;Total;2.705;140;10;695;1.838;11;4;2;0;5
+15_Boyacá;;Cabecera;651;6;2;219;415;4;4;0;0;1
+15_Boyacá;;Centro poblado;236;14;8;49;161;0;0;0;0;4
+15_Boyacá;;Rural disperso;1.818;120;0;427;1.262;7;0;2;0;0
+15_Boyacá;15162_Cerinza;Total;3.636;13;1;1.285;2.312;22;1;0;0;2
+15_Boyacá;;Cabecera;1.614;1;0;468;1.129;13;1;0;0;2
+15_Boyacá;;Rural disperso;2.022;12;1;817;1.183;9;0;0;0;0
+15_Boyacá;15172_Chinavita;Total;2.822;48;2;1.183;1.565;21;0;0;0;3
+15_Boyacá;;Cabecera;1.150;3;1;144;984;17;0;0;0;1
+15_Boyacá;;Rural disperso;1.672;45;1;1.039;581;4;0;0;0;2
+15_Boyacá;15176_Chiquinquirá;Total;51.414;234;47;7.376;29.914;13.606;113;19;1;104
+15_Boyacá;;Cabecera;45.790;112;17;6.398;25.462;13.576;111;19;1;94
+15_Boyacá;;Rural disperso;5.624;122;30;978;4.452;30;2;0;0;10
+15_Boyacá;15180_Chiscas;Total;3.587;70;7;2.240;1.235;12;0;0;0;23
+15_Boyacá;;Cabecera;848;10;5;533;298;1;0;0;0;1
+15_Boyacá;;Centro poblado;164;0;0;159;4;0;0;0;0;1
+15_Boyacá;;Rural disperso;2.575;60;2;1.548;933;11;0;0;0;21
+15_Boyacá;15183_Chita;Total;7.735;1.046;12;4.727;1.924;18;0;4;0;4
+15_Boyacá;;Cabecera;1.899;41;3;589;1.249;13;0;0;0;4
+15_Boyacá;;Rural disperso;5.836;1.005;9;4.138;675;5;0;4;0;0
+15_Boyacá;15185_Chitaraque;Total;5.013;294;26;2.842;1.817;23;0;4;0;7
+15_Boyacá;;Cabecera;1.074;4;0;664;379;17;0;4;0;6
+15_Boyacá;;Rural disperso;3.939;290;26;2.178;1.438;6;0;0;0;1
+15_Boyacá;15187_Chivatá;Total;2.783;166;4;1.969;608;29;0;0;0;7
+15_Boyacá;;Cabecera;470;4;0;227;225;11;0;0;0;3
+15_Boyacá;;Rural disperso;2.313;162;4;1.742;383;18;0;0;0;4
+15_Boyacá;15189_Ciénega;Total;4.492;99;0;988;3.371;26;0;0;0;8
+15_Boyacá;;Cabecera;1.207;7;0;68;1.103;22;0;0;0;7
+15_Boyacá;;Rural disperso;3.285;92;0;920;2.268;4;0;0;0;1
+15_Boyacá;15204_Cómbita;Total;9.341;278;17;3.811;4.851;206;127;33;3;15
+15_Boyacá;;Cabecera;1.280;11;4;173;1.001;85;4;0;0;2
+15_Boyacá;;Centro poblado;140;0;3;22;94;21;0;0;0;0
+15_Boyacá;;Rural disperso;7.921;267;10;3.616;3.756;100;123;33;3;13
+15_Boyacá;15212_Coper;Total;3.019;50;6;2.156;796;7;0;0;0;4
+15_Boyacá;;Cabecera;730;2;5;442;280;0;0;0;0;1
+15_Boyacá;;Rural disperso;2.289;48;1;1.714;516;7;0;0;0;3
+15_Boyacá;15215_Corrales;Total;2.479;86;2;800;1.572;14;0;5;0;0
+15_Boyacá;;Cabecera;1.552;10;0;351;1.172;14;0;5;0;0
+15_Boyacá;;Rural disperso;927;76;2;449;400;0;0;0;0;0
+15_Boyacá;15218_Covarachía;Total;2.594;321;0;1.346;926;0;0;0;0;1
+15_Boyacá;;Cabecera;461;6;0;42;413;0;0;0;0;0
+15_Boyacá;;Centro poblado;18;2;0;1;15;0;0;0;0;0
+15_Boyacá;;Rural disperso;2.115;313;0;1.303;498;0;0;0;0;1
+15_Boyacá;15223_Cubará;Total;9.942;5.665;29;2.495;1.736;12;2;0;0;3
+15_Boyacá;;Cabecera;2.127;185;8;770;1.151;8;2;0;0;3
+15_Boyacá;;Centro poblado;974;442;6;327;198;1;0;0;0;0
+15_Boyacá;;Rural disperso;6.841;5.038;15;1.398;387;3;0;0;0;0
+15_Boyacá;15224_Cucaita;Total;3.375;87;0;1.713;1.552;20;0;0;0;3
+15_Boyacá;;Cabecera;1.455;23;0;452;962;15;0;0;0;3
+15_Boyacá;;Rural disperso;1.920;64;0;1.261;590;5;0;0;0;0
+15_Boyacá;15226_Cuítiva;Total;1.628;116;5;745;745;7;8;2;0;0
+15_Boyacá;;Cabecera;251;3;0;109;137;0;0;2;0;0
+15_Boyacá;;Centro poblado;90;0;0;39;51;0;0;0;0;0
+15_Boyacá;;Rural disperso;1.287;113;5;597;557;7;8;0;0;0
+15_Boyacá;15232_Chíquiza;Total;4.347;132;11;1.560;2.563;66;3;0;0;12
+15_Boyacá;;Cabecera;331;7;0;169;148;0;3;0;0;4
+15_Boyacá;;Centro poblado;77;0;0;48;29;0;0;0;0;0
+15_Boyacá;;Rural disperso;3.939;125;11;1.343;2.386;66;0;0;0;8
+15_Boyacá;15236_Chivor;Total;1.669;84;57;651;850;26;0;0;0;1
+15_Boyacá;;Cabecera;616;0;32;174;388;21;0;0;0;1
+15_Boyacá;;Rural disperso;1.053;84;25;477;462;5;0;0;0;0
+15_Boyacá;15238_Duitama;Total;116.737;512;54;16.869;63.615;29.363;5.296;845;23;160
+15_Boyacá;;Cabecera;103.455;249;17;12.814;55.311;28.936;5.207;772;23;126
+15_Boyacá;;Centro poblado;3.077;24;14;517;2.323;175;0;4;0;20
+15_Boyacá;;Rural disperso;10.205;239;23;3.538;5.981;252;89;69;0;14
+15_Boyacá;15244_El Cocuy;Total;3.952;39;7;1.943;1.901;52;0;0;0;10
+15_Boyacá;;Cabecera;2.147;6;1;856;1.224;50;0;0;0;10
+15_Boyacá;;Rural disperso;1.805;33;6;1.087;677;2;0;0;0;0
+15_Boyacá;15248_El Espino;Total;2.597;67;12;889;1.616;6;7;0;0;0
+15_Boyacá;;Cabecera;1.228;16;7;97;1.095;6;7;0;0;0
+15_Boyacá;;Rural disperso;1.369;51;5;792;521;0;0;0;0;0
+15_Boyacá;15272_Firavitoba;Total;6.523;168;1;1.599;4.611;102;35;1;0;6
+15_Boyacá;;Cabecera;2.488;25;1;229;2.203;25;0;0;0;5
+15_Boyacá;;Rural disperso;4.035;143;0;1.370;2.408;77;35;1;0;1
+15_Boyacá;15276_Floresta;Total;3.184;115;0;1.410;1.644;9;0;0;0;6
+15_Boyacá;;Cabecera;1.138;4;0;243;882;3;0;0;0;6
+15_Boyacá;;Centro poblado;135;10;0;36;89;0;0;0;0;0
+15_Boyacá;;Rural disperso;1.911;101;0;1.131;673;6;0;0;0;0
+15_Boyacá;15293_Gachantivá;Total;2.744;155;29;1.200;1.305;48;0;0;0;7
+15_Boyacá;;Cabecera;555;0;0;226;297;30;0;0;0;2
+15_Boyacá;;Rural disperso;2.189;155;29;974;1.008;18;0;0;0;5
+15_Boyacá;15296_Gámeza;Total;4.395;84;6;1.751;2.525;23;3;0;0;3
+15_Boyacá;;Cabecera;1.321;2;0;415;889;11;3;0;0;1
+15_Boyacá;;Rural disperso;3.074;82;6;1.336;1.636;12;0;0;0;2
+15_Boyacá;15299_Garagoa;Total;13.977;253;3;2.884;9.448;1.335;28;11;0;15
+15_Boyacá;;Cabecera;10.803;41;2;1.857;7.539;1.318;27;6;0;13
+15_Boyacá;;Rural disperso;3.174;212;1;1.027;1.909;17;1;5;0;2
+15_Boyacá;15317_Guacamayas;Total;1.764;17;5;796;944;2;0;0;0;0
+15_Boyacá;;Cabecera;594;9;0;195;388;2;0;0;0;0
+15_Boyacá;;Rural disperso;1.170;8;5;601;556;0;0;0;0;0
+15_Boyacá;15322_Guateque;Total;8.025;82;3;2.308;4.429;1.162;23;0;0;18
+15_Boyacá;;Cabecera;6.433;15;1;1.212;4.018;1.147;23;0;0;17
+15_Boyacá;;Rural disperso;1.592;67;2;1.096;411;15;0;0;0;1
+15_Boyacá;15325_Guayatá;Total;3.089;107;6;392;2.421;157;6;0;0;0
+15_Boyacá;;Cabecera;1.005;5;0;47;810;143;0;0;0;0
+15_Boyacá;;Rural disperso;2.084;102;6;345;1.611;14;6;0;0;0
+15_Boyacá;15332_Güicán De La Sierra;Total;3.920;847;8;1.575;1.456;12;12;0;4;6
+15_Boyacá;;Cabecera;1.222;1;1;484;707;12;7;0;4;6
+15_Boyacá;;Rural disperso;2.698;846;7;1.091;749;0;5;0;0;0
+15_Boyacá;15362_Iza;Total;1.944;38;1;684;1.182;32;4;0;0;3
+15_Boyacá;;Cabecera;1.159;14;1;302;818;24;0;0;0;0
+15_Boyacá;;Rural disperso;785;24;0;382;364;8;4;0;0;3
+15_Boyacá;15367_Jenesano;Total;6.308;255;0;1.217;4.688;127;10;0;0;11
+15_Boyacá;;Cabecera;1.684;13;0;98;1.450;114;5;0;0;4
+15_Boyacá;;Rural disperso;4.624;242;0;1.119;3.238;13;5;0;0;7
+15_Boyacá;15368_Jericó;Total;3.540;182;1;2.938;407;10;0;0;0;2
+15_Boyacá;;Cabecera;988;0;1;889;91;5;0;0;0;2
+15_Boyacá;;Centro poblado;155;2;0;132;21;0;0;0;0;0
+15_Boyacá;;Rural disperso;2.397;180;0;1.917;295;5;0;0;0;0
+15_Boyacá;15377_Labranzagrande;Total;3.075;752;54;1.599;663;6;0;0;0;1
+15_Boyacá;;Cabecera;1.074;26;1;383;657;6;0;0;0;1
+15_Boyacá;;Rural disperso;2.001;726;53;1.216;6;0;0;0;0;0
+15_Boyacá;15380_La Capilla;Total;2.284;67;5;506;1.666;27;0;3;0;10
+15_Boyacá;;Cabecera;920;19;1;92;780;27;0;0;0;1
+15_Boyacá;;Rural disperso;1.364;48;4;414;886;0;0;3;0;9
+15_Boyacá;15401_La Victoria;Total;956;79;3;674;183;16;0;1;0;0
+15_Boyacá;;Cabecera;328;9;0;134;169;16;0;0;0;0
+15_Boyacá;;Rural disperso;628;70;3;540;14;0;0;1;0;0
+15_Boyacá;15403_La Uvita;Total;2.774;107;1;1.142;1.512;2;4;0;0;6
+15_Boyacá;;Cabecera;1.212;9;0;587;606;1;4;0;0;5
+15_Boyacá;;Centro poblado;71;0;0;34;36;0;0;0;0;1
+15_Boyacá;;Rural disperso;1.491;98;1;521;870;1;0;0;0;0
+15_Boyacá;15407_Villa De Leyva;Total;14.267;181;59;2.888;8.219;2.439;363;48;5;65
+15_Boyacá;;Cabecera;7.855;14;31;1.130;4.557;1.835;224;16;0;48
+15_Boyacá;;Centro poblado;74;0;11;8;20;33;1;1;0;0
+15_Boyacá;;Rural disperso;6.338;167;17;1.750;3.642;571;138;31;5;17
+15_Boyacá;15425_Macanal;Total;3.516;34;4;1.143;2.311;19;0;0;0;5
+15_Boyacá;;Cabecera;982;1;0;94;868;18;0;0;0;1
+15_Boyacá;;Centro poblado;115;3;0;88;24;0;0;0;0;0
+15_Boyacá;;Rural disperso;2.419;30;4;961;1.419;1;0;0;0;4
+15_Boyacá;15442_Maripí;Total;5.354;416;7;2.330;2.560;30;7;1;0;3
+15_Boyacá;;Cabecera;701;0;3;155;522;14;3;1;0;3
+15_Boyacá;;Centro poblado;425;20;0;340;65;0;0;0;0;0
+15_Boyacá;;Rural disperso;4.228;396;4;1.835;1.973;16;4;0;0;0
+15_Boyacá;15455_Miraflores;Total;8.199;87;2;3.422;4.589;81;4;0;0;14
+15_Boyacá;;Cabecera;4.890;15;1;1.532;3.272;60;0;0;0;10
+15_Boyacá;;Rural disperso;3.309;72;1;1.890;1.317;21;4;0;0;4
+15_Boyacá;15464_Mongua;Total;4.300;377;5;1.519;2.369;22;0;0;0;8
+15_Boyacá;;Cabecera;1.992;17;1;490;1.458;18;0;0;0;8
+15_Boyacá;;Rural disperso;2.308;360;4;1.029;911;4;0;0;0;0
+15_Boyacá;15466_Monguí;Total;3.895;105;2;1.140;2.565;72;0;0;0;11
+15_Boyacá;;Cabecera;2.327;21;1;283;1.945;68;0;0;0;9
+15_Boyacá;;Rural disperso;1.568;84;1;857;620;4;0;0;0;2
+15_Boyacá;15469_Moniquirá;Total;20.667;255;19;5.703;10.895;3.518;210;14;0;53
+15_Boyacá;;Cabecera;11.025;21;3;1.530;5.923;3.308;184;11;0;45
+15_Boyacá;;Rural disperso;9.642;234;16;4.173;4.972;210;26;3;0;8
+15_Boyacá;15476_Motavita;Total;5.226;131;3;4.002;1.051;38;0;0;0;1
+15_Boyacá;;Cabecera;715;3;0;58;640;13;0;0;0;1
+15_Boyacá;;Rural disperso;4.511;128;3;3.944;411;25;0;0;0;0
+15_Boyacá;15480_Muzo;Total;7.961;300;9;4.925;2.597;113;4;0;0;13
+15_Boyacá;;Cabecera;5.334;73;0;2.570;2.571;110;0;0;0;10
+15_Boyacá;;Rural disperso;2.627;227;9;2.355;26;3;4;0;0;3
+15_Boyacá;15491_Nobsa;Total;14.651;71;24;1.365;12.879;275;8;3;3;23
+15_Boyacá;;Cabecera;4.938;9;2;216;4.523;173;1;2;0;12
+15_Boyacá;;Centro poblado;6.997;23;11;872;5.979;92;7;1;3;9
+15_Boyacá;;Rural disperso;2.716;39;11;277;2.377;10;0;0;0;2
+15_Boyacá;15494_Nuevo Colón;Total;5.008;231;3;620;4.125;15;2;0;0;12
+15_Boyacá;;Cabecera;973;4;0;84;870;6;1;0;0;8
+15_Boyacá;;Rural disperso;4.035;227;3;536;3.255;9;1;0;0;4
+15_Boyacá;15500_Oicatá;Total;2.797;55;5;811;1.816;98;10;0;0;2
+15_Boyacá;;Cabecera;400;4;0;111;275;10;0;0;0;0
+15_Boyacá;;Rural disperso;2.397;51;5;700;1.541;88;10;0;0;2
+15_Boyacá;15507_Otanche;Total;6.989;629;0;5.309;1.015;28;5;0;0;3
+15_Boyacá;;Cabecera;3.349;68;0;2.333;926;19;0;0;0;3
+15_Boyacá;;Centro poblado;468;7;0;406;50;0;5;0;0;0
+15_Boyacá;;Rural disperso;3.172;554;0;2.570;39;9;0;0;0;0
+15_Boyacá;15511_Pachavita;Total;2.261;83;3;337;1.793;40;0;0;0;5
+15_Boyacá;;Cabecera;494;14;1;37;420;22;0;0;0;0
+15_Boyacá;;Rural disperso;1.767;69;2;300;1.373;18;0;0;0;5
+15_Boyacá;15514_Páez;Total;2.925;95;12;616;2.188;4;4;3;0;3
+15_Boyacá;;Cabecera;1.246;26;0;183;1.024;3;4;3;0;3
+15_Boyacá;;Centro poblado;180;1;0;57;122;0;0;0;0;0
+15_Boyacá;;Rural disperso;1.499;68;12;376;1.042;1;0;0;0;0
+15_Boyacá;15516_Paipa;Total;31.097;259;16;3.852;23.816;2.814;255;30;0;55
+15_Boyacá;;Cabecera;19.323;66;2;1.106;15.292;2.585;220;23;0;29
+15_Boyacá;;Centro poblado;395;0;0;46;338;7;0;0;0;4
+15_Boyacá;;Rural disperso;11.379;193;14;2.700;8.186;222;35;7;0;22
+15_Boyacá;15518_Pajarito;Total;1.930;72;6;792;1.018;30;0;0;6;6
+15_Boyacá;;Cabecera;912;8;0;83;791;24;0;0;0;6
+15_Boyacá;;Centro poblado;373;6;0;263;98;6;0;0;0;0
+15_Boyacá;;Rural disperso;645;58;6;446;129;0;0;0;6;0
+15_Boyacá;15522_Panqueba;Total;1.619;30;3;1.195;376;14;0;0;0;1
+15_Boyacá;;Cabecera;765;13;0;402;335;14;0;0;0;1
+15_Boyacá;;Rural disperso;854;17;3;793;41;0;0;0;0;0
+15_Boyacá;15531_Pauna;Total;6.355;332;6;2.300;3.669;40;2;0;0;6
+15_Boyacá;;Cabecera;2.029;18;3;434;1.538;32;1;0;0;3
+15_Boyacá;;Rural disperso;4.326;314;3;1.866;2.131;8;1;0;0;3
+15_Boyacá;15533_Paya;Total;2.061;1.372;13;221;438;2;7;0;0;8
+15_Boyacá;;Cabecera;443;14;12;89;319;1;0;0;0;8
+15_Boyacá;;Centro poblado;95;7;1;16;71;0;0;0;0;0
+15_Boyacá;;Rural disperso;1.523;1.351;0;116;48;1;7;0;0;0
+15_Boyacá;15537_Paz De Río;Total;4.040;37;2;765;3.048;181;1;4;0;2
+15_Boyacá;;Cabecera;2.637;8;1;246;2.196;181;1;4;0;0
+15_Boyacá;;Centro poblado;15;0;0;0;15;0;0;0;0;0
+15_Boyacá;;Rural disperso;1.388;29;1;519;837;0;0;0;0;2
+15_Boyacá;15542_Pesca;Total;6.604;371;8;2.110;4.078;37;0;0;0;0
+15_Boyacá;;Cabecera;2.245;12;4;205;1.992;32;0;0;0;0
+15_Boyacá;;Rural disperso;4.359;359;4;1.905;2.086;5;0;0;0;0
+15_Boyacá;15550_Pisba;Total;1.582;815;16;709;40;0;0;0;0;2
+15_Boyacá;;Cabecera;526;21;13;456;35;0;0;0;0;1
+15_Boyacá;;Rural disperso;1.056;794;3;253;5;0;0;0;0;1
+15_Boyacá;15572_Puerto Boyacá;Total;44.076;849;426;17.626;21.119;3.965;57;2;0;32
+15_Boyacá;;Cabecera;31.690;214;256;9.427;17.805;3.912;56;2;0;18
+15_Boyacá;;Centro poblado;7.128;103;11;5.367;1.629;12;1;0;0;5
+15_Boyacá;;Rural disperso;5.258;532;159;2.832;1.685;41;0;0;0;9
+15_Boyacá;15580_Quípama;Total;4.194;497;3;2.264;1.419;5;0;0;0;6
+15_Boyacá;;Cabecera;1.278;8;1;365;895;5;0;0;0;4
+15_Boyacá;;Centro poblado;454;48;0;344;62;0;0;0;0;0
+15_Boyacá;;Rural disperso;2.462;441;2;1.555;462;0;0;0;0;2
+15_Boyacá;15599_Ramiriquí;Total;8.690;96;6;1.464;6.304;729;49;8;5;29
+15_Boyacá;;Cabecera;3.823;7;6;182;2.953;650;8;0;4;13
+15_Boyacá;;Centro poblado;110;0;0;39;24;0;39;8;0;0
+15_Boyacá;;Rural disperso;4.757;89;0;1.243;3.327;79;2;0;1;16
+15_Boyacá;15600_Ráquira;Total;7.302;152;20;4.505;2.564;52;4;0;0;5
+15_Boyacá;;Cabecera;2.215;14;3;909;1.250;35;0;0;0;4
+15_Boyacá;;Centro poblado;70;0;0;17;53;0;0;0;0;0
+15_Boyacá;;Rural disperso;5.017;138;17;3.579;1.261;17;4;0;0;1
+15_Boyacá;15621_Rondón;Total;2.212;66;13;964;1.140;23;0;0;0;6
+15_Boyacá;;Cabecera;575;4;1;305;247;14;0;0;0;4
+15_Boyacá;;Centro poblado;71;0;3;30;38;0;0;0;0;0
+15_Boyacá;;Rural disperso;1.566;62;9;629;855;9;0;0;0;2
+15_Boyacá;15632_Saboyá;Total;11.161;146;16;2.509;8.397;68;1;5;0;19
+15_Boyacá;;Cabecera;943;9;4;112;793;24;1;0;0;0
+15_Boyacá;;Centro poblado;85;0;0;20;60;5;0;0;0;0
+15_Boyacá;;Rural disperso;10.133;137;12;2.377;7.544;39;0;5;0;19
+15_Boyacá;15638_Sáchica;Total;4.823;250;1;2.990;1.495;67;3;0;0;17
+15_Boyacá;;Cabecera;2.451;17;0;1.062;1.323;37;3;0;0;9
+15_Boyacá;;Rural disperso;2.372;233;1;1.928;172;30;0;0;0;8
+15_Boyacá;15646_Samacá;Total;17.485;77;19;5.843;10.397;1.123;5;6;0;15
+15_Boyacá;;Cabecera;6.950;19;0;1.587;4.281;1.051;4;6;0;2
+15_Boyacá;;Centro poblado;367;4;0;90;272;1;0;0;0;0
+15_Boyacá;;Rural disperso;10.168;54;19;4.166;5.844;71;1;0;0;13
+15_Boyacá;15660_San Eduardo;Total;1.558;63;0;387;1.095;13;0;0;0;0
+15_Boyacá;;Cabecera;675;1;0;191;475;8;0;0;0;0
+15_Boyacá;;Rural disperso;883;62;0;196;620;5;0;0;0;0
+15_Boyacá;15664_San José De Pare;Total;4.658;114;1;1.447;3.046;37;0;0;0;13
+15_Boyacá;;Cabecera;946;20;0;184;712;28;0;0;0;2
+15_Boyacá;;Rural disperso;3.712;94;1;1.263;2.334;9;0;0;0;11
+15_Boyacá;15667_San Luis De Gaceno;Total;4.534;195;2;3.228;667;434;4;0;0;4
+15_Boyacá;;Cabecera;2.127;18;2;1.069;599;432;4;0;0;3
+15_Boyacá;;Centro poblado;471;10;0;431;28;2;0;0;0;0
+15_Boyacá;;Rural disperso;1.936;167;0;1.728;40;0;0;0;0;1
+15_Boyacá;15673_San Mateo;Total;3.307;64;0;2.577;644;19;1;0;0;2
+15_Boyacá;;Cabecera;1.163;3;0;580;564;14;1;0;0;1
+15_Boyacá;;Rural disperso;2.144;61;0;1.997;80;5;0;0;0;1
+15_Boyacá;15676_San Miguel De Sema;Total;2.901;97;27;1.231;1.469;60;8;7;0;2
+15_Boyacá;;Cabecera;408;10;3;149;237;5;0;3;0;1
+15_Boyacá;;Rural disperso;2.493;87;24;1.082;1.232;55;8;4;0;1
+15_Boyacá;15681_San Pablo De Borbur;Total;5.827;371;31;4.198;1.194;7;0;0;0;26
+15_Boyacá;;Cabecera;681;0;1;215;452;4;0;0;0;9
+15_Boyacá;;Centro poblado;1.478;58;1;807;612;0;0;0;0;0
+15_Boyacá;;Rural disperso;3.668;313;29;3.176;130;3;0;0;0;17
+15_Boyacá;15686_Santana;Total;6.811;236;9;2.988;3.526;40;3;3;0;6
+15_Boyacá;;Cabecera;2.369;19;3;473;1.826;37;3;3;0;5
+15_Boyacá;;Centro poblado;289;0;0;192;97;0;0;0;0;0
+15_Boyacá;;Rural disperso;4.153;217;6;2.323;1.603;3;0;0;0;1
+15_Boyacá;15690_Santa María;Total;3.093;85;4;1.135;1.684;181;2;0;0;2
+15_Boyacá;;Cabecera;1.971;34;2;825;927;179;2;0;0;2
+15_Boyacá;;Rural disperso;1.122;51;2;310;757;2;0;0;0;0
+15_Boyacá;15693_Santa Rosa De Viterbo;Total;10.849;120;17;1.485;6.872;2.303;18;8;0;26
+15_Boyacá;;Cabecera;6.901;58;11;632;3.877;2.274;18;8;0;23
+15_Boyacá;;Centro poblado;12;0;0;0;12;0;0;0;0;0
+15_Boyacá;;Rural disperso;3.936;62;6;853;2.983;29;0;0;0;3
+15_Boyacá;15696_Santa Sofía;Total;2.924;52;12;490;2.222;147;0;0;0;1
+15_Boyacá;;Cabecera;984;1;12;59;767;144;0;0;0;1
+15_Boyacá;;Rural disperso;1.940;51;0;431;1.455;3;0;0;0;0
+15_Boyacá;15720_Sativanorte;Total;1.947;64;3;1.174;705;1;0;0;0;0
+15_Boyacá;;Cabecera;659;9;0;21;628;1;0;0;0;0
+15_Boyacá;;Centro poblado;20;0;0;16;4;0;0;0;0;0
+15_Boyacá;;Rural disperso;1.268;55;3;1.137;73;0;0;0;0;0
+15_Boyacá;15723_Sativasur;Total;1.044;28;2;291;716;7;0;0;0;0
+15_Boyacá;;Cabecera;292;1;1;132;153;5;0;0;0;0
+15_Boyacá;;Rural disperso;752;27;1;159;563;2;0;0;0;0
+15_Boyacá;15740_Siachoque;Total;6.649;79;5;2.980;3.578;3;0;0;0;4
+15_Boyacá;;Cabecera;1.116;9;1;227;874;2;0;0;0;3
+15_Boyacá;;Rural disperso;5.533;70;4;2.753;2.704;1;0;0;0;1
+15_Boyacá;15753_Soatá;Total;8.456;62;10;4.331;3.885;145;5;0;0;18
+15_Boyacá;;Cabecera;6.150;6;3;3.188;2.791;139;5;0;0;18
+15_Boyacá;;Rural disperso;2.306;56;7;1.143;1.094;6;0;0;0;0
+15_Boyacá;15755_Socotá;Total;7.122;519;11;1.999;4.561;30;0;0;0;2
+15_Boyacá;;Cabecera;1.354;5;1;19;1.304;24;0;0;0;1
+15_Boyacá;;Centro poblado;41;0;0;0;41;0;0;0;0;0
+15_Boyacá;;Rural disperso;5.727;514;10;1.980;3.216;6;0;0;0;1
+15_Boyacá;15757_Socha;Total;7.497;76;1;912;6.345;152;6;0;0;5
+15_Boyacá;;Cabecera;4.222;14;1;438;3.617;141;6;0;0;5
+15_Boyacá;;Centro poblado;137;1;0;17;119;0;0;0;0;0
+15_Boyacá;;Rural disperso;3.138;61;0;457;2.609;11;0;0;0;0
+15_Boyacá;15759_Sogamoso;Total;119.503;938;28;14.287;84.093;16.707;2.969;312;23;146
+15_Boyacá;;Cabecera;106.117;393;26;7.695;78.519;16.304;2.815;211;14;140
+15_Boyacá;;Centro poblado;1.456;32;0;632;768;19;4;0;0;1
+15_Boyacá;;Rural disperso;11.930;513;2;5.960;4.806;384;150;101;9;5
+15_Boyacá;15761_Somondoco;Total;2.364;46;3;452;1.812;50;0;1;0;0
+15_Boyacá;;Cabecera;597;4;3;139;405;45;0;1;0;0
+15_Boyacá;;Rural disperso;1.767;42;0;313;1.407;5;0;0;0;0
+15_Boyacá;15762_Sora;Total;2.586;39;1;1.332;1.192;11;0;0;0;11
+15_Boyacá;;Cabecera;457;2;0;177;256;11;0;0;0;11
+15_Boyacá;;Rural disperso;2.129;37;1;1.155;936;0;0;0;0;0
+15_Boyacá;15763_Sotaquirá;Total;7.953;380;4;2.783;4.710;66;0;0;0;10
+15_Boyacá;;Cabecera;831;17;0;49;744;20;0;0;0;1
+15_Boyacá;;Centro poblado;462;3;0;139;319;1;0;0;0;0
+15_Boyacá;;Rural disperso;6.660;360;4;2.595;3.647;45;0;0;0;9
+15_Boyacá;15764_Soracá;Total;5.858;121;0;841;4.836;60;0;0;0;0
+15_Boyacá;;Cabecera;1.414;13;0;164;1.210;27;0;0;0;0
+15_Boyacá;;Rural disperso;4.444;108;0;677;3.626;33;0;0;0;0
+15_Boyacá;15774_Susacón;Total;2.555;76;4;1.447;1.012;8;0;0;0;8
+15_Boyacá;;Cabecera;579;5;0;116;446;8;0;0;0;4
+15_Boyacá;;Rural disperso;1.976;71;4;1.331;566;0;0;0;0;4
+15_Boyacá;15776_Sutamarchán;Total;5.755;222;2;902;4.478;137;0;0;0;14
+15_Boyacá;;Cabecera;2.083;55;0;122;1.778;116;0;0;0;12
+15_Boyacá;;Rural disperso;3.672;167;2;780;2.700;21;0;0;0;2
+15_Boyacá;15778_Sutatenza;Total;3.481;173;7;2.276;997;20;0;0;0;8
+15_Boyacá;;Cabecera;659;5;3;146;484;16;0;0;0;5
+15_Boyacá;;Rural disperso;2.822;168;4;2.130;513;4;0;0;0;3
+15_Boyacá;15790_Tasco;Total;5.140;77;11;2.163;2.866;2;5;8;1;7
+15_Boyacá;;Cabecera;1.482;7;2;308;1.151;1;5;0;1;7
+15_Boyacá;;Centro poblado;173;0;0;69;104;0;0;0;0;0
+15_Boyacá;;Rural disperso;3.485;70;9;1.786;1.611;1;0;8;0;0
+15_Boyacá;15798_Tenza;Total;3.426;63;2;1.493;1.838;27;0;2;0;1
+15_Boyacá;;Cabecera;1.046;0;2;298;716;27;0;2;0;1
+15_Boyacá;;Rural disperso;2.380;63;0;1.195;1.122;0;0;0;0;0
+15_Boyacá;15804_Tibaná;Total;7.945;316;10;3.939;3.618;53;4;0;0;5
+15_Boyacá;;Cabecera;1.646;4;0;392;1.213;34;0;0;0;3
+15_Boyacá;;Rural disperso;6.299;312;10;3.547;2.405;19;4;0;0;2
+15_Boyacá;15806_Tibasosa;Total;11.019;60;9;2.262;7.403;1.169;101;11;0;4
+15_Boyacá;;Cabecera;4.182;12;4;240;3.011;883;26;3;0;3
+15_Boyacá;;Centro poblado;820;3;1;95;577;103;40;1;0;0
+15_Boyacá;;Rural disperso;6.017;45;4;1.927;3.815;183;35;7;0;1
+15_Boyacá;15808_Tinjacá;Total;2.869;110;6;1.128;1.579;42;0;0;0;4
+15_Boyacá;;Cabecera;727;8;1;17;680;17;0;0;0;4
+15_Boyacá;;Rural disperso;2.142;102;5;1.111;899;25;0;0;0;0
+15_Boyacá;15810_Tipacoque;Total;3.154;224;4;1.263;1.637;13;0;0;0;13
+15_Boyacá;;Cabecera;908;34;4;70;785;9;0;0;0;6
+15_Boyacá;;Centro poblado;37;1;0;23;13;0;0;0;0;0
+15_Boyacá;;Rural disperso;2.209;189;0;1.170;839;4;0;0;0;7
+15_Boyacá;15814_Toca;Total;8.707;131;7;2.770;5.590;199;1;0;2;7
+15_Boyacá;;Cabecera;4.205;27;3;500;3.491;176;1;0;2;5
+15_Boyacá;;Rural disperso;4.502;104;4;2.270;2.099;23;0;0;0;2
+15_Boyacá;15816_Togüí;Total;4.224;157;4;1.541;2.494;20;0;0;0;8
+15_Boyacá;;Cabecera;607;8;1;34;558;6;0;0;0;0
+15_Boyacá;;Rural disperso;3.617;149;3;1.507;1.936;14;0;0;0;8
+15_Boyacá;15820_Tópaga;Total;3.531;86;4;778;2.628;33;0;0;0;2
+15_Boyacá;;Cabecera;1.009;22;4;71;906;4;0;0;0;2
+15_Boyacá;;Centro poblado;431;10;0;104;307;10;0;0;0;0
+15_Boyacá;;Rural disperso;2.091;54;0;603;1.415;19;0;0;0;0
+15_Boyacá;15822_Tota;Total;4.530;313;5;3.359;850;3;0;0;0;0
+15_Boyacá;;Cabecera;769;5;0;489;274;1;0;0;0;0
+15_Boyacá;;Rural disperso;3.761;308;5;2.870;576;2;0;0;0;0
+15_Boyacá;15832_Tununguá;Total;1.526;168;4;492;852;5;0;0;5;0
+15_Boyacá;;Cabecera;251;2;0;13;226;5;0;0;5;0
+15_Boyacá;;Rural disperso;1.275;166;4;479;626;0;0;0;0;0
+15_Boyacá;15835_Turmequé;Total;5.835;107;7;475;5.145;90;0;0;0;11
+15_Boyacá;;Cabecera;2.050;16;0;241;1.706;86;0;0;0;1
+15_Boyacá;;Rural disperso;3.785;91;7;234;3.439;4;0;0;0;10
+15_Boyacá;15837_Tuta;Total;8.143;137;3;3.696;4.237;55;4;4;0;7
+15_Boyacá;;Cabecera;2.301;2;0;701;1.554;33;0;4;0;7
+15_Boyacá;;Rural disperso;5.842;135;3;2.995;2.683;22;4;0;0;0
+15_Boyacá;15839_Tutazá;Total;1.794;77;11;398;1.296;5;0;3;0;4
+15_Boyacá;;Cabecera;169;1;8;53;103;1;0;3;0;0
+15_Boyacá;;Centro poblado;118;1;0;4;113;0;0;0;0;0
+15_Boyacá;;Rural disperso;1.507;75;3;341;1.080;4;0;0;0;4
+15_Boyacá;15842_Úmbita;Total;6.905;53;5;2.156;4.591;60;13;13;2;12
+15_Boyacá;;Cabecera;1.012;6;0;115;843;29;9;8;0;2
+15_Boyacá;;Rural disperso;5.893;47;5;2.041;3.748;31;4;5;2;10
+15_Boyacá;15861_Ventaquemada;Total;13.974;136;2;3.387;10.352;82;0;1;4;10
+15_Boyacá;;Cabecera;2.328;30;0;660;1.597;37;0;1;0;3
+15_Boyacá;;Centro poblado;1.212;2;0;267;937;6;0;0;0;0
+15_Boyacá;;Rural disperso;10.434;104;2;2.460;7.818;39;0;0;4;7
+15_Boyacá;15879_Viracachá;Total;2.582;28;0;1.912;631;11;0;0;0;0
+15_Boyacá;;Cabecera;413;7;0;128;273;5;0;0;0;0
+15_Boyacá;;Rural disperso;2.169;21;0;1.784;358;6;0;0;0;0
+15_Boyacá;15897_Zetaquira;Total;4.272;373;4;1.362;2.505;28;0;0;0;0
+15_Boyacá;;Cabecera;1.058;23;4;316;697;18;0;0;0;0
+15_Boyacá;;Rural disperso;3.214;350;0;1.046;1.808;10;0;0;0;0
+17_Caldas;17001_Manizales;Total;395.818;4.219;946;66.212;106.152;141.105;41.606;12.644;20.467;2.467
+17_Caldas;;Cabecera;371.662;3.377;720;57.045;96.653;139.459;41.358;12.521;20.175;354
+17_Caldas;;Centro poblado;8.432;88;55;2.548;4.395;822;73;51;196;204
+17_Caldas;;Rural disperso;15.724;754;171;6.619;5.104;824;175;72;96;1.909
+17_Caldas;17013_Aguadas;Total;20.525;154;43;5.098;13.984;1.172;59;3;0;12
+17_Caldas;;Cabecera;10.243;31;13;2.755;6.234;1.151;48;3;0;8
+17_Caldas;;Centro poblado;1.615;9;0;322;1.280;2;2;0;0;0
+17_Caldas;;Rural disperso;8.667;114;30;2.021;6.470;19;9;0;0;4
+17_Caldas;17042_Anserma;Total;31.438;290;77;9.089;14.425;7.225;251;39;9;33
+17_Caldas;;Cabecera;18.262;92;14;4.702;6.280;6.909;225;21;5;14
+17_Caldas;;Centro poblado;613;0;5;134;470;4;0;0;0;0
+17_Caldas;;Rural disperso;12.563;198;58;4.253;7.675;312;26;18;4;19
+17_Caldas;17050_Aranzazu;Total;9.854;24;2;3.489;5.212;1.088;25;5;7;2
+17_Caldas;;Cabecera;6.330;5;2;2.677;2.554;1.061;18;5;7;1
+17_Caldas;;Centro poblado;216;0;0;67;149;0;0;0;0;0
+17_Caldas;;Rural disperso;3.308;19;0;745;2.509;27;7;0;0;1
+17_Caldas;17088_Belalcázar;Total;9.661;330;28;4.753;3.624;874;27;6;2;17
+17_Caldas;;Cabecera;4.271;9;3;1.609;1.875;764;3;0;0;8
+17_Caldas;;Centro poblado;1.187;128;0;862;189;8;0;0;0;0
+17_Caldas;;Rural disperso;4.203;193;25;2.282;1.560;102;24;6;2;9
+17_Caldas;17174_Chinchiná;Total;48.298;149;50;8.299;24.260;9.889;3.688;327;63;1.573
+17_Caldas;;Cabecera;43.020;123;44;7.405;21.537;9.800;3.674;318;55;64
+17_Caldas;;Centro poblado;1.435;11;0;174;1.185;3;2;0;0;60
+17_Caldas;;Rural disperso;3.843;15;6;720;1.538;86;12;9;8;1.449
+17_Caldas;17272_Filadelfia;Total;9.613;64;27;2.823;5.662;1.007;14;0;5;11
+17_Caldas;;Cabecera;3.449;16;9;823;1.592;990;6;0;5;8
+17_Caldas;;Centro poblado;1.202;6;0;321;872;3;0;0;0;0
+17_Caldas;;Rural disperso;4.962;42;18;1.679;3.198;14;8;0;0;3
+17_Caldas;17380_La Dorada;Total;69.086;2.308;109;22.417;31.377;11.933;686;140;32;84
+17_Caldas;;Cabecera;61.728;1.962;78;17.803;29.483;11.711;563;51;7;70
+17_Caldas;;Centro poblado;4.240;46;3;2.736;1.413;38;3;0;1;0
+17_Caldas;;Rural disperso;3.118;300;28;1.878;481;184;120;89;24;14
+17_Caldas;17388_La Merced;Total;5.324;53;7;2.455;2.180;557;26;5;36;5
+17_Caldas;;Cabecera;1.863;3;3;168;1.179;493;10;5;1;1
+17_Caldas;;Centro poblado;1.357;14;4;884;433;19;0;0;0;3
+17_Caldas;;Rural disperso;2.104;36;0;1.403;568;45;16;0;35;1
+17_Caldas;17433_Manzanares;Total;16.502;157;71;7.207;7.691;1.204;120;16;16;20
+17_Caldas;;Cabecera;9.279;61;10;2.977;4.954;1.127;111;14;16;9
+17_Caldas;;Centro poblado;629;4;2;372;249;2;0;0;0;0
+17_Caldas;;Rural disperso;6.594;92;59;3.858;2.488;75;9;2;0;11
+17_Caldas;17442_Marmato;Total;8.485;222;42;5.081;3.051;63;22;1;0;3
+17_Caldas;;Cabecera;951;69;0;405;430;23;21;0;0;3
+17_Caldas;;Centro poblado;3.896;79;13;1.911;1.868;25;0;0;0;0
+17_Caldas;;Rural disperso;3.638;74;29;2.765;753;15;1;1;0;0
+17_Caldas;17444_Marquetalia;Total;12.079;112;45;5.939;5.080;885;3;0;0;15
+17_Caldas;;Cabecera;5.659;36;18;3.188;1.596;805;3;0;0;13
+17_Caldas;;Centro poblado;89;0;0;45;43;1;0;0;0;0
+17_Caldas;;Rural disperso;6.331;76;27;2.706;3.441;79;0;0;0;2
+17_Caldas;17446_Marulanda;Total;2.081;31;15;811;833;263;72;55;0;1
+17_Caldas;;Cabecera;676;1;0;218;403;51;2;0;0;1
+17_Caldas;;Centro poblado;446;8;0;304;131;3;0;0;0;0
+17_Caldas;;Rural disperso;959;22;15;289;299;209;70;55;0;0
+17_Caldas;17486_Neira;Total;20.355;265;33;5.581;8.738;5.668;24;23;12;11
+17_Caldas;;Cabecera;11.201;45;9;476;5.034;5.600;15;4;11;7
+17_Caldas;;Centro poblado;1.361;21;1;893;433;1;1;11;0;0
+17_Caldas;;Rural disperso;7.793;199;23;4.212;3.271;67;8;8;1;4
+17_Caldas;17495_Norcasia;Total;5.946;139;4;3.037;2.482;248;12;18;0;6
+17_Caldas;;Cabecera;3.950;20;3;1.602;2.173;150;2;0;0;0
+17_Caldas;;Centro poblado;435;4;0;347;79;5;0;0;0;0
+17_Caldas;;Rural disperso;1.561;115;1;1.088;230;93;10;18;0;6
+17_Caldas;17513_Pácora;Total;13.074;105;15;2.391;9.848;661;36;4;4;10
+17_Caldas;;Cabecera;6.355;8;4;1.522;4.209;563;36;4;4;5
+17_Caldas;;Centro poblado;1.347;2;4;101;1.180;59;0;0;0;1
+17_Caldas;;Rural disperso;5.372;95;7;768;4.459;39;0;0;0;4
+17_Caldas;17524_Palestina;Total;13.490;49;9;5.691;6.226;675;295;203;320;22
+17_Caldas;;Cabecera;4.656;14;1;2.100;2.143;325;55;4;2;12
+17_Caldas;;Centro poblado;5.150;20;7;2.603;2.484;31;5;0;0;0
+17_Caldas;;Rural disperso;3.684;15;1;988;1.599;319;235;199;318;10
+17_Caldas;17541_Pensilvania;Total;17.107;148;41;3.957;11.825;1.081;17;8;2;28
+17_Caldas;;Cabecera;6.556;12;7;1.763;3.734;1.024;8;2;0;6
+17_Caldas;;Centro poblado;2.478;15;2;439;1.997;9;0;3;0;13
+17_Caldas;;Rural disperso;8.073;121;32;1.755;6.094;48;9;3;2;9
+17_Caldas;17614_Riosucio;Total;48.012;813;401;33.524;7.149;5.978;75;18;4;50
+17_Caldas;;Cabecera;17.148;60;27;4.385;6.656;5.915;74;14;4;13
+17_Caldas;;Centro poblado;8.275;201;77;7.776;179;28;0;0;0;14
+17_Caldas;;Rural disperso;22.589;552;297;21.363;314;35;1;4;0;23
+17_Caldas;17616_Risaralda;Total;9.840;235;113;4.656;4.379;411;19;3;10;14
+17_Caldas;;Cabecera;3.809;23;2;1.669;1.943;166;1;0;2;3
+17_Caldas;;Centro poblado;562;5;3;370;184;0;0;0;0;0
+17_Caldas;;Rural disperso;5.469;207;108;2.617;2.252;245;18;3;8;11
+17_Caldas;17653_Salamina;Total;16.441;197;56;5.078;8.965;1.945;122;37;18;23
+17_Caldas;;Cabecera;10.387;100;22;3.377;4.797;1.908;115;35;18;15
+17_Caldas;;Centro poblado;1.054;11;12;664;357;6;0;0;0;4
+17_Caldas;;Rural disperso;5.000;86;22;1.037;3.811;31;7;2;0;4
+17_Caldas;17662_Samaná;Total;17.424;414;961;9.538;5.440;1.006;29;7;3;26
+17_Caldas;;Cabecera;5.210;9;27;1.843;2.471;850;4;3;0;3
+17_Caldas;;Centro poblado;3.229;76;23;1.882;1.200;30;8;4;0;6
+17_Caldas;;Rural disperso;8.985;329;911;5.813;1.769;126;17;0;3;17
+17_Caldas;17665_San José;Total;4.516;43;9;1.862;2.435;130;16;8;9;4
+17_Caldas;;Cabecera;1.202;7;0;242;909;38;1;1;4;0
+17_Caldas;;Centro poblado;124;10;0;75;13;16;7;3;0;0
+17_Caldas;;Rural disperso;3.190;26;9;1.545;1.513;76;8;4;5;4
+17_Caldas;17777_Supía;Total;26.571;287;322;9.396;12.219;4.260;56;7;17;7
+17_Caldas;;Cabecera;12.861;20;26;870;7.673;4.210;50;7;4;1
+17_Caldas;;Centro poblado;1.242;21;17;808;391;1;0;0;4;0
+17_Caldas;;Rural disperso;12.468;246;279;7.718;4.155;49;6;0;9;6
+17_Caldas;17867_Victoria;Total;8.148;63;59;4.757;2.338;815;32;29;32;23
+17_Caldas;;Cabecera;3.968;22;21;1.864;1.485;563;5;0;0;8
+17_Caldas;;Centro poblado;1.022;3;5;809;187;18;0;0;0;0
+17_Caldas;;Rural disperso;3.158;38;33;2.084;666;234;27;29;32;15
+17_Caldas;17873_Villamaría;Total;62.671;460;205;13.431;23.293;20.921;4.034;224;69;34
+17_Caldas;;Cabecera;54.293;319;48;8.895;20.223;20.548;3.977;204;54;25
+17_Caldas;;Centro poblado;3.153;20;66;1.868;1.128;62;2;4;1;2
+17_Caldas;;Rural disperso;5.225;121;91;2.668;1.942;311;55;16;14;7
+17_Caldas;17877_Viterbo;Total;12.425;53;14;3.920;5.292;2.898;191;34;11;12
+17_Caldas;;Cabecera;10.664;37;6;3.285;4.548;2.706;55;8;7;12
+17_Caldas;;Rural disperso;1.761;16;8;635;744;192;136;26;4;0
+19_Cauca;19001_Popayán;Total;272.901;3.162;2.527;92.166;84.035;53.472;28.259;7.204;1.555;521
+19_Cauca;;Cabecera;228.694;891;646;57.240;80.118;52.662;28.013;7.122;1.536;466
+19_Cauca;;Centro poblado;17.737;268;680;13.799;2.524;269;115;58;13;11
+19_Cauca;;Rural disperso;26.470;2.003;1.201;21.127;1.393;541;131;24;6;44
+19_Cauca;19022_Almaguer;Total;16.523;2.275;2.138;12.059;19;7;18;0;3;4
+19_Cauca;;Cabecera;1.205;29;3;1.155;13;2;0;0;0;3
+19_Cauca;;Centro poblado;1.085;43;266;762;2;5;6;0;0;1
+19_Cauca;;Rural disperso;14.233;2.203;1.869;10.142;4;0;12;0;3;0
+19_Cauca;19050_Argelia;Total;19.925;1.795;182;17.717;197;8;8;0;0;18
+19_Cauca;;Cabecera;2.367;44;18;2.150;141;8;0;0;0;6
+19_Cauca;;Centro poblado;3.838;97;4;3.687;44;0;0;0;0;6
+19_Cauca;;Rural disperso;13.720;1.654;160;11.880;12;0;8;0;0;6
+19_Cauca;19075_Balboa;Total;18.904;719;71;17.378;691;21;4;3;0;17
+19_Cauca;;Cabecera;5.228;32;22;4.538;623;9;0;0;0;4
+19_Cauca;;Centro poblado;2.357;42;7;2.253;47;4;0;3;0;1
+19_Cauca;;Rural disperso;11.319;645;42;10.587;21;8;4;0;0;12
+19_Cauca;19100_Bolívar;Total;35.625;2.499;2.837;29.007;1.110;140;16;1;0;15
+19_Cauca;;Cabecera;4.524;30;17;3.276;1.051;139;6;0;0;5
+19_Cauca;;Centro poblado;3.617;83;191;3.312;29;1;1;0;0;0
+19_Cauca;;Rural disperso;27.484;2.386;2.629;22.419;30;0;9;1;0;10
+19_Cauca;19110_Buenos Aires;Total;25.236;3.071;3.036;18.872;225;9;5;0;0;18
+19_Cauca;;Cabecera;1.137;29;7;966;133;0;0;0;0;2
+19_Cauca;;Centro poblado;6.553;197;42;6.251;49;5;0;0;0;9
+19_Cauca;;Rural disperso;17.546;2.845;2.987;11.655;43;4;5;0;0;7
+19_Cauca;19130_Cajibío;Total;32.235;3.132;304;27.634;1.095;24;10;3;4;29
+19_Cauca;;Cabecera;1.958;32;12;1.133;757;11;5;3;0;5
+19_Cauca;;Centro poblado;1.613;77;23;1.431;74;5;0;0;0;3
+19_Cauca;;Rural disperso;28.664;3.023;269;25.070;264;8;5;0;4;21
+19_Cauca;19137_Caldono;Total;35.886;2.875;836;32.027;124;5;0;0;0;19
+19_Cauca;;Cabecera;1.816;32;13;1.695;61;3;0;0;0;12
+19_Cauca;;Centro poblado;2.614;109;10;2.485;9;0;0;0;0;1
+19_Cauca;;Rural disperso;31.456;2.734;813;27.847;54;2;0;0;0;6
+19_Cauca;19142_Caloto;Total;25.264;1.772;8.652;14.348;429;23;4;2;1;33
+19_Cauca;;Cabecera;5.065;49;106;4.471;401;21;1;2;1;13
+19_Cauca;;Centro poblado;5.063;212;1.234;3.604;9;0;0;0;0;4
+19_Cauca;;Rural disperso;15.136;1.511;7.312;6.273;19;2;3;0;0;16
+19_Cauca;19212_Corinto;Total;21.633;542;1.908;14.773;4.101;284;14;4;0;7
+19_Cauca;;Cabecera;12.531;68;83;8.002;4.077;284;13;4;0;0
+19_Cauca;;Centro poblado;753;16;39;692;6;0;0;0;0;0
+19_Cauca;;Rural disperso;8.349;458;1.786;6.079;18;0;1;0;0;7
+19_Cauca;19256_El Tambo;Total;38.509;5.203;1.862;30.820;568;20;4;0;0;32
+19_Cauca;;Cabecera;2.538;39;368;1.676;431;14;1;0;0;9
+19_Cauca;;Centro poblado;3.733;62;195;3.456;17;1;0;0;0;2
+19_Cauca;;Rural disperso;32.238;5.102;1.299;25.688;120;5;3;0;0;21
+19_Cauca;19290_Florencia;Total;5.089;76;5;4.902;96;4;3;0;0;3
+19_Cauca;;Cabecera;1.182;17;1;1.077;80;3;1;0;0;3
+19_Cauca;;Centro poblado;431;3;0;421;7;0;0;0;0;0
+19_Cauca;;Rural disperso;3.476;56;4;3.404;9;1;2;0;0;0
+19_Cauca;19300_Guachené;Total;18.513;101;41;17.574;767;11;1;0;0;18
+19_Cauca;;Cabecera;5.977;31;8;5.186;739;6;1;0;0;6
+19_Cauca;;Centro poblado;10.452;46;10;10.376;9;5;0;0;0;6
+19_Cauca;;Rural disperso;2.084;24;23;2.012;19;0;0;0;0;6
+19_Cauca;19318_Guapi;Total;23.775;11.398;199;11.631;396;133;4;4;0;10
+19_Cauca;;Cabecera;13.506;1.400;145;11.414;396;133;4;4;0;10
+19_Cauca;;Centro poblado;758;691;45;22;0;0;0;0;0;0
+19_Cauca;;Rural disperso;9.511;9.307;9;195;0;0;0;0;0;0
+19_Cauca;19355_Inzá;Total;26.490;2.282;167;23.268;709;25;6;0;0;33
+19_Cauca;;Cabecera;1.213;7;11;655;524;9;0;0;0;7
+19_Cauca;;Centro poblado;3.561;177;51;3.262;58;3;0;0;0;10
+19_Cauca;;Rural disperso;21.716;2.098;105;19.351;127;13;6;0;0;16
+19_Cauca;19364_Jambaló;Total;16.353;2.009;387;13.544;381;8;15;0;0;9
+19_Cauca;;Cabecera;1.487;18;34;1.044;377;6;7;0;0;1
+19_Cauca;;Rural disperso;14.866;1.991;353;12.500;4;2;8;0;0;8
+19_Cauca;19392_La Sierra;Total;9.935;619;199;9.005;84;6;3;0;1;18
+19_Cauca;;Cabecera;1.620;27;47;1.478;53;6;0;0;0;9
+19_Cauca;;Centro poblado;409;8;0;388;10;0;3;0;0;0
+19_Cauca;;Rural disperso;7.906;584;152;7.139;21;0;0;0;1;9
+19_Cauca;19397_La Vega;Total;19.777;705;1.082;17.556;219;195;1;0;0;19
+19_Cauca;;Cabecera;1.040;12;47;932;28;12;1;0;0;8
+19_Cauca;;Centro poblado;3.670;93;154;3.277;133;12;0;0;0;1
+19_Cauca;;Rural disperso;15.067;600;881;13.347;58;171;0;0;0;10
+19_Cauca;19418_López De Micay;Total;15.117;9.576;75;5.377;12;3;4;0;0;70
+19_Cauca;;Cabecera;1.769;44;19;1.685;5;3;4;0;0;9
+19_Cauca;;Centro poblado;1.369;1.083;19;266;0;0;0;0;0;1
+19_Cauca;;Rural disperso;11.979;8.449;37;3.426;7;0;0;0;0;60
+19_Cauca;19450_Mercaderes;Total;14.806;599;52;13.931;185;3;17;0;0;19
+19_Cauca;;Cabecera;5.655;46;11;5.394;173;3;14;0;0;14
+19_Cauca;;Centro poblado;3.798;77;16;3.696;5;0;3;0;0;1
+19_Cauca;;Rural disperso;5.353;476;25;4.841;7;0;0;0;0;4
+19_Cauca;19455_Miranda;Total;28.540;399;2.496;18.161;7.332;93;24;3;11;21
+19_Cauca;;Cabecera;17.767;61;66;10.333;7.198;71;20;3;3;12
+19_Cauca;;Centro poblado;4.362;12;34;4.197;101;3;4;0;4;7
+19_Cauca;;Rural disperso;6.411;326;2.396;3.631;33;19;0;0;4;2
+19_Cauca;19473_Morales;Total;29.737;5.573;9.201;13.940;941;47;12;0;1;22
+19_Cauca;;Cabecera;2.200;108;10;1.382;661;33;1;0;1;4
+19_Cauca;;Centro poblado;1.213;94;46;1.023;46;0;0;0;0;4
+19_Cauca;;Rural disperso;26.324;5.371;9.145;11.535;234;14;11;0;0;14
+19_Cauca;19513_Padilla;Total;8.763;71;89;8.168;418;10;5;0;0;2
+19_Cauca;;Cabecera;4.380;18;8;3.927;414;10;1;0;0;2
+19_Cauca;;Centro poblado;1.610;19;24;1.567;0;0;0;0;0;0
+19_Cauca;;Rural disperso;2.773;34;57;2.674;4;0;4;0;0;0
+19_Cauca;19517_Páez;Total;37.599;6.797;305;29.688;756;27;6;10;0;10
+19_Cauca;;Cabecera;2.898;75;9;2.252;523;22;0;10;0;7
+19_Cauca;;Centro poblado;5.183;423;15;4.599;140;5;0;0;0;1
+19_Cauca;;Rural disperso;29.518;6.299;281;22.837;93;0;6;0;0;2
+19_Cauca;19532_Patía;Total;28.361;2.431;4.403;17.999;3.334;133;3;1;1;56
+19_Cauca;;Cabecera;11.685;99;93;8.318;3.037;106;3;1;1;27
+19_Cauca;;Centro poblado;5.734;487;1.153;3.852;210;17;0;0;0;15
+19_Cauca;;Rural disperso;10.942;1.845;3.157;5.829;87;10;0;0;0;14
+19_Cauca;19533_Piamonte;Total;7.124;3.024;36;4.042;21;0;0;0;0;1
+19_Cauca;;Cabecera;1.911;186;26;1.686;12;0;0;0;0;1
+19_Cauca;;Centro poblado;1.023;89;3;924;7;0;0;0;0;0
+19_Cauca;;Rural disperso;4.190;2.749;7;1.432;2;0;0;0;0;0
+19_Cauca;19548_Piendamó - Tunía;Total;33.346;1.532;740;23.683;6.095;1.257;13;3;0;23
+19_Cauca;;Cabecera;12.571;158;145;6.088;5.004;1.157;8;0;0;11
+19_Cauca;;Centro poblado;776;1;3;322;385;62;0;3;0;0
+19_Cauca;;Rural disperso;19.999;1.373;592;17.273;706;38;5;0;0;12
+19_Cauca;19573_Puerto Tejada;Total;40.020;56;253;16.544;20.326;2.761;20;14;3;43
+19_Cauca;;Cabecera;35.470;32;43;12.901;19.735;2.690;11;14;3;41
+19_Cauca;;Centro poblado;3.929;17;143;3.123;566;71;9;0;0;0
+19_Cauca;;Rural disperso;621;7;67;520;25;0;0;0;0;2
+19_Cauca;19585_Puracé;Total;14.925;817;168;11.520;2.396;11;0;0;0;13
+19_Cauca;;Cabecera;1.673;40;15;969;637;10;0;0;0;2
+19_Cauca;;Centro poblado;2.656;83;30;1.765;778;0;0;0;0;0
+19_Cauca;;Rural disperso;10.596;694;123;8.786;981;1;0;0;0;11
+19_Cauca;19622_Rosas;Total;9.336;224;38;8.848;191;16;10;0;0;9
+19_Cauca;;Cabecera;1.017;11;6;822;164;9;0;0;0;5
+19_Cauca;;Centro poblado;904;3;4;882;6;3;6;0;0;0
+19_Cauca;;Rural disperso;7.415;210;28;7.144;21;4;4;0;0;4
+19_Cauca;19693_San Sebastián;Total;9.769;518;25;9.205;11;5;0;0;0;5
+19_Cauca;;Cabecera;607;22;11;558;8;4;0;0;0;4
+19_Cauca;;Centro poblado;1.923;41;3;1.878;1;0;0;0;0;0
+19_Cauca;;Rural disperso;7.239;455;11;6.769;2;1;0;0;0;1
+19_Cauca;19698_Santander De Quilichao;Total;95.348;2.543;16.954;47.458;21.690;6.471;136;18;9;69
+19_Cauca;;Cabecera;47.178;204;382;19.069;20.905;6.431;126;16;9;36
+19_Cauca;;Centro poblado;10.577;99;605;9.370;492;7;0;0;0;4
+19_Cauca;;Rural disperso;37.593;2.240;15.967;19.019;293;33;10;2;0;29
+19_Cauca;19701_Santa Rosa;Total;4.975;783;95;4.053;38;1;1;0;0;4
+19_Cauca;;Cabecera;585;3;1;566;12;1;0;0;0;2
+19_Cauca;;Centro poblado;922;42;39;841;0;0;0;0;0;0
+19_Cauca;;Rural disperso;3.468;738;55;2.646;26;0;1;0;0;2
+19_Cauca;19743_Silvia;Total;33.380;2.765;5.415;22.714;1.839;572;29;2;0;44
+19_Cauca;;Cabecera;4.287;51;58;1.882;1.705;556;19;2;0;14
+19_Cauca;;Centro poblado;1.385;91;341;900;50;3;0;0;0;0
+19_Cauca;;Rural disperso;27.708;2.623;5.016;19.932;84;13;10;0;0;30
+19_Cauca;19760_Sotará - Paispamba;Total;11.921;956;3.618;7.048;278;3;0;0;0;18
+19_Cauca;;Cabecera;513;0;8;310;195;0;0;0;0;0
+19_Cauca;;Centro poblado;1.407;32;1.013;351;1;0;0;0;0;10
+19_Cauca;;Rural disperso;10.001;924;2.597;6.387;82;3;0;0;0;8
+19_Cauca;19780_Suárez;Total;19.624;1.376;147;17.992;99;1;0;0;0;9
+19_Cauca;;Cabecera;5.728;56;30;5.549;90;1;0;0;0;2
+19_Cauca;;Centro poblado;1.295;11;49;1.235;0;0;0;0;0;0
+19_Cauca;;Rural disperso;12.601;1.309;68;11.208;9;0;0;0;0;7
+19_Cauca;19785_Sucre;Total;6.201;548;452;5.195;4;1;0;0;0;1
+19_Cauca;;Cabecera;1.112;47;9;1.053;3;0;0;0;0;0
+19_Cauca;;Centro poblado;361;17;4;340;0;0;0;0;0;0
+19_Cauca;;Rural disperso;4.728;484;439;3.802;1;1;0;0;0;1
+19_Cauca;19807_Timbío;Total;32.170;864;356;27.092;3.716;95;11;1;0;35
+19_Cauca;;Cabecera;13.413;72;147;9.794;3.278;92;10;1;0;19
+19_Cauca;;Centro poblado;580;27;4;499;50;0;0;0;0;0
+19_Cauca;;Rural disperso;18.177;765;205;16.799;388;3;1;0;0;16
+19_Cauca;19809_Timbiquí;Total;21.614;11.652;680;9.180;90;6;0;0;0;6
+19_Cauca;;Cabecera;6.186;312;72;5.749;43;6;0;0;0;4
+19_Cauca;;Centro poblado;3.431;1.818;364;1.240;7;0;0;0;0;2
+19_Cauca;;Rural disperso;11.997;9.522;244;2.191;40;0;0;0;0;0
+19_Cauca;19821_Toribío;Total;30.654;960;1.137;26.956;806;744;13;0;2;36
+19_Cauca;;Cabecera;1.970;3;26;1.647;276;14;1;0;2;1
+19_Cauca;;Centro poblado;2.499;50;74;2.328;41;6;0;0;0;0
+19_Cauca;;Rural disperso;26.185;907;1.037;22.981;489;724;12;0;0;35
+19_Cauca;19824_Totoró;Total;20.870;1.912;1.520;17.129;217;39;19;0;0;34
+19_Cauca;;Cabecera;1.289;24;10;1.181;61;4;6;0;0;3
+19_Cauca;;Centro poblado;1.878;61;145;1.634;14;9;5;0;0;10
+19_Cauca;;Rural disperso;17.703;1.827;1.365;14.314;142;26;8;0;0;21
+19_Cauca;19845_Villa Rica;Total;18.761;188;152;17.911;479;9;2;0;0;20
+19_Cauca;;Cabecera;13.728;78;32;13.146;450;8;0;0;0;14
+19_Cauca;;Centro poblado;1.648;14;84;1.528;17;0;2;0;0;3
+19_Cauca;;Rural disperso;3.385;96;36;3.237;12;1;0;0;0;3
+25_Cundinamarca;25001_Agua De Dios;Total;10.421;166;77;2.782;6.883;452;20;15;10;16
+25_Cundinamarca;;Cabecera;8.305;94;48;1.770;5.945;412;13;8;6;9
+25_Cundinamarca;;Rural disperso;2.116;72;29;1.012;938;40;7;7;4;7
+25_Cundinamarca;25019_Albán;Total;5.920;174;57;917;4.370;366;24;7;0;5
+25_Cundinamarca;;Cabecera;1.696;21;6;247;1.287;129;6;0;0;0
+25_Cundinamarca;;Centro poblado;908;7;20;181;602;98;0;0;0;0
+25_Cundinamarca;;Rural disperso;3.316;146;31;489;2.481;139;18;7;0;5
+25_Cundinamarca;25035_Anapoima;Total;12.130;371;64;2.240;4.740;2.971;853;442;159;290
+25_Cundinamarca;;Cabecera;5.344;40;21;349;1.459;2.356;657;313;45;104
+25_Cundinamarca;;Centro poblado;895;8;0;168;621;91;4;0;0;3
+25_Cundinamarca;;Rural disperso;5.891;323;43;1.723;2.660;524;192;129;114;183
+25_Cundinamarca;25040_Anolaima;Total;12.120;492;59;2.725;7.703;1.069;45;4;0;23
+25_Cundinamarca;;Cabecera;4.063;50;34;913;2.184;863;8;0;0;11
+25_Cundinamarca;;Centro poblado;1.700;10;0;335;1.239;115;0;0;0;1
+25_Cundinamarca;;Rural disperso;6.357;432;25;1.477;4.280;91;37;4;0;11
+25_Cundinamarca;25053_Arbeláez;Total;9.613;132;75;1.226;6.772;1.222;146;11;4;25
+25_Cundinamarca;;Cabecera;4.003;24;19;211;2.469;1.136;125;1;1;17
+25_Cundinamarca;;Centro poblado;73;0;0;2;71;0;0;0;0;0
+25_Cundinamarca;;Rural disperso;5.537;108;56;1.013;4.232;86;21;10;3;8
+25_Cundinamarca;25086_Beltrán;Total;1.719;213;11;1.419;70;5;0;0;0;1
+25_Cundinamarca;;Cabecera;355;24;0;286;39;5;0;0;0;1
+25_Cundinamarca;;Centro poblado;856;72;10;766;8;0;0;0;0;0
+25_Cundinamarca;;Rural disperso;508;117;1;367;23;0;0;0;0;0
+25_Cundinamarca;25095_Bituima;Total;2.223;271;24;779;1.092;53;4;0;0;0
+25_Cundinamarca;;Cabecera;392;16;2;58;284;28;4;0;0;0
+25_Cundinamarca;;Centro poblado;91;0;15;9;60;7;0;0;0;0
+25_Cundinamarca;;Rural disperso;1.740;255;7;712;748;18;0;0;0;0
+25_Cundinamarca;25099_Bojacá;Total;9.653;77;79;572;8.338;514;30;20;0;23
+25_Cundinamarca;;Cabecera;7.650;32;1;203;6.936;430;18;7;0;23
+25_Cundinamarca;;Rural disperso;2.003;45;78;369;1.402;84;12;13;0;0
+25_Cundinamarca;25120_Cabrera;Total;4.270;423;25;1.195;2.595;20;6;0;3;3
+25_Cundinamarca;;Cabecera;1.106;0;12;280;784;20;6;0;3;1
+25_Cundinamarca;;Rural disperso;3.164;423;13;915;1.811;0;0;0;0;2
+25_Cundinamarca;25123_Cachipay;Total;9.267;331;75;1.462;5.494;1.793;35;5;0;72
+25_Cundinamarca;;Cabecera;3.498;20;46;430;1.343;1.632;18;0;0;9
+25_Cundinamarca;;Centro poblado;230;0;7;33;153;30;0;0;0;7
+25_Cundinamarca;;Rural disperso;5.539;311;22;999;3.998;131;17;5;0;56
+25_Cundinamarca;25126_Cajicá;Total;80.534;193;205;2.250;42.389;20.408;9.000;3.304;2.519;266
+25_Cundinamarca;;Cabecera;53.457;123;67;1.343;26.334;17.364;6.791;681;619;135
+25_Cundinamarca;;Centro poblado;17.003;34;29;351;9.824;1.784;1.421;1.956;1.522;82
+25_Cundinamarca;;Rural disperso;10.074;36;109;556;6.231;1.260;788;667;378;49
+25_Cundinamarca;25148_Caparrapí;Total;10.266;396;535;5.995;3.134;190;3;0;0;13
+25_Cundinamarca;;Cabecera;2.705;24;100;799;1.583;189;3;0;0;7
+25_Cundinamarca;;Centro poblado;1.109;31;32;605;441;0;0;0;0;0
+25_Cundinamarca;;Rural disperso;6.452;341;403;4.591;1.110;1;0;0;0;6
+25_Cundinamarca;25151_Cáqueza;Total;15.435;233;17;6.058;7.849;1.224;19;6;0;29
+25_Cundinamarca;;Cabecera;6.578;33;6;2.143;3.320;1.036;18;2;0;20
+25_Cundinamarca;;Rural disperso;8.857;200;11;3.915;4.529;188;1;4;0;9
+25_Cundinamarca;25154_Carmen De Carupa;Total;7.325;175;14;2.900;4.175;49;6;0;0;6
+25_Cundinamarca;;Cabecera;2.073;24;2;474;1.555;17;1;0;0;0
+25_Cundinamarca;;Rural disperso;5.252;151;12;2.426;2.620;32;5;0;0;6
+25_Cundinamarca;25168_Chaguaní;Total;3.323;373;19;771;2.125;25;3;0;0;7
+25_Cundinamarca;;Cabecera;843;15;2;111;701;10;0;0;0;4
+25_Cundinamarca;;Rural disperso;2.480;358;17;660;1.424;15;3;0;0;3
+25_Cundinamarca;25175_Chía;Total;128.753;336;178;3.681;68.988;29.894;13.896;5.741;5.615;424
+25_Cundinamarca;;Cabecera;104.063;189;144;1.592;53.027;26.825;13.227;5.029;3.701;329
+25_Cundinamarca;;Centro poblado;13.692;66;8;498;9.497;1.908;384;377;907;47
+25_Cundinamarca;;Rural disperso;10.998;81;26;1.591;6.464;1.161;285;335;1.007;48
+25_Cundinamarca;25178_Chipaque;Total;8.624;277;9;480;7.096;739;4;2;2;15
+25_Cundinamarca;;Cabecera;2.611;11;8;112;1.731;730;4;2;2;11
+25_Cundinamarca;;Centro poblado;87;0;0;22;62;3;0;0;0;0
+25_Cundinamarca;;Rural disperso;5.926;266;1;346;5.303;6;0;0;0;4
+25_Cundinamarca;25181_Choachí;Total;10.366;246;27;797;8.254;982;26;0;7;27
+25_Cundinamarca;;Cabecera;3.938;16;11;189;2.795;890;18;0;7;12
+25_Cundinamarca;;Centro poblado;64;0;0;1;57;6;0;0;0;0
+25_Cundinamarca;;Rural disperso;6.364;230;16;607;5.402;86;8;0;0;15
+25_Cundinamarca;25183_Chocontá;Total;19.611;269;67;3.254;15.686;271;14;4;5;41
+25_Cundinamarca;;Cabecera;10.234;16;25;1.317;8.717;122;7;4;5;21
+25_Cundinamarca;;Rural disperso;9.377;253;42;1.937;6.969;149;7;0;0;20
+25_Cundinamarca;25200_Cogua;Total;20.801;56;32;3.543;15.691;1.421;6;8;8;36
+25_Cundinamarca;;Cabecera;7.587;7;15;945;5.351;1.222;6;5;8;28
+25_Cundinamarca;;Centro poblado;4.509;1;4;554;3.891;54;0;3;0;2
+25_Cundinamarca;;Rural disperso;8.705;48;13;2.044;6.449;145;0;0;0;6
+25_Cundinamarca;25214_Cota;Total;31.364;220;212;1.811;20.000;5.313;1.326;952;1.376;154
+25_Cundinamarca;;Cabecera;20.162;85;78;485;14.440;4.282;513;183;22;74
+25_Cundinamarca;;Rural disperso;11.202;135;134;1.326;5.560;1.031;813;769;1.354;80
+25_Cundinamarca;25224_Cucunubá;Total;7.002;409;25;2.340;4.127;86;2;2;1;10
+25_Cundinamarca;;Cabecera;1.128;10;0;124;936;55;2;0;0;1
+25_Cundinamarca;;Rural disperso;5.874;399;25;2.216;3.191;31;0;2;1;9
+25_Cundinamarca;25245_El Colegio;Total;22.529;237;111;1.904;17.978;2.225;8;19;6;41
+25_Cundinamarca;;Cabecera;10.049;18;10;596;7.330;2.066;1;6;6;16
+25_Cundinamarca;;Centro poblado;1.726;5;7;99;1.541;66;0;6;0;2
+25_Cundinamarca;;Rural disperso;10.754;214;94;1.209;9.107;93;7;7;0;23
+25_Cundinamarca;25258_El Peñón;Total;3.458;278;101;819;2.234;17;5;0;0;4
+25_Cundinamarca;;Cabecera;443;3;6;42;374;14;1;0;0;3
+25_Cundinamarca;;Centro poblado;234;9;0;41;180;0;4;0;0;0
+25_Cundinamarca;;Rural disperso;2.781;266;95;736;1.680;3;0;0;0;1
+25_Cundinamarca;25260_El Rosal;Total;21.873;19;42;446;17.757;3.467;25;35;35;47
+25_Cundinamarca;;Cabecera;18.902;0;6;226;15.389;3.242;0;0;0;39
+25_Cundinamarca;;Centro poblado;411;0;0;18;375;18;0;0;0;0
+25_Cundinamarca;;Rural disperso;2.560;19;36;202;1.993;207;25;35;35;8
+25_Cundinamarca;25269_Facatativá;Total;134.881;339;253;31.180;60.268;28.603;13.747;63;70;358
+25_Cundinamarca;;Cabecera;123.075;211;71;26.593;53.869;28.397;13.627;48;28;231
+25_Cundinamarca;;Centro poblado;5.148;31;6;2.045;2.910;81;71;0;0;4
+25_Cundinamarca;;Rural disperso;6.658;97;176;2.542;3.489;125;49;15;42;123
+25_Cundinamarca;25279_Fómeque;Total;10.749;355;92;864;7.024;954;9;0;0;1.451
+25_Cundinamarca;;Cabecera;4.414;3;0;75;3.419;903;9;0;0;5
+25_Cundinamarca;;Centro poblado;157;0;1;24;116;16;0;0;0;0
+25_Cundinamarca;;Rural disperso;6.178;352;91;765;3.489;35;0;0;0;1.446
+25_Cundinamarca;25281_Fosca;Total;5.561;349;4;3.416;1.770;18;0;0;0;4
+25_Cundinamarca;;Cabecera;1.172;8;2;190;955;13;0;0;0;4
+25_Cundinamarca;;Centro poblado;163;7;0;57;99;0;0;0;0;0
+25_Cundinamarca;;Rural disperso;4.226;334;2;3.169;716;5;0;0;0;0
+25_Cundinamarca;25286_Funza;Total;90.670;147;57;8.646;43.845;37.651;128;37;37;122
+25_Cundinamarca;;Cabecera;88.414;93;39;8.253;42.299;37.428;118;37;33;114
+25_Cundinamarca;;Centro poblado;479;0;0;77;398;1;0;0;0;3
+25_Cundinamarca;;Rural disperso;1.777;54;18;316;1.148;222;10;0;4;5
+25_Cundinamarca;25288_Fúquene;Total;4.848;52;21;286;4.407;72;3;3;0;4
+25_Cundinamarca;;Cabecera;167;1;0;23;136;6;0;0;0;1
+25_Cundinamarca;;Centro poblado;751;3;1;84;613;49;0;0;0;1
+25_Cundinamarca;;Rural disperso;3.930;48;20;179;3.658;17;3;3;0;2
+25_Cundinamarca;25290_Fusagasugá;Total;131.661;657;411;8.716;50.009;45.499;21.669;3.462;973;265
+25_Cundinamarca;;Cabecera;111.600;357;165;5.426;38.194;42.492;20.812;3.050;870;234
+25_Cundinamarca;;Centro poblado;4.770;30;80;503;1.589;1.868;421;233;38;8
+25_Cundinamarca;;Rural disperso;15.291;270;166;2.787;10.226;1.139;436;179;65;23
+25_Cundinamarca;25293_Gachalá;Total;4.343;106;62;3.111;1.044;14;0;0;0;6
+25_Cundinamarca;;Cabecera;1.503;19;3;538;926;14;0;0;0;3
+25_Cundinamarca;;Centro poblado;156;0;9;139;8;0;0;0;0;0
+25_Cundinamarca;;Rural disperso;2.684;87;50;2.434;110;0;0;0;0;3
+25_Cundinamarca;25295_Gachancipá;Total;16.601;57;67;1.241;14.449;747;1;10;0;29
+25_Cundinamarca;;Cabecera;11.162;8;21;956;9.513;649;1;0;0;14
+25_Cundinamarca;;Centro poblado;809;0;20;54;712;17;0;3;0;3
+25_Cundinamarca;;Rural disperso;4.630;49;26;231;4.224;81;0;7;0;12
+25_Cundinamarca;25297_Gachetá;Total;8.065;169;5;2.951;4.735;177;11;1;0;16
+25_Cundinamarca;;Cabecera;3.153;10;0;346;2.618;156;11;1;0;11
+25_Cundinamarca;;Centro poblado;4;0;0;3;1;0;0;0;0;0
+25_Cundinamarca;;Rural disperso;4.908;159;5;2.602;2.116;21;0;0;0;5
+25_Cundinamarca;25299_Gama;Total;3.032;102;7;1.862;1.045;13;0;0;0;3
+25_Cundinamarca;;Cabecera;644;2;7;137;492;3;0;0;0;3
+25_Cundinamarca;;Centro poblado;20;0;0;13;5;2;0;0;0;0
+25_Cundinamarca;;Rural disperso;2.368;100;0;1.712;548;8;0;0;0;0
+25_Cundinamarca;25307_Girardot;Total;91.545;772;85;20.058;38.864;25.477;5.216;811;171;91
+25_Cundinamarca;;Cabecera;86.717;267;79;16.412;38.319;25.385;5.199;811;165;80
+25_Cundinamarca;;Centro poblado;2.792;105;0;2.374;300;6;2;0;0;5
+25_Cundinamarca;;Rural disperso;2.036;400;6;1.272;245;86;15;0;6;6
+25_Cundinamarca;25312_Granada;Total;6.899;41;84;1.346;4.035;1.278;88;13;4;10
+25_Cundinamarca;;Cabecera;1.839;6;20;218;1.001;594;0;0;0;0
+25_Cundinamarca;;Centro poblado;1.007;10;7;151;592;208;35;0;0;4
+25_Cundinamarca;;Rural disperso;4.053;25;57;977;2.442;476;53;13;4;6
+25_Cundinamarca;25317_Guachetá;Total;12.403;183;51;2.319;9.646;175;5;0;0;24
+25_Cundinamarca;;Cabecera;5.924;14;38;783;4.911;162;5;0;0;11
+25_Cundinamarca;;Rural disperso;6.479;169;13;1.536;4.735;13;0;0;0;13
+25_Cundinamarca;25320_Guaduas;Total;24.514;633;81;6.440;16.042;943;331;15;9;20
+25_Cundinamarca;;Cabecera;12.333;64;22;3.499;7.604;796;320;14;3;11
+25_Cundinamarca;;Centro poblado;4.678;21;17;1.075;3.505;57;1;0;0;2
+25_Cundinamarca;;Rural disperso;7.503;548;42;1.866;4.933;90;10;1;6;7
+25_Cundinamarca;25322_Guasca;Total;14.954;78;102;1.184;11.149;2.194;118;58;38;33
+25_Cundinamarca;;Cabecera;6.097;1;13;267;4.307;1.477;9;4;3;16
+25_Cundinamarca;;Centro poblado;502;4;4;41;441;12;0;0;0;0
+25_Cundinamarca;;Rural disperso;8.355;73;85;876;6.401;705;109;54;35;17
+25_Cundinamarca;25324_Guataquí;Total;1.974;42;3;1.794;131;4;0;0;0;0
+25_Cundinamarca;;Cabecera;1.169;24;3;1.025;114;3;0;0;0;0
+25_Cundinamarca;;Centro poblado;285;3;0;276;6;0;0;0;0;0
+25_Cundinamarca;;Rural disperso;520;15;0;493;11;1;0;0;0;0
+25_Cundinamarca;25326_Guatavita;Total;6.145;151;25;558;4.308;1.085;3;3;3;9
+25_Cundinamarca;;Cabecera;2.209;6;5;78;1.115;990;2;3;3;7
+25_Cundinamarca;;Rural disperso;3.936;145;20;480;3.193;95;1;0;0;2
+25_Cundinamarca;25328_Guayabal De Síquima;Total;3.604;287;41;1.119;1.991;142;8;0;0;16
+25_Cundinamarca;;Cabecera;1.014;16;6;106;804;79;0;0;0;3
+25_Cundinamarca;;Centro poblado;29;0;0;9;18;2;0;0;0;0
+25_Cundinamarca;;Rural disperso;2.561;271;35;1.004;1.169;61;8;0;0;13
+25_Cundinamarca;25335_Guayabetal;Total;5.809;154;25;3.542;2.059;14;0;3;0;12
+25_Cundinamarca;;Cabecera;1.721;6;3;192;1.497;13;0;3;0;7
+25_Cundinamarca;;Centro poblado;1.146;13;7;850;275;1;0;0;0;0
+25_Cundinamarca;;Rural disperso;2.942;135;15;2.500;287;0;0;0;0;5
+25_Cundinamarca;25339_Gutiérrez;Total;3.311;173;3;876;2.230;26;0;0;0;3
+25_Cundinamarca;;Cabecera;895;25;1;325;525;17;0;0;0;2
+25_Cundinamarca;;Centro poblado;122;9;0;30;83;0;0;0;0;0
+25_Cundinamarca;;Rural disperso;2.294;139;2;521;1.622;9;0;0;0;1
+25_Cundinamarca;25368_Jerusalén;Total;2.024;96;6;1.355;549;9;0;0;0;9
+25_Cundinamarca;;Cabecera;788;2;0;309;465;9;0;0;0;3
+25_Cundinamarca;;Rural disperso;1.236;94;6;1.046;84;0;0;0;0;6
+25_Cundinamarca;25372_Junín;Total;5.197;75;3;3.709;1.359;47;2;0;0;2
+25_Cundinamarca;;Cabecera;675;6;0;152;482;34;0;0;0;1
+25_Cundinamarca;;Centro poblado;367;8;0;102;253;4;0;0;0;0
+25_Cundinamarca;;Rural disperso;4.155;61;3;3.455;624;9;2;0;0;1
+25_Cundinamarca;25377_La Calera;Total;28.405;160;188;1.831;18.879;4.349;1.108;310;1.435;145
+25_Cundinamarca;;Cabecera;13.253;23;19;144;9.672;2.779;539;33;21;23
+25_Cundinamarca;;Centro poblado;2.923;11;13;623;1.709;416;100;13;25;13
+25_Cundinamarca;;Rural disperso;12.229;126;156;1.064;7.498;1.154;469;264;1.389;109
+25_Cundinamarca;25386_La Mesa;Total;28.962;475;85;3.593;14.830;8.688;1.141;20;6;124
+25_Cundinamarca;;Cabecera;16.179;44;35;589;6.698;7.807;935;13;4;54
+25_Cundinamarca;;Centro poblado;1.856;20;9;414;1.107;290;6;0;0;10
+25_Cundinamarca;;Rural disperso;10.927;411;41;2.590;7.025;591;200;7;2;60
+25_Cundinamarca;25394_La Palma;Total;7.708;228;29;4.376;2.886;178;0;0;0;11
+25_Cundinamarca;;Cabecera;3.638;50;27;1.019;2.357;178;0;0;0;7
+25_Cundinamarca;;Rural disperso;4.070;178;2;3.357;529;0;0;0;0;4
+25_Cundinamarca;25398_La Peña;Total;5.406;841;12;1.811;2.702;30;3;0;0;7
+25_Cundinamarca;;Cabecera;887;39;8;271;545;15;3;0;0;6
+25_Cundinamarca;;Rural disperso;4.519;802;4;1.540;2.157;15;0;0;0;1
+25_Cundinamarca;25402_La Vega;Total;13.054;274;64;2.157;8.264;1.931;300;10;18;36
+25_Cundinamarca;;Cabecera;5.429;23;21;173;3.091;1.796;284;5;15;21
+25_Cundinamarca;;Centro poblado;432;4;0;92;333;3;0;0;0;0
+25_Cundinamarca;;Rural disperso;7.193;247;43;1.892;4.840;132;16;5;3;15
+25_Cundinamarca;25407_Lenguazaque;Total;9.414;390;33;1.317;7.133;523;8;0;0;10
+25_Cundinamarca;;Cabecera;2.782;14;5;146;2.146;462;8;0;0;1
+25_Cundinamarca;;Rural disperso;6.632;376;28;1.171;4.987;61;0;0;0;9
+25_Cundinamarca;25426_Machetá;Total;6.022;311;38;2.496;3.115;55;3;1;0;3
+25_Cundinamarca;;Cabecera;1.543;14;26;307;1.165;27;3;1;0;0
+25_Cundinamarca;;Rural disperso;4.479;297;12;2.189;1.950;28;0;0;0;3
+25_Cundinamarca;25430_Madrid;Total;108.885;160;116;2.641;68.301;33.795;3.479;74;44;275
+25_Cundinamarca;;Cabecera;100.065;116;94;2.080;60.369;33.600;3.458;59;40;249
+25_Cundinamarca;;Centro poblado;4.684;11;2;104;4.529;24;5;0;0;9
+25_Cundinamarca;;Rural disperso;4.136;33;20;457;3.403;171;16;15;4;17
+25_Cundinamarca;25436_Manta;Total;3.328;226;21;2.090;928;50;1;4;0;8
+25_Cundinamarca;;Cabecera;804;0;18;103;647;29;1;0;0;6
+25_Cundinamarca;;Rural disperso;2.524;226;3;1.987;281;21;0;4;0;2
+25_Cundinamarca;25438_Medina;Total;7.269;857;66;2.582;3.726;26;1;0;0;11
+25_Cundinamarca;;Cabecera;3.821;31;5;622;3.136;23;1;0;0;3
+25_Cundinamarca;;Centro poblado;295;19;2;223;51;0;0;0;0;0
+25_Cundinamarca;;Rural disperso;3.153;807;59;1.737;539;3;0;0;0;8
+25_Cundinamarca;25473_Mosquera;Total;128.880;72;56;10.771;55.508;54.729;7.354;119;30;241
+25_Cundinamarca;;Cabecera;126.845;68;49;9.693;54.993;54.431;7.240;118;20;233
+25_Cundinamarca;;Centro poblado;405;0;4;122;229;22;27;1;0;0
+25_Cundinamarca;;Rural disperso;1.630;4;3;956;286;276;87;0;10;8
+25_Cundinamarca;25483_Nariño;Total;2.100;53;0;1.456;522;60;0;0;0;9
+25_Cundinamarca;;Cabecera;1.556;20;0;963;508;60;0;0;0;5
+25_Cundinamarca;;Rural disperso;544;33;0;493;14;0;0;0;0;4
+25_Cundinamarca;25486_Nemocón;Total;12.198;97;22;2.378;9.328;338;4;1;3;27
+25_Cundinamarca;;Cabecera;6.309;0;3;1.206;4.762;313;4;0;3;18
+25_Cundinamarca;;Centro poblado;2.224;36;0;397;1.784;6;0;1;0;0
+25_Cundinamarca;;Rural disperso;3.665;61;19;775;2.782;19;0;0;0;9
+25_Cundinamarca;25488_Nilo;Total;6.960;58;120;1.662;4.340;557;113;23;42;45
+25_Cundinamarca;;Cabecera;2.708;4;41;297;2.164;186;10;0;0;6
+25_Cundinamarca;;Centro poblado;1.075;6;38;85;698;193;22;3;18;12
+25_Cundinamarca;;Rural disperso;3.177;48;41;1.280;1.478;178;81;20;24;27
+25_Cundinamarca;25489_Nimaima;Total;3.059;262;13;984;1.778;18;4;0;0;0
+25_Cundinamarca;;Cabecera;616;2;3;71;535;5;0;0;0;0
+25_Cundinamarca;;Centro poblado;362;32;2;62;257;9;0;0;0;0
+25_Cundinamarca;;Rural disperso;2.081;228;8;851;986;4;4;0;0;0
+25_Cundinamarca;25491_Nocaima;Total;5.194;236;15;1.172;3.086;670;11;0;0;4
+25_Cundinamarca;;Cabecera;1.757;15;0;142;1.065;526;6;0;0;3
+25_Cundinamarca;;Centro poblado;129;1;1;35;75;17;0;0;0;0
+25_Cundinamarca;;Rural disperso;3.308;220;14;995;1.946;127;5;0;0;1
+25_Cundinamarca;25506_Venecia;Total;4.106;406;380;649;2.598;62;1;0;0;10
+25_Cundinamarca;;Cabecera;1.128;12;100;129;823;58;1;0;0;5
+25_Cundinamarca;;Centro poblado;195;4;28;56;107;0;0;0;0;0
+25_Cundinamarca;;Rural disperso;2.783;390;252;464;1.668;4;0;0;0;5
+25_Cundinamarca;25513_Pacho;Total;23.647;690;107;3.853;15.032;3.476;440;4;0;45
+25_Cundinamarca;;Cabecera;12.446;80;54;2.108;6.359;3.374;438;4;0;29
+25_Cundinamarca;;Centro poblado;184;2;1;19;153;5;1;0;0;3
+25_Cundinamarca;;Rural disperso;11.017;608;52;1.726;8.520;97;1;0;0;13
+25_Cundinamarca;25518_Paime;Total;3.854;797;37;1.873;1.143;0;0;0;0;4
+25_Cundinamarca;;Cabecera;481;22;0;260;199;0;0;0;0;0
+25_Cundinamarca;;Centro poblado;371;22;2;189;157;0;0;0;0;1
+25_Cundinamarca;;Rural disperso;3.002;753;35;1.424;787;0;0;0;0;3
+25_Cundinamarca;25524_Pandi;Total;4.734;193;270;916;3.316;30;1;0;3;5
+25_Cundinamarca;;Cabecera;1.042;4;6;49;977;5;0;0;0;1
+25_Cundinamarca;;Rural disperso;3.692;189;264;867;2.339;25;1;0;3;4
+25_Cundinamarca;25530_Paratebueno;Total;8.001;695;95;3.373;3.711;118;3;0;0;6
+25_Cundinamarca;;Cabecera;3.393;122;24;1.366;1.860;19;0;0;0;2
+25_Cundinamarca;;Centro poblado;1.771;36;19;499;1.187;30;0;0;0;0
+25_Cundinamarca;;Rural disperso;2.837;537;52;1.508;664;69;3;0;0;4
+25_Cundinamarca;25535_Pasca;Total;8.686;196;30;1.195;6.622;623;0;8;0;12
+25_Cundinamarca;;Cabecera;2.757;27;9;574;1.557;581;0;0;0;9
+25_Cundinamarca;;Centro poblado;153;0;0;12;138;0;0;0;0;3
+25_Cundinamarca;;Rural disperso;5.776;169;21;609;4.927;42;0;8;0;0
+25_Cundinamarca;25572_Puerto Salgar;Total;14.691;559;199;10.540;2.191;979;24;4;2;193
+25_Cundinamarca;;Cabecera;10.994;68;85;7.901;1.989;844;22;4;2;79
+25_Cundinamarca;;Centro poblado;1.077;34;3;1.016;14;7;0;0;0;3
+25_Cundinamarca;;Rural disperso;2.620;457;111;1.623;188;128;2;0;0;111
+25_Cundinamarca;25580_Pulí;Total;2.524;173;12;1.766;561;7;0;0;0;5
+25_Cundinamarca;;Cabecera;507;11;7;292;192;5;0;0;0;0
+25_Cundinamarca;;Centro poblado;83;0;0;39;44;0;0;0;0;0
+25_Cundinamarca;;Rural disperso;1.934;162;5;1.435;325;2;0;0;0;5
+25_Cundinamarca;25592_Quebradanegra;Total;4.447;281;109;1.465;2.244;155;16;10;10;157
+25_Cundinamarca;;Cabecera;378;1;0;87;269;21;0;0;0;0
+25_Cundinamarca;;Centro poblado;796;10;13;145;590;35;0;0;0;3
+25_Cundinamarca;;Rural disperso;3.273;270;96;1.233;1.385;99;16;10;10;154
+25_Cundinamarca;25594_Quetame;Total;4.928;229;35;1.703;2.843;102;3;0;0;13
+25_Cundinamarca;;Cabecera;1.241;36;0;253;870;75;3;0;0;4
+25_Cundinamarca;;Centro poblado;1.035;48;24;117;813;27;0;0;0;6
+25_Cundinamarca;;Rural disperso;2.652;145;11;1.333;1.160;0;0;0;0;3
+25_Cundinamarca;25596_Quipile;Total;6.110;647;57;1.291;3.810;296;5;0;2;2
+25_Cundinamarca;;Cabecera;632;7;4;57;349;210;3;0;2;0
+25_Cundinamarca;;Centro poblado;720;11;27;71;554;56;0;0;0;1
+25_Cundinamarca;;Rural disperso;4.758;629;26;1.163;2.907;30;2;0;0;1
+25_Cundinamarca;25599_Apulo;Total;7.530;405;84;4.043;2.555;411;19;7;0;6
+25_Cundinamarca;;Cabecera;3.512;39;10;1.323;1.775;341;13;7;0;4
+25_Cundinamarca;;Rural disperso;4.018;366;74;2.720;780;70;6;0;0;2
+25_Cundinamarca;25612_Ricaurte;Total;10.787;144;52;6.050;2.053;1.620;781;16;56;15
+25_Cundinamarca;;Cabecera;5.935;21;2;2.433;1.071;1.565;774;11;52;6
+25_Cundinamarca;;Centro poblado;1.413;40;9;920;425;10;2;0;4;3
+25_Cundinamarca;;Rural disperso;3.439;83;41;2.697;557;45;5;5;0;6
+25_Cundinamarca;25645_San Antonio Del Tequendama;Total;10.202;145;92;2.294;7.115;488;29;21;0;18
+25_Cundinamarca;;Cabecera;832;0;5;73;693;46;13;0;0;2
+25_Cundinamarca;;Centro poblado;1.436;2;3;128;1.242;57;0;1;0;3
+25_Cundinamarca;;Rural disperso;7.934;143;84;2.093;5.180;385;16;20;0;13
+25_Cundinamarca;25649_San Bernardo;Total;7.404;346;31;2.474;4.028;447;32;14;9;23
+25_Cundinamarca;;Cabecera;3.194;42;12;717;2.044;346;8;5;4;16
+25_Cundinamarca;;Centro poblado;27;1;0;16;10;0;0;0;0;0
+25_Cundinamarca;;Rural disperso;4.183;303;19;1.741;1.974;101;24;9;5;7
+25_Cundinamarca;25653_San Cayetano;Total;4.043;163;7;623;3.241;4;0;0;5;0
+25_Cundinamarca;;Cabecera;526;0;0;82;439;0;0;0;5;0
+25_Cundinamarca;;Centro poblado;366;4;2;9;347;4;0;0;0;0
+25_Cundinamarca;;Rural disperso;3.151;159;5;532;2.455;0;0;0;0;0
+25_Cundinamarca;25658_San Francisco;Total;9.376;169;11;600;6.878;1.660;31;1;0;26
+25_Cundinamarca;;Cabecera;3.978;15;0;168;2.254;1.510;20;0;0;11
+25_Cundinamarca;;Rural disperso;5.398;154;11;432;4.624;150;11;1;0;15
+25_Cundinamarca;25662_San Juan De Rioseco;Total;7.494;188;38;1.345;5.485;403;11;3;0;21
+25_Cundinamarca;;Cabecera;2.608;11;9;192;1.981;396;7;3;0;9
+25_Cundinamarca;;Centro poblado;1.501;38;0;838;615;2;4;0;0;4
+25_Cundinamarca;;Rural disperso;3.385;139;29;315;2.889;5;0;0;0;8
+25_Cundinamarca;25718_Sasaima;Total;9.299;187;65;1.411;6.809;749;37;10;0;31
+25_Cundinamarca;;Cabecera;2.422;0;16;238;1.561;587;7;0;0;13
+25_Cundinamarca;;Centro poblado;134;0;0;23;74;27;6;3;0;1
+25_Cundinamarca;;Rural disperso;6.743;187;49;1.150;5.174;135;24;7;0;17
+25_Cundinamarca;25736_Sesquilé;Total;11.048;176;67;935;9.043;795;14;4;0;14
+25_Cundinamarca;;Cabecera;3.382;7;16;101;2.723;523;8;2;0;2
+25_Cundinamarca;;Centro poblado;2.572;101;18;261;2.151;33;0;0;0;8
+25_Cundinamarca;;Rural disperso;5.094;68;33;573;4.169;239;6;2;0;4
+25_Cundinamarca;25740_Sibaté;Total;31.511;130;48;2.172;26.035;3.031;19;7;8;61
+25_Cundinamarca;;Cabecera;23.544;62;25;1.194;19.211;2.988;17;7;8;32
+25_Cundinamarca;;Centro poblado;3.546;6;6;147;3.355;17;1;0;0;14
+25_Cundinamarca;;Rural disperso;4.421;62;17;831;3.469;26;1;0;0;15
+25_Cundinamarca;25743_Silvania;Total;20.548;435;109;1.913;15.276;2.508;208;29;7;63
+25_Cundinamarca;;Cabecera;6.802;30;30;345;3.689;2.439;200;25;7;37
+25_Cundinamarca;;Centro poblado;1.427;20;3;331;1.065;1;0;0;0;7
+25_Cundinamarca;;Rural disperso;12.319;385;76;1.237;10.522;68;8;4;0;19
+25_Cundinamarca;25745_Simijaca;Total;11.489;103;89;2.547;7.713;1.011;18;1;0;7
+25_Cundinamarca;;Cabecera;7.068;53;66;1.919;4.012;993;18;1;0;6
+25_Cundinamarca;;Centro poblado;374;3;3;17;351;0;0;0;0;0
+25_Cundinamarca;;Rural disperso;4.047;47;20;611;3.350;18;0;0;0;1
+25_Cundinamarca;25754_Soacha;Total;644.768;5.420;728;142.469;213.633;280.714;329;252;223;1.000
+25_Cundinamarca;;Cabecera;639.706;5.125;622;140.268;211.509;280.413;323;252;223;971
+25_Cundinamarca;;Centro poblado;1.907;40;7;760;978;119;0;0;0;3
+25_Cundinamarca;;Rural disperso;3.155;255;99;1.441;1.146;182;6;0;0;26
+25_Cundinamarca;25758_Sopó;Total;24.779;50;111;420;11.319;11.057;344;397;957;124
+25_Cundinamarca;;Cabecera;17.161;23;30;206;7.189;9.589;73;8;1;42
+25_Cundinamarca;;Centro poblado;1.272;0;0;29;1.098;127;10;5;3;0
+25_Cundinamarca;;Rural disperso;6.346;27;81;185;3.032;1.341;261;384;953;82
+25_Cundinamarca;25769_Subachoque;Total;14.860;75;56;392;11.820;2.336;76;46;16;43
+25_Cundinamarca;;Cabecera;7.203;15;7;64;5.236;1.838;15;2;1;25
+25_Cundinamarca;;Centro poblado;1.681;3;3;59;1.553;54;0;2;0;7
+25_Cundinamarca;;Rural disperso;5.976;57;46;269;5.031;444;61;42;15;11
+25_Cundinamarca;25772_Suesca;Total;15.395;85;50;576;12.683;1.792;178;5;0;26
+25_Cundinamarca;;Cabecera;7.166;13;30;289;4.925;1.729;166;0;0;14
+25_Cundinamarca;;Centro poblado;2.370;12;0;38;2.300;8;12;0;0;0
+25_Cundinamarca;;Rural disperso;5.859;60;20;249;5.458;55;0;5;0;12
+25_Cundinamarca;25777_Supatá;Total;4.726;166;34;225;3.750;545;1;0;0;5
+25_Cundinamarca;;Cabecera;1.629;9;2;46;1.021;545;1;0;0;5
+25_Cundinamarca;;Centro poblado;60;0;0;1;59;0;0;0;0;0
+25_Cundinamarca;;Rural disperso;3.037;157;32;178;2.670;0;0;0;0;0
+25_Cundinamarca;25779_Susa;Total;6.073;126;3;3.046;2.745;140;0;9;0;4
+25_Cundinamarca;;Cabecera;2.150;35;0;274;1.705;136;0;0;0;0
+25_Cundinamarca;;Rural disperso;3.923;91;3;2.772;1.040;4;0;9;0;4
+25_Cundinamarca;25781_Sutatausa;Total;5.258;213;17;1.542;3.135;327;13;1;4;6
+25_Cundinamarca;;Cabecera;1.851;5;2;238;1.362;240;0;0;4;0
+25_Cundinamarca;;Centro poblado;449;31;0;174;233;11;0;0;0;0
+25_Cundinamarca;;Rural disperso;2.958;177;15;1.130;1.540;76;13;1;0;6
+25_Cundinamarca;25785_Tabio;Total;20.565;93;62;1.824;13.304;4.463;665;65;21;68
+25_Cundinamarca;;Cabecera;6.274;2;23;116;2.454;3.153;484;16;12;14
+25_Cundinamarca;;Centro poblado;4.831;19;0;251;4.200;349;6;2;0;4
+25_Cundinamarca;;Rural disperso;9.460;72;39;1.457;6.650;961;175;47;9;50
+25_Cundinamarca;25793_Tausa;Total;6.694;106;8;2.733;3.653;173;2;0;7;12
+25_Cundinamarca;;Cabecera;1.240;8;0;268;894;63;0;0;0;7
+25_Cundinamarca;;Centro poblado;383;0;0;231;150;2;0;0;0;0
+25_Cundinamarca;;Rural disperso;5.071;98;8;2.234;2.609;108;2;0;7;5
+25_Cundinamarca;25797_Tena;Total;8.062;187;59;675;6.932;190;5;3;0;11
+25_Cundinamarca;;Cabecera;563;14;2;8;527;12;0;0;0;0
+25_Cundinamarca;;Centro poblado;1.426;6;8;27;1.327;49;1;3;0;5
+25_Cundinamarca;;Rural disperso;6.073;167;49;640;5.078;129;4;0;0;6
+25_Cundinamarca;25799_Tenjo;Total;20.368;125;104;1.033;13.418;4.830;546;186;41;85
+25_Cundinamarca;;Cabecera;8.542;42;13;297;5.181;2.837;117;5;4;46
+25_Cundinamarca;;Centro poblado;2.698;0;15;183;2.167;294;34;2;0;3
+25_Cundinamarca;;Rural disperso;9.128;83;76;553;6.070;1.699;395;179;37;36
+25_Cundinamarca;25805_Tibacuy;Total;3.943;145;19;699;3.036;25;13;2;0;4
+25_Cundinamarca;;Cabecera;529;6;1;69;437;8;4;0;0;4
+25_Cundinamarca;;Centro poblado;597;11;0;78;497;6;4;1;0;0
+25_Cundinamarca;;Rural disperso;2.817;128;18;552;2.102;11;5;1;0;0
+25_Cundinamarca;25807_Tibirita;Total;2.435;138;28;746;1.432;91;0;0;0;0
+25_Cundinamarca;;Cabecera;476;2;0;30;393;51;0;0;0;0
+25_Cundinamarca;;Rural disperso;1.959;136;28;716;1.039;40;0;0;0;0
+25_Cundinamarca;25815_Tocaima;Total;13.445;270;43;6.481;5.072;1.533;10;6;4;26
+25_Cundinamarca;;Cabecera;8.526;42;26;2.986;4.086;1.361;6;0;4;15
+25_Cundinamarca;;Centro poblado;1.043;46;0;645;315;35;2;0;0;0
+25_Cundinamarca;;Rural disperso;3.876;182;17;2.850;671;137;2;6;0;11
+25_Cundinamarca;25817_Tocancipá;Total;39.357;112;98;721;26.353;8.425;3.441;43;34;130
+25_Cundinamarca;;Cabecera;15.275;38;45;86;10.213;4.216;630;11;0;36
+25_Cundinamarca;;Centro poblado;18.103;9;9;215;11.822;3.269;2.700;12;0;67
+25_Cundinamarca;;Rural disperso;5.979;65;44;420;4.318;940;111;20;34;27
+25_Cundinamarca;25823_Topaipí;Total;3.523;603;44;1.185;1.673;8;2;0;0;8
+25_Cundinamarca;;Cabecera;624;26;9;284;295;6;1;0;0;3
+25_Cundinamarca;;Centro poblado;237;12;3;119;103;0;0;0;0;0
+25_Cundinamarca;;Rural disperso;2.662;565;32;782;1.275;2;1;0;0;5
+25_Cundinamarca;25839_Ubalá;Total;7.202;1.224;619;2.831;2.449;47;2;0;0;30
+25_Cundinamarca;;Cabecera;1.026;29;14;128;829;24;0;0;0;2
+25_Cundinamarca;;Centro poblado;1.018;174;130;470;229;2;2;0;0;11
+25_Cundinamarca;;Rural disperso;5.158;1.021;475;2.233;1.391;21;0;0;0;17
+25_Cundinamarca;25841_Ubaque;Total;6.390;444;13;3.224;2.597;107;0;0;0;5
+25_Cundinamarca;;Cabecera;1.022;5;0;194;764;58;0;0;0;1
+25_Cundinamarca;;Rural disperso;5.368;439;13;3.030;1.833;49;0;0;0;4
+25_Cundinamarca;25843_Villa De San Diego De Ubaté;Total;39.717;135;76;5.426;28.132;5.658;204;20;0;66
+25_Cundinamarca;;Cabecera;29.696;74;40;2.096;21.678;5.527;204;19;0;58
+25_Cundinamarca;;Centro poblado;2.475;20;16;473;1.914;52;0;0;0;0
+25_Cundinamarca;;Rural disperso;7.546;41;20;2.857;4.540;79;0;1;0;8
+25_Cundinamarca;25845_Une;Total;6.901;132;33;499;5.964;260;3;0;0;10
+25_Cundinamarca;;Cabecera;3.615;14;21;208;3.112;255;3;0;0;2
+25_Cundinamarca;;Centro poblado;110;0;2;3;101;3;0;0;0;1
+25_Cundinamarca;;Rural disperso;3.176;118;10;288;2.751;2;0;0;0;7
+25_Cundinamarca;25851_Útica;Total;4.019;199;27;1.825;1.936;28;0;0;0;4
+25_Cundinamarca;;Cabecera;2.324;51;11;1.304;928;26;0;0;0;4
+25_Cundinamarca;;Rural disperso;1.695;148;16;521;1.008;2;0;0;0;0
+25_Cundinamarca;25862_Vergara;Total;6.036;595;31;3.134;2.247;11;3;2;0;13
+25_Cundinamarca;;Cabecera;1.102;13;2;351;713;10;3;2;0;8
+25_Cundinamarca;;Centro poblado;195;4;0;71;120;0;0;0;0;0
+25_Cundinamarca;;Rural disperso;4.739;578;29;2.712;1.414;1;0;0;0;5
+25_Cundinamarca;25867_Vianí;Total;3.806;126;7;1.627;2.021;14;3;0;0;8
+25_Cundinamarca;;Cabecera;1.423;19;4;361;1.018;14;3;0;0;4
+25_Cundinamarca;;Centro poblado;26;0;0;12;14;0;0;0;0;0
+25_Cundinamarca;;Rural disperso;2.357;107;3;1.254;989;0;0;0;0;4
+25_Cundinamarca;25871_Villagómez;Total;1.695;237;4;599;799;2;5;0;0;49
+25_Cundinamarca;;Cabecera;585;12;4;179;377;2;0;0;0;11
+25_Cundinamarca;;Rural disperso;1.110;225;0;420;422;0;5;0;0;38
+25_Cundinamarca;25873_Villapinzón;Total;15.814;388;84;618;13.657;1.030;11;13;4;9
+25_Cundinamarca;;Cabecera;6.348;48;50;251;4.954;1.018;9;8;4;6
+25_Cundinamarca;;Centro poblado;122;3;0;7;112;0;0;0;0;0
+25_Cundinamarca;;Rural disperso;9.344;337;34;360;8.591;12;2;5;0;3
+25_Cundinamarca;25875_Villeta;Total;25.669;337;59;6.814;15.026;3.214;135;22;0;62
+25_Cundinamarca;;Cabecera;17.577;84;27;4.145;10.391;2.804;67;3;0;56
+25_Cundinamarca;;Centro poblado;743;4;2;280;454;3;0;0;0;0
+25_Cundinamarca;;Rural disperso;7.349;249;30;2.389;4.181;407;68;19;0;6
+25_Cundinamarca;25878_Viotá;Total;12.538;755;168;2.056;9.460;70;9;0;0;20
+25_Cundinamarca;;Cabecera;4.236;44;39;481;3.612;51;0;0;0;9
+25_Cundinamarca;;Centro poblado;478;8;18;73;365;13;0;0;0;1
+25_Cundinamarca;;Rural disperso;7.824;703;111;1.502;5.483;6;9;0;0;10
+25_Cundinamarca;25885_Yacopí;Total;10.887;1.131;231;6.438;3.023;50;0;0;0;14
+25_Cundinamarca;;Cabecera;2.597;63;73;689;1.739;29;0;0;0;4
+25_Cundinamarca;;Centro poblado;879;46;7;551;261;5;0;0;0;9
+25_Cundinamarca;;Rural disperso;7.411;1.022;151;5.198;1.023;16;0;0;0;1
+25_Cundinamarca;25898_Zipacón;Total;4.211;150;11;802;2.908;310;20;6;0;4
+25_Cundinamarca;;Cabecera;1.193;40;0;173;829;147;4;0;0;0
+25_Cundinamarca;;Centro poblado;760;3;7;98;606;43;3;0;0;0
+25_Cundinamarca;;Rural disperso;2.258;107;4;531;1.473;120;13;6;0;4
+25_Cundinamarca;25899_Zipaquirá;Total;128.968;194;208;27.905;63.419;29.227;7.749;46;20;200
+25_Cundinamarca;;Cabecera;105.430;111;46;16.678;52.397;28.799;7.179;40;20;160
+25_Cundinamarca;;Centro poblado;16.893;26;79;10.048;5.826;312;567;6;0;29
+25_Cundinamarca;;Rural disperso;6.645;57;83;1.179;5.196;116;3;0;0;11
+41_Huila;41001_Neiva;Total;313.310;3.292;4.756;101.620;156.042;29.700;14.296;3.088;222;294
+41_Huila;;Cabecera;293.708;2.634;3.980;87.649;152.960;29.272;13.818;2.913;219;263
+41_Huila;;Centro poblado;11.861;214;133;9.097;2.351;47;3;3;0;13
+41_Huila;;Rural disperso;7.741;444;643;4.874;731;381;475;172;3;18
+41_Huila;41006_Acevedo;Total;24.562;3.311;185;16.162;4.797;73;5;6;0;23
+41_Huila;;Cabecera;4.565;130;6;3.316;1.088;11;0;0;0;14
+41_Huila;;Centro poblado;1.908;138;56;1.281;431;2;0;0;0;0
+41_Huila;;Rural disperso;18.089;3.043;123;11.565;3.278;60;5;6;0;9
+41_Huila;41013_Agrado;Total;8.578;253;21;7.305;955;39;2;0;0;3
+41_Huila;;Cabecera;5.610;106;6;4.776;684;34;2;0;0;2
+41_Huila;;Centro poblado;276;4;0;237;35;0;0;0;0;0
+41_Huila;;Rural disperso;2.692;143;15;2.292;236;5;0;0;0;1
+41_Huila;41016_Aipe;Total;14.634;801;104;7.948;5.603;139;15;8;6;10
+41_Huila;;Cabecera;9.988;346;50;5.364;4.131;87;1;3;0;6
+41_Huila;;Centro poblado;1.067;33;11;538;485;0;0;0;0;0
+41_Huila;;Rural disperso;3.579;422;43;2.046;987;52;14;5;6;4
+41_Huila;41020_Algeciras;Total;20.015;1.544;305;11.802;6.239;101;8;5;0;11
+41_Huila;;Cabecera;9.946;396;136;5.449;3.887;63;4;5;0;6
+41_Huila;;Centro poblado;1.222;31;18;774;395;0;0;0;0;4
+41_Huila;;Rural disperso;8.847;1.117;151;5.579;1.957;38;4;0;0;1
+41_Huila;41026_Altamira;Total;3.810;128;20;1.246;2.374;25;5;3;0;9
+41_Huila;;Cabecera;2.383;20;0;315;2.024;10;4;3;0;7
+41_Huila;;Centro poblado;270;4;0;110;156;0;0;0;0;0
+41_Huila;;Rural disperso;1.157;104;20;821;194;15;1;0;0;2
+41_Huila;41078_Baraya;Total;6.397;301;2;5.065;855;145;13;1;12;3
+41_Huila;;Cabecera;3.461;24;2;2.714;583;132;3;1;0;2
+41_Huila;;Rural disperso;2.936;277;0;2.351;272;13;10;0;12;1
+41_Huila;41132_Campoalegre;Total;30.082;1.361;108;18.300;9.268;986;29;3;0;27
+41_Huila;;Cabecera;23.397;959;82;13.071;8.345;915;9;2;0;14
+41_Huila;;Centro poblado;1.743;27;0;1.485;226;5;0;0;0;0
+41_Huila;;Rural disperso;4.942;375;26;3.744;697;66;20;1;0;13
+41_Huila;41206_Colombia;Total;6.965;485;333;4.584;1.518;33;5;0;0;7
+41_Huila;;Cabecera;2.097;19;18;1.271;755;28;1;0;0;5
+41_Huila;;Centro poblado;319;3;3;227;83;3;0;0;0;0
+41_Huila;;Rural disperso;4.549;463;312;3.086;680;2;4;0;0;2
+41_Huila;41244_Elías;Total;3.733;230;20;2.980;485;12;6;0;0;0
+41_Huila;;Cabecera;1.351;4;19;1.082;240;6;0;0;0;0
+41_Huila;;Centro poblado;478;102;0;278;98;0;0;0;0;0
+41_Huila;;Rural disperso;1.904;124;1;1.620;147;6;6;0;0;0
+41_Huila;41298_Garzón;Total;65.319;1.657;440;28.351;29.758;4.343;690;14;11;55
+41_Huila;;Cabecera;36.174;401;79;11.753;19.059;4.165;667;14;1;35
+41_Huila;;Centro poblado;6.152;118;32;3.377;2.576;39;4;0;0;6
+41_Huila;;Rural disperso;22.993;1.138;329;13.221;8.123;139;19;0;10;14
+41_Huila;41306_Gigante;Total;22.622;841;70;11.494;9.862;292;28;13;0;22
+41_Huila;;Cabecera;9.369;136;11;3.138;5.816;228;13;13;0;14
+41_Huila;;Centro poblado;4.061;85;12;2.882;1.070;8;0;0;0;4
+41_Huila;;Rural disperso;9.192;620;47;5.474;2.976;56;15;0;0;4
+41_Huila;41319_Guadalupe;Total;15.875;882;36;11.245;3.488;184;13;3;3;21
+41_Huila;;Cabecera;5.123;33;0;2.187;2.708;167;13;0;0;15
+41_Huila;;Centro poblado;2.179;56;10;1.941;165;4;0;3;0;0
+41_Huila;;Rural disperso;8.573;793;26;7.117;615;13;0;0;3;6
+41_Huila;41349_Hobo;Total;6.686;1.110;68;2.607;2.891;2;3;3;1;1
+41_Huila;;Cabecera;5.241;334;67;2.006;2.826;0;3;3;1;1
+41_Huila;;Rural disperso;1.445;776;1;601;65;2;0;0;0;0
+41_Huila;41357_Íquira;Total;9.044;634;15;6.355;2.002;36;0;0;0;2
+41_Huila;;Cabecera;2.578;23;8;1.025;1.505;15;0;0;0;2
+41_Huila;;Centro poblado;1.181;31;0;1.015;135;0;0;0;0;0
+41_Huila;;Rural disperso;5.285;580;7;4.315;362;21;0;0;0;0
+41_Huila;41359_Isnos;Total;24.571;2.733;272;18.206;3.149;184;13;3;0;11
+41_Huila;;Cabecera;6.060;163;65;4.334;1.332;147;11;0;0;8
+41_Huila;;Centro poblado;924;111;4;759;50;0;0;0;0;0
+41_Huila;;Rural disperso;17.587;2.459;203;13.113;1.767;37;2;3;0;3
+41_Huila;41378_La Argentina;Total;12.475;850;200;9.559;1.783;70;4;0;0;9
+41_Huila;;Cabecera;4.765;37;148;3.280;1.237;53;4;0;0;6
+41_Huila;;Centro poblado;567;49;0;506;12;0;0;0;0;0
+41_Huila;;Rural disperso;7.143;764;52;5.773;534;17;0;0;0;3
+41_Huila;41396_La Plata;Total;53.967;4.674;311;29.331;17.414;2.141;23;14;4;55
+41_Huila;;Cabecera;23.959;293;184;9.041;12.416;1.963;10;13;4;35
+41_Huila;;Centro poblado;2.963;114;13;2.132;692;9;2;0;0;1
+41_Huila;;Rural disperso;27.045;4.267;114;18.158;4.306;169;11;1;0;19
+41_Huila;41483_Nátaga;Total;6.157;628;28;3.770;1.663;57;4;0;0;7
+41_Huila;;Cabecera;2.426;54;7;1.518;798;45;0;0;0;4
+41_Huila;;Centro poblado;499;34;0;355;106;0;4;0;0;0
+41_Huila;;Rural disperso;3.232;540;21;1.897;759;12;0;0;0;3
+41_Huila;41503_Oporapa;Total;11.111;664;34;8.892;1.486;22;8;0;0;5
+41_Huila;;Cabecera;2.355;56;16;1.637;633;10;2;0;0;1
+41_Huila;;Centro poblado;1.431;36;0;1.206;186;0;0;0;0;3
+41_Huila;;Rural disperso;7.325;572;18;6.049;667;12;6;0;0;1
+41_Huila;41518_Paicol;Total;6.403;152;20;2.256;3.624;327;10;5;3;6
+41_Huila;;Cabecera;2.647;5;6;562;1.856;210;1;1;0;6
+41_Huila;;Centro poblado;139;0;0;31;84;24;0;0;0;0
+41_Huila;;Rural disperso;3.617;147;14;1.663;1.684;93;9;4;3;0
+41_Huila;41524_Palermo;Total;24.146;900;473;9.162;11.355;1.972;249;10;0;25
+41_Huila;;Cabecera;11.693;251;398;4.218;5.934;882;6;1;0;3
+41_Huila;;Centro poblado;5.015;55;32;966;3.201;747;5;8;0;1
+41_Huila;;Rural disperso;7.438;594;43;3.978;2.220;343;238;1;0;21
+41_Huila;41530_Palestina;Total;10.454;676;208;6.904;2.005;154;6;0;2;499
+41_Huila;;Cabecera;1.721;36;1;923;650;52;0;0;2;57
+41_Huila;;Rural disperso;8.733;640;207;5.981;1.355;102;6;0;0;442
+41_Huila;41548_Pital;Total;12.222;539;7;9.293;2.270;90;5;6;0;12
+41_Huila;;Cabecera;4.251;35;0;2.652;1.477;67;5;6;0;9
+41_Huila;;Centro poblado;301;0;0;291;10;0;0;0;0;0
+41_Huila;;Rural disperso;7.670;504;7;6.350;783;23;0;0;0;3
+41_Huila;41551_Pitalito;Total;118.991;4.258;575;67.963;35.267;10.450;241;53;6;178
+41_Huila;;Cabecera;71.306;619;114;36.636;23.427;10.119;203;48;6;134
+41_Huila;;Centro poblado;6.672;253;40;4.380;1.950;38;2;0;0;9
+41_Huila;;Rural disperso;41.013;3.386;421;26.947;9.890;293;36;5;0;35
+41_Huila;41615_Rivera;Total;21.065;458;177;7.425;11.541;752;271;0;3;438
+41_Huila;;Cabecera;11.465;49;16;3.169;7.479;497;116;0;0;139
+41_Huila;;Centro poblado;4.416;121;2;2.002;2.143;15;0;0;0;133
+41_Huila;;Rural disperso;5.184;288;159;2.254;1.919;240;155;0;3;166
+41_Huila;41660_Saladoblanco;Total;10.065;1.168;66;6.968;1.753;88;9;0;0;13
+41_Huila;;Cabecera;1.811;26;12;959;785;21;0;0;0;8
+41_Huila;;Centro poblado;351;9;18;252;69;3;0;0;0;0
+41_Huila;;Rural disperso;7.903;1.133;36;5.757;899;64;9;0;0;5
+41_Huila;41668_San Agustín;Total;32.380;2.215;307;19.485;8.813;1.495;14;6;1;44
+41_Huila;;Cabecera;10.805;72;16;4.744;4.542;1.401;14;1;1;14
+41_Huila;;Centro poblado;1.852;96;0;1.028;720;3;0;5;0;0
+41_Huila;;Rural disperso;19.723;2.047;291;13.713;3.551;91;0;0;0;30
+41_Huila;41676_Santa María;Total;10.215;975;283;5.553;3.332;58;0;8;0;6
+41_Huila;;Cabecera;2.522;24;19;1.036;1.415;19;0;3;0;6
+41_Huila;;Centro poblado;332;12;0;212;108;0;0;0;0;0
+41_Huila;;Rural disperso;7.361;939;264;4.305;1.809;39;0;5;0;0
+41_Huila;41770_Suaza;Total;17.362;2.209;68;13.187;1.782;106;0;1;2;7
+41_Huila;;Cabecera;3.998;43;21;2.627;1.207;96;0;0;2;2
+41_Huila;;Centro poblado;2.162;117;7;1.946;91;0;0;0;0;1
+41_Huila;;Rural disperso;11.202;2.049;40;8.614;484;10;0;1;0;4
+41_Huila;41791_Tarqui;Total;16.108;794;24;13.404;1.812;42;7;0;8;17
+41_Huila;;Cabecera;5.118;42;1;4.239;780;33;7;0;6;10
+41_Huila;;Centro poblado;2.584;101;9;2.147;321;3;0;0;0;3
+41_Huila;;Rural disperso;8.406;651;14;7.018;711;6;0;0;2;4
+41_Huila;41797_Tesalia;Total;9.767;296;0;7.804;1.613;41;2;6;0;5
+41_Huila;;Cabecera;5.243;33;0;4.037;1.133;33;0;6;0;1
+41_Huila;;Centro poblado;1.515;7;0;1.362;146;0;0;0;0;0
+41_Huila;;Rural disperso;3.009;256;0;2.405;334;8;2;0;0;4
+41_Huila;41799_Tello;Total;10.215;565;189;7.590;1.744;110;4;0;0;13
+41_Huila;;Cabecera;5.147;115;150;3.877;905;87;0;0;0;13
+41_Huila;;Centro poblado;1.083;75;9;834;162;3;0;0;0;0
+41_Huila;;Rural disperso;3.985;375;30;2.879;677;20;4;0;0;0
+41_Huila;41801_Teruel;Total;7.350;399;6;3.128;3.572;240;5;0;0;0
+41_Huila;;Cabecera;3.939;14;1;1.503;2.207;213;1;0;0;0
+41_Huila;;Rural disperso;3.411;385;5;1.625;1.365;27;4;0;0;0
+41_Huila;41807_Timaná;Total;20.894;1.087;118;14.036;5.272;362;17;0;1;1
+41_Huila;;Cabecera;7.382;185;20;4.420;2.529;218;8;0;1;1
+41_Huila;;Centro poblado;2.233;63;5;1.704;449;12;0;0;0;0
+41_Huila;;Rural disperso;11.279;839;93;7.912;2.294;132;9;0;0;0
+41_Huila;41872_Villavieja;Total;6.943;585;86;4.287;1.973;4;6;0;0;2
+41_Huila;;Cabecera;2.377;49;4;1.196;1.127;1;0;0;0;0
+41_Huila;;Centro poblado;3.513;190;2;2.707;612;0;0;0;0;2
+41_Huila;;Rural disperso;1.053;346;80;384;234;3;6;0;0;0
+41_Huila;41885_Yaguará;Total;7.361;177;0;1.823;4.880;446;22;7;0;6
+41_Huila;;Cabecera;6.177;25;0;1.566;4.165;404;6;7;0;4
+41_Huila;;Rural disperso;1.184;152;0;257;715;42;16;0;0;2
+52_Nariño;52001_Pasto;Total;349.352;840;579;121.679;135.420;63.259;20.374;6.507;139;555
+52_Nariño;;Cabecera;271.237;332;268;73.282;107.038;62.935;20.327;6.457;138;460
+52_Nariño;;Centro poblado;50.912;151;125;29.508;20.851;196;14;15;0;52
+52_Nariño;;Rural disperso;27.203;357;186;18.889;7.531;128;33;35;1;43
+52_Nariño;52019_Albán;Total;8.191;92;7;7.962;114;15;0;0;1;0
+52_Nariño;;Cabecera;2.306;4;2;2.196;92;12;0;0;0;0
+52_Nariño;;Centro poblado;385;0;0;382;2;1;0;0;0;0
+52_Nariño;;Rural disperso;5.500;88;5;5.384;20;2;0;0;1;0
+52_Nariño;52022_Aldana;Total;6.872;78;124;5.693;843;12;0;0;0;122
+52_Nariño;;Cabecera;1.517;0;46;1.262;207;1;0;0;0;1
+52_Nariño;;Centro poblado;1.091;31;14;812;205;9;0;0;0;20
+52_Nariño;;Rural disperso;4.264;47;64;3.619;431;2;0;0;0;101
+52_Nariño;52036_Ancuya;Total;7.481;67;10;6.656;745;0;0;0;0;3
+52_Nariño;;Cabecera;1.990;10;0;1.285;692;0;0;0;0;3
+52_Nariño;;Centro poblado;161;3;0;158;0;0;0;0;0;0
+52_Nariño;;Rural disperso;5.330;54;10;5.213;53;0;0;0;0;0
+52_Nariño;52051_Arboleda;Total;7.626;164;72;7.247;131;7;2;0;0;3
+52_Nariño;;Cabecera;1.150;15;11;1.056;62;3;2;0;0;1
+52_Nariño;;Centro poblado;510;1;0;501;8;0;0;0;0;0
+52_Nariño;;Rural disperso;5.966;148;61;5.690;61;4;0;0;0;2
+52_Nariño;52079_Barbacoas;Total;33.804;14.524;176;18.931;129;16;14;0;0;14
+52_Nariño;;Cabecera;11.019;741;75;10.062;104;13;12;0;0;12
+52_Nariño;;Centro poblado;1.378;592;3;770;11;0;0;0;0;2
+52_Nariño;;Rural disperso;21.407;13.191;98;8.099;14;3;2;0;0;0
+52_Nariño;52083_Belén;Total;5.961;14;27;5.322;588;8;0;1;0;1
+52_Nariño;;Cabecera;3.182;3;15;2.575;580;8;0;1;0;0
+52_Nariño;;Centro poblado;344;0;1;335;8;0;0;0;0;0
+52_Nariño;;Rural disperso;2.435;11;11;2.412;0;0;0;0;0;1
+52_Nariño;52110_Buesaco;Total;19.934;308;58;17.249;2.230;63;18;0;0;8
+52_Nariño;;Cabecera;5.825;25;13;4.489;1.240;40;14;0;0;4
+52_Nariño;;Centro poblado;2.808;56;2;2.347;389;14;0;0;0;0
+52_Nariño;;Rural disperso;11.301;227;43;10.413;601;9;4;0;0;4
+52_Nariño;52203_Colón;Total;7.764;72;63;7.526;95;6;0;0;0;2
+52_Nariño;;Cabecera;965;2;1;872;83;6;0;0;0;1
+52_Nariño;;Centro poblado;804;2;12;785;5;0;0;0;0;0
+52_Nariño;;Rural disperso;5.995;68;50;5.869;7;0;0;0;0;1
+52_Nariño;52207_Consacá;Total;10.098;111;37;8.479;1.448;14;8;0;0;1
+52_Nariño;;Cabecera;1.880;3;19;1.181;670;6;1;0;0;0
+52_Nariño;;Centro poblado;1.852;22;5;1.486;339;0;0;0;0;0
+52_Nariño;;Rural disperso;6.366;86;13;5.812;439;8;7;0;0;1
+52_Nariño;52210_Contadero;Total;6.421;100;56;4.843;1.405;17;0;0;0;0
+52_Nariño;;Cabecera;1.265;7;3;852;397;6;0;0;0;0
+52_Nariño;;Centro poblado;369;14;4;245;106;0;0;0;0;0
+52_Nariño;;Rural disperso;4.787;79;49;3.746;902;11;0;0;0;0
+52_Nariño;52215_Córdoba;Total;14.827;336;274;13.055;1.137;7;6;0;0;12
+52_Nariño;;Cabecera;3.056;12;10;1.969;1.049;7;2;0;0;7
+52_Nariño;;Centro poblado;999;0;0;990;8;0;0;0;0;1
+52_Nariño;;Rural disperso;10.772;324;264;10.096;80;0;4;0;0;4
+52_Nariño;52224_Cuaspud Carlosama;Total;8.975;219;107;6.357;2.282;10;0;0;0;0
+52_Nariño;;Cabecera;2.674;12;8;1.596;1.048;10;0;0;0;0
+52_Nariño;;Rural disperso;6.301;207;99;4.761;1.234;0;0;0;0;0
+52_Nariño;52227_Cumbal;Total;32.672;2.507;194;28.728;1.183;20;9;6;0;25
+52_Nariño;;Cabecera;6.621;51;30;5.725;772;19;7;0;0;17
+52_Nariño;;Centro poblado;3.827;282;19;3.411;104;1;2;6;0;2
+52_Nariño;;Rural disperso;22.224;2.174;145;19.592;307;0;0;0;0;6
+52_Nariño;52233_Cumbitara;Total;5.095;188;91;4.585;220;2;0;0;0;9
+52_Nariño;;Cabecera;1.480;1;14;1.249;213;2;0;0;0;1
+52_Nariño;;Centro poblado;1.389;13;46;1.323;7;0;0;0;0;0
+52_Nariño;;Rural disperso;2.226;174;31;2.013;0;0;0;0;0;8
+52_Nariño;52240_Chachagüí;Total;12.357;319;295;9.888;1.476;317;49;8;0;5
+52_Nariño;;Cabecera;4.252;51;26;3.114;943;113;4;0;0;1
+52_Nariño;;Centro poblado;1.972;21;25;1.529;262;106;23;6;0;0
+52_Nariño;;Rural disperso;6.133;247;244;5.245;271;98;22;2;0;4
+52_Nariño;52250_El Charco;Total;21.071;9.326;471;11.094;139;12;1;1;1;26
+52_Nariño;;Cabecera;6.979;42;461;6.334;118;1;1;1;1;20
+52_Nariño;;Centro poblado;1.032;410;0;621;0;0;0;0;0;1
+52_Nariño;;Rural disperso;13.060;8.874;10;4.139;21;11;0;0;0;5
+52_Nariño;52254_El Peñol;Total;6.195;142;9;5.832;207;2;0;0;0;3
+52_Nariño;;Cabecera;1.172;8;7;1.081;72;2;0;0;0;2
+52_Nariño;;Centro poblado;340;1;0;328;11;0;0;0;0;0
+52_Nariño;;Rural disperso;4.683;133;2;4.423;124;0;0;0;0;1
+52_Nariño;52256_El Rosario;Total;6.498;123;58;6.279;24;3;8;0;0;3
+52_Nariño;;Cabecera;1.516;15;23;1.449;19;3;4;0;0;3
+52_Nariño;;Centro poblado;1.472;19;15;1.435;3;0;0;0;0;0
+52_Nariño;;Rural disperso;3.510;89;20;3.395;2;0;4;0;0;0
+52_Nariño;52258_El Tablón De Gómez;Total;13.235;1.240;651;11.242;75;13;9;0;0;5
+52_Nariño;;Cabecera;1.461;2;12;1.398;38;9;0;0;0;2
+52_Nariño;;Centro poblado;3.072;415;237;2.411;5;4;0;0;0;0
+52_Nariño;;Rural disperso;8.702;823;402;7.433;32;0;9;0;0;3
+52_Nariño;52260_El Tambo;Total;12.452;130;32;10.233;2.008;39;4;0;0;6
+52_Nariño;;Cabecera;4.792;15;8;2.834;1.888;39;4;0;0;4
+52_Nariño;;Rural disperso;7.660;115;24;7.399;120;0;0;0;0;2
+52_Nariño;52287_Funes;Total;6.182;133;104;5.321;605;6;0;0;0;13
+52_Nariño;;Cabecera;2.779;36;28;2.313;385;6;0;0;0;11
+52_Nariño;;Centro poblado;303;1;14;251;37;0;0;0;0;0
+52_Nariño;;Rural disperso;3.100;96;62;2.757;183;0;0;0;0;2
+52_Nariño;52317_Guachucal;Total;18.845;544;1.942;15.702;624;16;10;0;0;7
+52_Nariño;;Cabecera;3.039;27;1.131;1.456;416;4;1;0;0;4
+52_Nariño;;Centro poblado;1.869;38;34;1.760;31;6;0;0;0;0
+52_Nariño;;Rural disperso;13.937;479;777;12.486;177;6;9;0;0;3
+52_Nariño;52320_Guaitarilla;Total;10.774;76;5;10.254;426;6;7;0;0;0
+52_Nariño;;Cabecera;4.058;6;3;3.682;363;4;0;0;0;0
+52_Nariño;;Centro poblado;135;0;0;135;0;0;0;0;0;0
+52_Nariño;;Rural disperso;6.581;70;2;6.437;63;2;7;0;0;0
+52_Nariño;52323_Gualmatán;Total;6.290;126;6;3.838;2.299;19;0;0;0;2
+52_Nariño;;Cabecera;2.881;19;0;1.430;1.419;12;0;0;0;1
+52_Nariño;;Centro poblado;451;5;1;367;78;0;0;0;0;0
+52_Nariño;;Rural disperso;2.958;102;5;2.041;802;7;0;0;0;1
+52_Nariño;52352_Iles;Total;7.112;300;35;6.318;414;29;11;1;0;4
+52_Nariño;;Cabecera;2.000;24;30;1.578;341;21;5;0;0;1
+52_Nariño;;Centro poblado;261;2;1;246;9;3;0;0;0;0
+52_Nariño;;Rural disperso;4.851;274;4;4.494;64;5;6;1;0;3
+52_Nariño;52354_Imués;Total;6.351;85;1;5.566;662;33;0;0;0;4
+52_Nariño;;Cabecera;882;1;0;800;81;0;0;0;0;0
+52_Nariño;;Centro poblado;1.729;26;0;1.357;323;23;0;0;0;0
+52_Nariño;;Rural disperso;3.740;58;1;3.409;258;10;0;0;0;4
+52_Nariño;52356_Ipiales;Total;104.513;1.863;3.198;53.288;29.552;13.242;3.143;40;18;169
+52_Nariño;;Cabecera;69.946;154;430;24.445;28.451;13.165;3.119;32;7;143
+52_Nariño;;Centro poblado;7.288;71;131;6.568;468;29;7;0;0;14
+52_Nariño;;Rural disperso;27.279;1.638;2.637;22.275;633;48;17;8;11;12
+52_Nariño;52378_La Cruz;Total;16.661;53;107;15.162;1.297;23;10;0;0;9
+52_Nariño;;Cabecera;7.549;15;93;6.114;1.292;23;5;0;0;7
+52_Nariño;;Centro poblado;2.183;8;1;2.173;1;0;0;0;0;0
+52_Nariño;;Rural disperso;6.929;30;13;6.875;4;0;5;0;0;2
+52_Nariño;52381_La Florida;Total;9.047;221;66;7.201;1.531;12;14;2;0;0
+52_Nariño;;Cabecera;1.816;20;2;1.230;559;3;0;2;0;0
+52_Nariño;;Centro poblado;1.549;38;6;1.309;180;7;9;0;0;0
+52_Nariño;;Rural disperso;5.682;163;58;4.662;792;2;5;0;0;0
+52_Nariño;52385_La Llanada;Total;5.321;163;9;5.081;58;0;0;0;0;10
+52_Nariño;;Cabecera;2.822;20;7;2.738;49;0;0;0;0;8
+52_Nariño;;Centro poblado;491;3;0;483;3;0;0;0;0;2
+52_Nariño;;Rural disperso;2.008;140;2;1.860;6;0;0;0;0;0
+52_Nariño;52390_La Tola;Total;5.847;759;14;5.055;16;0;0;3;0;0
+52_Nariño;;Cabecera;2.881;12;1;2.864;1;0;0;3;0;0
+52_Nariño;;Centro poblado;776;19;0;752;5;0;0;0;0;0
+52_Nariño;;Rural disperso;2.190;728;13;1.439;10;0;0;0;0;0
+52_Nariño;52399_La Unión;Total;28.517;243;751;25.888;1.539;62;13;1;1;19
+52_Nariño;;Cabecera;11.380;26;70;9.678;1.521;61;7;1;1;15
+52_Nariño;;Centro poblado;1.336;5;0;1.330;1;0;0;0;0;0
+52_Nariño;;Rural disperso;15.801;212;681;14.880;17;1;6;0;0;4
+52_Nariño;52405_Leiva;Total;8.201;951;99;7.113;28;1;4;1;0;4
+52_Nariño;;Cabecera;2.642;11;9;2.594;22;1;0;1;0;4
+52_Nariño;;Centro poblado;1.118;30;51;1.037;0;0;0;0;0;0
+52_Nariño;;Rural disperso;4.441;910;39;3.482;6;0;4;0;0;0
+52_Nariño;52411_Linares;Total;8.949;93;80;7.994;756;6;3;0;5;12
+52_Nariño;;Cabecera;1.894;1;0;1.299;576;6;0;0;5;7
+52_Nariño;;Centro poblado;1.595;7;4;1.472;106;0;3;0;0;3
+52_Nariño;;Rural disperso;5.460;85;76;5.223;74;0;0;0;0;2
+52_Nariño;52418_Los Andes;Total;8.683;278;74;7.821;496;12;0;0;0;2
+52_Nariño;;Cabecera;4.045;4;6;3.542;481;10;0;0;0;2
+52_Nariño;;Rural disperso;4.638;274;68;4.279;15;2;0;0;0;0
+52_Nariño;52427_Magüí;Total;18.255;9.048;3.579;5.583;10;31;0;0;0;4
+52_Nariño;;Cabecera;6.610;200;1.520;4.849;10;27;0;0;0;4
+52_Nariño;;Centro poblado;1.909;1.797;91;21;0;0;0;0;0;0
+52_Nariño;;Rural disperso;9.736;7.051;1.968;713;0;4;0;0;0;0
+52_Nariño;52435_Mallama;Total;7.972;278;101;7.291;285;0;8;0;0;9
+52_Nariño;;Cabecera;1.140;0;3;1.101;28;0;8;0;0;0
+52_Nariño;;Centro poblado;2.060;32;39;1.850;139;0;0;0;0;0
+52_Nariño;;Rural disperso;4.772;246;59;4.340;118;0;0;0;0;9
+52_Nariño;52473_Mosquera;Total;10.202;6.232;102;3.810;44;13;0;0;0;1
+52_Nariño;;Cabecera;5.055;1.230;90;3.701;27;7;0;0;0;0
+52_Nariño;;Centro poblado;2.628;2.609;0;14;4;0;0;0;0;1
+52_Nariño;;Rural disperso;2.519;2.393;12;95;13;6;0;0;0;0
+52_Nariño;52480_Nariño;Total;4.007;35;3;2.969;957;23;13;0;0;7
+52_Nariño;;Cabecera;2.610;14;1;1.760;804;16;13;0;0;2
+52_Nariño;;Rural disperso;1.397;21;2;1.209;153;7;0;0;0;5
+52_Nariño;52490_Olaya Herrera;Total;21.356;11.764;1.093;8.041;413;16;7;0;0;22
+52_Nariño;;Cabecera;10.067;1.454;395;7.784;398;16;7;0;0;13
+52_Nariño;;Centro poblado;2.057;1.631;284;133;3;0;0;0;0;6
+52_Nariño;;Rural disperso;9.232;8.679;414;124;12;0;0;0;0;3
+52_Nariño;52506_Ospina;Total;6.488;55;1;5.894;527;3;0;0;0;8
+52_Nariño;;Cabecera;1.896;7;1;1.696;189;2;0;0;0;1
+52_Nariño;;Centro poblado;421;9;0;392;20;0;0;0;0;0
+52_Nariño;;Rural disperso;4.171;39;0;3.806;318;1;0;0;0;7
+52_Nariño;52520_Francisco Pizarro;Total;7.430;2.181;17;5.192;32;2;1;1;0;4
+52_Nariño;;Cabecera;4.754;240;17;4.470;22;1;1;1;0;2
+52_Nariño;;Centro poblado;482;38;0;439;5;0;0;0;0;0
+52_Nariño;;Rural disperso;2.194;1.903;0;283;5;1;0;0;0;2
+52_Nariño;52540_Policarpa;Total;8.149;57;91;7.927;53;6;0;0;4;11
+52_Nariño;;Cabecera;2.521;0;6;2.493;16;0;0;0;4;2
+52_Nariño;;Centro poblado;2.676;2;22;2.607;35;6;0;0;0;4
+52_Nariño;;Rural disperso;2.952;55;63;2.827;2;0;0;0;0;5
+52_Nariño;52560_Potosí;Total;10.179;44;255;7.911;1.903;57;0;1;0;8
+52_Nariño;;Cabecera;2.038;3;80;964;954;36;0;1;0;0
+52_Nariño;;Centro poblado;192;0;0;151;36;5;0;0;0;0
+52_Nariño;;Rural disperso;7.949;41;175;6.796;913;16;0;0;0;8
+52_Nariño;52565_Providencia;Total;4.619;81;3;4.431;97;1;0;0;0;6
+52_Nariño;;Cabecera;1.269;21;3;1.148;90;1;0;0;0;6
+52_Nariño;;Centro poblado;114;0;0;114;0;0;0;0;0;0
+52_Nariño;;Rural disperso;3.236;60;0;3.169;7;0;0;0;0;0
+52_Nariño;52573_Puerres;Total;8.429;141;167;7.435;657;9;0;0;0;20
+52_Nariño;;Cabecera;3.409;0;62;2.817;515;6;0;0;0;9
+52_Nariño;;Centro poblado;1.612;29;1;1.526;51;0;0;0;0;5
+52_Nariño;;Rural disperso;3.408;112;104;3.092;91;3;0;0;0;6
+52_Nariño;52585_Pupiales;Total;16.431;88;188;11.722;4.313;95;8;0;2;15
+52_Nariño;;Cabecera;5.498;12;13;2.884;2.483;86;8;0;2;10
+52_Nariño;;Centro poblado;1.131;5;7;932;187;0;0;0;0;0
+52_Nariño;;Rural disperso;9.802;71;168;7.906;1.643;9;0;0;0;5
+52_Nariño;52612_Ricaurte;Total;18.067;8.087;43;9.818;99;2;0;0;0;18
+52_Nariño;;Cabecera;2.109;34;6;2.006;55;2;0;0;0;6
+52_Nariño;;Centro poblado;1.800;52;18;1.706;13;0;0;0;0;11
+52_Nariño;;Rural disperso;14.158;8.001;19;6.106;31;0;0;0;0;1
+52_Nariño;52621_Roberto Payán;Total;10.473;6.394;47;3.957;70;4;0;0;0;1
+52_Nariño;;Cabecera;2.298;78;30;2.150;35;4;0;0;0;1
+52_Nariño;;Centro poblado;1.459;630;8;819;2;0;0;0;0;0
+52_Nariño;;Rural disperso;6.716;5.686;9;988;33;0;0;0;0;0
+52_Nariño;52678_Samaniego;Total;23.697;2.752;450;18.300;2.080;99;2;2;0;12
+52_Nariño;;Cabecera;7.800;74;175;5.524;1.914;99;2;2;0;10
+52_Nariño;;Centro poblado;1.478;172;14;1.235;57;0;0;0;0;0
+52_Nariño;;Rural disperso;14.419;2.506;261;11.541;109;0;0;0;0;2
+52_Nariño;52683_Sandoná;Total;18.837;108;17;14.678;3.855;157;7;0;0;15
+52_Nariño;;Cabecera;9.240;21;8;5.623;3.417;156;4;0;0;11
+52_Nariño;;Centro poblado;3.529;7;4;3.394;123;1;0;0;0;0
+52_Nariño;;Rural disperso;6.068;80;5;5.661;315;0;3;0;0;4
+52_Nariño;52685_San Bernardo;Total;8.874;112;4;8.503;241;1;0;0;0;13
+52_Nariño;;Cabecera;2.497;7;4;2.275;200;0;0;0;0;11
+52_Nariño;;Centro poblado;76;0;0;76;0;0;0;0;0;0
+52_Nariño;;Rural disperso;6.301;105;0;6.152;41;1;0;0;0;2
+52_Nariño;52687_San Lorenzo;Total;16.626;246;538;15.272;525;3;12;0;0;30
+52_Nariño;;Cabecera;1.977;3;29;1.483;454;1;0;0;0;7
+52_Nariño;;Centro poblado;1.271;10;49;1.191;15;2;4;0;0;0
+52_Nariño;;Rural disperso;13.378;233;460;12.598;56;0;8;0;0;23
+52_Nariño;52693_San Pablo;Total;12.905;172;37;12.259;410;16;0;0;3;8
+52_Nariño;;Cabecera;3.662;9;21;3.209;396;16;0;0;3;8
+52_Nariño;;Centro poblado;1.104;0;4;1.097;3;0;0;0;0;0
+52_Nariño;;Rural disperso;8.139;163;12;7.953;11;0;0;0;0;0
+52_Nariño;52694_San Pedro De Cartago;Total;6.572;112;4;6.402;54;0;0;0;0;0
+52_Nariño;;Cabecera;784;0;4;735;45;0;0;0;0;0
+52_Nariño;;Centro poblado;60;0;0;60;0;0;0;0;0;0
+52_Nariño;;Rural disperso;5.728;112;0;5.607;9;0;0;0;0;0
+52_Nariño;52696_Santa Bárbara;Total;8.989;5.839;606;2.487;31;5;3;0;0;18
+52_Nariño;;Cabecera;3.152;172;563;2.373;22;5;3;0;0;14
+52_Nariño;;Centro poblado;1.111;1.094;4;13;0;0;0;0;0;0
+52_Nariño;;Rural disperso;4.726;4.573;39;101;9;0;0;0;0;4
+52_Nariño;52699_Santacruz;Total;9.869;2.554;125;6.997;181;3;7;0;0;2
+52_Nariño;;Cabecera;1.525;4;37;1.314;161;3;4;0;0;2
+52_Nariño;;Centro poblado;287;3;16;255;13;0;0;0;0;0
+52_Nariño;;Rural disperso;8.057;2.547;72;5.428;7;0;3;0;0;0
+52_Nariño;52720_Sapuyes;Total;6.894;66;121;6.201;504;0;0;0;0;2
+52_Nariño;;Cabecera;1.425;4;8;1.228;183;0;0;0;0;2
+52_Nariño;;Centro poblado;1.078;1;3;931;143;0;0;0;0;0
+52_Nariño;;Rural disperso;4.391;61;110;4.042;178;0;0;0;0;0
+52_Nariño;52786_Taminango;Total;15.412;300;239;13.916;883;36;19;1;0;18
+52_Nariño;;Cabecera;3.658;17;40;2.983;599;9;0;1;0;9
+52_Nariño;;Centro poblado;4.730;94;69;4.300;221;27;15;0;0;4
+52_Nariño;;Rural disperso;7.024;189;130;6.633;63;0;4;0;0;5
+52_Nariño;52788_Tangua;Total;10.331;109;35;8.350;1.802;15;8;0;0;12
+52_Nariño;;Cabecera;2.746;11;6;2.283;424;15;3;0;0;4
+52_Nariño;;Centro poblado;330;0;4;326;0;0;0;0;0;0
+52_Nariño;;Rural disperso;7.255;98;25;5.741;1.378;0;5;0;0;8
+52_Nariño;52835_San Andrés De Tumaco;Total;134.862;28.305;1.288;102.108;2.484;408;109;17;2;141
+52_Nariño;;Cabecera;73.428;1.509;356;69.126;1.877;357;102;16;1;84
+52_Nariño;;Centro poblado;27.792;6.866;558;19.853;468;23;6;0;1;17
+52_Nariño;;Rural disperso;33.642;19.930;374;13.129;139;28;1;1;0;40
+52_Nariño;52838_Túquerres;Total;41.909;1.075;1.397;34.363;4.556;450;19;3;0;46
+52_Nariño;;Cabecera;16.882;27;29;12.180;4.158;444;10;3;0;31
+52_Nariño;;Centro poblado;3.632;44;74;3.330;180;0;4;0;0;0
+52_Nariño;;Rural disperso;21.395;1.004;1.294;18.853;218;6;5;0;0;15
+52_Nariño;52885_Yacuanquer;Total;10.579;199;4;9.846;495;12;10;2;0;11
+52_Nariño;;Cabecera;3.316;24;1;2.975;294;7;9;0;0;6
+52_Nariño;;Centro poblado;600;14;0;547;39;0;0;0;0;0
+52_Nariño;;Rural disperso;6.663;161;3;6.324;162;5;1;2;0;5
+54_Norte de Santander;54001_San José De Cúcuta;Total;624.729;7.870;1.709;229.221;259.608;83.235;36.696;5.167;764;459
+54_Norte de Santander;;Cabecera;602.551;6.073;1.052;220.836;248.447;83.124;36.675;5.160;764;420
+54_Norte de Santander;;Centro poblado;14.764;630;317;5.503;8.195;86;16;3;0;14
+54_Norte de Santander;;Rural disperso;7.414;1.167;340;2.882;2.966;25;5;4;0;25
+54_Norte de Santander;54003_Ábrego;Total;30.118;2.151;20;18.468;9.402;43;22;3;0;9
+54_Norte de Santander;;Cabecera;15.395;12;7;7.358;7.951;43;12;3;0;9
+54_Norte de Santander;;Centro poblado;72;0;0;58;14;0;0;0;0;0
+54_Norte de Santander;;Rural disperso;14.651;2.139;13;11.052;1.437;0;10;0;0;0
+54_Norte de Santander;54051_Arboledas;Total;8.102;670;22;2.471;4.923;8;0;1;0;7
+54_Norte de Santander;;Cabecera;2.050;21;3;715;1.303;2;0;1;0;5
+54_Norte de Santander;;Centro poblado;304;15;0;49;234;6;0;0;0;0
+54_Norte de Santander;;Rural disperso;5.748;634;19;1.707;3.386;0;0;0;0;2
+54_Norte de Santander;54099_Bochalema;Total;6.867;112;9;627;5.751;346;11;0;0;11
+54_Norte de Santander;;Cabecera;2.560;11;9;233;1.955;331;10;0;0;11
+54_Norte de Santander;;Centro poblado;2.206;29;0;157;2.010;9;1;0;0;0
+54_Norte de Santander;;Rural disperso;2.101;72;0;237;1.786;6;0;0;0;0
+54_Norte de Santander;54109_Bucarasica;Total;4.698;588;3;2.132;1.950;11;0;7;0;7
+54_Norte de Santander;;Cabecera;416;6;1;214;186;9;0;0;0;0
+54_Norte de Santander;;Centro poblado;578;38;0;132;403;0;0;5;0;0
+54_Norte de Santander;;Rural disperso;3.704;544;2;1.786;1.361;2;0;2;0;7
+54_Norte de Santander;54125_Cácota;Total;2.723;177;0;1.775;760;5;0;3;0;3
+54_Norte de Santander;;Cabecera;868;34;0;566;257;5;0;3;0;3
+54_Norte de Santander;;Rural disperso;1.855;143;0;1.209;503;0;0;0;0;0
+54_Norte de Santander;54128_Cáchira;Total;8.642;196;17;2.968;5.430;12;13;1;0;5
+54_Norte de Santander;;Cabecera;1.536;4;0;69;1.441;9;8;0;0;5
+54_Norte de Santander;;Centro poblado;1.251;2;3;288;954;3;1;0;0;0
+54_Norte de Santander;;Rural disperso;5.855;190;14;2.611;3.035;0;4;1;0;0
+54_Norte de Santander;54172_Chinácota;Total;15.956;251;56;3.838;9.416;2.138;227;0;5;25
+54_Norte de Santander;;Cabecera;10.795;59;46;3.017;5.500;1.961;191;0;5;16
+54_Norte de Santander;;Centro poblado;685;3;0;61;531;83;7;0;0;0
+54_Norte de Santander;;Rural disperso;4.476;189;10;760;3.385;94;29;0;0;9
+54_Norte de Santander;54174_Chitagá;Total;10.554;1.138;7;4.093;5.292;10;9;0;0;5
+54_Norte de Santander;;Cabecera;4.302;119;3;1.902;2.262;6;9;0;0;1
+54_Norte de Santander;;Centro poblado;406;11;0;97;298;0;0;0;0;0
+54_Norte de Santander;;Rural disperso;5.846;1.008;4;2.094;2.732;4;0;0;0;4
+54_Norte de Santander;54206_Convención;Total;17.879;2.353;198;9.978;4.962;380;3;0;0;5
+54_Norte de Santander;;Cabecera;7.279;329;70;3.833;2.662;378;3;0;0;4
+54_Norte de Santander;;Centro poblado;1.160;44;1;599;516;0;0;0;0;0
+54_Norte de Santander;;Rural disperso;9.440;1.980;127;5.546;1.784;2;0;0;0;1
+54_Norte de Santander;54223_Cucutilla;Total;7.648;941;21;4.175;2.497;9;1;0;0;4
+54_Norte de Santander;;Cabecera;1.478;27;14;279;1.150;6;1;0;0;1
+54_Norte de Santander;;Centro poblado;234;9;2;154;69;0;0;0;0;0
+54_Norte de Santander;;Rural disperso;5.936;905;5;3.742;1.278;3;0;0;0;3
+54_Norte de Santander;54239_Durania;Total;4.367;234;0;1.942;1.859;324;0;0;0;8
+54_Norte de Santander;;Cabecera;2.167;25;0;685;1.133;323;0;0;0;1
+54_Norte de Santander;;Centro poblado;309;16;0;229;64;0;0;0;0;0
+54_Norte de Santander;;Rural disperso;1.891;193;0;1.028;662;1;0;0;0;7
+54_Norte de Santander;54245_El Carmen;Total;11.959;2.533;20;7.115;2.253;13;15;0;7;3
+54_Norte de Santander;;Cabecera;2.075;60;0;881;1.119;3;7;0;4;1
+54_Norte de Santander;;Centro poblado;2.610;79;5;1.585;930;4;4;0;3;0
+54_Norte de Santander;;Rural disperso;7.274;2.394;15;4.649;204;6;4;0;0;2
+54_Norte de Santander;54250_El Tarra;Total;18.986;3.412;191;10.917;4.431;28;0;0;0;7
+54_Norte de Santander;;Cabecera;8.227;499;35;5.451;2.218;23;0;0;0;1
+54_Norte de Santander;;Centro poblado;1.355;223;86;284;758;4;0;0;0;0
+54_Norte de Santander;;Rural disperso;9.404;2.690;70;5.182;1.455;1;0;0;0;6
+54_Norte de Santander;54261_El Zulia;Total;25.999;1.956;18;7.398;15.166;1.427;19;0;2;13
+54_Norte de Santander;;Cabecera;16.095;296;10;5.158;9.175;1.422;19;0;2;13
+54_Norte de Santander;;Centro poblado;2.437;265;4;1.133;1.035;0;0;0;0;0
+54_Norte de Santander;;Rural disperso;7.467;1.395;4;1.107;4.956;5;0;0;0;0
+54_Norte de Santander;54313_Gramalote;Total;5.915;173;173;3.142;2.410;8;3;0;0;6
+54_Norte de Santander;;Cabecera;1.742;0;2;851;880;4;3;0;0;2
+54_Norte de Santander;;Centro poblado;218;10;1;140;67;0;0;0;0;0
+54_Norte de Santander;;Rural disperso;3.955;163;170;2.151;1.463;4;0;0;0;4
+54_Norte de Santander;54344_Hacarí;Total;9.622;492;8;7.285;1.820;3;0;0;0;14
+54_Norte de Santander;;Cabecera;1.198;2;1;489;698;1;0;0;0;7
+54_Norte de Santander;;Centro poblado;463;14;0;300;149;0;0;0;0;0
+54_Norte de Santander;;Rural disperso;7.961;476;7;6.496;973;2;0;0;0;7
+54_Norte de Santander;54347_Herrán;Total;4.689;263;14;146;4.219;25;0;0;0;22
+54_Norte de Santander;;Cabecera;1.105;26;13;63;973;17;0;0;0;13
+54_Norte de Santander;;Rural disperso;3.584;237;1;83;3.246;8;0;0;0;9
+54_Norte de Santander;54377_Labateca;Total;5.538;277;0;806;4.426;26;3;0;0;0
+54_Norte de Santander;;Cabecera;1.592;4;0;452;1.111;22;3;0;0;0
+54_Norte de Santander;;Rural disperso;3.946;273;0;354;3.315;4;0;0;0;0
+54_Norte de Santander;54385_La Esperanza;Total;11.040;337;13;9.170;1.377;97;27;0;0;19
+54_Norte de Santander;;Cabecera;1.549;23;0;1.245;264;3;4;0;0;10
+54_Norte de Santander;;Centro poblado;3.796;76;7;3.483;213;11;6;0;0;0
+54_Norte de Santander;;Rural disperso;5.695;238;6;4.442;900;83;17;0;0;9
+54_Norte de Santander;54398_La Playa;Total;7.146;267;0;4.357;2.516;6;0;0;0;0
+54_Norte de Santander;;Cabecera;710;0;0;238;472;0;0;0;0;0
+54_Norte de Santander;;Centro poblado;602;0;0;348;254;0;0;0;0;0
+54_Norte de Santander;;Rural disperso;5.834;267;0;3.771;1.790;6;0;0;0;0
+54_Norte de Santander;54405_Los Patios;Total;81.112;820;53;9.618;55.472;11.027;1.465;1.991;585;81
+54_Norte de Santander;;Cabecera;78.550;655;28;8.867;53.936;10.951;1.460;1.991;585;77
+54_Norte de Santander;;Centro poblado;1.176;40;6;150;920;55;4;0;0;1
+54_Norte de Santander;;Rural disperso;1.386;125;19;601;616;21;1;0;0;3
+54_Norte de Santander;54418_Lourdes;Total;3.602;148;0;1.856;1.575;14;0;0;0;9
+54_Norte de Santander;;Cabecera;1.787;9;0;1.080;675;14;0;0;0;9
+54_Norte de Santander;;Rural disperso;1.815;139;0;776;900;0;0;0;0;0
+54_Norte de Santander;54480_Mutiscua;Total;3.891;90;1;871;2.919;3;5;0;0;2
+54_Norte de Santander;;Cabecera;732;8;1;55;658;3;5;0;0;2
+54_Norte de Santander;;Centro poblado;303;0;0;77;226;0;0;0;0;0
+54_Norte de Santander;;Rural disperso;2.856;82;0;739;2.035;0;0;0;0;0
+54_Norte de Santander;54498_Ocaña;Total;110.671;1.497;130;62.124;31.839;12.296;2.696;25;6;58
+54_Norte de Santander;;Cabecera;99.442;940;98;53.974;29.383;12.274;2.694;25;6;48
+54_Norte de Santander;;Centro poblado;2.131;27;6;1.654;443;1;0;0;0;0
+54_Norte de Santander;;Rural disperso;9.098;530;26;6.496;2.013;21;2;0;0;10
+54_Norte de Santander;54518_Pamplona;Total;44.805;262;15;14.390;16.839;11.062;2.128;24;8;77
+54_Norte de Santander;;Cabecera;40.969;126;14;11.886;15.666;11.047;2.126;24;8;72
+54_Norte de Santander;;Rural disperso;3.836;136;1;2.504;1.173;15;2;0;0;5
+54_Norte de Santander;54520_Pamplonita;Total;4.929;129;2;1.190;3.547;51;0;0;0;10
+54_Norte de Santander;;Cabecera;971;15;2;270;658;22;0;0;0;4
+54_Norte de Santander;;Centro poblado;452;10;0;84;358;0;0;0;0;0
+54_Norte de Santander;;Rural disperso;3.506;104;0;836;2.531;29;0;0;0;6
+54_Norte de Santander;54553_Puerto Santander;Total;8.139;62;13;2.427;5.619;4;0;1;0;13
+54_Norte de Santander;;Cabecera;7.686;9;8;2.284;5.374;3;0;1;0;7
+54_Norte de Santander;;Centro poblado;69;2;0;4;63;0;0;0;0;0
+54_Norte de Santander;;Rural disperso;384;51;5;139;182;1;0;0;0;6
+54_Norte de Santander;54599_Ragonvalia;Total;5.381;272;2;357;4.723;2;9;0;0;16
+54_Norte de Santander;;Cabecera;2.831;53;1;282;2.469;2;9;0;0;15
+54_Norte de Santander;;Centro poblado;99;10;0;0;89;0;0;0;0;0
+54_Norte de Santander;;Rural disperso;2.451;209;1;75;2.165;0;0;0;0;1
+54_Norte de Santander;54660_Salazar;Total;8.724;303;151;5.081;3.074;101;6;0;2;6
+54_Norte de Santander;;Cabecera;3.708;26;8;2.176;1.408;80;2;0;2;6
+54_Norte de Santander;;Centro poblado;587;25;4;234;321;1;2;0;0;0
+54_Norte de Santander;;Rural disperso;4.429;252;139;2.671;1.345;20;2;0;0;0
+54_Norte de Santander;54670_San Calixto;Total;9.915;1.200;30;8.563;115;6;0;0;0;1
+54_Norte de Santander;;Cabecera;1.753;36;9;1.662;40;6;0;0;0;0
+54_Norte de Santander;;Centro poblado;708;13;9;664;22;0;0;0;0;0
+54_Norte de Santander;;Rural disperso;7.454;1.151;12;6.237;53;0;0;0;0;1
+54_Norte de Santander;54673_San Cayetano;Total;6.677;355;44;4.089;2.169;8;6;0;0;6
+54_Norte de Santander;;Cabecera;2.248;54;6;827;1.344;7;4;0;0;6
+54_Norte de Santander;;Centro poblado;3.485;212;20;2.530;721;0;2;0;0;0
+54_Norte de Santander;;Rural disperso;944;89;18;732;104;1;0;0;0;0
+54_Norte de Santander;54680_Santiago;Total;3.079;233;30;496;2.285;30;3;2;0;0
+54_Norte de Santander;;Cabecera;1.730;7;0;228;1.466;27;0;2;0;0
+54_Norte de Santander;;Rural disperso;1.349;226;30;268;819;3;3;0;0;0
+54_Norte de Santander;54720_Sardinata;Total;21.159;5.756;29;12.704;2.616;29;1;0;1;23
+54_Norte de Santander;;Cabecera;9.183;102;6;7.146;1.885;28;1;0;1;14
+54_Norte de Santander;;Centro poblado;831;40;0;726;65;0;0;0;0;0
+54_Norte de Santander;;Rural disperso;11.145;5.614;23;4.832;666;1;0;0;0;9
+54_Norte de Santander;54743_Silos;Total;5.713;115;0;1.491;4.098;5;4;0;0;0
+54_Norte de Santander;;Cabecera;840;7;0;156;672;5;0;0;0;0
+54_Norte de Santander;;Centro poblado;1.302;18;0;315;969;0;0;0;0;0
+54_Norte de Santander;;Rural disperso;3.571;90;0;1.020;2.457;0;4;0;0;0
+54_Norte de Santander;54800_Teorama;Total;12.710;1.565;54;10.068;1.016;4;0;0;0;3
+54_Norte de Santander;;Cabecera;2.409;52;14;1.773;564;3;0;0;0;3
+54_Norte de Santander;;Centro poblado;2.085;37;7;1.992;49;0;0;0;0;0
+54_Norte de Santander;;Rural disperso;8.216;1.476;33;6.303;403;1;0;0;0;0
+54_Norte de Santander;54810_Tibú;Total;51.144;14.141;658;12.907;23.102;302;4;6;3;21
+54_Norte de Santander;;Cabecera;18.960;1.102;160;7.017;10.364;301;4;2;3;7
+54_Norte de Santander;;Centro poblado;11.972;1.861;168;2.152;7.788;1;0;0;0;2
+54_Norte de Santander;;Rural disperso;20.212;11.178;330;3.738;4.950;0;0;4;0;12
+54_Norte de Santander;54820_Toledo;Total;14.763;2.317;259;1.188;10.302;655;17;1;1;23
+54_Norte de Santander;;Cabecera;4.783;20;7;593;3.487;642;17;1;1;15
+54_Norte de Santander;;Centro poblado;940;18;30;158;732;0;0;0;0;2
+54_Norte de Santander;;Rural disperso;9.040;2.279;222;437;6.083;13;0;0;0;6
+54_Norte de Santander;54871_Villa Caro;Total;4.602;100;5;1.880;2.577;33;3;0;0;4
+54_Norte de Santander;;Cabecera;1.878;13;5;95;1.725;33;3;0;0;4
+54_Norte de Santander;;Rural disperso;2.724;87;0;1.785;852;0;0;0;0;0
+54_Norte de Santander;54874_Villa Del Rosario;Total;93.550;1.280;113;44.540;26.064;17.156;4.141;172;11;73
+54_Norte de Santander;;Cabecera;91.031;1.248;60;43.083;25.209;17.043;4.141;172;11;64
+54_Norte de Santander;;Centro poblado;1.630;19;29;1.005;544;25;0;0;0;8
+54_Norte de Santander;;Rural disperso;889;13;24;452;311;88;0;0;0;1
+63_Quindio;63001_Armenia;Total;273.769;2.129;758;71.419;75.437;78.291;21.641;20.605;2.984;505
+63_Quindio;;Cabecera;266.733;2.108;644;69.781;73.122;77.058;20.696;20.108;2.753;463
+63_Quindio;;Centro poblado;2.581;15;32;347;574;382;590;430;192;19
+63_Quindio;;Rural disperso;4.455;6;82;1.291;1.741;851;355;67;39;23
+63_Quindio;63111_Buenavista;Total;2.681;72;140;997;1.341;115;6;0;0;10
+63_Quindio;;Cabecera;1.179;4;2;244;859;59;2;0;0;9
+63_Quindio;;Centro poblado;172;8;3;91;58;12;0;0;0;0
+63_Quindio;;Rural disperso;1.330;60;135;662;424;44;4;0;0;1
+63_Quindio;63130_Calarcá;Total;69.366;543;786;14.899;35.357;14.513;2.882;281;8;97
+63_Quindio;;Cabecera;53.823;376;591;7.275;29.115;13.648;2.578;162;0;78
+63_Quindio;;Centro poblado;9.741;42;15;4.543;4.650;280;117;82;0;12
+63_Quindio;;Rural disperso;5.802;125;180;3.081;1.592;585;187;37;8;7
+63_Quindio;63190_Circasia;Total;27.090;117;65;10.408;11.915;3.483;791;235;36;40
+63_Quindio;;Cabecera;20.466;76;10;6.922;10.466;2.719;178;59;7;29
+63_Quindio;;Centro poblado;2.837;8;26;1.214;469;409;518;161;29;3
+63_Quindio;;Rural disperso;3.787;33;29;2.272;980;355;95;15;0;8
+63_Quindio;63212_Córdoba;Total;5.516;118;161;4.544;564;110;5;0;0;14
+63_Quindio;;Cabecera;3.293;11;14;2.741;428;93;0;0;0;6
+63_Quindio;;Rural disperso;2.223;107;147;1.803;136;17;5;0;0;8
+63_Quindio;63272_Filandia;Total;11.183;51;49;3.985;5.715;1.302;43;8;5;25
+63_Quindio;;Cabecera;6.293;18;15;1.149;4.052;1.043;5;4;0;7
+63_Quindio;;Centro poblado;364;4;0;98;257;2;0;0;0;3
+63_Quindio;;Rural disperso;4.526;29;34;2.738;1.406;257;38;4;5;15
+63_Quindio;63302_Génova;Total;7.050;121;70;3.314;2.838;665;22;3;0;17
+63_Quindio;;Cabecera;3.962;18;28;1.341;2.060;494;11;3;0;7
+63_Quindio;;Rural disperso;3.088;103;42;1.973;778;171;11;0;0;10
+63_Quindio;63401_La Tebaida;Total;32.491;454;73;9.044;20.794;1.483;389;128;82;44
+63_Quindio;;Cabecera;29.587;422;49;8.382;19.736;819;92;40;23;24
+63_Quindio;;Centro poblado;775;7;0;30;500;115;105;18;0;0
+63_Quindio;;Rural disperso;2.129;25;24;632;558;549;192;70;59;20
+63_Quindio;63470_Montenegro;Total;35.138;333;97;15.161;15.257;4.036;151;49;4;50
+63_Quindio;;Cabecera;29.628;294;23;12.597;13.409;3.229;33;16;0;27
+63_Quindio;;Centro poblado;1.819;0;16;734;888;141;26;8;0;6
+63_Quindio;;Rural disperso;3.691;39;58;1.830;960;666;92;25;4;17
+63_Quindio;63548_Pijao;Total;4.854;135;26;3.629;986;56;6;3;3;10
+63_Quindio;;Cabecera;2.870;5;11;2.124;689;33;2;0;3;3
+63_Quindio;;Centro poblado;88;2;2;79;0;5;0;0;0;0
+63_Quindio;;Rural disperso;1.896;128;13;1.426;297;18;4;3;0;7
+63_Quindio;63594_Quimbaya;Total;28.983;143;120;6.697;18.184;2.612;84;10;0;1.133
+63_Quindio;;Cabecera;23.877;78;16;4.225;17.027;2.435;40;5;0;51
+63_Quindio;;Centro poblado;938;11;45;520;316;6;0;2;0;38
+63_Quindio;;Rural disperso;4.168;54;59;1.952;841;171;44;3;0;1.044
+63_Quindio;63690_Salento;Total;7.490;166;102;2.159;3.903;748;256;98;33;25
+63_Quindio;;Cabecera;3.730;44;10;692;2.688;280;10;0;4;2
+63_Quindio;;Centro poblado;711;10;20;271;186;85;107;17;5;10
+63_Quindio;;Rural disperso;3.049;112;72;1.196;1.029;383;139;81;24;13
+66_Risaralda;66001_Pereira;Total;406.722;1.875;1.463;96.689;136.649;72.398;49.219;29.196;18.687;546
+66_Risaralda;;Cabecera;334.698;1.105;1.007;68.390;108.667;68.365;46.130;26.542;14.095;397
+66_Risaralda;;Centro poblado;43.032;355;183;21.506;16.261;1.669;1.233;718;1.042;65
+66_Risaralda;;Rural disperso;28.992;415;273;6.793;11.721;2.364;1.856;1.936;3.550;84
+66_Risaralda;66045_Apía;Total;10.662;28;58;3.691;4.940;1.885;47;4;4;5
+66_Risaralda;;Cabecera;4.851;9;8;807;2.348;1.653;21;0;1;4
+66_Risaralda;;Centro poblado;258;0;2;218;38;0;0;0;0;0
+66_Risaralda;;Rural disperso;5.553;19;48;2.666;2.554;232;26;4;3;1
+66_Risaralda;66075_Balboa;Total;4.976;27;74;2.137;2.132;535;11;5;38;17
+66_Risaralda;;Cabecera;1.443;1;4;298;662;467;2;0;0;9
+66_Risaralda;;Centro poblado;302;0;0;116;186;0;0;0;0;0
+66_Risaralda;;Rural disperso;3.231;26;70;1.723;1.284;68;9;5;38;8
+66_Risaralda;66088_Belén De Umbría;Total;21.398;227;83;3.924;13.605;2.960;539;18;24;18
+66_Risaralda;;Cabecera;10.974;18;13;294;7.631;2.544;461;6;0;7
+66_Risaralda;;Centro poblado;1.028;31;4;467;455;52;7;0;12;0
+66_Risaralda;;Rural disperso;9.396;178;66;3.163;5.519;364;71;12;12;11
+66_Risaralda;66170_Dosquebradas;Total;194.229;349;89;31.656;67.964;78.481;15.228;290;61;111
+66_Risaralda;;Cabecera;183.723;243;72;25.401;66.084;77.016;14.466;281;57;103
+66_Risaralda;;Centro poblado;3.192;26;3;2.511;603;35;10;4;0;0
+66_Risaralda;;Rural disperso;7.314;80;14;3.744;1.277;1.430;752;5;4;8
+66_Risaralda;66318_Guática;Total;11.516;96;81;5.962;4.756;601;3;8;0;9
+66_Risaralda;;Cabecera;3.427;12;47;1.292;1.559;503;1;8;0;5
+66_Risaralda;;Centro poblado;1.753;1;11;769;914;55;0;0;0;3
+66_Risaralda;;Rural disperso;6.336;83;23;3.901;2.283;43;2;0;0;1
+66_Risaralda;66383_La Celia;Total;6.154;40;31;1.656;3.161;1.114;130;18;1;3
+66_Risaralda;;Cabecera;2.498;3;3;460;1.229;786;11;3;0;3
+66_Risaralda;;Centro poblado;65;0;0;9;47;9;0;0;0;0
+66_Risaralda;;Rural disperso;3.591;37;28;1.187;1.885;319;119;15;1;0
+66_Risaralda;66400_La Virginia;Total;25.829;47;9;7.586;8.832;9.185;136;4;2;28
+66_Risaralda;;Cabecera;25.310;43;5;7.206;8.737;9.164;123;4;2;26
+66_Risaralda;;Centro poblado;126;0;0;117;9;0;0;0;0;0
+66_Risaralda;;Rural disperso;393;4;4;263;86;21;13;0;0;2
+66_Risaralda;66440_Marsella;Total;15.422;336;30;6.070;7.602;1.346;26;8;0;4
+66_Risaralda;;Cabecera;8.001;8;10;1.597;5.098;1.266;10;8;0;4
+66_Risaralda;;Centro poblado;674;2;0;538;132;2;0;0;0;0
+66_Risaralda;;Rural disperso;6.747;326;20;3.935;2.372;78;16;0;0;0
+66_Risaralda;66456_Mistrató;Total;15.921;848;274;10.106;4.006;582;44;7;20;34
+66_Risaralda;;Cabecera;3.623;12;1;449;2.715;421;20;1;0;4
+66_Risaralda;;Centro poblado;713;7;20;367;281;15;1;3;11;8
+66_Risaralda;;Rural disperso;11.585;829;253;9.290;1.010;146;23;3;9;22
+66_Risaralda;66572_Pueblo Rico;Total;14.429;1.184;1.229;9.371;2.301;311;11;9;0;13
+66_Risaralda;;Cabecera;2.624;12;21;1.063;1.219;290;11;3;0;5
+66_Risaralda;;Centro poblado;1.051;10;38;847;147;9;0;0;0;0
+66_Risaralda;;Rural disperso;10.754;1.162;1.170;7.461;935;12;0;6;0;8
+66_Risaralda;66594_Quinchía;Total;25.182;339;2.067;11.073;8.750;2.897;27;0;0;29
+66_Risaralda;;Cabecera;6.751;14;227;1.561;2.112;2.793;23;0;0;21
+66_Risaralda;;Centro poblado;2.712;32;185;1.196;1.205;89;0;0;0;5
+66_Risaralda;;Rural disperso;15.719;293;1.655;8.316;5.433;15;4;0;0;3
+66_Risaralda;66682_Santa Rosa De Cabal;Total;70.586;224;59;13.201;29.154;23.887;3.091;610;118;242
+66_Risaralda;;Cabecera;60.326;139;13;8.934;24.616;23.071;2.784;476;72;221
+66_Risaralda;;Centro poblado;1.737;19;11;747;735;153;34;30;6;2
+66_Risaralda;;Rural disperso;8.523;66;35;3.520;3.803;663;273;104;40;19
+66_Risaralda;66687_Santuario;Total;11.734;44;39;4.387;5.075;2.135;32;2;0;20
+66_Risaralda;;Cabecera;5.596;10;1;618;2.889;2.041;18;2;0;17
+66_Risaralda;;Centro poblado;1.130;0;0;961;149;20;0;0;0;0
+66_Risaralda;;Rural disperso;5.008;34;38;2.808;2.037;74;14;0;0;3
+68_Santander;68001_Bucaramanga;Total;523.426;2.439;741;123.426;94.219;133.899;135.999;13.392;18.832;479
+68_Santander;;Cabecera;513.757;2.166;736;116.355;92.059;133.819;135.944;13.383;18.832;463
+68_Santander;;Centro poblado;3.187;23;0;2.886;233;6;20;9;0;10
+68_Santander;;Rural disperso;6.482;250;5;4.185;1.927;74;35;0;0;6
+68_Santander;68013_Aguada;Total;1.649;31;8;1.238;353;17;0;0;0;2
+68_Santander;;Cabecera;291;2;7;21;249;12;0;0;0;0
+68_Santander;;Rural disperso;1.358;29;1;1.217;104;5;0;0;0;2
+68_Santander;68020_Albania;Total;3.307;19;9;1.795;1.404;74;0;0;0;6
+68_Santander;;Cabecera;494;1;1;187;230;74;0;0;0;1
+68_Santander;;Centro poblado;93;0;2;43;48;0;0;0;0;0
+68_Santander;;Rural disperso;2.720;18;6;1.565;1.126;0;0;0;0;5
+68_Santander;68051_Aratoca;Total;7.861;166;206;6.066;1.353;47;8;3;0;12
+68_Santander;;Cabecera;2.282;21;4;1.172;1.045;31;2;0;0;7
+68_Santander;;Centro poblado;431;0;0;379;52;0;0;0;0;0
+68_Santander;;Rural disperso;5.148;145;202;4.515;256;16;6;3;0;5
+68_Santander;68077_Barbosa;Total;28.739;110;41;6.298;13.736;8.373;152;1;1;27
+68_Santander;;Cabecera;22.501;64;19;4.450;9.563;8.241;150;1;1;12
+68_Santander;;Centro poblado;1.786;16;13;273;1.416;62;0;0;0;6
+68_Santander;;Rural disperso;4.452;30;9;1.575;2.757;70;2;0;0;9
+68_Santander;68079_Barichara;Total;7.571;64;32;2.902;3.233;1.304;15;6;4;11
+68_Santander;;Cabecera;2.815;9;17;202;1.294;1.269;15;3;1;5
+68_Santander;;Centro poblado;290;0;0;212;77;1;0;0;0;0
+68_Santander;;Rural disperso;4.466;55;15;2.488;1.862;34;0;3;3;6
+68_Santander;68081_Barrancabermeja;Total;197.974;799;1.783;93.069;62.827;23.793;14.294;971;47;391
+68_Santander;;Cabecera;174.041;572;618;71.454;62.148;23.683;14.272;930;45;319
+68_Santander;;Centro poblado;11.489;45;139;10.759;434;65;9;8;0;30
+68_Santander;;Rural disperso;12.444;182;1.026;10.856;245;45;13;33;2;42
+68_Santander;68092_Betulia;Total;5.185;115;68;3.732;1.164;93;7;0;0;6
+68_Santander;;Cabecera;1.225;6;4;406;745;58;1;0;0;5
+68_Santander;;Centro poblado;1.673;21;12;1.510;130;0;0;0;0;0
+68_Santander;;Rural disperso;2.287;88;52;1.816;289;35;6;0;0;1
+68_Santander;68101_Bolívar;Total;9.437;526;47;6.333;2.397;104;1;0;3;26
+68_Santander;;Cabecera;1.461;3;3;462;876;98;1;0;0;18
+68_Santander;;Centro poblado;442;0;0;376;64;2;0;0;0;0
+68_Santander;;Rural disperso;7.534;523;44;5.495;1.457;4;0;0;3;8
+68_Santander;68121_Cabrera;Total;1.605;85;10;952;534;24;0;0;0;0
+68_Santander;;Cabecera;351;7;6;170;160;8;0;0;0;0
+68_Santander;;Rural disperso;1.254;78;4;782;374;16;0;0;0;0
+68_Santander;68132_California;Total;1.784;43;8;1.059;644;29;0;0;0;1
+68_Santander;;Cabecera;862;6;3;482;345;25;0;0;0;1
+68_Santander;;Centro poblado;126;2;0;94;26;4;0;0;0;0
+68_Santander;;Rural disperso;796;35;5;483;273;0;0;0;0;0
+68_Santander;68147_Capitanejo;Total;5.276;96;29;3.696;1.377;75;0;0;0;3
+68_Santander;;Cabecera;3.311;28;29;1.943;1.233;75;0;0;0;3
+68_Santander;;Rural disperso;1.965;68;0;1.753;144;0;0;0;0;0
+68_Santander;68152_Carcasí;Total;4.130;94;19;2.759;1.252;0;0;0;0;6
+68_Santander;;Cabecera;620;3;0;429;184;0;0;0;0;4
+68_Santander;;Centro poblado;112;9;1;63;39;0;0;0;0;0
+68_Santander;;Rural disperso;3.398;82;18;2.267;1.029;0;0;0;0;2
+68_Santander;68160_Cepitá;Total;1.869;62;46;1.086;673;2;0;0;0;0
+68_Santander;;Cabecera;426;17;0;188;219;2;0;0;0;0
+68_Santander;;Rural disperso;1.443;45;46;898;454;0;0;0;0;0
+68_Santander;68162_Cerrito;Total;6.460;173;3;5.229;1.031;19;2;0;0;3
+68_Santander;;Cabecera;3.280;102;0;2.181;981;11;2;0;0;3
+68_Santander;;Centro poblado;100;7;0;92;1;0;0;0;0;0
+68_Santander;;Rural disperso;3.080;64;3;2.956;49;8;0;0;0;0
+68_Santander;68167_Charalá;Total;10.934;74;16;4.191;3.474;3.111;50;12;0;6
+68_Santander;;Cabecera;6.837;15;4;591;3.104;3.069;46;2;0;6
+68_Santander;;Centro poblado;149;1;0;113;35;0;0;0;0;0
+68_Santander;;Rural disperso;3.948;58;12;3.487;335;42;4;10;0;0
+68_Santander;68169_Charta;Total;2.814;49;1;2.550;209;3;0;0;0;2
+68_Santander;;Cabecera;683;2;1;491;184;3;0;0;0;2
+68_Santander;;Rural disperso;2.131;47;0;2.059;25;0;0;0;0;0
+68_Santander;68176_Chima;Total;2.364;21;8;1.303;967;45;5;3;0;12
+68_Santander;;Cabecera;729;3;3;327;381;5;0;0;0;10
+68_Santander;;Rural disperso;1.635;18;5;976;586;40;5;3;0;2
+68_Santander;68179_Chipatá;Total;4.336;41;25;1.134;3.064;57;4;0;0;11
+68_Santander;;Cabecera;569;2;5;92;421;47;0;0;0;2
+68_Santander;;Centro poblado;90;0;0;38;52;0;0;0;0;0
+68_Santander;;Rural disperso;3.677;39;20;1.004;2.591;10;4;0;0;9
+68_Santander;68190_Cimitarra;Total;24.843;461;155;18.929;4.535;707;20;10;1;25
+68_Santander;;Cabecera;11.756;55;12;6.768;4.246;636;13;10;1;15
+68_Santander;;Centro poblado;4.672;47;6;4.525;91;3;0;0;0;0
+68_Santander;;Rural disperso;8.415;359;137;7.636;198;68;7;0;0;10
+68_Santander;68207_Concepción;Total;5.300;190;12;3.378;1.707;5;1;0;0;7
+68_Santander;;Cabecera;2.743;52;10;1.008;1.662;3;1;0;0;7
+68_Santander;;Rural disperso;2.557;138;2;2.370;45;2;0;0;0;0
+68_Santander;68209_Confines;Total;2.902;21;5;1.356;1.472;28;4;7;2;7
+68_Santander;;Cabecera;652;0;1;110;530;0;1;7;0;3
+68_Santander;;Rural disperso;2.250;21;4;1.246;942;28;3;0;2;4
+68_Santander;68211_Contratación;Total;3.179;30;7;823;2.199;118;0;1;0;1
+68_Santander;;Cabecera;2.399;7;0;270;2.009;111;0;1;0;1
+68_Santander;;Centro poblado;34;0;0;4;30;0;0;0;0;0
+68_Santander;;Rural disperso;746;23;7;549;160;7;0;0;0;0
+68_Santander;68217_Coromoro;Total;4.775;234;11;2.031;2.468;29;0;0;0;2
+68_Santander;;Cabecera;672;0;5;154;490;23;0;0;0;0
+68_Santander;;Centro poblado;281;0;0;128;151;2;0;0;0;0
+68_Santander;;Rural disperso;3.822;234;6;1.749;1.827;4;0;0;0;2
+68_Santander;68229_Curití;Total;11.600;113;16;6.407;4.714;324;8;4;0;14
+68_Santander;;Cabecera;4.524;13;0;1.403;2.960;139;0;4;0;5
+68_Santander;;Rural disperso;7.076;100;16;5.004;1.754;185;8;0;0;9
+68_Santander;68235_El Carmen De Chucuri;Total;17.567;632;69;10.883;5.892;49;11;9;0;22
+68_Santander;;Cabecera;2.424;10;0;222;2.151;29;4;0;0;8
+68_Santander;;Centro poblado;810;3;1;509;292;3;0;2;0;0
+68_Santander;;Rural disperso;14.333;619;68;10.152;3.449;17;7;7;0;14
+68_Santander;68245_El Guacamayo;Total;1.642;54;7;307;1.263;11;0;0;0;0
+68_Santander;;Cabecera;532;9;0;203;309;11;0;0;0;0
+68_Santander;;Centro poblado;193;0;3;16;174;0;0;0;0;0
+68_Santander;;Rural disperso;917;45;4;88;780;0;0;0;0;0
+68_Santander;68250_El Peñón;Total;4.095;183;273;3.186;439;5;0;0;0;9
+68_Santander;;Cabecera;671;7;1;409;245;4;0;0;0;5
+68_Santander;;Centro poblado;427;36;97;270;24;0;0;0;0;0
+68_Santander;;Rural disperso;2.997;140;175;2.507;170;1;0;0;0;4
+68_Santander;68255_El Playón;Total;12.840;178;54;7.108;5.417;68;0;0;0;15
+68_Santander;;Cabecera;6.786;48;3;3.100;3.570;57;0;0;0;8
+68_Santander;;Centro poblado;841;4;0;629;208;0;0;0;0;0
+68_Santander;;Rural disperso;5.213;126;51;3.379;1.639;11;0;0;0;7
+68_Santander;68264_Encino;Total;2.328;108;3;1.016;1.188;6;0;0;0;7
+68_Santander;;Cabecera;514;7;0;207;287;6;0;0;0;7
+68_Santander;;Rural disperso;1.814;101;3;809;901;0;0;0;0;0
+68_Santander;68266_Enciso;Total;3.382;71;1;1.455;1.847;1;0;0;0;7
+68_Santander;;Cabecera;832;28;0;185;616;1;0;0;0;2
+68_Santander;;Centro poblado;71;0;0;35;36;0;0;0;0;0
+68_Santander;;Rural disperso;2.479;43;1;1.235;1.195;0;0;0;0;5
+68_Santander;68271_Florián;Total;4.596;82;6;3.725;718;36;0;0;0;29
+68_Santander;;Cabecera;1.134;7;1;411;662;36;0;0;0;17
+68_Santander;;Centro poblado;126;0;0;108;14;0;0;0;0;4
+68_Santander;;Rural disperso;3.336;75;5;3.206;42;0;0;0;0;8
+68_Santander;68276_Floridablanca;Total;274.607;570;367;43.693;108.313;67.722;34.570;15.993;3.157;222
+68_Santander;;Cabecera;264.032;464;309;39.147;104.567;67.433;34.358;15.271;2.279;204
+68_Santander;;Centro poblado;3.888;13;36;743;1.330;84;127;694;854;7
+68_Santander;;Rural disperso;6.687;93;22;3.803;2.416;205;85;28;24;11
+68_Santander;68296_Galán;Total;2.666;81;0;1.782;758;43;0;0;0;2
+68_Santander;;Cabecera;755;17;0;304;409;25;0;0;0;0
+68_Santander;;Rural disperso;1.911;64;0;1.478;349;18;0;0;0;2
+68_Santander;68298_Gámbita;Total;3.508;165;21;1.969;1.178;171;4;0;0;0
+68_Santander;;Cabecera;598;0;2;222;223;147;4;0;0;0
+68_Santander;;Centro poblado;144;7;0;44;82;11;0;0;0;0
+68_Santander;;Rural disperso;2.766;158;19;1.703;873;13;0;0;0;0
+68_Santander;68307_Girón;Total;148.741;959;604;54.664;50.315;37.496;4.533;93;28;49
+68_Santander;;Cabecera;131.739;434;339;44.816;44.428;37.108;4.474;89;18;33
+68_Santander;;Centro poblado;5.731;293;144;2.705;2.522;54;5;3;0;5
+68_Santander;;Rural disperso;11.271;232;121;7.143;3.365;334;54;1;10;11
+68_Santander;68318_Guaca;Total;5.742;33;1;4.702;987;4;5;0;0;10
+68_Santander;;Cabecera;1.504;9;0;761;730;4;0;0;0;0
+68_Santander;;Centro poblado;32;0;0;13;19;0;0;0;0;0
+68_Santander;;Rural disperso;4.206;24;1;3.928;238;0;5;0;0;10
+68_Santander;68320_Guadalupe;Total;3.818;87;0;1.848;1.769;97;0;0;0;17
+68_Santander;;Cabecera;1.490;0;0;388;1.022;63;0;0;0;17
+68_Santander;;Centro poblado;47;0;0;27;11;9;0;0;0;0
+68_Santander;;Rural disperso;2.281;87;0;1.433;736;25;0;0;0;0
+68_Santander;68322_Guapotá;Total;2.052;8;7;989;862;140;45;1;0;0
+68_Santander;;Cabecera;558;3;3;281;252;19;0;0;0;0
+68_Santander;;Rural disperso;1.494;5;4;708;610;121;45;1;0;0
+68_Santander;68324_Guavatá;Total;3.748;42;33;3.325;313;31;0;0;4;0
+68_Santander;;Cabecera;1.015;7;31;695;251;31;0;0;0;0
+68_Santander;;Rural disperso;2.733;35;2;2.630;62;0;0;0;4;0
+68_Santander;68327_Güepsa;Total;4.402;39;3;2.980;1.306;69;1;0;0;4
+68_Santander;;Cabecera;2.747;19;1;1.699;977;47;0;0;0;4
+68_Santander;;Rural disperso;1.655;20;2;1.281;329;22;1;0;0;0
+68_Santander;68344_Hato;Total;2.120;48;5;633;1.410;17;6;0;0;1
+68_Santander;;Cabecera;610;2;5;213;385;4;0;0;0;1
+68_Santander;;Rural disperso;1.510;46;0;420;1.025;13;6;0;0;0
+68_Santander;68368_Jesús María;Total;2.987;32;29;1.101;1.749;61;0;0;0;15
+68_Santander;;Cabecera;647;1;0;52;529;54;0;0;0;11
+68_Santander;;Rural disperso;2.340;31;29;1.049;1.220;7;0;0;0;4
+68_Santander;68370_Jordán;Total;1.163;13;0;954;190;6;0;0;0;0
+68_Santander;;Cabecera;96;0;0;77;18;1;0;0;0;0
+68_Santander;;Rural disperso;1.067;13;0;877;172;5;0;0;0;0
+68_Santander;68377_La Belleza;Total;5.500;231;25;3.277;1.896;54;0;0;0;17
+68_Santander;;Cabecera;1.562;21;0;316;1.157;52;0;0;0;16
+68_Santander;;Centro poblado;347;5;0;278;64;0;0;0;0;0
+68_Santander;;Rural disperso;3.591;205;25;2.683;675;2;0;0;0;1
+68_Santander;68385_Landázuri;Total;9.231;245;36;7.756;1.073;104;0;1;0;16
+68_Santander;;Cabecera;3.063;64;21;1.841;1.032;102;0;1;0;2
+68_Santander;;Centro poblado;887;11;2;860;12;2;0;0;0;0
+68_Santander;;Rural disperso;5.281;170;13;5.055;29;0;0;0;0;14
+68_Santander;68397_La Paz;Total;3.986;36;0;3.009;922;14;4;0;0;1
+68_Santander;;Cabecera;697;6;0;103;570;14;3;0;0;1
+68_Santander;;Centro poblado;252;0;0;205;47;0;0;0;0;0
+68_Santander;;Rural disperso;3.037;30;0;2.701;305;0;1;0;0;0
+68_Santander;68406_Lebrija;Total;37.170;335;259;16.595;14.597;5.148;167;24;3;42
+68_Santander;;Cabecera;19.475;219;55;6.445;8.682;4.017;36;2;0;19
+68_Santander;;Centro poblado;614;3;20;390;173;28;0;0;0;0
+68_Santander;;Rural disperso;17.081;113;184;9.760;5.742;1.103;131;22;3;23
+68_Santander;68418_Los Santos;Total;12.403;308;127;7.718;3.397;696;136;10;5;6
+68_Santander;;Cabecera;1.629;88;3;827;675;29;5;2;0;0
+68_Santander;;Centro poblado;451;16;0;259;176;0;0;0;0;0
+68_Santander;;Rural disperso;10.323;204;124;6.632;2.546;667;131;8;5;6
+68_Santander;68425_Macaravita;Total;2.130;153;1;995;974;0;0;0;0;7
+68_Santander;;Cabecera;268;15;0;130;119;0;0;0;0;4
+68_Santander;;Centro poblado;43;0;0;9;34;0;0;0;0;0
+68_Santander;;Rural disperso;1.819;138;1;856;821;0;0;0;0;3
+68_Santander;68432_Málaga;Total;19.567;84;28;6.007;12.567;803;40;16;0;22
+68_Santander;;Cabecera;16.840;70;24;3.968;11.897;803;40;16;0;22
+68_Santander;;Centro poblado;74;0;0;74;0;0;0;0;0;0
+68_Santander;;Rural disperso;2.653;14;4;1.965;670;0;0;0;0;0
+68_Santander;68444_Matanza;Total;4.470;137;15;3.375;833;92;7;0;0;11
+68_Santander;;Cabecera;1.220;13;0;316;790;90;7;0;0;4
+68_Santander;;Centro poblado;168;0;0;154;12;2;0;0;0;0
+68_Santander;;Rural disperso;3.082;124;15;2.905;31;0;0;0;0;7
+68_Santander;68464_Mogotes;Total;10.113;139;25;7.134;2.733;65;10;0;0;7
+68_Santander;;Cabecera;3.922;28;17;2.051;1.787;30;8;0;0;1
+68_Santander;;Centro poblado;154;0;0;121;33;0;0;0;0;0
+68_Santander;;Rural disperso;6.037;111;8;4.962;913;35;2;0;0;6
+68_Santander;68468_Molagavita;Total;3.915;43;3;3.446;410;8;0;0;0;5
+68_Santander;;Cabecera;620;0;3;268;339;8;0;0;0;2
+68_Santander;;Centro poblado;34;0;0;22;12;0;0;0;0;0
+68_Santander;;Rural disperso;3.261;43;0;3.156;59;0;0;0;0;3
+68_Santander;68498_Ocamonte;Total;4.537;100;10;1.331;2.961;115;3;0;0;17
+68_Santander;;Cabecera;771;5;0;132;618;10;3;0;0;3
+68_Santander;;Rural disperso;3.766;95;10;1.199;2.343;105;0;0;0;14
+68_Santander;68500_Oiba;Total;10.117;202;29;2.762;5.436;1.555;110;9;2;12
+68_Santander;;Cabecera;4.469;16;11;430;2.698;1.262;41;0;2;9
+68_Santander;;Centro poblado;24;0;0;9;15;0;0;0;0;0
+68_Santander;;Rural disperso;5.624;186;18;2.323;2.723;293;69;9;0;3
+68_Santander;68502_Onzaga;Total;3.928;189;6;2.847;852;25;0;0;5;4
+68_Santander;;Cabecera;1.107;9;2;412;668;12;0;0;0;4
+68_Santander;;Centro poblado;55;2;0;44;6;3;0;0;0;0
+68_Santander;;Rural disperso;2.766;178;4;2.391;178;10;0;0;5;0
+68_Santander;68522_Palmar;Total;1.244;12;0;1.006;217;5;0;0;1;3
+68_Santander;;Cabecera;422;5;0;279;129;5;0;0;1;3
+68_Santander;;Rural disperso;822;7;0;727;88;0;0;0;0;0
+68_Santander;68524_Palmas Del Socorro;Total;2.432;15;7;1.062;1.209;124;14;0;0;1
+68_Santander;;Cabecera;725;4;1;269;447;4;0;0;0;0
+68_Santander;;Rural disperso;1.707;11;6;793;762;120;14;0;0;1
+68_Santander;68533_Páramo;Total;4.144;82;142;1.708;1.911;255;42;4;0;0
+68_Santander;;Cabecera;1.209;14;4;124;905;149;13;0;0;0
+68_Santander;;Rural disperso;2.935;68;138;1.584;1.006;106;29;4;0;0
+68_Santander;68547_Piedecuesta;Total;156.660;417;855;20.699;53.356;70.936;8.036;708;1.531;122
+68_Santander;;Cabecera;127.391;163;93;4.775;44.139;69.622;7.763;666;86;84
+68_Santander;;Centro poblado;9.836;97;398;3.977;3.253;534;124;23;1.424;6
+68_Santander;;Rural disperso;19.433;157;364;11.947;5.964;780;149;19;21;32
+68_Santander;68549_Pinchote;Total;4.457;27;39;1.848;1.888;623;10;14;7;1
+68_Santander;;Cabecera;1.014;0;3;208;723;65;6;8;0;1
+68_Santander;;Centro poblado;332;0;0;9;36;284;0;0;3;0
+68_Santander;;Rural disperso;3.111;27;36;1.631;1.129;274;4;6;4;0
+68_Santander;68572_Puente Nacional;Total;12.451;133;30;6.734;4.059;1.454;13;5;2;21
+68_Santander;;Cabecera;4.991;18;10;863;2.663;1.423;4;5;0;5
+68_Santander;;Centro poblado;164;7;0;78;76;1;2;0;0;0
+68_Santander;;Rural disperso;7.296;108;20;5.793;1.320;30;7;0;2;16
+68_Santander;68573_Puerto Parra;Total;6.861;67;48;6.052;639;40;5;0;4;6
+68_Santander;;Cabecera;2.394;23;26;1.766;543;28;1;0;4;3
+68_Santander;;Centro poblado;2.257;5;0;2.213;29;3;4;0;0;3
+68_Santander;;Rural disperso;2.210;39;22;2.073;67;9;0;0;0;0
+68_Santander;68575_Puerto Wilches;Total;31.698;689;127;28.382;2.282;176;25;0;0;17
+68_Santander;;Cabecera;16.058;91;11;13.509;2.247;162;25;0;0;13
+68_Santander;;Centro poblado;11.507;289;13;11.170;22;13;0;0;0;0
+68_Santander;;Rural disperso;4.133;309;103;3.703;13;1;0;0;0;4
+68_Santander;68615_Rionegro;Total;25.233;209;268;17.235;5.524;1.940;22;9;1;25
+68_Santander;;Cabecera;6.122;10;19;1.289;3.021;1.761;13;0;1;8
+68_Santander;;Centro poblado;5.275;33;236;4.029;922;47;3;4;0;1
+68_Santander;;Rural disperso;13.836;166;13;11.917;1.581;132;6;5;0;16
+68_Santander;68655_Sabana De Torres;Total;27.718;471;212;18.447;5.903;2.640;9;7;1;28
+68_Santander;;Cabecera;18.596;172;55;10.697;5.099;2.535;9;7;1;21
+68_Santander;;Centro poblado;3.242;115;108;2.981;32;6;0;0;0;0
+68_Santander;;Rural disperso;5.880;184;49;4.769;772;99;0;0;0;7
+68_Santander;68669_San Andrés;Total;7.985;83;7;4.494;3.344;40;1;0;0;16
+68_Santander;;Cabecera;2.842;60;3;779;1.946;40;1;0;0;13
+68_Santander;;Centro poblado;433;0;0;229;204;0;0;0;0;0
+68_Santander;;Rural disperso;4.710;23;4;3.486;1.194;0;0;0;0;3
+68_Santander;68673_San Benito;Total;2.705;35;1;1.981;680;0;0;0;5;3
+68_Santander;;Cabecera;242;1;1;18;219;0;0;0;0;3
+68_Santander;;Centro poblado;416;9;0;336;66;0;0;0;5;0
+68_Santander;;Rural disperso;2.047;25;0;1.627;395;0;0;0;0;0
+68_Santander;68679_San Gil;Total;54.066;209;73;4.540;20.537;25.754;2.723;155;16;59
+68_Santander;;Cabecera;47.730;167;44;1.183;18.045;25.374;2.696;146;16;59
+68_Santander;;Rural disperso;6.336;42;29;3.357;2.492;380;27;9;0;0
+68_Santander;68682_San Joaquín;Total;2.167;56;7;1.245;816;25;14;0;0;4
+68_Santander;;Cabecera;760;10;3;343;394;8;0;0;0;2
+68_Santander;;Centro poblado;12;0;0;9;3;0;0;0;0;0
+68_Santander;;Rural disperso;1.395;46;4;893;419;17;14;0;0;2
+68_Santander;68684_San José De Miranda;Total;4.132;55;1;3.055;1.011;1;0;5;0;4
+68_Santander;;Cabecera;851;13;0;161;668;1;0;4;0;4
+68_Santander;;Centro poblado;274;0;0;248;26;0;0;0;0;0
+68_Santander;;Rural disperso;3.007;42;1;2.646;317;0;0;1;0;0
+68_Santander;68686_San Miguel;Total;2.433;22;0;1.995;397;17;0;0;0;2
+68_Santander;;Cabecera;629;1;0;243;367;16;0;0;0;2
+68_Santander;;Rural disperso;1.804;21;0;1.752;30;1;0;0;0;0
+68_Santander;68689_San Vicente De Chucurí;Total;28.760;354;1.011;15.986;10.585;784;10;0;0;30
+68_Santander;;Cabecera;10.938;42;16;3.554;6.634;671;8;0;0;13
+68_Santander;;Centro poblado;3.164;74;677;2.337;67;3;0;0;0;6
+68_Santander;;Rural disperso;14.658;238;318;10.095;3.884;110;2;0;0;11
+68_Santander;68705_Santa Bárbara;Total;2.239;79;0;1.178;948;27;0;0;0;7
+68_Santander;;Cabecera;204;2;0;52;137;10;0;0;0;3
+68_Santander;;Rural disperso;2.035;77;0;1.126;811;17;0;0;0;4
+68_Santander;68720_Santa Helena Del Opón;Total;3.160;52;36;2.063;999;5;0;0;0;5
+68_Santander;;Cabecera;718;1;33;366;309;5;0;0;0;4
+68_Santander;;Centro poblado;691;3;1;597;89;0;0;0;0;1
+68_Santander;;Rural disperso;1.751;48;2;1.100;601;0;0;0;0;0
+68_Santander;68745_Simacota;Total;7.759;176;27;4.647;2.746;144;7;3;0;9
+68_Santander;;Cabecera;1.896;4;3;462;1.400;17;4;0;0;6
+68_Santander;;Centro poblado;341;1;0;329;11;0;0;0;0;0
+68_Santander;;Rural disperso;5.522;171;24;3.856;1.335;127;3;3;0;3
+68_Santander;68755_Socorro;Total;28.975;65;76;4.112;19.058;4.904;642;65;14;39
+68_Santander;;Cabecera;23.716;52;58;1.436;16.984;4.505;588;50;9;34
+68_Santander;;Centro poblado;58;0;0;11;40;0;0;7;0;0
+68_Santander;;Rural disperso;5.201;13;18;2.665;2.034;399;54;8;5;5
+68_Santander;68770_Suaita;Total;8.739;85;40;4.179;3.761;660;3;1;0;10
+68_Santander;;Cabecera;1.789;4;1;492;975;311;1;0;0;5
+68_Santander;;Centro poblado;1.981;19;20;285;1.403;252;0;1;0;1
+68_Santander;;Rural disperso;4.969;62;19;3.402;1.383;97;2;0;0;4
+68_Santander;68773_Sucre;Total;6.038;198;34;4.655;1.112;20;4;0;3;12
+68_Santander;;Cabecera;464;0;2;340;102;16;4;0;0;0
+68_Santander;;Centro poblado;1.157;6;7;916;217;2;0;0;0;9
+68_Santander;;Rural disperso;4.417;192;25;3.399;793;2;0;0;3;3
+68_Santander;68780_Suratá;Total;3.520;96;16;2.621;714;57;10;0;0;6
+68_Santander;;Cabecera;902;6;5;447;399;39;1;0;0;5
+68_Santander;;Centro poblado;144;0;2;100;35;0;7;0;0;0
+68_Santander;;Rural disperso;2.474;90;9;2.074;280;18;2;0;0;1
+68_Santander;68820_Tona;Total;6.680;40;29;4.104;2.459;40;7;0;0;1
+68_Santander;;Cabecera;499;1;0;253;239;2;4;0;0;0
+68_Santander;;Centro poblado;1.130;0;0;757;342;28;2;0;0;1
+68_Santander;;Rural disperso;5.051;39;29;3.094;1.878;10;1;0;0;0
+68_Santander;68855_Valle De San José;Total;5.648;43;36;2.681;2.404;479;2;0;1;2
+68_Santander;;Cabecera;2.319;14;0;308;1.583;410;2;0;0;2
+68_Santander;;Rural disperso;3.329;29;36;2.373;821;69;0;0;1;0
+68_Santander;68861_Vélez;Total;18.382;117;41;10.190;5.950;1.989;26;6;4;59
+68_Santander;;Cabecera;10.469;15;24;3.375;5.076;1.930;20;5;3;21
+68_Santander;;Centro poblado;1.206;10;0;1.031;159;3;0;0;0;3
+68_Santander;;Rural disperso;6.707;92;17;5.784;715;56;6;1;1;35
+68_Santander;68867_Vetas;Total;1.762;11;1;1.111;598;39;0;0;0;2
+68_Santander;;Cabecera;708;1;1;324;353;27;0;0;0;2
+68_Santander;;Rural disperso;1.054;10;0;787;245;12;0;0;0;0
+68_Santander;68872_Villanueva;Total;6.725;113;19;1.314;4.661;616;2;0;0;0
+68_Santander;;Cabecera;4.434;46;16;897;2.871;602;2;0;0;0
+68_Santander;;Rural disperso;2.291;67;3;417;1.790;14;0;0;0;0
+68_Santander;68895_Zapatoca;Total;8.865;69;15;3.514;4.146;878;7;0;0;236
+68_Santander;;Cabecera;5.897;17;7;1.927;3.157;771;4;0;0;14
+68_Santander;;Centro poblado;352;3;0;93;254;2;0;0;0;0
+68_Santander;;Rural disperso;2.616;49;8;1.494;735;105;3;0;0;222
+73_Tolima;73001_Ibagué;Total;494.059;3.192;857;106.532;236.021;107.004;32.508;6.098;1.274;573
+73_Tolima;;Cabecera;462.758;2.141;552;86.556;226.938;106.372;32.312;6.093;1.271;523
+73_Tolima;;Centro poblado;7.176;56;51;3.872;2.991;166;30;0;0;10
+73_Tolima;;Rural disperso;24.125;995;254;16.104;6.092;466;166;5;3;40
+73_Tolima;73024_Alpujarra;Total;4.072;148;13;2.098;1.778;30;0;0;0;5
+73_Tolima;;Cabecera;1.695;19;6;448;1.198;19;0;0;0;5
+73_Tolima;;Centro poblado;659;1;0;335;317;6;0;0;0;0
+73_Tolima;;Rural disperso;1.718;128;7;1.315;263;5;0;0;0;0
+73_Tolima;73026_Alvarado;Total;6.712;226;83;2.377;3.899;95;19;0;0;13
+73_Tolima;;Cabecera;3.095;23;14;1.058;1.973;25;0;0;0;2
+73_Tolima;;Centro poblado;735;10;0;145;573;0;0;0;0;7
+73_Tolima;;Rural disperso;2.882;193;69;1.174;1.353;70;19;0;0;4
+73_Tolima;73030_Ambalema;Total;6.524;122;38;4.793;1.321;240;7;0;0;3
+73_Tolima;;Cabecera;5.223;66;27;3.851;1.153;123;0;0;0;3
+73_Tolima;;Centro poblado;164;1;0;142;13;4;4;0;0;0
+73_Tolima;;Rural disperso;1.137;55;11;800;155;113;3;0;0;0
+73_Tolima;73043_Anzoátegui;Total;7.591;677;171;3.919;2.767;51;0;2;0;4
+73_Tolima;;Cabecera;1.277;10;5;685;553;19;0;2;0;3
+73_Tolima;;Centro poblado;304;1;12;138;152;1;0;0;0;0
+73_Tolima;;Rural disperso;6.010;666;154;3.096;2.062;31;0;0;0;1
+73_Tolima;73055_Armero;Total;11.326;169;55;8.218;2.796;69;2;1;10;6
+73_Tolima;;Cabecera;7.986;78;50;5.193;2.601;58;0;1;1;4
+73_Tolima;;Centro poblado;884;6;5;762;102;3;0;0;6;0
+73_Tolima;;Rural disperso;2.456;85;0;2.263;93;8;2;0;3;2
+73_Tolima;73067_Ataco;Total;18.218;1.706;550;13.673;2.231;46;0;0;0;12
+73_Tolima;;Cabecera;4.805;198;119;2.904;1.538;40;0;0;0;6
+73_Tolima;;Centro poblado;1.912;59;68;1.593;186;5;0;0;0;1
+73_Tolima;;Rural disperso;11.501;1.449;363;9.176;507;1;0;0;0;5
+73_Tolima;73124_Cajamarca;Total;17.260;213;82;5.435;9.844;1.648;7;0;0;31
+73_Tolima;;Cabecera;9.278;24;29;1.357;6.366;1.486;1;0;0;15
+73_Tolima;;Centro poblado;1.131;8;1;525;581;16;0;0;0;0
+73_Tolima;;Rural disperso;6.851;181;52;3.553;2.897;146;6;0;0;16
+73_Tolima;73148_Carmen De Apicalá;Total;9.614;120;34;2.730;5.722;828;121;46;0;13
+73_Tolima;;Cabecera;7.521;30;21;1.854;5.025;517;53;12;0;9
+73_Tolima;;Rural disperso;2.093;90;13;876;697;311;68;34;0;4
+73_Tolima;73152_Casabianca;Total;5.496;116;21;2.557;2.779;15;0;0;1;7
+73_Tolima;;Cabecera;1.582;13;8;729;814;11;0;0;1;6
+73_Tolima;;Centro poblado;204;0;0;115;88;1;0;0;0;0
+73_Tolima;;Rural disperso;3.710;103;13;1.713;1.877;3;0;0;0;1
+73_Tolima;73168_Chaparral;Total;43.221;1.304;315;26.001;12.760;2.696;46;10;5;84
+73_Tolima;;Cabecera;27.301;287;98;14.045;10.150;2.618;23;1;5;74
+73_Tolima;;Centro poblado;823;25;10;640;134;14;0;0;0;0
+73_Tolima;;Rural disperso;15.097;992;207;11.316;2.476;64;23;9;0;10
+73_Tolima;73200_Coello;Total;7.495;252;14;5.258;1.897;56;4;2;4;8
+73_Tolima;;Cabecera;1.473;3;7;765;688;7;0;0;0;3
+73_Tolima;;Centro poblado;2.357;63;0;1.831;431;31;0;0;0;1
+73_Tolima;;Rural disperso;3.665;186;7;2.662;778;18;4;2;4;4
+73_Tolima;73217_Coyaima;Total;18.999;787;1.511;13.250;3.386;27;13;0;1;24
+73_Tolima;;Cabecera;3.597;38;19;1.411;2.088;15;10;0;1;15
+73_Tolima;;Centro poblado;1.877;30;133;1.390;318;3;0;0;0;3
+73_Tolima;;Rural disperso;13.525;719;1.359;10.449;980;9;3;0;0;6
+73_Tolima;73226_Cunday;Total;7.762;299;60;5.509;1.808;72;3;2;0;9
+73_Tolima;;Cabecera;2.098;6;10;903;1.152;22;3;0;0;2
+73_Tolima;;Centro poblado;1.523;28;9;1.340;134;6;0;0;0;6
+73_Tolima;;Rural disperso;4.141;265;41;3.266;522;44;0;2;0;1
+73_Tolima;73236_Dolores;Total;7.262;272;23;5.746;1.123;91;0;0;1;6
+73_Tolima;;Cabecera;3.044;12;16;1.970;961;79;0;0;0;6
+73_Tolima;;Centro poblado;413;3;0;394;15;0;0;0;1;0
+73_Tolima;;Rural disperso;3.805;257;7;3.382;147;12;0;0;0;0
+73_Tolima;73268_Espinal;Total;67.174;343;197;21.076;34.090;10.208;1.164;26;1;69
+73_Tolima;;Cabecera;49.255;139;152;11.894;26.382;9.459;1.143;20;1;65
+73_Tolima;;Centro poblado;6.746;23;10;2.579;3.502;624;5;0;0;3
+73_Tolima;;Rural disperso;11.173;181;35;6.603;4.206;125;16;6;0;1
+73_Tolima;73270_Falan;Total;6.612;194;32;3.523;2.772;70;0;9;2;10
+73_Tolima;;Cabecera;1.585;9;1;754;796;19;0;0;0;6
+73_Tolima;;Centro poblado;490;4;0;380;105;1;0;0;0;0
+73_Tolima;;Rural disperso;4.537;181;31;2.389;1.871;50;0;9;2;4
+73_Tolima;73275_Flandes;Total;27.309;151;41;2.333;15.770;8.924;56;12;3;19
+73_Tolima;;Cabecera;23.955;68;26;1.308;13.689;8.794;38;11;3;18
+73_Tolima;;Centro poblado;997;17;3;283;641;40;12;1;0;0
+73_Tolima;;Rural disperso;2.357;66;12;742;1.440;90;6;0;0;1
+73_Tolima;73283_Fresno;Total;28.776;404;83;11.925;13.432;2.882;24;0;7;19
+73_Tolima;;Cabecera;15.296;57;51;5.220;7.372;2.583;5;0;0;8
+73_Tolima;;Centro poblado;1.274;21;0;641;607;5;0;0;0;0
+73_Tolima;;Rural disperso;12.206;326;32;6.064;5.453;294;19;0;7;11
+73_Tolima;73319_Guamo;Total;30.364;708;124;18.211;10.584;642;55;5;3;32
+73_Tolima;;Cabecera;16.198;170;92;7.210;8.140;548;12;5;3;18
+73_Tolima;;Centro poblado;2.282;30;3;1.952;293;3;1;0;0;0
+73_Tolima;;Rural disperso;11.884;508;29;9.049;2.151;91;42;0;0;14
+73_Tolima;73347_Herveo;Total;6.361;147;32;1.721;4.360;98;0;0;0;3
+73_Tolima;;Cabecera;1.906;26;3;356;1.475;46;0;0;0;0
+73_Tolima;;Centro poblado;1.167;4;4;539;589;31;0;0;0;0
+73_Tolima;;Rural disperso;3.288;117;25;826;2.296;21;0;0;0;3
+73_Tolima;73349_Honda;Total;22.753;432;65;8.075;10.960;2.824;348;17;16;16
+73_Tolima;;Cabecera;22.086;387;54;7.763;10.771;2.751;326;13;5;16
+73_Tolima;;Centro poblado;129;6;0;97;26;0;0;0;0;0
+73_Tolima;;Rural disperso;538;39;11;215;163;73;22;4;11;0
+73_Tolima;73352_Icononzo;Total;9.979;402;609;5.162;3.575;218;0;0;0;13
+73_Tolima;;Cabecera;3.312;13;20;1.262;1.965;43;0;0;0;9
+73_Tolima;;Centro poblado;595;19;0;341;229;6;0;0;0;0
+73_Tolima;;Rural disperso;6.072;370;589;3.559;1.381;169;0;0;0;4
+73_Tolima;73408_Lérida;Total;16.971;128;63;6.575;9.677;503;8;0;0;17
+73_Tolima;;Cabecera;13.351;49;35;4.430;8.404;414;3;0;0;16
+73_Tolima;;Centro poblado;1.736;18;7;1.244;465;1;0;0;0;1
+73_Tolima;;Rural disperso;1.884;61;21;901;808;88;5;0;0;0
+73_Tolima;73411_Líbano;Total;32.886;516;176;7.152;18.165;5.955;866;22;3;31
+73_Tolima;;Cabecera;21.951;157;95;3.422;11.748;5.713;780;13;3;20
+73_Tolima;;Centro poblado;1.340;4;5;628;688;15;0;0;0;0
+73_Tolima;;Rural disperso;9.595;355;76;3.102;5.729;227;86;9;0;11
+73_Tolima;73443_San Sebastián De Mariquita;Total;34.398;258;294;17.737;14.001;1.887;150;13;26;32
+73_Tolima;;Cabecera;27.360;69;246;14.253;11.027;1.588;137;2;8;30
+73_Tolima;;Centro poblado;658;18;3;337;296;4;0;0;0;0
+73_Tolima;;Rural disperso;6.380;171;45;3.147;2.678;295;13;11;18;2
+73_Tolima;73449_Melgar;Total;33.773;234;135;9.203;16.306;6.845;528;335;86;101
+73_Tolima;;Cabecera;27.700;58;101;6.848;13.425;6.410;442;263;60;93
+73_Tolima;;Centro poblado;1.026;22;2;352;537;68;18;25;2;0
+73_Tolima;;Rural disperso;5.047;154;32;2.003;2.344;367;68;47;24;8
+73_Tolima;73461_Murillo;Total;3.348;106;11;1.695;1.422;103;11;0;0;0
+73_Tolima;;Cabecera;1.560;10;0;844;672;30;4;0;0;0
+73_Tolima;;Centro poblado;82;0;0;61;21;0;0;0;0;0
+73_Tolima;;Rural disperso;1.706;96;11;790;729;73;7;0;0;0
+73_Tolima;73483_Natagaima;Total;14.274;870;195;8.202;4.547;430;0;0;5;25
+73_Tolima;;Cabecera;7.811;160;35;3.749;3.425;417;0;0;5;20
+73_Tolima;;Centro poblado;906;38;3;539;325;0;0;0;0;1
+73_Tolima;;Rural disperso;5.557;672;157;3.914;797;13;0;0;0;4
+73_Tolima;73504_Ortega;Total;29.662;2.099;488;14.293;12.329;423;12;0;0;18
+73_Tolima;;Cabecera;6.853;91;22;2.111;4.257;363;5;0;0;4
+73_Tolima;;Centro poblado;2.212;76;30;1.177;917;10;0;0;0;2
+73_Tolima;;Rural disperso;20.597;1.932;436;11.005;7.155;50;7;0;0;12
+73_Tolima;73520_Palocabildo;Total;9.188;318;33;4.594;3.952;266;0;0;0;25
+73_Tolima;;Cabecera;2.929;15;24;866;1.781;243;0;0;0;0
+73_Tolima;;Centro poblado;403;0;0;344;57;2;0;0;0;0
+73_Tolima;;Rural disperso;5.856;303;9;3.384;2.114;21;0;0;0;25
+73_Tolima;73547_Piedras;Total;5.518;151;77;3.412;1.835;25;7;0;7;4
+73_Tolima;;Cabecera;1.934;9;22;1.099;801;3;0;0;0;0
+73_Tolima;;Centro poblado;1.251;13;6;911;321;0;0;0;0;0
+73_Tolima;;Rural disperso;2.333;129;49;1.402;713;22;7;0;7;4
+73_Tolima;73555_Planadas;Total;21.503;1.944;517;12.110;6.513;356;19;5;7;32
+73_Tolima;;Cabecera;6.631;299;68;3.410;2.612;222;6;1;2;11
+73_Tolima;;Centro poblado;2.525;60;41;1.481;921;5;8;0;0;9
+73_Tolima;;Rural disperso;12.347;1.585;408;7.219;2.980;129;5;4;5;12
+73_Tolima;73563_Prado;Total;7.893;131;93;5.970;1.663;34;0;0;0;2
+73_Tolima;;Cabecera;3.728;42;21;2.225;1.418;20;0;0;0;2
+73_Tolima;;Centro poblado;211;0;11;172;28;0;0;0;0;0
+73_Tolima;;Rural disperso;3.954;89;61;3.573;217;14;0;0;0;0
+73_Tolima;73585_Purificación;Total;22.461;338;222;14.767;6.598;469;46;3;1;17
+73_Tolima;;Cabecera;12.612;113;95;5.876;6.129;374;13;3;0;9
+73_Tolima;;Centro poblado;2.091;25;0;1.873;180;12;0;0;0;1
+73_Tolima;;Rural disperso;7.758;200;127;7.018;289;83;33;0;1;7
+73_Tolima;73616_Rioblanco;Total;19.065;2.208;475;12.196;4.113;34;6;0;2;31
+73_Tolima;;Cabecera;3.644;20;63;2.217;1.310;14;6;0;2;12
+73_Tolima;;Centro poblado;2.816;82;34;1.818;875;6;0;0;0;1
+73_Tolima;;Rural disperso;12.605;2.106;378;8.161;1.928;14;0;0;0;18
+73_Tolima;73622_Roncesvalles;Total;5.093;367;19;2.649;2.018;21;7;0;0;12
+73_Tolima;;Cabecera;1.811;75;14;627;1.065;17;7;0;0;6
+73_Tolima;;Centro poblado;319;0;0;161;153;0;0;0;0;5
+73_Tolima;;Rural disperso;2.963;292;5;1.861;800;4;0;0;0;1
+73_Tolima;73624_Rovira;Total;20.220;537;328;13.488;5.643;209;1;0;1;13
+73_Tolima;;Cabecera;10.051;107;175;6.683;2.892;184;1;0;0;9
+73_Tolima;;Centro poblado;723;23;0;558;138;4;0;0;0;0
+73_Tolima;;Rural disperso;9.446;407;153;6.247;2.613;21;0;0;1;4
+73_Tolima;73671_Saldaña;Total;14.078;362;128;7.082;6.163;315;16;0;0;12
+73_Tolima;;Cabecera;8.466;59;51;3.050;4.989;299;6;0;0;12
+73_Tolima;;Centro poblado;1.231;36;26;861;308;0;0;0;0;0
+73_Tolima;;Rural disperso;4.381;267;51;3.171;866;16;10;0;0;0
+73_Tolima;73675_San Antonio;Total;11.478;499;143;6.035;4.636;160;1;1;0;3
+73_Tolima;;Cabecera;4.262;53;89;2.209;1.769;140;1;1;0;0
+73_Tolima;;Centro poblado;714;34;7;521;145;7;0;0;0;0
+73_Tolima;;Rural disperso;6.502;412;47;3.305;2.722;13;0;0;0;3
+73_Tolima;73678_San Luis;Total;12.139;279;62;6.908;4.771;76;22;1;8;12
+73_Tolima;;Cabecera;3.618;63;17;2.606;917;12;0;0;3;0
+73_Tolima;;Centro poblado;2.639;11;5;722;1.874;26;0;1;0;0
+73_Tolima;;Rural disperso;5.882;205;40;3.580;1.980;38;22;0;5;12
+73_Tolima;73686_Santa Isabel;Total;5.026;38;19;4.057;890;11;4;1;0;6
+73_Tolima;;Cabecera;1.837;13;13;1.200;592;11;4;0;0;4
+73_Tolima;;Centro poblado;438;3;6;361;68;0;0;0;0;0
+73_Tolima;;Rural disperso;2.751;22;0;2.496;230;0;0;1;0;2
+73_Tolima;73770_Suárez;Total;3.446;84;17;1.897;1.390;31;16;0;9;2
+73_Tolima;;Cabecera;1.487;15;10;810;632;16;3;0;0;1
+73_Tolima;;Centro poblado;362;16;0;228;118;0;0;0;0;0
+73_Tolima;;Rural disperso;1.597;53;7;859;640;15;13;0;9;1
+73_Tolima;73854_Valle De San Juan;Total;4.502;112;0;3.036;1.341;11;0;0;0;2
+73_Tolima;;Cabecera;2.047;20;0;1.451;566;8;0;0;0;2
+73_Tolima;;Rural disperso;2.455;92;0;1.585;775;3;0;0;0;0
+73_Tolima;73861_Venadillo;Total;12.114;232;42;7.547;4.229;52;9;0;0;3
+73_Tolima;;Cabecera;8.524;60;11;4.737;3.664;46;3;0;0;3
+73_Tolima;;Centro poblado;448;14;4;293;132;5;0;0;0;0
+73_Tolima;;Rural disperso;3.142;158;27;2.517;433;1;6;0;0;0
+73_Tolima;73870_Villahermosa;Total;8.520;525;24;2.328;5.423;214;3;0;1;2
+73_Tolima;;Cabecera;3.016;59;3;1.068;1.721;162;0;0;1;2
+73_Tolima;;Rural disperso;5.504;466;21;1.260;3.702;52;3;0;0;0
+73_Tolima;73873_Villarrica;Total;5.005;432;16;3.391;1.121;38;0;0;0;7
+73_Tolima;;Cabecera;1.876;38;5;1.122;677;34;0;0;0;0
+73_Tolima;;Centro poblado;217;4;0;182;31;0;0;0;0;0
+73_Tolima;;Rural disperso;2.912;390;11;2.087;413;4;0;0;0;7
+76_Valle del Cauca;76001_Cali;Total;1.811.385;4.549;3.188;390.129;516.582;564.601;167.965;118.826;42.754;2.791
+76_Valle del Cauca;;Cabecera;1.770.254;3.855;2.606;361.139;508.823;563.397;167.068;118.372;42.340;2.654
+76_Valle del Cauca;;Centro poblado;32.480;357;203;24.290;5.905;728;489;267;183;58
+76_Valle del Cauca;;Rural disperso;8.651;337;379;4.700;1.854;476;408;187;231;79
+76_Valle del Cauca;76020_Alcalá;Total;12.165;895;39;3.525;7.199;455;28;7;0;17
+76_Valle del Cauca;;Cabecera;9.543;839;25;3.082;5.144;429;9;7;0;8
+76_Valle del Cauca;;Centro poblado;123;6;0;90;27;0;0;0;0;0
+76_Valle del Cauca;;Rural disperso;2.499;50;14;353;2.028;26;19;0;0;9
+76_Valle del Cauca;76036_Andalucía;Total;18.117;89;27;6.553;11.236;193;12;2;0;5
+76_Valle del Cauca;;Cabecera;14.401;53;4;3.425;10.722;185;5;2;0;5
+76_Valle del Cauca;;Centro poblado;1.403;4;1;1.171;220;0;7;0;0;0
+76_Valle del Cauca;;Rural disperso;2.313;32;22;1.957;294;8;0;0;0;0
+76_Valle del Cauca;76041_Ansermanuevo;Total;15.651;179;3;10.184;4.729;533;14;0;0;9
+76_Valle del Cauca;;Cabecera;9.941;23;0;5.055;4.318;529;8;0;0;8
+76_Valle del Cauca;;Centro poblado;2.058;91;0;1.705;259;3;0;0;0;0
+76_Valle del Cauca;;Rural disperso;3.652;65;3;3.424;152;1;6;0;0;1
+76_Valle del Cauca;76054_Argelia;Total;5.008;80;3;1.316;3.530;75;2;1;0;1
+76_Valle del Cauca;;Cabecera;2.597;15;0;867;1.637;75;2;0;0;1
+76_Valle del Cauca;;Centro poblado;257;0;0;84;173;0;0;0;0;0
+76_Valle del Cauca;;Rural disperso;2.154;65;3;365;1.720;0;0;1;0;0
+76_Valle del Cauca;76100_Bolívar;Total;13.899;1.411;20;8.437;3.417;328;18;0;0;268
+76_Valle del Cauca;;Cabecera;3.759;22;0;1.533;1.882;316;0;0;0;6
+76_Valle del Cauca;;Centro poblado;4.697;28;8;3.532;1.105;6;13;0;0;5
+76_Valle del Cauca;;Rural disperso;5.443;1.361;12;3.372;430;6;5;0;0;257
+76_Valle del Cauca;76109_Buenaventura;Total;256.921;24.502;2.024;168.798;34.136;25.134;1.092;50;26;1.159
+76_Valle del Cauca;;Cabecera;213.421;5.565;674;146.968;33.861;24.975;1.078;47;26;227
+76_Valle del Cauca;;Centro poblado;22.826;6.356;604;15.374;74;38;8;2;0;370
+76_Valle del Cauca;;Rural disperso;20.674;12.581;746;6.456;201;121;6;1;0;562
+76_Valle del Cauca;76111_Guadalajara De Buga;Total;114.081;497;51;30.467;54.909;17.416;6.949;3.329;390;73
+76_Valle del Cauca;;Cabecera;99.364;131;27;23.113;48.369;17.166;6.823;3.295;382;58
+76_Valle del Cauca;;Centro poblado;10.183;101;3;4.289;5.589;140;33;13;4;11
+76_Valle del Cauca;;Rural disperso;4.534;265;21;3.065;951;110;93;21;4;4
+76_Valle del Cauca;76113_Bugalagrande;Total;22.030;531;57;10.547;9.482;1.374;2;4;9;24
+76_Valle del Cauca;;Cabecera;11.498;111;10;4.048;5.968;1.338;2;0;3;18
+76_Valle del Cauca;;Centro poblado;5.014;40;8;3.028;1.922;14;0;0;0;2
+76_Valle del Cauca;;Rural disperso;5.518;380;39;3.471;1.592;22;0;4;6;4
+76_Valle del Cauca;76122_Caicedonia;Total;26.132;177;55;4.883;12.161;8.145;646;27;0;38
+76_Valle del Cauca;;Cabecera;21.531;119;26;1.185;11.434;8.087;636;21;0;23
+76_Valle del Cauca;;Centro poblado;1.009;12;4;756;235;2;0;0;0;0
+76_Valle del Cauca;;Rural disperso;3.592;46;25;2.942;492;56;10;6;0;15
+76_Valle del Cauca;76126_Calima;Total;16.016;188;105;5.563;8.762;1.022;136;82;69;89
+76_Valle del Cauca;;Cabecera;10.797;55;74;3.223;7.003;422;13;3;0;4
+76_Valle del Cauca;;Centro poblado;199;0;0;163;33;3;0;0;0;0
+76_Valle del Cauca;;Rural disperso;5.020;133;31;2.177;1.726;597;123;79;69;85
+76_Valle del Cauca;76130_Candelaria;Total;84.626;373;131;30.708;40.850;12.463;36;20;7;38
+76_Valle del Cauca;;Cabecera;22.128;84;67;3.855;14.148;3.929;7;12;4;22
+76_Valle del Cauca;;Centro poblado;56.324;167;16;22.357;25.787;7.966;13;6;0;12
+76_Valle del Cauca;;Rural disperso;6.174;122;48;4.496;915;568;16;2;3;4
+76_Valle del Cauca;76147_Cartago;Total;117.395;416;67;19.736;42.213;43.880;8.211;2.164;588;120
+76_Valle del Cauca;;Cabecera;114.571;390;64;18.962;41.648;42.931;8.129;2.107;221;119
+76_Valle del Cauca;;Centro poblado;450;9;0;395;40;0;0;0;6;0
+76_Valle del Cauca;;Rural disperso;2.374;17;3;379;525;949;82;57;361;1
+76_Valle del Cauca;76233_Dagua;Total;39.550;1.956;112;25.866;10.321;1.140;26;4;10;115
+76_Valle del Cauca;;Cabecera;9.998;90;5;5.950;3.468;469;8;3;0;5
+76_Valle del Cauca;;Centro poblado;11.234;235;6;7.013;3.729;237;8;0;0;6
+76_Valle del Cauca;;Rural disperso;18.318;1.631;101;12.903;3.124;434;10;1;10;104
+76_Valle del Cauca;76243_El Águila;Total;7.373;153;6;3.320;3.538;310;29;3;0;14
+76_Valle del Cauca;;Cabecera;2.149;5;0;850;1.131;158;1;0;0;4
+76_Valle del Cauca;;Centro poblado;1.327;35;1;843;441;6;0;0;0;1
+76_Valle del Cauca;;Rural disperso;3.897;113;5;1.627;1.966;146;28;3;0;9
+76_Valle del Cauca;76246_El Cairo;Total;6.179;68;10;4.545;1.466;88;0;0;0;2
+76_Valle del Cauca;;Cabecera;2.588;11;4;1.349;1.134;88;0;0;0;2
+76_Valle del Cauca;;Centro poblado;545;0;0;414;131;0;0;0;0;0
+76_Valle del Cauca;;Rural disperso;3.046;57;6;2.782;201;0;0;0;0;0
+76_Valle del Cauca;76248_El Cerrito;Total;53.929;116;57;20.544;31.187;1.897;67;19;17;25
+76_Valle del Cauca;;Cabecera;34.585;27;4;12.502;20.366;1.646;28;0;2;10
+76_Valle del Cauca;;Centro poblado;14.973;33;0;4.751;10.020;138;14;4;10;3
+76_Valle del Cauca;;Rural disperso;4.371;56;53;3.291;801;113;25;15;5;12
+76_Valle del Cauca;76250_El Dovio;Total;8.496;712;19;3.956;3.539;260;6;3;0;1
+76_Valle del Cauca;;Cabecera;5.170;42;14;1.750;3.125;234;4;0;0;1
+76_Valle del Cauca;;Centro poblado;519;7;0;379;126;7;0;0;0;0
+76_Valle del Cauca;;Rural disperso;2.807;663;5;1.827;288;19;2;3;0;0
+76_Valle del Cauca;76275_Florida;Total;54.207;1.803;310;31.539;18.009;2.487;12;7;6;34
+76_Valle del Cauca;;Cabecera;37.801;53;15;17.471;17.748;2.477;10;7;6;14
+76_Valle del Cauca;;Centro poblado;10.664;265;55;10.136;193;6;0;0;0;9
+76_Valle del Cauca;;Rural disperso;5.742;1.485;240;3.932;68;4;2;0;0;11
+76_Valle del Cauca;76306_Ginebra;Total;18.956;141;36;9.242;8.021;1.474;15;9;0;18
+76_Valle del Cauca;;Cabecera;8.512;8;0;1.818;5.223;1.421;15;9;0;18
+76_Valle del Cauca;;Centro poblado;6.385;84;0;3.642;2.640;19;0;0;0;0
+76_Valle del Cauca;;Rural disperso;4.059;49;36;3.782;158;34;0;0;0;0
+76_Valle del Cauca;76318_Guacarí;Total;30.090;164;90;9.097;20.303;372;37;8;1;18
+76_Valle del Cauca;;Cabecera;18.537;42;84;1.473;16.591;316;18;5;1;7
+76_Valle del Cauca;;Centro poblado;8.226;57;0;5.186;2.957;16;4;0;0;6
+76_Valle del Cauca;;Rural disperso;3.327;65;6;2.438;755;40;15;3;0;5
+76_Valle del Cauca;76364_Jamundí;Total;127.125;1.718;696;27.670;58.220;18.873;10.843;8.802;172;131
+76_Valle del Cauca;;Cabecera;101.272;159;112;8.207;55.577;18.671;10.136;8.152;146;112
+76_Valle del Cauca;;Centro poblado;13.242;236;118;10.843;1.861;17;121;40;1;5
+76_Valle del Cauca;;Rural disperso;12.611;1.323;466;8.620;782;185;586;610;25;14
+76_Valle del Cauca;76377_La Cumbre;Total;12.839;328;23;4.992;6.987;469;7;2;11;20
+76_Valle del Cauca;;Cabecera;2.759;24;1;879;1.810;38;0;2;0;5
+76_Valle del Cauca;;Centro poblado;2.931;29;1;600;2.054;225;5;0;4;13
+76_Valle del Cauca;;Rural disperso;7.149;275;21;3.513;3.123;206;2;0;7;2
+76_Valle del Cauca;76400_La Unión;Total;29.367;203;30;13.299;14.209;1.571;16;13;0;26
+76_Valle del Cauca;;Cabecera;24.420;125;30;10.301;12.368;1.545;16;13;0;22
+76_Valle del Cauca;;Centro poblado;2.547;42;0;1.586;913;2;0;0;0;4
+76_Valle del Cauca;;Rural disperso;2.400;36;0;1.412;928;24;0;0;0;0
+76_Valle del Cauca;76403_La Victoria;Total;11.046;309;7;5.812;4.517;378;10;5;2;6
+76_Valle del Cauca;;Cabecera;8.040;29;0;4.191;3.446;362;2;4;0;6
+76_Valle del Cauca;;Centro poblado;1.996;176;3;1.022;792;3;0;0;0;0
+76_Valle del Cauca;;Rural disperso;1.010;104;4;599;279;13;8;1;2;0
+76_Valle del Cauca;76497_Obando;Total;10.970;310;1;6.907;3.456;43;45;95;107;6
+76_Valle del Cauca;;Cabecera;8.072;270;1;5.029;2.741;25;0;0;0;6
+76_Valle del Cauca;;Centro poblado;1.038;19;0;764;252;3;0;0;0;0
+76_Valle del Cauca;;Rural disperso;1.860;21;0;1.114;463;15;45;95;107;0
+76_Valle del Cauca;76520_Palmira;Total;299.173;878;39;33.520;173.699;71.190;17.049;2.511;77;210
+76_Valle del Cauca;;Cabecera;233.805;294;23;12.049;131.700;70.289;16.873;2.363;53;161
+76_Valle del Cauca;;Centro poblado;55.661;391;4;15.817;38.758;515;127;13;0;36
+76_Valle del Cauca;;Rural disperso;9.707;193;12;5.654;3.241;386;49;135;24;13
+76_Valle del Cauca;76563_Pradera;Total;43.506;1.292;59;16.293;19.484;6.296;21;11;12;38
+76_Valle del Cauca;;Cabecera;38.438;848;31;12.556;18.648;6.274;21;11;12;37
+76_Valle del Cauca;;Centro poblado;2.378;111;0;1.730;527;10;0;0;0;0
+76_Valle del Cauca;;Rural disperso;2.690;333;28;2.007;309;12;0;0;0;1
+76_Valle del Cauca;76606_Restrepo;Total;12.798;78;54;4.356;7.597;684;7;15;0;7
+76_Valle del Cauca;;Cabecera;8.626;28;1;2.509;5.408;659;4;12;0;5
+76_Valle del Cauca;;Centro poblado;390;0;5;77;308;0;0;0;0;0
+76_Valle del Cauca;;Rural disperso;3.782;50;48;1.770;1.881;25;3;3;0;2
+76_Valle del Cauca;76616_Riofrío;Total;14.027;231;399;9.497;3.589;303;0;0;0;8
+76_Valle del Cauca;;Cabecera;6.335;20;5;3.442;2.572;289;0;0;0;7
+76_Valle del Cauca;;Centro poblado;3.719;53;33;2.960;661;11;0;0;0;1
+76_Valle del Cauca;;Rural disperso;3.973;158;361;3.095;356;3;0;0;0;0
+76_Valle del Cauca;76622_Roldanillo;Total;31.466;215;7;12.062;14.493;4.443;218;14;0;14
+76_Valle del Cauca;;Cabecera;23.577;34;7;6.619;12.350;4.357;200;2;0;8
+76_Valle del Cauca;;Centro poblado;4.189;34;0;2.785;1.321;35;6;4;0;4
+76_Valle del Cauca;;Rural disperso;3.700;147;0;2.658;822;51;12;8;0;2
+76_Valle del Cauca;76670_San Pedro;Total;15.450;283;67;4.328;9.668;1.054;40;2;0;8
+76_Valle del Cauca;;Cabecera;6.950;7;0;601;5.313;998;24;2;0;5
+76_Valle del Cauca;;Centro poblado;5.893;15;16;2.177;3.660;22;0;0;0;3
+76_Valle del Cauca;;Rural disperso;2.607;261;51;1.550;695;34;16;0;0;0
+76_Valle del Cauca;76736_Sevilla;Total;36.552;525;75;14.913;15.533;5.311;163;7;8;17
+76_Valle del Cauca;;Cabecera;28.182;234;13;8.537;13.929;5.295;149;7;8;10
+76_Valle del Cauca;;Centro poblado;1.420;8;0;1.134;270;4;3;0;0;1
+76_Valle del Cauca;;Rural disperso;6.950;283;62;5.242;1.334;12;11;0;0;6
+76_Valle del Cauca;76823_Toro;Total;12.068;247;12;5.011;5.907;873;12;0;0;6
+76_Valle del Cauca;;Cabecera;8.332;120;1;3.151;4.187;855;12;0;0;6
+76_Valle del Cauca;;Centro poblado;2.034;16;8;861;1.140;9;0;0;0;0
+76_Valle del Cauca;;Rural disperso;1.702;111;3;999;580;9;0;0;0;0
+76_Valle del Cauca;76828_Trujillo;Total;16.646;464;357;7.347;7.063;1.379;13;0;12;11
+76_Valle del Cauca;;Cabecera;7.837;45;29;2.492;4.102;1.155;1;0;3;10
+76_Valle del Cauca;;Centro poblado;3.238;22;16;1.713;1.441;46;0;0;0;0
+76_Valle del Cauca;;Rural disperso;5.571;397;312;3.142;1.520;178;12;0;9;1
+76_Valle del Cauca;76834_Tuluá;Total;185.762;1.510;498;24.549;90.862;51.041;9.131;7.724;216;231
+76_Valle del Cauca;;Cabecera;154.832;706;70;5.046;81.163;50.737;9.055;7.691;208;156
+76_Valle del Cauca;;Centro poblado;21.329;113;51;12.471;8.504;119;14;6;0;51
+76_Valle del Cauca;;Rural disperso;9.601;691;377;7.032;1.195;185;62;27;8;24
+76_Valle del Cauca;76845_Ulloa;Total;4.772;50;0;2.061;2.486;166;3;4;0;2
+76_Valle del Cauca;;Cabecera;2.199;21;0;697;1.321;156;0;4;0;0
+76_Valle del Cauca;;Centro poblado;767;14;0;545;203;2;3;0;0;0
+76_Valle del Cauca;;Rural disperso;1.806;15;0;819;962;8;0;0;0;2
+76_Valle del Cauca;76863_Versalles;Total;6.233;54;6;3.147;1.875;1.144;0;4;0;3
+76_Valle del Cauca;;Cabecera;3.271;12;0;1.099;1.044;1.110;0;3;0;3
+76_Valle del Cauca;;Centro poblado;1.045;10;6;725;300;4;0;0;0;0
+76_Valle del Cauca;;Rural disperso;1.917;32;0;1.323;531;30;0;1;0;0
+76_Valle del Cauca;76869_Vijes;Total;10.741;158;22;3.677;5.955;899;10;5;0;15
+76_Valle del Cauca;;Cabecera;7.558;57;16;711;5.858;899;10;5;0;2
+76_Valle del Cauca;;Centro poblado;465;3;0;438;22;0;0;0;0;2
+76_Valle del Cauca;;Rural disperso;2.718;98;6;2.528;75;0;0;0;0;11
+76_Valle del Cauca;76890_Yotoco;Total;15.319;172;182;6.977;7.370;582;17;3;0;16
+76_Valle del Cauca;;Cabecera;8.262;17;10;2.247;5.399;564;14;3;0;8
+76_Valle del Cauca;;Centro poblado;2.963;13;42;1.979;915;8;3;0;0;3
+76_Valle del Cauca;;Rural disperso;4.094;142;130;2.751;1.056;10;0;0;0;5
+76_Valle del Cauca;76892_Yumbo;Total;94.868;557;1.336;34.497;45.894;11.441;453;374;216;100
+76_Valle del Cauca;;Cabecera;84.515;289;27;29.111;43.248;11.188;134;268;162;88
+76_Valle del Cauca;;Centro poblado;3.773;73;416;2.167;1.058;40;14;0;0;5
+76_Valle del Cauca;;Rural disperso;6.580;195;893;3.219;1.588;213;305;106;54;7
+76_Valle del Cauca;76895_Zarzal;Total;39.295;380;63;7.180;24.708;6.876;20;7;29;32
+76_Valle del Cauca;;Cabecera;29.759;150;5;4.995;17.784;6.775;14;5;17;14
+76_Valle del Cauca;;Centro poblado;7.762;118;1;1.444;6.122;68;2;0;0;7
+76_Valle del Cauca;;Rural disperso;1.774;112;57;741;802;33;4;2;12;11
