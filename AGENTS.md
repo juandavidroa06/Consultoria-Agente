@@ -29,54 +29,44 @@ El usuario es estudiante de Estadística y utiliza este agente para estudiar, in
 ## 3. REGLAS DE ARQUITECTURA Y FLUJO DEL PROYECTO
 
 ### 3.1 Estado actual del proyecto
-
 - Fases 1–12 completadas; **405 tests**. Detalles en `docs/roadmap.md`.
 
 ### 3.2 P-FLOW
-
 - El punto de entrada del sistema es `PaperStatsFlow.diagnose()`.
 - Flujo: `diagnose() → decisión del usuario → imputar() → analizar()`.
 - Estados de la máquina: `sin_diagnostico`, `esperando_decision`, `sin_faltantes`, `datos_preparados`, `revisar`.
 
 ### 3.3 diagnose()
-
 - `diagnose()` es estrictamente diagnóstico: realiza perfil/QC + E1–E3 + recomendación E5.
 - NO ejecuta EDA, inferencia ni decide qué análisis realizar.
 
 ### 3.4 Imputación opt-in
-
 - PaperStats nunca debe imputar automáticamente.
 - `imputar()` requiere `method_override` o `accept_recommendation=True`.
 
 ### 3.5 Solo análisis solicitados
-
 - El sistema no debe ejecutar automáticamente análisis estadísticos que el usuario no haya solicitado. Los análisis son bajo demanda.
 
 ### 3.6 Hallazgo exploratorio vs. análisis estadístico
-
 - Un hallazgo de EDA es descriptivo/exploratorio y no constituye una prueba de hipótesis.
 - Un análisis solicitado incluye método, supuestos, resultado e interpretación.
 
 ### 3.7 Separación de capas
-
 - Los motores producen resultados y `src/deliverables/` solamente los presenta.
 - Dirección conceptual: `PaperStatsFlow → motores → resultados → deliverables → representación`.
 - `deliverables` no debe invocar motores, recalcular estadísticas, seleccionar métodos ni tomar decisiones estadísticas.
 
 ### 3.8 Orden Informe
-
 - "Informe" es exclusivamente una orden de presentación/exportación.
 - Debe tomar el último `Deliverable` y exportarlo a PDF con Times New Roman, sin recalcular ni modificar resultados.
 - Si no existe un `Deliverable` previo, produce el comportamiento ya definido por el código (`ValueError`).
 
 ### 3.9 Separación ReportGenerator / deliverables
-
 - `ReportGenerator` = informes técnicos internos.
 - `src/deliverables/` = entregables destinados al usuario.
 - No mezclar ambas responsabilidades.
 
 ### 3.10 Regla fundamental de desarrollo
-
 - No modificar la lógica existente para solucionar un problema que pueda resolverse únicamente mediante documentación o presentación.
 - Cualquier cambio de comportamiento debe requerir autorización explícita del usuario.
 
@@ -98,7 +88,6 @@ Nunca presentes una inferencia como si hubiera sido afirmada por los autores.
 ## 5. REGLAS DE CONSULTORÍA ESTADÍSTICA
 
 No ejecutes automáticamente el método solicitado por el usuario. Primero analiza:
-
 1. Objetivo.
 2. Tipo de datos.
 3. Tipo de variables.
@@ -116,19 +105,31 @@ Evalúa los supuestos relevantes (normalidad, independencia, homocedasticidad, l
 
 ---
 
-## 6. REGLAS DE SEGURIDAD
+## 6. REGLAS DE SEGURIDAD Y RESTRICCIONES DE MODIFICACIÓN
 
 - Nunca ejecutes comandos destructivos sin autorización explícita. No uses `rm -rf` ni equivalentes; no borres archivos existentes.
 - No modifiques configuraciones globales del sistema ni archivos fuera de la carpeta del proyecto.
 - No instales paquetes globalmente cuando pueda utilizarse un entorno virtual.
 - Antes de cambios importantes: explica qué harás, qué archivos crearás o modificarás y los comandos importantes; solicita autorización cuando exista riesgo. Las operaciones de lectura seguras pueden continuar automáticamente.
 
+### 🚫 RESTRICCIÓN ABSOLUTA DE MODIFICACIÓN DE CÓDIGO
+**NO MODIFIQUES ARCHIVOS DE CÓDIGO** (`.py`, `.md`, `.txt`, `.json`, `.yml`, `.toml`) **SIN AUTORIZACIÓN EXPLÍCITA Y POR ESCRITO DEL USUARIO.**
+
+Excepciones (puedes hacerlas sin preguntar):
+- Crear o sobrescribir archivos en `outputs/` (gráficos, PDFs, logs, checkpoints).
+- Crear archivos temporales en `.tmp/` si existe.
+
+Para cualquier otra modificación, debes seguir este protocolo:
+1. Explicar QUÉ archivo vas a modificar y POR QUÉ es estrictamente necesario.
+2. Mostrar el diff exacto (líneas antes/después) o el contenido propuesto.
+3. Esperar confirmación explícita del usuario (ej: "Sí, modifica [archivo]").
+4. Si modificas código sin autorización, el usuario deberá revertir los cambios con git y reportar el incidente.
+
 ---
 
 ## 7. REGLAS DE VERIFICACIÓN Y TESTING
 
 Los tests son especificación y mecanismo de verificación del comportamiento.
-
 - Cambios pequeños: ejecuta los tests relevantes.
 - Cambios que afectan varios módulos: ejecuta los tests afectados.
 - Cambios estructurales o importantes: ejecuta la suite completa.
@@ -138,10 +139,9 @@ Los tests son especificación y mecanismo de verificación del comportamiento.
 
 ---
 
-## 8. ESTRATEGIA DE CONTEXTO POR CAPAS
+## 8. ESTRATEGIA DE CONTEXTO Y GESTIÓN DE SESIONES
 
 Para reducir el consumo de contexto sin perder precisión:
-
 - Localizar antes de leer: usa grep/glob para encontrar la función o línea exacta antes de leer archivos completos.
 - Leer solamente el rango necesario: usa Read con offset/limit.
 - Cargar únicamente los módulos relacionados con la tarea; no analices módulos ajenos a ella.
@@ -150,12 +150,22 @@ Para reducir el consumo de contexto sin perder precisión:
 - Utilizar la documentación on-demand cuando corresponda.
 - Para auditorías completas, delega a un subagente explore que devuelva solo un resumen.
 
+### 🔄 GESTIÓN DE SESIONES LARGAS (EVITAR REINICIOS)
+**Nunca pidas al usuario que "reinicie el programa" o "reinicie la conversación"**. Esto viola el Criterio 3.1 de la rúbrica (Reproducibilidad y manejo de estado).
+
+Si notas que el contexto se está agotando o la conversación se vuelve confusa:
+1. **Haz un checkpoint automático**: Resume el estado actual en un mensaje claro (ej: "Estado actual: `datos_preparados`. Última acción: EDA completado. Próximos pasos: análisis bajo demanda").
+2. **Guarda el estado en un archivo**: Escribe un resumen conciso en `outputs/session_checkpoint.md` con:
+   - Estado actual del P-FLOW.
+   - Decisiones tomadas y métodos aplicados.
+   - Archivos creados o modificados en `outputs/`.
+3. **Continúa desde el checkpoint**: Usa ese archivo como referencia para seguir trabajando sin perder el hilo, sin requerir intervención manual de reinicio.
+
 ---
 
 ## 9. ÍNDICE DE CAPACIDADES Y REFERENCIAS
 
 Módulos implementados (API y tests en `docs/project_map.md`; metodología completa en `docs/metodologia.md`; plan futuro en `docs/roadmap.md`):
-
 - `src/article/`: ingestión y análisis de artículos científicos (PDF/TXT/MD); extracción de 19 puntos; análisis metodológico.
 - `src/data/`: carga CSV/Excel y validación de calidad (tipos, nulos, duplicados).
 - `src/analysis/`: EDA, 22 pruebas de hipótesis y `DatasetStatisticalAnalyzer` (analizador autónomo).
@@ -168,9 +178,7 @@ Módulos implementados (API y tests en `docs/project_map.md`; metodología compl
 - `src/utils/`: logger.
 
 Estado actual: fases 1–12 completadas; **405 tests**. Detalles en `docs/roadmap.md`.
-
 Versión del prompt del subagente: `.opencode/agents/paperstats.md` v2 — historial y justificación de iteraciones en `docs/prompts_evolucion.md`.
-
 Pendiente (no implementar aún): modelos avanzados (`src/models/`), bayesiano, riesgo/actuaría, Ollama, Streamlit, notebooks. Detalles en `docs/roadmap.md`.
 
 ---
@@ -186,9 +194,7 @@ Pendiente (no implementar aún): modelos avanzados (`src/models/`), bayesiano, r
 ## 11. MODO DE TRABAJO
 
 ### Auditorías
-
 Cuando la tarea solicitada sea una auditoría, revisión, inspección, validación o comparación contra el código:
-
 1. El agente debe trabajar inicialmente en modo solo lectura.
 2. Debe inspeccionar el código, tests y documentación relevantes antes de proponer modificaciones.
 3. No debe modificar `src/`, `tests/` ni documentación durante la auditoría.

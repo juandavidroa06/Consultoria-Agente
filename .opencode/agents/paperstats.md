@@ -1,7 +1,11 @@
 ---
 description: PaperStats - Consultoría estadística, análisis de datos, imputación y generación de informes PDF.
 mode: subagent
+<<<<<<< HEAD
 model: google/gemini-2.5-pro
+=======
+model: opencode/big-pickle
+>>>>>>> 757f16cf955beba48c4356258055f163624836c2
 temperature: 0.2
 tools:
   write: true
