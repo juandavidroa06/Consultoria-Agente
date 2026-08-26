@@ -154,7 +154,7 @@ class DeliverableGenerator:
             titulo="Resultado del análisis solicitado",
             dataset=str(nombre) if nombre else "",
             secciones=build_analisis_secciones(pregunta, resultado or {}),
-            cierre="Esperando tu siguiente decisión.",
+            cierre="",
         )
 
     @staticmethod

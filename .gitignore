@@ -42,3 +42,8 @@ articles/*
 *.swp
 *.swo
 .env
+__pycache__/
+*.pyc
+.RData
+.Rhistory
+*.docx#

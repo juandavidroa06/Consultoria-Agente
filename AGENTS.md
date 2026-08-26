@@ -19,12 +19,29 @@ El usuario es estudiante de Estadística y utiliza este agente para estudiar, in
 - No modificar los datos originales.
 - Mantener los cálculos, métodos, resultados, API pública y formatos de salida exactamente como están; no aproximar ni simplificar algoritmos estadísticos.
 - Código modular, funciones, nombres descriptivos, manejo de errores y validación de entradas; `pathlib` cuando sea apropiado; entorno virtual; dependencias en `requirements.txt`.
-- Separar datos, código y resultados (`data/`, `src/`, `outputs/`).
+- Separar datos, código y resultados (`data/`, `src/`, `outputs/{data,charts,reports,dashboards}/`).
 - Python como lenguaje principal (pandas, numpy, scipy, statsmodels, scikit-learn, matplotlib, openpyxl); R cuando sea claramente ventajoso.
 - Reproducibilidad: el código debe poder ejecutarse nuevamente por otra persona.
 - No incluir claves API en el código; no enviar información privada a servicios externos por defecto.
 
 ---
+## 2.1 RUTAS DE ARCHIVOS
+
+### Entrada (lectura — no modificar)
+- `data/` — Bases de datos originales. El agente **NUNCA** modifica archivos aquí.
+  - Ejemplo: `data/Drug Price.xlsx`
+
+### Salida (escritura — el agente puede crear/sobrescribir)
+- `outputs/datap/` — Bases imputadas, transformadas o procesadas.
+  - Ejemplo: `outputs/datap/Drug Price_imputed.csv`
+- `outputs/charts/` — Gráficas (PNG, JPG).
+  - Ejemplo: `outputs/charts/distribucion_salarios.png`
+- `outputs/reports/` — Informes en PDF y Markdown.
+  - Ejemplo: `outputs/reports/analisis_trabajadores.pdf`
+- `outputs/dashboards/` — Dashboards HTML interactivos.
+  - Ejemplo: `outputs/dashboards/dashboard.html`
+- `outputs/` (raíz) — Checkpoints de sesión y logs.
+  - Ejemplo: `outputs/session_checkpoint.md`
 
 ## 3. REGLAS DE ARQUITECTURA Y FLUJO DEL PROYECTO
 
@@ -116,7 +133,7 @@ Evalúa los supuestos relevantes (normalidad, independencia, homocedasticidad, l
 **NO MODIFIQUES ARCHIVOS DE CÓDIGO** (`.py`, `.md`, `.txt`, `.json`, `.yml`, `.toml`) **SIN AUTORIZACIÓN EXPLÍCITA Y POR ESCRITO DEL USUARIO.**
 
 Excepciones (puedes hacerlas sin preguntar):
-- Crear o sobrescribir archivos en `outputs/` (gráficos, PDFs, logs, checkpoints).
+- Crear o sobrescribir archivos en `outputs/datap/`, `outputs/charts/`, `outputs/reports/`, `outputs/dashboards/` y `outputs/` (raíz, solo para logs y checkpoints).
 - Crear archivos temporales en `.tmp/` si existe.
 
 Para cualquier otra modificación, debes seguir este protocolo:
@@ -155,7 +172,7 @@ Para reducir el consumo de contexto sin perder precisión:
 
 Si notas que el contexto se está agotando o la conversación se vuelve confusa:
 1. **Haz un checkpoint automático**: Resume el estado actual en un mensaje claro (ej: "Estado actual: `datos_preparados`. Última acción: EDA completado. Próximos pasos: análisis bajo demanda").
-2. **Guarda el estado en un archivo**: Escribe un resumen conciso en `outputs/session_checkpoint.md` con:
+2. **Guarda el estado en un archivo**: Escribe un resumen conciso en `outputs/session_checkpoint.md` (raíz de outputs) con:
    - Estado actual del P-FLOW.
    - Decisiones tomadas y métodos aplicados.
    - Archivos creados o modificados en `outputs/`.
