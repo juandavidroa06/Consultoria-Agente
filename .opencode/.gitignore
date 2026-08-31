@@ -2,5 +2,7 @@ node_modules
 package.json
 package-lock.json
 bun.lock
-.gitignore
 .streamlit/secrets.toml
+# Streamlit secrets
+.streamlit/
+.gitignore

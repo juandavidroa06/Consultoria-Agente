@@ -47,3 +47,6 @@ __pycache__/
 .RData
 .Rhistory
 *.docx#
+
+# Streamlit secrets
+.streamlit/
